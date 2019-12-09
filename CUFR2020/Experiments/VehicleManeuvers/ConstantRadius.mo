@@ -6,6 +6,6 @@ model ConstantRadius "constant radius test"
         v_start=2),
     road(
       radius=8.25,
-      banking=10,
+      banking=0.17453292519943,
       v_start=10));
 end ConstantRadius;
