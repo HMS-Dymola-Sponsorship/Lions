@@ -4,6 +4,7 @@ model AccelerationTest
   extends
     Motorsports.Experiments.VehicleManoeuvres.FormulaStudentAccelerationTest(
     redeclare replaceable CUFR2020.ICECUFR20 vehicle(initialGear=1,
-        v_start=2));
+        v_start=2), totalMass(massProperties=
+          Claytex.Mechanics.MassProperties.MassProperties()));
   annotation (experiment(StopTime=10, __Dymola_Algorithm="Radau"));
 end AccelerationTest;
