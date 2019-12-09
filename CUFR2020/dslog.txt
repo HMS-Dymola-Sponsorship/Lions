@@ -1,0 +1,7 @@
+Log-file of program .\Claytex.Blocks.Tables.Functions.Internal.readMatrixSize.exe
+(generated: Sun Dec  8 21:16:45 2019)
+
+Claytex.Blocks.Tables.Functions.Internal.readMatrixSize.exe started
+... "empty.txt" loading (dymosim input file)
+... checking for existence of table "offset" in "C:/Program Files/Dymola 2020/Modelica/Library/VeSyMA 2019.1/Resources/Data/RoadProfiles/StraightRoad.mat"
+... loading "offset" from "C:/Program Files/Dymola 2020/Modelica/Library/VeSyMA 2019.1/Resources/Data/RoadProfiles/StraightRoad.mat"
