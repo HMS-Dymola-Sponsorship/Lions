@@ -20,9 +20,10 @@ model ICECUFR20 "Model for Columbia University Formula Racing's ICE Car"
         r0UCARJ(displayUnit="mm") = {-0.05715,0.30226,0.04826},
         r0UCAOJ(displayUnit="mm") = {-0.02159,0.59182,0.09525},
         r0TOJ(displayUnit="mm") = {0.04699,0.5969,-0.047752},
-        r0RP={-3.810,234.696,355.600},
-        r0PIJ={-3.810,289.052,388.366},
-        r0POJ={-3.810,545.846,-59.182}), redeclare replaceable
+        r0RP(displayUnit="mm") = {-0.00381,0.234696,0.3556},
+        r0PIJ(displayUnit="mm") = {-0.00381,0.289052,0.388366},
+        r0POJ(displayUnit="mm") = {-0.00381,0.545846,-0.059182},
+        nRocker(displayUnit="1")),       redeclare replaceable
         Motorsports.HalfCar.InboardSuspension.TwoSpringDampersARB
         inboardSuspension(
         r0DT_L(displayUnit="mm") = {-1.50876,0.495554,-0.059182},
@@ -49,7 +50,7 @@ model ICECUFR20 "Model for Columbia University Formula Racing's ICE Car"
             Claytex.Mechanics.Translational.SpringsAndDampers.NullBumpStop)),
     rearAxle(redeclare replaceable Motorsports.QuarterCar.Rear.DWPU leftLinkage(
         mirrorKinematics=true,
-        r0WC(displayUnit="mm") = {0,0.584709,0},
+        r0WC(displayUnit="mm") = {-1.5494,0.584709,0},
         toe=0,
         camber=-0.034906585039887,
         r0LCAFJ(displayUnit="mm") = {-1.284783,0.278308,-0.03777},
@@ -63,12 +64,14 @@ model ICECUFR20 "Model for Columbia University Formula Racing's ICE Car"
         nAdjust_18(displayUnit="1") = {0,1,0},
         r0RP(displayUnit="mm") = {-1.507998,0.296926,0.140335},
         r0PIJ(displayUnit="mm") = {-1.508074,0.349936,0.188443},
-        r0POJ(displayUnit="mm") = {-1.50876,0.495554,-0.059182}), redeclare replaceable
-                    Motorsports.HalfCar.InboardSuspension.TwoSpringDampersARB
+        r0POJ(displayUnit="mm") = {-1.50876,0.495554,-0.059182}), redeclare
+        replaceable Motorsports.HalfCar.InboardSuspension.TwoSpringDampersARB
         inboardSuspension(
         r0DT_L(displayUnit="mm") = {-1.50749,0.089941,0.161214},
         r0DB_L(displayUnit="mm") = {-1.507805,0.262255,0.222174},
-        r0ARBDL_L={-1.3049915,0.2110005,0.1517625},
+        r0ST_L(displayUnit="mm"),
+        r0SB_L(displayUnit="mm"),
+        r0ARBDL_L(displayUnit="mm") = {-1.50876,0.327779,0.0972987},
         redeclare replaceable model leftBumpStopCharacteristic =
             Claytex.Mechanics.Translational.SpringsAndDampers.NullBumpStop,
         redeclare replaceable model leftInerterCharacteristic =
@@ -77,16 +80,22 @@ model ICECUFR20 "Model for Columbia University Formula Racing's ICE Car"
             Claytex.Mechanics.Translational.SpringsAndDampers.NullBumpStop,
         redeclare replaceable model rightInerterCharacteristic =
             Claytex.Mechanics.Translational.Parts.NullInerter,
+        r0ARBL_L(displayUnit="mm") = {-1.4619784,0.3293364,-0.1344158},
+        r0ARBTB_L(displayUnit="mm") = {-1.5099663,0.3293364,-0.1344158},
         redeclare replaceable model arbDamping =
             Claytex.Mechanics.Rotational.SpringsAndDampers.NullDamper,
         redeclare replaceable model leftSpringCharacteristic =
-            Claytex.Mechanics.Translational.SpringsAndDampers.GenericSpring (c=60000),
+            Claytex.Mechanics.Translational.SpringsAndDampers.GenericSpring (c=
+                60000),
         redeclare replaceable model leftDamperCharacteristic =
-            Claytex.Mechanics.Translational.SpringsAndDampers.GenericDamper (d=7000),
+            Claytex.Mechanics.Translational.SpringsAndDampers.GenericDamper (d=
+                7000),
         redeclare replaceable model rightSpringCharacteristic =
-            Claytex.Mechanics.Translational.SpringsAndDampers.GenericSpring (c=60000),
+            Claytex.Mechanics.Translational.SpringsAndDampers.GenericSpring (c=
+                60000),
         redeclare replaceable model rightDamperCharacteristic =
-            Claytex.Mechanics.Translational.SpringsAndDampers.GenericDamper (d=7000),
+            Claytex.Mechanics.Translational.SpringsAndDampers.GenericDamper (d=
+                7000),
         redeclare replaceable model arbStiffness =
             Claytex.Mechanics.Rotational.SpringsAndDampers.GenericSpring (c=100))));
 
