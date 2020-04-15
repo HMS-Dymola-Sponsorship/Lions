@@ -12,7 +12,7 @@ model ICECUFR20 "Model for Columbia University Formula Racing's ICE Car"
         I_22=35,
         I_33=30,
         mDriver=68,
-        m=276.5,
+        m=114.381,
         r_CM(displayUnit="mm") = {-0.75,0,-0.05},
         rCMDriver(displayUnit="m") = {-0.7,0,0.2})),
     frontAxle(
