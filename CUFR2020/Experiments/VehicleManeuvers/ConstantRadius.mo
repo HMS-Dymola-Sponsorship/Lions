@@ -6,6 +6,7 @@ model ConstantRadius "constant radius test"
         v_start=2),
     road(
       radius=8.25,
-      banking=0.17453292519943,
+      banking=0,
       v_start=10));
+  annotation (experiment(StopTime=10));
 end ConstantRadius;

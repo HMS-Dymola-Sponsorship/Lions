@@ -13,7 +13,7 @@ model ICECUFR20 "Model for Columbia University Formula Racing's ICE Car"
         I_33=30,
         mDriver=68,
         m=114.381,
-        r_CM(displayUnit="mm") = {-0.75,0,-0.05},
+        r_CM(displayUnit="mm") = {-0.75,0,0},
         rCMDriver(displayUnit="m") = {-0.7,0,0.2})),
     frontAxle(
       redeclare replaceable Motorsports.QuarterCar.Front.DWPSU leftLinkage(
@@ -170,9 +170,9 @@ model ICECUFR20 "Model for Columbia University Formula Racing's ICE Car"
           tau_max=brakes.forceToBrake1.k,
           c=1e5,
           d=1e4)),
-        brake_3(
-        outerDiameter=0.0198,
-        innerDiameter=0.0144,
+      brake_3(
+        outerDiameter=0.0188,
+        innerDiameter=0.0134,
         thickness=0.004,
         mDisc=0.43809,
         mCaliper=0.46,
@@ -184,9 +184,9 @@ model ICECUFR20 "Model for Columbia University Formula Racing's ICE Car"
           tau_max=brakes.forceToBrake1.k,
           c=1e5,
           d=1e4)),
-         brake_4(
-        outerDiameter=0.0198,
-        innerDiameter=0.0144,
+      brake_4(
+        outerDiameter=0.0188,
+        innerDiameter=0.0134,
         thickness=0.004,
         mDisc=0.43809,
         mCaliper=0.46,
