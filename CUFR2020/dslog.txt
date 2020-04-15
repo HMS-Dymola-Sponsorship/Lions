@@ -1,7 +1,35 @@
-Log-file of program .\Claytex.Blocks.Tables.Functions.Internal.readMatrixSize.exe
-(generated: Sun Dec  8 21:16:45 2019)
+Log-file of program ./dymosim
+(generated: Tue Apr 14 23:19:03 2020)
 
-Claytex.Blocks.Tables.Functions.Internal.readMatrixSize.exe started
-... "empty.txt" loading (dymosim input file)
-... checking for existence of table "offset" in "C:/Program Files/Dymola 2020/Modelica/Library/VeSyMA 2019.1/Resources/Data/RoadProfiles/StraightRoad.mat"
-... loading "offset" from "C:/Program Files/Dymola 2020/Modelica/Library/VeSyMA 2019.1/Resources/Data/RoadProfiles/StraightRoad.mat"
+dymosim started
+... "dsin.txt" loading (dymosim input file)
+
+ WARNING!: the distance between connectors is larger than the defined tolerance
+ The distance became too great at time 0
+ The component affected is 
+Manual Transmission, Gearset, Break Loop
+
+
+... "FormulaStudentMassCheck.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+Integration terminated successfully at T = 10
+   CPU-time for integration                : 1.99 seconds
+   CPU-time for one grid interval          : 3.98 milliseconds
+   CPU-time for initialization             : 0.043 seconds
+   Number of result points                 : 512
+   Number of grid points                   : 501
+   Number of accepted steps                : 73
+   Number of f-evaluations (dynamics)      : 84
+   Number of crossing function evaluations : 610
+   Number of Jacobian-evaluations          : 67
+   Number of model time events             : 0
+   Number of input time events             : 0
+   Number of state events                  : 5
+   Number of step events                   : 0
+   Minimum integration stepsize            : 5.3e-06
+   Maximum integration stepsize            : 4.74
+   Maximum integration order               : 2
+Calling terminal section
+... "dsfinal.txt" creating (final states)

@@ -134,7 +134,6 @@ model ICECUFR20 "Model for Columbia University Formula Racing's ICE Car"
                 7000),
         redeclare replaceable model arbStiffness =
             Claytex.Mechanics.Rotational.SpringsAndDampers.GenericSpring (c=100))),
-
     brakes(brake_1(useThermalModel=true, redeclare replaceable
           Claytex.Mechanics.Rotational.Parts.ElasticBrake brake(
           tau_max=brakes.forceToBrake1.k,
@@ -142,7 +141,9 @@ model ICECUFR20 "Model for Columbia University Formula Racing's ICE Car"
           d=1e4))),
     wheel_4(tyreSize={203,52.6,10}, inflationPressure=82700),
     wheel_3(tyreSize={203,52.6,10}),
-    wheel_1(tyreSize={203,52.6,10}),
+    wheel_1(tyreSize={203,52.6,10}, redeclare replaceable
+        Suspensions.WheelsAndTyres.TyreForces.Pacejka.MF62.TyreForces
+        tyreForces(final rRim=wheel_1.rRim, final width=wheel_1.width)),
     wheel_2(tyreSize={203,52.6,10}));
 
 end ICECUFR20;
