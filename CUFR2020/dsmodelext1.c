@@ -728,54 +728,54 @@ DeclareVariable("vehicle.driveline.wheelHub_1.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.driveline.wheelHub_1.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_1.rim.mass.phi", 1, 1, 26, 4)
+ "vehicle.wheel_1.rim.mass.phi", 1, 1, 28, 4)
 DeclareVariable("vehicle.driveline.wheelHub_1.flange.tau", "Cut torque in the flange [N.m]",\
  0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driveline.wheelHub_1.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 4)
 DeclareAlias2("vehicle.driveline.wheelHub_1.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 4)
 DeclareAlias2("vehicle.driveline.wheelHub_1.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 4)
 DeclareAlias2("vehicle.driveline.wheelHub_1.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_1.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_1.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_1.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_1.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_1.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_1.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_1.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_1.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_1.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_1.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_1.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareVariable("vehicle.driveline.wheelHub_1.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.wheelHub_1.bearingFrame.f[2]", \
@@ -792,54 +792,54 @@ DeclareVariable("vehicle.driveline.wheelHub_2.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.driveline.wheelHub_2.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_2.rim.mass.phi", 1, 1, 28, 4)
+ "vehicle.wheel_2.rim.mass.phi", 1, 1, 32, 4)
 DeclareVariable("vehicle.driveline.wheelHub_2.flange.tau", "Cut torque in the flange [N.m]",\
  0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driveline.wheelHub_2.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 4)
 DeclareAlias2("vehicle.driveline.wheelHub_2.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 4)
 DeclareAlias2("vehicle.driveline.wheelHub_2.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 4)
 DeclareAlias2("vehicle.driveline.wheelHub_2.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 0)
+ 5, 67853, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_2.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 0)
+ 5, 67854, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_2.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 0)
+ 5, 67855, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_2.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 0)
+ 5, 66246, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_2.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 0)
+ 5, 66247, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_2.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 0)
+ 5, 66248, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_2.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 0)
+ 5, 66249, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_2.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 0)
+ 5, 66250, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_2.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 0)
+ 5, 66251, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_2.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_2.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_2.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 0)
 DeclareVariable("vehicle.driveline.wheelHub_2.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.wheelHub_2.bearingFrame.f[2]", \
@@ -856,54 +856,54 @@ DeclareVariable("vehicle.driveline.wheelHub_3.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.driveline.wheelHub_3.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 4)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 4)
 DeclareVariable("vehicle.driveline.wheelHub_3.flange.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("vehicle.driveline.wheelHub_3.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 4)
 DeclareAlias2("vehicle.driveline.wheelHub_3.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 4)
 DeclareAlias2("vehicle.driveline.wheelHub_3.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 4)
 DeclareAlias2("vehicle.driveline.wheelHub_3.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 0)
+ 5, 70465, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_3.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 0)
+ 5, 70466, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_3.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 0)
+ 5, 70467, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_3.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 0)
+ 5, 68857, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_3.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 0)
+ 5, 68858, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_3.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 0)
+ 5, 68859, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_3.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 0)
+ 5, 68860, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_3.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 0)
+ 5, 68861, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_3.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 0)
+ 5, 68862, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_3.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_3.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_3.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 0)
 DeclareVariable("vehicle.driveline.wheelHub_3.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.wheelHub_3.bearingFrame.f[2]", \
@@ -920,54 +920,54 @@ DeclareVariable("vehicle.driveline.wheelHub_4.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.driveline.wheelHub_4.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 4)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 4)
 DeclareVariable("vehicle.driveline.wheelHub_4.flange.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("vehicle.driveline.wheelHub_4.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 4)
 DeclareAlias2("vehicle.driveline.wheelHub_4.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 4)
 DeclareAlias2("vehicle.driveline.wheelHub_4.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 4)
 DeclareAlias2("vehicle.driveline.wheelHub_4.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 0)
+ 5, 73077, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_4.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 0)
+ 5, 73078, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_4.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 0)
+ 5, 73079, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_4.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 0)
+ 5, 71469, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_4.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 0)
+ 5, 71470, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_4.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 0)
+ 5, 71471, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_4.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 0)
+ 5, 71472, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_4.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 0)
+ 5, 71473, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_4.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 0)
+ 5, 71474, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_4.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_4.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 0)
 DeclareAlias2("vehicle.driveline.wheelHub_4.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 0)
 DeclareVariable("vehicle.driveline.wheelHub_4.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.wheelHub_4.bearingFrame.f[2]", \
@@ -987,54 +987,54 @@ DeclareVariable("vehicle.driveline.end_1.flange.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.driveline.end_1.flange.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_1.rim.mass.phi", 1, 1, 26, 4)
+ "vehicle.wheel_1.rim.mass.phi", 1, 1, 28, 4)
 DeclareVariable("vehicle.driveline.end_1.flange.flange.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driveline.end_1.flange.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 4)
 DeclareAlias2("vehicle.driveline.end_1.flange.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 4)
 DeclareAlias2("vehicle.driveline.end_1.flange.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 4)
 DeclareAlias2("vehicle.driveline.end_1.flange.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.driveline.end_1.flange.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.driveline.end_1.flange.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.driveline.end_1.flange.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.driveline.end_1.flange.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.driveline.end_1.flange.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.driveline.end_1.flange.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.driveline.end_1.flange.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.driveline.end_1.flange.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.driveline.end_1.flange.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.driveline.end_1.flange.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.driveline.end_1.flange.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareVariable("vehicle.driveline.end_1.flange.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.end_1.flange.bearingFrame.f[2]", \
@@ -1049,49 +1049,49 @@ DeclareVariable("vehicle.driveline.end_1.flange.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 1028)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 1028)
 DeclareAlias2("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 1028)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 1028)
 DeclareAlias2("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 1028)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 1028)
 DeclareAlias2("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 1024)
+ 5, 64570, 1024)
 DeclareAlias2("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 1024)
+ 5, 64571, 1024)
 DeclareAlias2("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 1024)
+ 5, 64572, 1024)
 DeclareAlias2("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 1024)
+ 5, 62981, 1024)
 DeclareAlias2("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 1024)
+ 5, 62982, 1024)
 DeclareAlias2("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 1024)
+ 5, 62983, 1024)
 DeclareAlias2("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 1024)
+ 5, 62984, 1024)
 DeclareAlias2("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 1024)
+ 5, 62985, 1024)
 DeclareAlias2("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 1024)
+ 5, 62986, 1024)
 DeclareAlias2("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 1024)
 DeclareAlias2("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 1024)
 DeclareAlias2("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 1024)
 DeclareVariable("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("vehicle.driveline.end_1.zeroForceAndTorque.frame_a.f[2]", \
@@ -1109,20 +1109,20 @@ DeclareVariable("vehicle.driveline.end_1.zeroTorque1D.useSupport", \
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("vehicle.driveline.end_1.zeroTorque1D.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1,\
- 1, 26, 4)
+ 1, 28, 4)
 DeclareVariable("vehicle.driveline.end_1.zeroTorque1D.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.end_1.zeroTorque1D.phi_support", \
 "Absolute angle of support flange [rad|deg]", 0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.driveline.end_1.zeroTorque1D.phi", "Angle of flange with respect to support (= flange.phi - support.phi) [rad|deg]",\
- "vehicle.wheel_1.rim.mass.phi", 1, 1, 26, 0)
+ "vehicle.wheel_1.rim.mass.phi", 1, 1, 28, 0)
 DeclareAlias2("vehicle.driveline.end_1.zeroTorque1D.der(phi)", "der(Angle of flange with respect to support (= flange.phi - support.phi)) [rad/s]",\
- "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 0)
+ "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 0)
 DeclareVariable("vehicle.driveline.end_1.zeroTorque1D.tau_constant", \
 "Constant torque (if negative, torque is acting as load in positive direction of rotation) [N.m]",\
  0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.driveline.end_1.zeroTorque1D.w", "Angular velocity of flange with respect to support (= der(phi)) [rad/s]",\
- "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 0)
+ "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 0)
 DeclareVariable("vehicle.driveline.end_1.zeroTorque1D.tau", "Accelerating torque acting at flange (= -flange.tau) [N.m]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.driveline.end_2.includeBearingConnector", \
@@ -1132,54 +1132,54 @@ DeclareVariable("vehicle.driveline.end_2.flange.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.driveline.end_2.flange.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_2.rim.mass.phi", 1, 1, 28, 4)
+ "vehicle.wheel_2.rim.mass.phi", 1, 1, 32, 4)
 DeclareVariable("vehicle.driveline.end_2.flange.flange.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driveline.end_2.flange.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 4)
 DeclareAlias2("vehicle.driveline.end_2.flange.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 4)
 DeclareAlias2("vehicle.driveline.end_2.flange.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 4)
 DeclareAlias2("vehicle.driveline.end_2.flange.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 0)
+ 5, 67853, 0)
 DeclareAlias2("vehicle.driveline.end_2.flange.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 0)
+ 5, 67854, 0)
 DeclareAlias2("vehicle.driveline.end_2.flange.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 0)
+ 5, 67855, 0)
 DeclareAlias2("vehicle.driveline.end_2.flange.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 0)
+ 5, 66246, 0)
 DeclareAlias2("vehicle.driveline.end_2.flange.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 0)
+ 5, 66247, 0)
 DeclareAlias2("vehicle.driveline.end_2.flange.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 0)
+ 5, 66248, 0)
 DeclareAlias2("vehicle.driveline.end_2.flange.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 0)
+ 5, 66249, 0)
 DeclareAlias2("vehicle.driveline.end_2.flange.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 0)
+ 5, 66250, 0)
 DeclareAlias2("vehicle.driveline.end_2.flange.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 0)
+ 5, 66251, 0)
 DeclareAlias2("vehicle.driveline.end_2.flange.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 0)
 DeclareAlias2("vehicle.driveline.end_2.flange.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 0)
 DeclareAlias2("vehicle.driveline.end_2.flange.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 0)
 DeclareVariable("vehicle.driveline.end_2.flange.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.end_2.flange.bearingFrame.f[2]", \
@@ -1194,49 +1194,49 @@ DeclareVariable("vehicle.driveline.end_2.flange.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 1028)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 1028)
 DeclareAlias2("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 1028)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 1028)
 DeclareAlias2("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 1028)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 1028)
 DeclareAlias2("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 1024)
+ 5, 67853, 1024)
 DeclareAlias2("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 1024)
+ 5, 67854, 1024)
 DeclareAlias2("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 1024)
+ 5, 67855, 1024)
 DeclareAlias2("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 1024)
+ 5, 66246, 1024)
 DeclareAlias2("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 1024)
+ 5, 66247, 1024)
 DeclareAlias2("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 1024)
+ 5, 66248, 1024)
 DeclareAlias2("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 1024)
+ 5, 66249, 1024)
 DeclareAlias2("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 1024)
+ 5, 66250, 1024)
 DeclareAlias2("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 1024)
+ 5, 66251, 1024)
 DeclareAlias2("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 1024)
 DeclareAlias2("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 1024)
 DeclareAlias2("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 1024)
 DeclareVariable("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("vehicle.driveline.end_2.zeroForceAndTorque.frame_a.f[2]", \
@@ -1254,20 +1254,20 @@ DeclareVariable("vehicle.driveline.end_2.zeroTorque1D.useSupport", \
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("vehicle.driveline.end_2.zeroTorque1D.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_2.rim.mass.phi", 1,\
- 1, 28, 4)
+ 1, 32, 4)
 DeclareVariable("vehicle.driveline.end_2.zeroTorque1D.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.end_2.zeroTorque1D.phi_support", \
 "Absolute angle of support flange [rad|deg]", 0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.driveline.end_2.zeroTorque1D.phi", "Angle of flange with respect to support (= flange.phi - support.phi) [rad|deg]",\
- "vehicle.wheel_2.rim.mass.phi", 1, 1, 28, 0)
+ "vehicle.wheel_2.rim.mass.phi", 1, 1, 32, 0)
 DeclareAlias2("vehicle.driveline.end_2.zeroTorque1D.der(phi)", "der(Angle of flange with respect to support (= flange.phi - support.phi)) [rad/s]",\
- "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 0)
+ "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 0)
 DeclareVariable("vehicle.driveline.end_2.zeroTorque1D.tau_constant", \
 "Constant torque (if negative, torque is acting as load in positive direction of rotation) [N.m]",\
  0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.driveline.end_2.zeroTorque1D.w", "Angular velocity of flange with respect to support (= der(phi)) [rad/s]",\
- "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 0)
+ "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 0)
 DeclareVariable("vehicle.driveline.end_2.zeroTorque1D.tau", "Accelerating torque acting at flange (= -flange.tau) [N.m]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.driveline.end_3.includeBearingConnector", \
@@ -1277,54 +1277,54 @@ DeclareVariable("vehicle.driveline.end_3.flange.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.driveline.end_3.flange.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 4)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 4)
 DeclareVariable("vehicle.driveline.end_3.flange.flange.tau", "Cut torque in the flange [N.m]",\
  0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driveline.end_3.flange.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 4)
 DeclareAlias2("vehicle.driveline.end_3.flange.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 4)
 DeclareAlias2("vehicle.driveline.end_3.flange.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 4)
 DeclareAlias2("vehicle.driveline.end_3.flange.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 0)
+ 5, 70465, 0)
 DeclareAlias2("vehicle.driveline.end_3.flange.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 0)
+ 5, 70466, 0)
 DeclareAlias2("vehicle.driveline.end_3.flange.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 0)
+ 5, 70467, 0)
 DeclareAlias2("vehicle.driveline.end_3.flange.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 0)
+ 5, 68857, 0)
 DeclareAlias2("vehicle.driveline.end_3.flange.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 0)
+ 5, 68858, 0)
 DeclareAlias2("vehicle.driveline.end_3.flange.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 0)
+ 5, 68859, 0)
 DeclareAlias2("vehicle.driveline.end_3.flange.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 0)
+ 5, 68860, 0)
 DeclareAlias2("vehicle.driveline.end_3.flange.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 0)
+ 5, 68861, 0)
 DeclareAlias2("vehicle.driveline.end_3.flange.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 0)
+ 5, 68862, 0)
 DeclareAlias2("vehicle.driveline.end_3.flange.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 0)
 DeclareAlias2("vehicle.driveline.end_3.flange.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 0)
 DeclareAlias2("vehicle.driveline.end_3.flange.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 0)
 DeclareVariable("vehicle.driveline.end_3.flange.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.end_3.flange.bearingFrame.f[2]", \
@@ -1339,49 +1339,49 @@ DeclareVariable("vehicle.driveline.end_3.flange.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 1028)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 1028)
 DeclareAlias2("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 1028)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 1028)
 DeclareAlias2("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 1028)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 1028)
 DeclareAlias2("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 1024)
+ 5, 70465, 1024)
 DeclareAlias2("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 1024)
+ 5, 70466, 1024)
 DeclareAlias2("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 1024)
+ 5, 70467, 1024)
 DeclareAlias2("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 1024)
+ 5, 68857, 1024)
 DeclareAlias2("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 1024)
+ 5, 68858, 1024)
 DeclareAlias2("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 1024)
+ 5, 68859, 1024)
 DeclareAlias2("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 1024)
+ 5, 68860, 1024)
 DeclareAlias2("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 1024)
+ 5, 68861, 1024)
 DeclareAlias2("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 1024)
+ 5, 68862, 1024)
 DeclareAlias2("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 1024)
 DeclareAlias2("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 1024)
 DeclareAlias2("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 1024)
 DeclareVariable("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("vehicle.driveline.end_3.zeroForceAndTorque.frame_a.f[2]", \
@@ -1399,20 +1399,20 @@ DeclareVariable("vehicle.driveline.end_3.zeroTorque1D.useSupport", \
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("vehicle.driveline.end_3.zeroTorque1D.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_3.rim.mass.phi", 1,\
- 1, 30, 4)
+ 1, 34, 4)
 DeclareVariable("vehicle.driveline.end_3.zeroTorque1D.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.end_3.zeroTorque1D.phi_support", \
 "Absolute angle of support flange [rad|deg]", 0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.driveline.end_3.zeroTorque1D.phi", "Angle of flange with respect to support (= flange.phi - support.phi) [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 0)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 0)
 DeclareAlias2("vehicle.driveline.end_3.zeroTorque1D.der(phi)", "der(Angle of flange with respect to support (= flange.phi - support.phi)) [rad/s]",\
- "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 0)
+ "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 0)
 DeclareVariable("vehicle.driveline.end_3.zeroTorque1D.tau_constant", \
 "Constant torque (if negative, torque is acting as load in positive direction of rotation) [N.m]",\
  0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.driveline.end_3.zeroTorque1D.w", "Angular velocity of flange with respect to support (= der(phi)) [rad/s]",\
- "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 0)
+ "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 0)
 DeclareVariable("vehicle.driveline.end_3.zeroTorque1D.tau", "Accelerating torque acting at flange (= -flange.tau) [N.m]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.driveline.end_4.includeBearingConnector", \
@@ -1422,54 +1422,54 @@ DeclareVariable("vehicle.driveline.end_4.flange.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.driveline.end_4.flange.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 4)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 4)
 DeclareVariable("vehicle.driveline.end_4.flange.flange.tau", "Cut torque in the flange [N.m]",\
  0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driveline.end_4.flange.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 4)
 DeclareAlias2("vehicle.driveline.end_4.flange.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 4)
 DeclareAlias2("vehicle.driveline.end_4.flange.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 4)
 DeclareAlias2("vehicle.driveline.end_4.flange.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 0)
+ 5, 73077, 0)
 DeclareAlias2("vehicle.driveline.end_4.flange.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 0)
+ 5, 73078, 0)
 DeclareAlias2("vehicle.driveline.end_4.flange.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 0)
+ 5, 73079, 0)
 DeclareAlias2("vehicle.driveline.end_4.flange.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 0)
+ 5, 71469, 0)
 DeclareAlias2("vehicle.driveline.end_4.flange.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 0)
+ 5, 71470, 0)
 DeclareAlias2("vehicle.driveline.end_4.flange.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 0)
+ 5, 71471, 0)
 DeclareAlias2("vehicle.driveline.end_4.flange.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 0)
+ 5, 71472, 0)
 DeclareAlias2("vehicle.driveline.end_4.flange.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 0)
+ 5, 71473, 0)
 DeclareAlias2("vehicle.driveline.end_4.flange.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 0)
+ 5, 71474, 0)
 DeclareAlias2("vehicle.driveline.end_4.flange.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 0)
 DeclareAlias2("vehicle.driveline.end_4.flange.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 0)
 DeclareAlias2("vehicle.driveline.end_4.flange.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 0)
 DeclareVariable("vehicle.driveline.end_4.flange.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.end_4.flange.bearingFrame.f[2]", \
@@ -1484,49 +1484,49 @@ DeclareVariable("vehicle.driveline.end_4.flange.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 1028)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 1028)
 DeclareAlias2("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 1028)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 1028)
 DeclareAlias2("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 1028)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 1028)
 DeclareAlias2("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 1024)
+ 5, 73077, 1024)
 DeclareAlias2("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 1024)
+ 5, 73078, 1024)
 DeclareAlias2("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 1024)
+ 5, 73079, 1024)
 DeclareAlias2("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 1024)
+ 5, 71469, 1024)
 DeclareAlias2("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 1024)
+ 5, 71470, 1024)
 DeclareAlias2("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 1024)
+ 5, 71471, 1024)
 DeclareAlias2("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 1024)
+ 5, 71472, 1024)
 DeclareAlias2("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 1024)
+ 5, 71473, 1024)
 DeclareAlias2("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 1024)
+ 5, 71474, 1024)
 DeclareAlias2("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 1024)
 DeclareAlias2("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 1024)
 DeclareAlias2("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 1024)
 DeclareVariable("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("vehicle.driveline.end_4.zeroForceAndTorque.frame_a.f[2]", \
@@ -1544,20 +1544,20 @@ DeclareVariable("vehicle.driveline.end_4.zeroTorque1D.useSupport", \
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("vehicle.driveline.end_4.zeroTorque1D.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_4.rim.mass.phi", 1,\
- 1, 32, 4)
+ 1, 36, 4)
 DeclareVariable("vehicle.driveline.end_4.zeroTorque1D.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.end_4.zeroTorque1D.phi_support", \
 "Absolute angle of support flange [rad|deg]", 0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.driveline.end_4.zeroTorque1D.phi", "Angle of flange with respect to support (= flange.phi - support.phi) [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 0)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 0)
 DeclareAlias2("vehicle.driveline.end_4.zeroTorque1D.der(phi)", "der(Angle of flange with respect to support (= flange.phi - support.phi)) [rad/s]",\
- "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 0)
+ "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 0)
 DeclareVariable("vehicle.driveline.end_4.zeroTorque1D.tau_constant", \
 "Constant torque (if negative, torque is acting as load in positive direction of rotation) [N.m]",\
  0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.driveline.end_4.zeroTorque1D.w", "Angular velocity of flange with respect to support (= der(phi)) [rad/s]",\
- "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 0)
+ "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 0)
 DeclareVariable("vehicle.driveline.end_4.zeroTorque1D.tau", "Accelerating torque acting at flange (= -flange.tau) [N.m]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.driveline.systemMass.calculateTotalMass", \
@@ -1766,11 +1766,11 @@ DeclareVariable("vehicle.driveline.sourceAngle", "Angle difference of the source
 DeclareVariable("vehicle.driveline.diffTorques", "=true enables the differential reaction torques to be applied  [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,515)
 DeclareAlias2("vehicle.driveline.rearRightShaft.flange_a.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 4)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 4)
 DeclareAlias2("vehicle.driveline.rearRightShaft.flange_a.tau", "Cut torque in the flange [N.m]",\
  "vehicle.driveline.summary.rearLeftTorque", -1, 5, 545, 132)
 DeclareAlias2("vehicle.driveline.rearRightShaft.flange_b.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 4)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 4)
 DeclareAlias2("vehicle.driveline.rearRightShaft.flange_b.tau", "Cut torque in the flange [N.m]",\
  "vehicle.driveline.wheelHub_4.flange.tau", 1, 5, 376, 132)
 DeclareVariable("vehicle.driveline.rearRightShaft.J", "Moment of inertia [kg.m2]",\
@@ -1778,21 +1778,21 @@ DeclareVariable("vehicle.driveline.rearRightShaft.J", "Moment of inertia [kg.m2]
 DeclareVariable("vehicle.driveline.rearRightShaft.stateSelect", "Priority to use phi and w as states [:#(type=StateSelect)]",\
  3, 1.0,5.0,0.0,0,1541)
 DeclareAlias2("vehicle.driveline.rearRightShaft.phi", "Absolute rotation angle of component [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 0)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 0)
 DeclareAlias2("vehicle.driveline.rearRightShaft.der(phi)", "der(Absolute rotation angle of component) [rad/s]",\
- "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 0)
+ "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 0)
 DeclareAlias2("vehicle.driveline.rearRightShaft.w", "Absolute angular velocity of component (= der(phi)) [rad/s]",\
- "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 0)
+ "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 0)
 DeclareAlias2("vehicle.driveline.rearRightShaft.der(w)", "der(Absolute angular velocity of component (= der(phi))) [rad/s2]",\
- "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 33, 0)
+ "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 37, 0)
 DeclareAlias2("vehicle.driveline.rearRightShaft.a", "Absolute angular acceleration of component (= der(w)) [rad/s2]",\
- "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 33, 0)
+ "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 37, 0)
 DeclareAlias2("vehicle.driveline.rearLeftShaft.flange_a.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 4)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 4)
 DeclareAlias2("vehicle.driveline.rearLeftShaft.flange_a.tau", "Cut torque in the flange [N.m]",\
  "vehicle.driveline.wheelHub_3.flange.tau", 1, 5, 368, 132)
 DeclareAlias2("vehicle.driveline.rearLeftShaft.flange_b.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 4)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 4)
 DeclareAlias2("vehicle.driveline.rearLeftShaft.flange_b.tau", "Cut torque in the flange [N.m]",\
  "vehicle.driveline.summary.rearLeftTorque", -1, 5, 545, 132)
 DeclareVariable("vehicle.driveline.rearLeftShaft.J", "Moment of inertia [kg.m2]",\
@@ -1800,15 +1800,15 @@ DeclareVariable("vehicle.driveline.rearLeftShaft.J", "Moment of inertia [kg.m2]"
 DeclareVariable("vehicle.driveline.rearLeftShaft.stateSelect", "Priority to use phi and w as states [:#(type=StateSelect)]",\
  3, 1.0,5.0,0.0,0,1541)
 DeclareAlias2("vehicle.driveline.rearLeftShaft.phi", "Absolute rotation angle of component [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 0)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 0)
 DeclareAlias2("vehicle.driveline.rearLeftShaft.der(phi)", "der(Absolute rotation angle of component) [rad/s]",\
- "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 0)
+ "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 0)
 DeclareAlias2("vehicle.driveline.rearLeftShaft.w", "Absolute angular velocity of component (= der(phi)) [rad/s]",\
- "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 0)
+ "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 0)
 DeclareAlias2("vehicle.driveline.rearLeftShaft.der(w)", "der(Absolute angular velocity of component (= der(phi))) [rad/s2]",\
- "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 31, 0)
+ "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 35, 0)
 DeclareAlias2("vehicle.driveline.rearLeftShaft.a", "Absolute angular acceleration of component (= der(w)) [rad/s2]",\
- "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 31, 0)
+ "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 35, 0)
 DeclareAlias2("vehicle.driveline.rearPropshaft.flange_a.phi", "Absolute rotation angle of flange [rad|deg]",\
  "vehicle.driveline.rearPropshaft.phi", 1, 5, 555, 4)
 DeclareAlias2("vehicle.driveline.rearPropshaft.flange_a.tau", "Cut torque in the flange [N.m]",\
@@ -1849,13 +1849,13 @@ DeclareAlias2("vehicle.driveline.rearDifferential.inputFlange.tau", \
  5, 544, 132)
 DeclareAlias2("vehicle.driveline.rearDifferential.outputFlange1.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_3.rim.mass.phi", 1,\
- 1, 30, 4)
+ 1, 34, 4)
 DeclareAlias2("vehicle.driveline.rearDifferential.outputFlange1.tau", \
 "Cut torque in the flange [N.m]", "vehicle.driveline.summary.rearLeftTorque", 1,\
  5, 545, 132)
 DeclareAlias2("vehicle.driveline.rearDifferential.outputFlange2.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_4.rim.mass.phi", 1,\
- 1, 32, 4)
+ 1, 36, 4)
 DeclareAlias2("vehicle.driveline.rearDifferential.outputFlange2.tau", \
 "Cut torque in the flange [N.m]", "vehicle.driveline.summary.rearLeftTorque", 1,\
  5, 545, 132)
@@ -1897,13 +1897,13 @@ DeclareAlias2("vehicle.driveline.rearDifferential.differentialMount.R.T[3, 3]", 
  5, 269, 0)
 DeclareAlias2("vehicle.driveline.rearDifferential.differentialMount.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 0)
+"vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 0)
 DeclareAlias2("vehicle.driveline.rearDifferential.differentialMount.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 0)
+"vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 0)
 DeclareAlias2("vehicle.driveline.rearDifferential.differentialMount.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 0)
+"vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 0)
 DeclareVariable("vehicle.driveline.rearDifferential.differentialMount.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.rearDifferential.differentialMount.f[2]", \
@@ -1914,7 +1914,7 @@ DeclareVariable("vehicle.driveline.rearDifferential.differentialMount.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driveline.rearDifferential.differentialMount.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.driveline.drivelineMount.t[2]", 1,\
- 5, 83017, 132)
+ 5, 86497, 132)
 DeclareVariable("vehicle.driveline.rearDifferential.differentialMount.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.rearDifferential.torqueBias", \
@@ -1964,13 +1964,13 @@ DeclareVariable("vehicle.driveline.rearDifferential.specularCoefficient", \
 1E+100,0.0,0,513)
 DeclareAlias2("vehicle.driveline.rearDifferential.differential.flange_a.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_3.rim.mass.phi", 1,\
- 1, 30, 4)
+ 1, 34, 4)
 DeclareAlias2("vehicle.driveline.rearDifferential.differential.flange_a.tau", \
 "Cut torque in the flange [N.m]", "vehicle.driveline.summary.rearLeftTorque", 1,\
  5, 545, 132)
 DeclareAlias2("vehicle.driveline.rearDifferential.differential.flange_b.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_4.rim.mass.phi", 1,\
- 1, 32, 4)
+ 1, 36, 4)
 DeclareAlias2("vehicle.driveline.rearDifferential.differential.flange_b.tau", \
 "Cut torque in the flange [N.m]", "vehicle.driveline.summary.rearLeftTorque", 1,\
  5, 545, 132)
@@ -2108,13 +2108,13 @@ DeclareAlias2("vehicle.driveline.rearDifferential.torque.frame_b.R.T[3, 3]", \
  5, 269, 0)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 0)
+"vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 0)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 0)
+"vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 0)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 0)
+"vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 0)
 DeclareVariable("vehicle.driveline.rearDifferential.torque.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.rearDifferential.torque.frame_b.f[2]", \
@@ -2125,7 +2125,7 @@ DeclareVariable("vehicle.driveline.rearDifferential.torque.frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.frame_b.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.driveline.drivelineMount.t[2]", 1,\
- 5, 83017, 132)
+ 5, 86497, 132)
 DeclareVariable("vehicle.driveline.rearDifferential.torque.frame_b.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.rearDifferential.torque.torque[1]", \
@@ -2133,7 +2133,7 @@ DeclareVariable("vehicle.driveline.rearDifferential.torque.torque[1]", \
  0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.torque[2]", \
 "x-, y-, z-coordinates of torque resolved in frame defined by resolveInFrame [N.m]",\
- "vehicle.driveline.drivelineMount.t[2]", -1, 5, 83017, 0)
+ "vehicle.driveline.drivelineMount.t[2]", -1, 5, 86497, 0)
 DeclareVariable("vehicle.driveline.rearDifferential.torque.torque[3]", \
 "x-, y-, z-coordinates of torque resolved in frame defined by resolveInFrame [N.m]",\
  0.0, 0.0,0.0,0.0,0,513)
@@ -2190,13 +2190,13 @@ DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.R.T[3, 3]", \
  5, 269, 1024)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 1024)
+"vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 1024)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 1024)
+"vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 1024)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 1024)
+"vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 1024)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.r[1]", \
 "Position vector from origin of world frame to origin of arrow frame, resolved in world frame [m]",\
  "vehicle.driveline.rearDifferential.differentialMount.r_0[1]", 1, 5, 562, 1024)
@@ -2293,13 +2293,13 @@ DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.arrowLine.R.T[3, 
  5, 269, 1024)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.arrowLine.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 1024)
+"vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 1024)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.arrowLine.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 1024)
+"vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 1024)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.arrowLine.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 1024)
+"vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 1024)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.arrowLine.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
  "vehicle.driveline.rearDifferential.differentialMount.r_0[1]", 1, 5, 562, 1024)
@@ -2441,13 +2441,13 @@ DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.arrowHead1.R.T[3,
  5, 269, 1024)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.arrowHead1.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 1024)
+"vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 1024)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.arrowHead1.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 1024)
+"vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 1024)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.arrowHead1.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 1024)
+"vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 1024)
 DeclareVariable("vehicle.driveline.rearDifferential.torque.arrow.arrowHead1.r[1]",\
  "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,2560)
@@ -2589,13 +2589,13 @@ DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.arrowHead2.R.T[3,
  5, 269, 1024)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.arrowHead2.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 1024)
+"vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 1024)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.arrowHead2.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 1024)
+"vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 1024)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.arrow.arrowHead2.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 1024)
+"vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 1024)
 DeclareVariable("vehicle.driveline.rearDifferential.torque.arrow.arrowHead2.r[1]",\
  "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,2560)
@@ -2746,13 +2746,13 @@ DeclareAlias2("vehicle.driveline.rearDifferential.torque.basicWorldTorque.frame_
  5, 269, 0)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.basicWorldTorque.frame_b.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 0)
+"vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 0)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.basicWorldTorque.frame_b.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 0)
+"vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 0)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.basicWorldTorque.frame_b.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 0)
+"vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 0)
 DeclareVariable("vehicle.driveline.rearDifferential.torque.basicWorldTorque.frame_b.f[1]",\
  "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.rearDifferential.torque.basicWorldTorque.frame_b.f[2]",\
@@ -2763,7 +2763,7 @@ DeclareVariable("vehicle.driveline.rearDifferential.torque.basicWorldTorque.fram
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.basicWorldTorque.frame_b.t[2]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.driveline.drivelineMount.t[2]", 1,\
- 5, 83017, 132)
+ 5, 86497, 132)
 DeclareVariable("vehicle.driveline.rearDifferential.torque.basicWorldTorque.frame_b.t[3]",\
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.rearDifferential.torque.basicWorldTorque.frame_resolve.r_0[1]",\
@@ -2819,7 +2819,7 @@ DeclareVariable("vehicle.driveline.rearDifferential.torque.basicWorldTorque.torq
  0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.driveline.rearDifferential.torque.basicWorldTorque.torque[2]",\
  "x-, y-, z-coordinates of torque resolved in frame defined by resolveInFrame [N.m]",\
- "vehicle.driveline.drivelineMount.t[2]", -1, 5, 83017, 0)
+ "vehicle.driveline.drivelineMount.t[2]", -1, 5, 86497, 0)
 DeclareVariable("vehicle.driveline.rearDifferential.torque.basicWorldTorque.torque[3]",\
  "x-, y-, z-coordinates of torque resolved in frame defined by resolveInFrame [N.m]",\
  0.0, 0.0,0.0,0.0,0,513)
@@ -2877,7 +2877,7 @@ DeclareVariable("vehicle.driveline.rearDifferential.torque.zeroPosition.frame_re
 DeclareVariable("vehicle.driveline.rearDifferential.torqueCalc[1].y", \
 "Value of Real output", 0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.driveline.rearDifferential.torqueCalc[2].y", \
-"Value of Real output", "vehicle.driveline.drivelineMount.t[2]", -1, 5, 83017, 0)
+"Value of Real output", "vehicle.driveline.drivelineMount.t[2]", -1, 5, 86497, 0)
 DeclareVariable("vehicle.driveline.rearDifferential.torqueCalc[3].y", \
 "Value of Real output", 0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.driveline.rearDiffTranslation.frame_a.r_0[1]", \
@@ -2926,7 +2926,7 @@ DeclareVariable("vehicle.driveline.rearDiffTranslation.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driveline.rearDiffTranslation.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.driveline.drivelineMount.t[2]", 1,\
- 5, 83017, 132)
+ 5, 86497, 132)
 DeclareVariable("vehicle.driveline.rearDiffTranslation.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driveline.rearDiffTranslation.frame_b.r_0[1]", \
@@ -2967,13 +2967,13 @@ DeclareAlias2("vehicle.driveline.rearDiffTranslation.frame_b.R.T[3, 3]", \
  5, 269, 0)
 DeclareAlias2("vehicle.driveline.rearDiffTranslation.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 0)
+"vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 0)
 DeclareAlias2("vehicle.driveline.rearDiffTranslation.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 0)
+"vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 0)
 DeclareAlias2("vehicle.driveline.rearDiffTranslation.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 0)
+"vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 0)
 DeclareVariable("vehicle.driveline.rearDiffTranslation.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.rearDiffTranslation.frame_b.f[2]", \
@@ -2984,7 +2984,7 @@ DeclareVariable("vehicle.driveline.rearDiffTranslation.frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driveline.rearDiffTranslation.frame_b.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.driveline.drivelineMount.t[2]", -1,\
- 5, 83017, 132)
+ 5, 86497, 132)
 DeclareVariable("vehicle.driveline.rearDiffTranslation.frame_b.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driveline.rearDiffTranslation.animation", \
@@ -3084,7 +3084,7 @@ DeclareVariable("vehicle.driverEnvironment.summary.longitudinalAccel", \
 "Longitudinal acceleration measured from chassisFrame [m/s2]", 0.0, 0.0,0.0,0.0,\
 0,512)
 DeclareAlias2("vehicle.driverEnvironment.summary.engineSpeed", "Engine rotational speed [rad/s]",\
- "vehicle.engine.flywheel.rotatingBody.w", 1, 1, 49, 0)
+ "vehicle.engine.flywheel.rotatingBody.w", 1, 1, 53, 0)
 DeclareVariable("vehicle.driverEnvironment.summary.clutchLocked", \
 "Boolean true=clutch locked, false=clutch slipping [:#(type=Boolean)]", false, \
 0.0,0.0,0.0,0,515)
@@ -3104,10 +3104,10 @@ DeclareVariable("vehicle.driverEnvironment.wRedLine", "Upper rev limit used for 
  628.31853071796, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.driverEnvironment.engineSpeedRouting.engineSpeedOutput", \
 "Engine speed in rad/s [rad/s]", "vehicle.engine.flywheel.rotatingBody.w", 1, 1,\
- 49, 0)
+ 53, 0)
 DeclareAlias2("vehicle.driverEnvironment.engineSpeedRouting.engineSpeedInput", \
 "Engine speed in rad/s [rad/s]", "vehicle.engine.flywheel.rotatingBody.w", 1, 1,\
- 49, 0)
+ 53, 0)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "totalMass.r_0[1]", 1, 5, 258, 4)
@@ -3278,10 +3278,10 @@ DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.v[1]", \
 "vehicle.driverEnvironment.summary.longitudinalVelocity", 1, 5, 886, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.v[2]", \
 "Absolute velocity vector resolved in frame defined by resolveInFrame [m/s]", \
-"vehicle.driverEnvironment.absoluteSensor.v[2]", 1, 5, 83091, 1024)
+"vehicle.driverEnvironment.absoluteSensor.v[2]", 1, 5, 86571, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.v[3]", \
 "Absolute velocity vector resolved in frame defined by resolveInFrame [m/s]", \
-"vehicle.driverEnvironment.absoluteSensor.v[3]", 1, 5, 83092, 1024)
+"vehicle.driverEnvironment.absoluteSensor.v[3]", 1, 5, 86572, 1024)
 DeclareVariable("vehicle.driverEnvironment.absoluteSensor.velocity.resolveInFrame",\
  "Frame in which output vector v shall be resolved (world, frame_a, or frame_resolve) [:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]",\
  2, 1.0,3.0,0.0,0,2565)
@@ -3406,7 +3406,7 @@ DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.der1[1].u", \
 "Connector of Real input signal", "totalMass.r_0[1]", 1, 5, 258, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.der1[1].der(u)",\
  "der(Connector of Real input signal)", "vehicle.body.aerodynamics.v_rel_0[1]", 1,\
- 5, 56633, 1024)
+ 5, 59460, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.der1[1].y", \
 "Connector of Real output signal", "vehicle.driverEnvironment.absoluteSensor.velocity.tansformAbsoluteVector.basicTransformVector.r_in[1]", 1,\
  5, 1003, 1024)
@@ -3414,7 +3414,7 @@ DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.der1[2].u", \
 "Connector of Real input signal", "totalMass.r_0[2]", 1, 5, 259, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.der1[2].der(u)",\
  "der(Connector of Real input signal)", "vehicle.body.aerodynamics.v_rel_0[2]", 1,\
- 5, 56634, 1024)
+ 5, 59461, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.der1[2].y", \
 "Connector of Real output signal", "vehicle.driverEnvironment.absoluteSensor.velocity.tansformAbsoluteVector.basicTransformVector.r_in[2]", 1,\
  5, 1004, 1024)
@@ -3422,7 +3422,7 @@ DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.der1[3].u", \
 "Connector of Real input signal", "totalMass.r_0[3]", 1, 5, 260, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.der1[3].der(u)",\
  "der(Connector of Real input signal)", "vehicle.body.aerodynamics.v_rel_0[3]", 1,\
- 5, 56635, 1024)
+ 5, 59462, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.der1[3].y", \
 "Connector of Real output signal", "vehicle.driverEnvironment.absoluteSensor.velocity.tansformAbsoluteVector.basicTransformVector.r_in[3]", 1,\
  5, 1005, 1024)
@@ -3497,10 +3497,10 @@ DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.tansformAbsolut
  5, 886, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.tansformAbsoluteVector.r_out[2]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.driverEnvironment.absoluteSensor.v[2]", 1,\
- 5, 83091, 1024)
+ 5, 86571, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.tansformAbsoluteVector.r_out[3]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.driverEnvironment.absoluteSensor.v[3]", 1,\
- 5, 83092, 1024)
+ 5, 86572, 1024)
 DeclareVariable("vehicle.driverEnvironment.absoluteSensor.velocity.tansformAbsoluteVector.frame_r_in",\
  "Frame in which vector r_in is resolved (world, frame_a, or frame_resolve) [:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]",\
  1, 1.0,3.0,0.0,0,2565)
@@ -3620,10 +3620,10 @@ DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.tansformAbsolut
  5, 886, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.tansformAbsoluteVector.basicTransformVector.r_out[2]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.driverEnvironment.absoluteSensor.v[2]", 1,\
- 5, 83091, 1024)
+ 5, 86571, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.velocity.tansformAbsoluteVector.basicTransformVector.r_out[3]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.driverEnvironment.absoluteSensor.v[3]", 1,\
- 5, 83092, 1024)
+ 5, 86572, 1024)
 DeclareVariable("vehicle.driverEnvironment.absoluteSensor.velocity.tansformAbsoluteVector.basicTransformVector.R1.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("vehicle.driverEnvironment.absoluteSensor.velocity.tansformAbsoluteVector.basicTransformVector.R1.T[1, 2]",\
@@ -3796,7 +3796,7 @@ DeclareVariable("vehicle.driverEnvironment.absoluteSensor.velocity.zeroPosition1
 DeclareVariable("vehicle.driverEnvironment.absoluteSensor.velocity.zeroPosition1.frame_resolve.t[3]",\
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.der1[1].u", \
-"Connector of Real input signal", "vehicle.body.aerodynamics.v_rel_0[1]", 1, 5, 56633,\
+"Connector of Real input signal", "vehicle.body.aerodynamics.v_rel_0[1]", 1, 5, 59460,\
  1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.der1[1].der(u)", \
 "der(Connector of Real input signal)", "vehicle.driverEnvironment.absoluteSensor.transformVector_a.basicTransformVector.r_in[1]", 1,\
@@ -3805,7 +3805,7 @@ DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.der1[1].y", \
 "Connector of Real output signal", "vehicle.driverEnvironment.absoluteSensor.transformVector_a.basicTransformVector.r_in[1]", 1,\
  5, 1130, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.der1[2].u", \
-"Connector of Real input signal", "vehicle.body.aerodynamics.v_rel_0[2]", 1, 5, 56634,\
+"Connector of Real input signal", "vehicle.body.aerodynamics.v_rel_0[2]", 1, 5, 59461,\
  1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.der1[2].der(u)", \
 "der(Connector of Real input signal)", "vehicle.driverEnvironment.absoluteSensor.transformVector_a.basicTransformVector.r_in[2]", 1,\
@@ -3814,7 +3814,7 @@ DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.der1[2].y", \
 "Connector of Real output signal", "vehicle.driverEnvironment.absoluteSensor.transformVector_a.basicTransformVector.r_in[2]", 1,\
  5, 1131, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.der1[3].u", \
-"Connector of Real input signal", "vehicle.body.aerodynamics.v_rel_0[3]", 1, 5, 56635,\
+"Connector of Real input signal", "vehicle.body.aerodynamics.v_rel_0[3]", 1, 5, 59462,\
  1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.der1[3].der(u)", \
 "der(Connector of Real input signal)", "vehicle.driverEnvironment.absoluteSensor.transformVector_a.basicTransformVector.r_in[3]", 1,\
@@ -3896,7 +3896,7 @@ DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.transformVector_a.r_out[
  5, 1468, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.transformVector_a.r_out[3]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.driverEnvironment.absoluteSensor.a[3]", 1,\
- 5, 83093, 1024)
+ 5, 86573, 1024)
 DeclareVariable("vehicle.driverEnvironment.absoluteSensor.transformVector_a.frame_r_in",\
  "Frame in which vector r_in is resolved (world, frame_a, or frame_resolve) [:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]",\
  1, 1.0,3.0,0.0,0,2565)
@@ -4019,7 +4019,7 @@ DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.transformVector_a.basicT
  5, 1468, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.transformVector_a.basicTransformVector.r_out[3]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.driverEnvironment.absoluteSensor.a[3]", 1,\
- 5, 83093, 1024)
+ 5, 86573, 1024)
 DeclareVariable("vehicle.driverEnvironment.absoluteSensor.transformVector_a.basicTransformVector.R1.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("vehicle.driverEnvironment.absoluteSensor.transformVector_a.basicTransformVector.R1.T[1, 2]",\
@@ -4154,13 +4154,13 @@ DeclareVariable("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.frame
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.v[1]", \
 "Absolute velocity vector resolved in frame defined by resolveInFrame [m/s]", \
-"vehicle.body.aerodynamics.v_rel_0[1]", 1, 5, 56633, 1024)
+"vehicle.body.aerodynamics.v_rel_0[1]", 1, 5, 59460, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.v[2]", \
 "Absolute velocity vector resolved in frame defined by resolveInFrame [m/s]", \
-"vehicle.body.aerodynamics.v_rel_0[2]", 1, 5, 56634, 1024)
+"vehicle.body.aerodynamics.v_rel_0[2]", 1, 5, 59461, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.v[3]", \
 "Absolute velocity vector resolved in frame defined by resolveInFrame [m/s]", \
-"vehicle.body.aerodynamics.v_rel_0[3]", 1, 5, 56635, 1024)
+"vehicle.body.aerodynamics.v_rel_0[3]", 1, 5, 59462, 1024)
 DeclareVariable("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.resolveInFrame",\
  "Frame in which output vector v shall be resolved (world, frame_a, or frame_resolve) [:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]",\
  1, 1.0,3.0,0.0,0,2565)
@@ -4285,26 +4285,26 @@ DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.der1[1]
  "Connector of Real input signal", "totalMass.r_0[1]", 1, 5, 258, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.der1[1].der(u)",\
  "der(Connector of Real input signal)", "vehicle.body.aerodynamics.v_rel_0[1]", 1,\
- 5, 56633, 1024)
+ 5, 59460, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.der1[1].y",\
  "Connector of Real output signal", "vehicle.body.aerodynamics.v_rel_0[1]", 1, 5,\
- 56633, 1024)
+ 59460, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.der1[2].u",\
  "Connector of Real input signal", "totalMass.r_0[2]", 1, 5, 259, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.der1[2].der(u)",\
  "der(Connector of Real input signal)", "vehicle.body.aerodynamics.v_rel_0[2]", 1,\
- 5, 56634, 1024)
+ 5, 59461, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.der1[2].y",\
  "Connector of Real output signal", "vehicle.body.aerodynamics.v_rel_0[2]", 1, 5,\
- 56634, 1024)
+ 59461, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.der1[3].u",\
  "Connector of Real input signal", "totalMass.r_0[3]", 1, 5, 260, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.der1[3].der(u)",\
  "der(Connector of Real input signal)", "vehicle.body.aerodynamics.v_rel_0[3]", 1,\
- 5, 56635, 1024)
+ 5, 59462, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.der1[3].y",\
  "Connector of Real output signal", "vehicle.body.aerodynamics.v_rel_0[3]", 1, 5,\
- 56635, 1024)
+ 59462, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansformAbsoluteVector.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "totalMass.r_0[1]", 1, 5, 258, 1028)
@@ -4364,22 +4364,22 @@ DeclareVariable("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansf
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansformAbsoluteVector.r_in[1]",\
  "Input vector resolved in frame defined by frame_r_in", "vehicle.body.aerodynamics.v_rel_0[1]", 1,\
- 5, 56633, 1024)
+ 5, 59460, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansformAbsoluteVector.r_in[2]",\
  "Input vector resolved in frame defined by frame_r_in", "vehicle.body.aerodynamics.v_rel_0[2]", 1,\
- 5, 56634, 1024)
+ 5, 59461, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansformAbsoluteVector.r_in[3]",\
  "Input vector resolved in frame defined by frame_r_in", "vehicle.body.aerodynamics.v_rel_0[3]", 1,\
- 5, 56635, 1024)
+ 5, 59462, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansformAbsoluteVector.r_out[1]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.body.aerodynamics.v_rel_0[1]", 1,\
- 5, 56633, 1024)
+ 5, 59460, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansformAbsoluteVector.r_out[2]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.body.aerodynamics.v_rel_0[2]", 1,\
- 5, 56634, 1024)
+ 5, 59461, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansformAbsoluteVector.r_out[3]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.body.aerodynamics.v_rel_0[3]", 1,\
- 5, 56635, 1024)
+ 5, 59462, 1024)
 DeclareVariable("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansformAbsoluteVector.frame_r_in",\
  "Frame in which vector r_in is resolved (world, frame_a, or frame_resolve) [:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]",\
  1, 1.0,3.0,0.0,0,2565)
@@ -4499,22 +4499,22 @@ DeclareVariable("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansf
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.r_in[1]",\
  "Input vector resolved in frame defined by frame_r_in", "vehicle.body.aerodynamics.v_rel_0[1]", 1,\
- 5, 56633, 1024)
+ 5, 59460, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.r_in[2]",\
  "Input vector resolved in frame defined by frame_r_in", "vehicle.body.aerodynamics.v_rel_0[2]", 1,\
- 5, 56634, 1024)
+ 5, 59461, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.r_in[3]",\
  "Input vector resolved in frame defined by frame_r_in", "vehicle.body.aerodynamics.v_rel_0[3]", 1,\
- 5, 56635, 1024)
+ 5, 59462, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.r_out[1]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.body.aerodynamics.v_rel_0[1]", 1,\
- 5, 56633, 1024)
+ 5, 59460, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.r_out[2]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.body.aerodynamics.v_rel_0[2]", 1,\
- 5, 56634, 1024)
+ 5, 59461, 1024)
 DeclareAlias2("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.r_out[3]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.body.aerodynamics.v_rel_0[3]", 1,\
- 5, 56635, 1024)
+ 5, 59462, 1024)
 DeclareVariable("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.R1.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("vehicle.driverEnvironment.absoluteSensor.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.R1.T[1, 2]",\
@@ -5138,13 +5138,13 @@ DeclareAlias2("vehicle.driverEnvironment.fixedTranslation.frame_b.R.T[3, 3]", \
  5, 269, 0)
 DeclareAlias2("vehicle.driverEnvironment.fixedTranslation.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 0)
+"vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 0)
 DeclareAlias2("vehicle.driverEnvironment.fixedTranslation.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 0)
+"vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 0)
 DeclareAlias2("vehicle.driverEnvironment.fixedTranslation.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 0)
+"vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 0)
 DeclareVariable("vehicle.driverEnvironment.fixedTranslation.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driverEnvironment.fixedTranslation.frame_b.f[2]", \
@@ -5320,13 +5320,13 @@ DeclareAlias2("vehicle.driverEnvironment.transform_1.frame_b.R.T[3, 3]", \
  5, 269, 0)
 DeclareAlias2("vehicle.driverEnvironment.transform_1.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 0)
+"vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 0)
 DeclareAlias2("vehicle.driverEnvironment.transform_1.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 0)
+"vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 0)
 DeclareAlias2("vehicle.driverEnvironment.transform_1.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 0)
+"vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 0)
 DeclareVariable("vehicle.driverEnvironment.transform_1.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.driverEnvironment.transform_1.frame_b.f[2]", \
@@ -5392,10 +5392,10 @@ DeclareAlias2("vehicle.driverEnvironment.steeringAngleRouting.steeringAngleInput
  "Steering angle in rad [rad]", "vehicle.driverEnvironment.steeringConverter.position.phi", 1,\
  1, 2, 0)
 DeclareAlias2("vehicle.driverEnvironment.yawRateRouting.yawRateOutput", \
-"Yaw rate of vehicle [rad/s]", "vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255,\
+"Yaw rate of vehicle [rad/s]", "vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082,\
  0)
 DeclareAlias2("vehicle.driverEnvironment.yawRateRouting.yawRateInput", \
-"Yaw rate of vehicle [rad/s]", "vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255,\
+"Yaw rate of vehicle [rad/s]", "vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082,\
  0)
 DeclareAlias2("vehicle.driverEnvironment.steeringTorqueRouting.steeringTorqueOutput",\
  "Steering torque in N.m [N.m]", "controlBus.driverBus.steeringWheelTorque", 1, 3,\
@@ -5430,10 +5430,10 @@ DeclareVariable("vehicle.driverEnvironment.gearRouting.maxGearInput", \
 "Max gear of vehicle [:#(type=Integer)]", 6, 0.0,0.0,0.0,0,517)
 DeclareAlias2("vehicle.driverEnvironment.redLineFromBusRouting.redLineOutput", \
 "Engine Red Line in rev/min [rev/min]", "vehicle.engineController.revLimiter.redLineSource.k", 1,\
- 5, 79523, 0)
+ 5, 83003, 0)
 DeclareAlias2("vehicle.driverEnvironment.redLineFromBusRouting.redLineInput", \
 "Engine Red Line in rev/min [rev/min]", "vehicle.engineController.revLimiter.redLineSource.k", 1,\
- 5, 79523, 0)
+ 5, 83003, 0)
 DeclareVariable("vehicle.driverEnvironment.driverBus.acceleratorPedalPosition", \
 "Normalized accelerator pedal position (0=fully released ... 1=fully pressed) [1|1]",\
  0.0, 0.0,1.0,0.0,0,2569)
@@ -5457,9 +5457,9 @@ DeclareVariable("vehicle.driverEnvironment.shiftConnector.intoGear.s", \
 DeclareVariable("vehicle.driverEnvironment.shiftConnector.intoGear.f", \
 "Cut force directed into flange [N]", 0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.driverEnvironment.clutchLocked.clutchLockedOutput", \
-"=1 if clutch is locked", "controlBus.transmissionBus.clutchLocked", 1, 3, 152, 0)
+"=1 if clutch is locked", "controlBus.transmissionBus.clutchLocked", 1, 3, 153, 0)
 DeclareAlias2("vehicle.driverEnvironment.clutchLocked.clutchLockedInput", \
-"=1 if clutch is locked", "controlBus.transmissionBus.clutchLocked", 1, 3, 152, 0)
+"=1 if clutch is locked", "controlBus.transmissionBus.clutchLocked", 1, 3, 153, 0)
 DeclareVariable("vehicle.driverEnvironment.shiftActuation.initialGear", \
 "Initial gear that should be engaged [:#(type=Integer)]", 0, 0.0,0.0,0.0,0,517)
 DeclareVariable("vehicle.driverEnvironment.shiftActuation.nForwardGears", \
@@ -5633,48 +5633,48 @@ DeclareVariable("vehicle.brakes.wheelHub_1.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.wheelHub_1.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_1.rim.mass.phi", 1, 1, 26, 4)
+ "vehicle.wheel_1.rim.mass.phi", 1, 1, 28, 4)
 DeclareVariable("vehicle.brakes.wheelHub_1.flange.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("vehicle.brakes.wheelHub_1.bearingFrame.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 4)
 DeclareAlias2("vehicle.brakes.wheelHub_1.bearingFrame.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 4)
 DeclareAlias2("vehicle.brakes.wheelHub_1.bearingFrame.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 4)
 DeclareAlias2("vehicle.brakes.wheelHub_1.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_1.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_1.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_1.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_1.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_1.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_1.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_1.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_1.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_1.bearingFrame.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_1.bearingFrame.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_1.bearingFrame.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareVariable("vehicle.brakes.wheelHub_1.bearingFrame.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.brakes.wheelHub_1.bearingFrame.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -5691,48 +5691,48 @@ DeclareVariable("vehicle.brakes.wheelHub_2.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.wheelHub_2.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_2.rim.mass.phi", 1, 1, 28, 4)
+ "vehicle.wheel_2.rim.mass.phi", 1, 1, 32, 4)
 DeclareVariable("vehicle.brakes.wheelHub_2.flange.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("vehicle.brakes.wheelHub_2.bearingFrame.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 4)
 DeclareAlias2("vehicle.brakes.wheelHub_2.bearingFrame.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 4)
 DeclareAlias2("vehicle.brakes.wheelHub_2.bearingFrame.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 4)
 DeclareAlias2("vehicle.brakes.wheelHub_2.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 0)
+ 5, 67853, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_2.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 0)
+ 5, 67854, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_2.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 0)
+ 5, 67855, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_2.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 0)
+ 5, 66246, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_2.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 0)
+ 5, 66247, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_2.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 0)
+ 5, 66248, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_2.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 0)
+ 5, 66249, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_2.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 0)
+ 5, 66250, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_2.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 0)
+ 5, 66251, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_2.bearingFrame.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_2.bearingFrame.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_2.bearingFrame.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 0)
 DeclareVariable("vehicle.brakes.wheelHub_2.bearingFrame.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.brakes.wheelHub_2.bearingFrame.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -5749,48 +5749,48 @@ DeclareVariable("vehicle.brakes.wheelHub_3.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.wheelHub_3.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 4)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 4)
 DeclareVariable("vehicle.brakes.wheelHub_3.flange.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("vehicle.brakes.wheelHub_3.bearingFrame.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 4)
 DeclareAlias2("vehicle.brakes.wheelHub_3.bearingFrame.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 4)
 DeclareAlias2("vehicle.brakes.wheelHub_3.bearingFrame.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 4)
 DeclareAlias2("vehicle.brakes.wheelHub_3.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 0)
+ 5, 70465, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_3.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 0)
+ 5, 70466, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_3.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 0)
+ 5, 70467, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_3.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 0)
+ 5, 68857, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_3.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 0)
+ 5, 68858, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_3.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 0)
+ 5, 68859, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_3.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 0)
+ 5, 68860, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_3.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 0)
+ 5, 68861, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_3.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 0)
+ 5, 68862, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_3.bearingFrame.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_3.bearingFrame.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_3.bearingFrame.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 0)
 DeclareVariable("vehicle.brakes.wheelHub_3.bearingFrame.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.brakes.wheelHub_3.bearingFrame.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -5807,48 +5807,48 @@ DeclareVariable("vehicle.brakes.wheelHub_4.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.wheelHub_4.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 4)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 4)
 DeclareVariable("vehicle.brakes.wheelHub_4.flange.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("vehicle.brakes.wheelHub_4.bearingFrame.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 4)
 DeclareAlias2("vehicle.brakes.wheelHub_4.bearingFrame.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 4)
 DeclareAlias2("vehicle.brakes.wheelHub_4.bearingFrame.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 4)
 DeclareAlias2("vehicle.brakes.wheelHub_4.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 0)
+ 5, 73077, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_4.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 0)
+ 5, 73078, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_4.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 0)
+ 5, 73079, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_4.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 0)
+ 5, 71469, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_4.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 0)
+ 5, 71470, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_4.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 0)
+ 5, 71471, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_4.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 0)
+ 5, 71472, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_4.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 0)
+ 5, 71473, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_4.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 0)
+ 5, 71474, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_4.bearingFrame.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_4.bearingFrame.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 0)
 DeclareAlias2("vehicle.brakes.wheelHub_4.bearingFrame.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 0)
 DeclareVariable("vehicle.brakes.wheelHub_4.bearingFrame.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.brakes.wheelHub_4.bearingFrame.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -5867,54 +5867,54 @@ DeclareVariable("vehicle.brakes.end_2.flange.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.end_2.flange.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_2.rim.mass.phi", 1, 1, 28, 4)
+ "vehicle.wheel_2.rim.mass.phi", 1, 1, 32, 4)
 DeclareVariable("vehicle.brakes.end_2.flange.flange.tau", "Cut torque in the flange [N.m]",\
  0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.end_2.flange.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 4)
 DeclareAlias2("vehicle.brakes.end_2.flange.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 4)
 DeclareAlias2("vehicle.brakes.end_2.flange.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 4)
 DeclareAlias2("vehicle.brakes.end_2.flange.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 0)
+ 5, 67853, 0)
 DeclareAlias2("vehicle.brakes.end_2.flange.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 0)
+ 5, 67854, 0)
 DeclareAlias2("vehicle.brakes.end_2.flange.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 0)
+ 5, 67855, 0)
 DeclareAlias2("vehicle.brakes.end_2.flange.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 0)
+ 5, 66246, 0)
 DeclareAlias2("vehicle.brakes.end_2.flange.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 0)
+ 5, 66247, 0)
 DeclareAlias2("vehicle.brakes.end_2.flange.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 0)
+ 5, 66248, 0)
 DeclareAlias2("vehicle.brakes.end_2.flange.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 0)
+ 5, 66249, 0)
 DeclareAlias2("vehicle.brakes.end_2.flange.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 0)
+ 5, 66250, 0)
 DeclareAlias2("vehicle.brakes.end_2.flange.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 0)
+ 5, 66251, 0)
 DeclareAlias2("vehicle.brakes.end_2.flange.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 0)
 DeclareAlias2("vehicle.brakes.end_2.flange.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 0)
 DeclareAlias2("vehicle.brakes.end_2.flange.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 0)
 DeclareVariable("vehicle.brakes.end_2.flange.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.end_2.flange.bearingFrame.f[2]", \
@@ -5929,49 +5929,49 @@ DeclareVariable("vehicle.brakes.end_2.flange.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 1028)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 1028)
 DeclareAlias2("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 1028)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 1028)
 DeclareAlias2("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 1028)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 1028)
 DeclareAlias2("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 1024)
+ 5, 67853, 1024)
 DeclareAlias2("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 1024)
+ 5, 67854, 1024)
 DeclareAlias2("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 1024)
+ 5, 67855, 1024)
 DeclareAlias2("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 1024)
+ 5, 66246, 1024)
 DeclareAlias2("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 1024)
+ 5, 66247, 1024)
 DeclareAlias2("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 1024)
+ 5, 66248, 1024)
 DeclareAlias2("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 1024)
+ 5, 66249, 1024)
 DeclareAlias2("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 1024)
+ 5, 66250, 1024)
 DeclareAlias2("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 1024)
+ 5, 66251, 1024)
 DeclareAlias2("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 1024)
 DeclareAlias2("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 1024)
 DeclareAlias2("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 1024)
 DeclareVariable("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.f[2]", \
@@ -5987,20 +5987,20 @@ DeclareVariable("vehicle.brakes.end_2.zeroForceAndTorque.frame_a.t[3]", \
 DeclareVariable("vehicle.brakes.end_2.zeroTorque1D.useSupport", "= true, if support flange enabled, otherwise implicitly grounded [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("vehicle.brakes.end_2.zeroTorque1D.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_2.rim.mass.phi", 1, 1, 28, 4)
+ "vehicle.wheel_2.rim.mass.phi", 1, 1, 32, 4)
 DeclareVariable("vehicle.brakes.end_2.zeroTorque1D.flange.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.end_2.zeroTorque1D.phi_support", \
 "Absolute angle of support flange [rad|deg]", 0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.end_2.zeroTorque1D.phi", "Angle of flange with respect to support (= flange.phi - support.phi) [rad|deg]",\
- "vehicle.wheel_2.rim.mass.phi", 1, 1, 28, 0)
+ "vehicle.wheel_2.rim.mass.phi", 1, 1, 32, 0)
 DeclareAlias2("vehicle.brakes.end_2.zeroTorque1D.der(phi)", "der(Angle of flange with respect to support (= flange.phi - support.phi)) [rad/s]",\
- "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 0)
+ "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 0)
 DeclareVariable("vehicle.brakes.end_2.zeroTorque1D.tau_constant", \
 "Constant torque (if negative, torque is acting as load in positive direction of rotation) [N.m]",\
  0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.end_2.zeroTorque1D.w", "Angular velocity of flange with respect to support (= der(phi)) [rad/s]",\
- "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 0)
+ "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 0)
 DeclareVariable("vehicle.brakes.end_2.zeroTorque1D.tau", "Accelerating torque acting at flange (= -flange.tau) [N.m]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.end_4.includeBearingConnector", "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
@@ -6009,54 +6009,54 @@ DeclareVariable("vehicle.brakes.end_4.flange.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.end_4.flange.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 4)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 4)
 DeclareVariable("vehicle.brakes.end_4.flange.flange.tau", "Cut torque in the flange [N.m]",\
  0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.end_4.flange.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 4)
 DeclareAlias2("vehicle.brakes.end_4.flange.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 4)
 DeclareAlias2("vehicle.brakes.end_4.flange.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 4)
 DeclareAlias2("vehicle.brakes.end_4.flange.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 0)
+ 5, 73077, 0)
 DeclareAlias2("vehicle.brakes.end_4.flange.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 0)
+ 5, 73078, 0)
 DeclareAlias2("vehicle.brakes.end_4.flange.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 0)
+ 5, 73079, 0)
 DeclareAlias2("vehicle.brakes.end_4.flange.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 0)
+ 5, 71469, 0)
 DeclareAlias2("vehicle.brakes.end_4.flange.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 0)
+ 5, 71470, 0)
 DeclareAlias2("vehicle.brakes.end_4.flange.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 0)
+ 5, 71471, 0)
 DeclareAlias2("vehicle.brakes.end_4.flange.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 0)
+ 5, 71472, 0)
 DeclareAlias2("vehicle.brakes.end_4.flange.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 0)
+ 5, 71473, 0)
 DeclareAlias2("vehicle.brakes.end_4.flange.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 0)
+ 5, 71474, 0)
 DeclareAlias2("vehicle.brakes.end_4.flange.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 0)
 DeclareAlias2("vehicle.brakes.end_4.flange.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 0)
 DeclareAlias2("vehicle.brakes.end_4.flange.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 0)
 DeclareVariable("vehicle.brakes.end_4.flange.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.end_4.flange.bearingFrame.f[2]", \
@@ -6071,49 +6071,49 @@ DeclareVariable("vehicle.brakes.end_4.flange.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 1028)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 1028)
 DeclareAlias2("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 1028)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 1028)
 DeclareAlias2("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 1028)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 1028)
 DeclareAlias2("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 1024)
+ 5, 73077, 1024)
 DeclareAlias2("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 1024)
+ 5, 73078, 1024)
 DeclareAlias2("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 1024)
+ 5, 73079, 1024)
 DeclareAlias2("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 1024)
+ 5, 71469, 1024)
 DeclareAlias2("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 1024)
+ 5, 71470, 1024)
 DeclareAlias2("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 1024)
+ 5, 71471, 1024)
 DeclareAlias2("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 1024)
+ 5, 71472, 1024)
 DeclareAlias2("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 1024)
+ 5, 71473, 1024)
 DeclareAlias2("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 1024)
+ 5, 71474, 1024)
 DeclareAlias2("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 1024)
 DeclareAlias2("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 1024)
 DeclareAlias2("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 1024)
 DeclareVariable("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.f[2]", \
@@ -6129,20 +6129,20 @@ DeclareVariable("vehicle.brakes.end_4.zeroForceAndTorque.frame_a.t[3]", \
 DeclareVariable("vehicle.brakes.end_4.zeroTorque1D.useSupport", "= true, if support flange enabled, otherwise implicitly grounded [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("vehicle.brakes.end_4.zeroTorque1D.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 4)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 4)
 DeclareVariable("vehicle.brakes.end_4.zeroTorque1D.flange.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.end_4.zeroTorque1D.phi_support", \
 "Absolute angle of support flange [rad|deg]", 0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.end_4.zeroTorque1D.phi", "Angle of flange with respect to support (= flange.phi - support.phi) [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 0)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 0)
 DeclareAlias2("vehicle.brakes.end_4.zeroTorque1D.der(phi)", "der(Angle of flange with respect to support (= flange.phi - support.phi)) [rad/s]",\
- "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 0)
+ "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 0)
 DeclareVariable("vehicle.brakes.end_4.zeroTorque1D.tau_constant", \
 "Constant torque (if negative, torque is acting as load in positive direction of rotation) [N.m]",\
  0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.end_4.zeroTorque1D.w", "Angular velocity of flange with respect to support (= der(phi)) [rad/s]",\
- "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 0)
+ "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 0)
 DeclareVariable("vehicle.brakes.end_4.zeroTorque1D.tau", "Accelerating torque acting at flange (= -flange.tau) [N.m]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.end_3.includeBearingConnector", "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
@@ -6151,54 +6151,54 @@ DeclareVariable("vehicle.brakes.end_3.flange.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.end_3.flange.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 4)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 4)
 DeclareVariable("vehicle.brakes.end_3.flange.flange.tau", "Cut torque in the flange [N.m]",\
  0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.end_3.flange.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 4)
 DeclareAlias2("vehicle.brakes.end_3.flange.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 4)
 DeclareAlias2("vehicle.brakes.end_3.flange.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 4)
 DeclareAlias2("vehicle.brakes.end_3.flange.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 0)
+ 5, 70465, 0)
 DeclareAlias2("vehicle.brakes.end_3.flange.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 0)
+ 5, 70466, 0)
 DeclareAlias2("vehicle.brakes.end_3.flange.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 0)
+ 5, 70467, 0)
 DeclareAlias2("vehicle.brakes.end_3.flange.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 0)
+ 5, 68857, 0)
 DeclareAlias2("vehicle.brakes.end_3.flange.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 0)
+ 5, 68858, 0)
 DeclareAlias2("vehicle.brakes.end_3.flange.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 0)
+ 5, 68859, 0)
 DeclareAlias2("vehicle.brakes.end_3.flange.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 0)
+ 5, 68860, 0)
 DeclareAlias2("vehicle.brakes.end_3.flange.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 0)
+ 5, 68861, 0)
 DeclareAlias2("vehicle.brakes.end_3.flange.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 0)
+ 5, 68862, 0)
 DeclareAlias2("vehicle.brakes.end_3.flange.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 0)
 DeclareAlias2("vehicle.brakes.end_3.flange.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 0)
 DeclareAlias2("vehicle.brakes.end_3.flange.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 0)
 DeclareVariable("vehicle.brakes.end_3.flange.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.end_3.flange.bearingFrame.f[2]", \
@@ -6213,49 +6213,49 @@ DeclareVariable("vehicle.brakes.end_3.flange.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 1028)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 1028)
 DeclareAlias2("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 1028)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 1028)
 DeclareAlias2("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 1028)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 1028)
 DeclareAlias2("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 1024)
+ 5, 70465, 1024)
 DeclareAlias2("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 1024)
+ 5, 70466, 1024)
 DeclareAlias2("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 1024)
+ 5, 70467, 1024)
 DeclareAlias2("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 1024)
+ 5, 68857, 1024)
 DeclareAlias2("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 1024)
+ 5, 68858, 1024)
 DeclareAlias2("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 1024)
+ 5, 68859, 1024)
 DeclareAlias2("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 1024)
+ 5, 68860, 1024)
 DeclareAlias2("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 1024)
+ 5, 68861, 1024)
 DeclareAlias2("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 1024)
+ 5, 68862, 1024)
 DeclareAlias2("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 1024)
 DeclareAlias2("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 1024)
 DeclareAlias2("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 1024)
 DeclareVariable("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.f[2]", \
@@ -6271,20 +6271,20 @@ DeclareVariable("vehicle.brakes.end_3.zeroForceAndTorque.frame_a.t[3]", \
 DeclareVariable("vehicle.brakes.end_3.zeroTorque1D.useSupport", "= true, if support flange enabled, otherwise implicitly grounded [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("vehicle.brakes.end_3.zeroTorque1D.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 4)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 4)
 DeclareVariable("vehicle.brakes.end_3.zeroTorque1D.flange.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.end_3.zeroTorque1D.phi_support", \
 "Absolute angle of support flange [rad|deg]", 0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.end_3.zeroTorque1D.phi", "Angle of flange with respect to support (= flange.phi - support.phi) [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 0)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 0)
 DeclareAlias2("vehicle.brakes.end_3.zeroTorque1D.der(phi)", "der(Angle of flange with respect to support (= flange.phi - support.phi)) [rad/s]",\
- "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 0)
+ "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 0)
 DeclareVariable("vehicle.brakes.end_3.zeroTorque1D.tau_constant", \
 "Constant torque (if negative, torque is acting as load in positive direction of rotation) [N.m]",\
  0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.end_3.zeroTorque1D.w", "Angular velocity of flange with respect to support (= der(phi)) [rad/s]",\
- "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 0)
+ "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 0)
 DeclareVariable("vehicle.brakes.end_3.zeroTorque1D.tau", "Accelerating torque acting at flange (= -flange.tau) [N.m]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.end_1.includeBearingConnector", "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
@@ -6293,54 +6293,54 @@ DeclareVariable("vehicle.brakes.end_1.flange.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.end_1.flange.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_1.rim.mass.phi", 1, 1, 26, 4)
+ "vehicle.wheel_1.rim.mass.phi", 1, 1, 28, 4)
 DeclareVariable("vehicle.brakes.end_1.flange.flange.tau", "Cut torque in the flange [N.m]",\
  0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.end_1.flange.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 4)
 DeclareAlias2("vehicle.brakes.end_1.flange.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 4)
 DeclareAlias2("vehicle.brakes.end_1.flange.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 4)
 DeclareAlias2("vehicle.brakes.end_1.flange.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.brakes.end_1.flange.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.brakes.end_1.flange.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.brakes.end_1.flange.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.brakes.end_1.flange.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.brakes.end_1.flange.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.brakes.end_1.flange.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.brakes.end_1.flange.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.brakes.end_1.flange.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.brakes.end_1.flange.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.brakes.end_1.flange.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.brakes.end_1.flange.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareVariable("vehicle.brakes.end_1.flange.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.end_1.flange.bearingFrame.f[2]", \
@@ -6355,49 +6355,49 @@ DeclareVariable("vehicle.brakes.end_1.flange.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 1028)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 1028)
 DeclareAlias2("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 1028)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 1028)
 DeclareAlias2("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 1028)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 1028)
 DeclareAlias2("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 1024)
+ 5, 64570, 1024)
 DeclareAlias2("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 1024)
+ 5, 64571, 1024)
 DeclareAlias2("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 1024)
+ 5, 64572, 1024)
 DeclareAlias2("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 1024)
+ 5, 62981, 1024)
 DeclareAlias2("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 1024)
+ 5, 62982, 1024)
 DeclareAlias2("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 1024)
+ 5, 62983, 1024)
 DeclareAlias2("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 1024)
+ 5, 62984, 1024)
 DeclareAlias2("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 1024)
+ 5, 62985, 1024)
 DeclareAlias2("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 1024)
+ 5, 62986, 1024)
 DeclareAlias2("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 1024)
 DeclareAlias2("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 1024)
 DeclareAlias2("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 1024)
 DeclareVariable("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.f[2]", \
@@ -6413,20 +6413,20 @@ DeclareVariable("vehicle.brakes.end_1.zeroForceAndTorque.frame_a.t[3]", \
 DeclareVariable("vehicle.brakes.end_1.zeroTorque1D.useSupport", "= true, if support flange enabled, otherwise implicitly grounded [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("vehicle.brakes.end_1.zeroTorque1D.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_1.rim.mass.phi", 1, 1, 26, 4)
+ "vehicle.wheel_1.rim.mass.phi", 1, 1, 28, 4)
 DeclareVariable("vehicle.brakes.end_1.zeroTorque1D.flange.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.end_1.zeroTorque1D.phi_support", \
 "Absolute angle of support flange [rad|deg]", 0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.end_1.zeroTorque1D.phi", "Angle of flange with respect to support (= flange.phi - support.phi) [rad|deg]",\
- "vehicle.wheel_1.rim.mass.phi", 1, 1, 26, 0)
+ "vehicle.wheel_1.rim.mass.phi", 1, 1, 28, 0)
 DeclareAlias2("vehicle.brakes.end_1.zeroTorque1D.der(phi)", "der(Angle of flange with respect to support (= flange.phi - support.phi)) [rad/s]",\
- "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 0)
+ "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 0)
 DeclareVariable("vehicle.brakes.end_1.zeroTorque1D.tau_constant", \
 "Constant torque (if negative, torque is acting as load in positive direction of rotation) [N.m]",\
  0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.end_1.zeroTorque1D.w", "Angular velocity of flange with respect to support (= der(phi)) [rad/s]",\
- "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 0)
+ "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 0)
 DeclareVariable("vehicle.brakes.end_1.zeroTorque1D.tau", "Accelerating torque acting at flange (= -flange.tau) [N.m]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.systemMass.calculateTotalMass", "Enable the calculation of the total system mass [:#(type=Boolean)]",\
@@ -6616,11 +6616,11 @@ DeclareAlias2("vehicle.brakes.chassisFrame.R.T[3, 2]", "Transformation matrix fr
 DeclareAlias2("vehicle.brakes.chassisFrame.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
  "totalMass.T[3, 3]", 1, 5, 269, 0)
 DeclareAlias2("vehicle.brakes.chassisFrame.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 0)
+ "vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 0)
 DeclareAlias2("vehicle.brakes.chassisFrame.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 0)
+ "vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 0)
 DeclareAlias2("vehicle.brakes.chassisFrame.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 0)
+ "vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 0)
 DeclareVariable("vehicle.brakes.chassisFrame.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.chassisFrame.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -6634,13 +6634,13 @@ DeclareVariable("vehicle.brakes.chassisFrame.t[2]", "Cut-torque resolved in conn
 DeclareVariable("vehicle.brakes.chassisFrame.t[3]", "Cut-torque resolved in connector frame [N.m]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.summary.wheelSpeed1", "Wheel speed of wheel 1 [rad/s]",\
- "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 0)
+ "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 0)
 DeclareAlias2("vehicle.brakes.summary.wheelSpeed2", "Wheel speed of wheel 2 [rad/s]",\
- "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 0)
+ "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 0)
 DeclareAlias2("vehicle.brakes.summary.wheelSpeed3", "Wheel speed of wheel 3 [rad/s]",\
- "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 0)
+ "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 0)
 DeclareAlias2("vehicle.brakes.summary.wheelSpeed4", "Wheel speed of wheel 4 [rad/s]",\
- "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 0)
+ "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 0)
 DeclareVariable("vehicle.brakes.summary.brakeForce1", "Force applied to brake 1 [N]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.summary.brakeForce2", "Force applied to brake 2 [N]",\
@@ -6658,45 +6658,45 @@ DeclareVariable("vehicle.brakes.summary.brakeTorque3", "Torque applied to brake 
 DeclareVariable("vehicle.brakes.summary.brakeTorque4", "Torque applied to brake 4 [N.m]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.wheelSpeed_2.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_2.rim.mass.phi", 1, 1, 28, 4)
+ "vehicle.wheel_2.rim.mass.phi", 1, 1, 32, 4)
 DeclareAlias2("vehicle.brakes.wheelSpeed_2.flange.der(phi)", "der(Absolute rotation angle of flange) [rad/s]",\
- "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 4)
+ "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 4)
 DeclareVariable("vehicle.brakes.wheelSpeed_2.flange.tau", "Cut torque in the flange [N.m]",\
  0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.wheelSpeed_2.w", "Absolute angular velocity of flange as output signal [rad/s]",\
- "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 0)
+ "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 0)
 DeclareAlias2("vehicle.brakes.wheelSpeed_4.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 4)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 4)
 DeclareAlias2("vehicle.brakes.wheelSpeed_4.flange.der(phi)", "der(Absolute rotation angle of flange) [rad/s]",\
- "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 4)
+ "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 4)
 DeclareVariable("vehicle.brakes.wheelSpeed_4.flange.tau", "Cut torque in the flange [N.m]",\
  0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.wheelSpeed_4.w", "Absolute angular velocity of flange as output signal [rad/s]",\
- "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 0)
+ "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 0)
 DeclareAlias2("vehicle.brakes.wheelSpeed_3.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 4)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 4)
 DeclareAlias2("vehicle.brakes.wheelSpeed_3.flange.der(phi)", "der(Absolute rotation angle of flange) [rad/s]",\
- "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 4)
+ "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 4)
 DeclareVariable("vehicle.brakes.wheelSpeed_3.flange.tau", "Cut torque in the flange [N.m]",\
  0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.wheelSpeed_3.w", "Absolute angular velocity of flange as output signal [rad/s]",\
- "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 0)
+ "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 0)
 DeclareAlias2("vehicle.brakes.wheelSpeed_1.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_1.rim.mass.phi", 1, 1, 26, 4)
+ "vehicle.wheel_1.rim.mass.phi", 1, 1, 28, 4)
 DeclareAlias2("vehicle.brakes.wheelSpeed_1.flange.der(phi)", "der(Absolute rotation angle of flange) [rad/s]",\
- "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 4)
+ "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 4)
 DeclareVariable("vehicle.brakes.wheelSpeed_1.flange.tau", "Cut torque in the flange [N.m]",\
  0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.wheelSpeed_1.w", "Absolute angular velocity of flange as output signal [rad/s]",\
- "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 0)
+ "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 0)
 DeclareAlias2("vehicle.brakes.brakesBus.wheelSpeed_1", "Individual wheel speed (wheel 1 = front left wheel) [rad/s]",\
- "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 1028)
+ "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 1028)
 DeclareAlias2("vehicle.brakes.brakesBus.wheelSpeed_2", "Individual wheel speed (wheel 2 = front right wheel) [rad/s]",\
- "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 1028)
+ "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 1028)
 DeclareAlias2("vehicle.brakes.brakesBus.wheelSpeed_3", "Individual wheel speed (wheel 3 = rear left wheel) [rad/s]",\
- "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 1028)
+ "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 1028)
 DeclareAlias2("vehicle.brakes.brakesBus.wheelSpeed_4", "Individual wheel speed (wheel 4 = rear right wheel) [rad/s]",\
- "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 1028)
+ "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 1028)
 DeclareVariable("vehicle.brakes.brake_1.leftWheel", "Left wheel brake [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.brakes.brake_1.animation", "Enable animation [:#(type=Boolean)]",\
@@ -6709,54 +6709,54 @@ DeclareVariable("vehicle.brakes.brake_1.wheelHub.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_1.rim.mass.phi", 1, 1, 26, 4)
+ "vehicle.wheel_1.rim.mass.phi", 1, 1, 28, 4)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.flange.tau", "Cut torque in the flange [N.m]",\
  "vehicle.brakes.wheelHub_1.flange.tau", 1, 5, 1551, 132)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 4)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 4)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 4)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareAlias2("vehicle.brakes.brake_1.wheelHub.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.wheelHub_1.bearingFrame.f[1]", 1,\
  5, 1552, 132)
@@ -6830,7 +6830,7 @@ DeclareParameter("vehicle.brakes.brake_1.n_y[2]", "Vector along y-axis of princi
 DeclareParameter("vehicle.brakes.brake_1.n_y[3]", "Vector along y-axis of principal moment of inertia of the caliper resolved in flange_a [1]",\
  21, 0, 0.0,0.0,0.0,0,560)
 DeclareVariable("vehicle.brakes.brake_1.useThermalModel", "Enable the brake thermal model [:#(type=Boolean)]",\
- false, 0.0,0.0,0.0,0,515)
+ true, 0.0,0.0,0.0,0,515)
 DeclareParameter("vehicle.brakes.brake_1.DiscSpecificHeat", "Specific Heat Capacity of brake disc [J/(kg.K)]",\
  22, 440, 0.0,0.0,0.0,0,560)
 DeclareParameter("vehicle.brakes.brake_1.T_start", "Fixed temperature if not useThermalModel or initial temperature [K|degC]",\
@@ -6872,40 +6872,40 @@ DeclareVariable("vehicle.brakes.brake_1.torqueReaction.frame_a.r_0[3]", \
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("vehicle.brakes.brake_1.torqueReaction.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.brakes.brake_1.torqueReaction.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.brakes.brake_1.torqueReaction.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.brakes.brake_1.torqueReaction.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.brakes.brake_1.torqueReaction.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.brakes.brake_1.torqueReaction.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.brakes.brake_1.torqueReaction.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.brakes.brake_1.torqueReaction.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.brakes.brake_1.torqueReaction.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.brakes.brake_1.torqueReaction.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.brakes.brake_1.torqueReaction.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.brakes.brake_1.torqueReaction.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareVariable("vehicle.brakes.brake_1.torqueReaction.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_1.torqueReaction.frame_a.f[2]", \
@@ -6924,15 +6924,19 @@ DeclareVariable("vehicle.brakes.brake_1.torqueReaction.phi_frame", "[rad|deg]", 
 DeclareAlias2("vehicle.brakes.brake_1.torqueReaction.der(phi_frame)", "[rad/s]",\
  "vehicle.brakes.brake_1.torqueReaction.flange_b.der(phi)", 1, 6, 6, 1024)
 DeclareVariable("vehicle.brakes.brake_1.brake.useHeatPort", "=true, if heatPort is enabled [:#(type=Boolean)]",\
- false, 0.0,0.0,0.0,0,1539)
+ true, 0.0,0.0,0.0,0,1539)
+DeclareAlias2("vehicle.brakes.brake_1.brake.heatPort.T", "Port temperature [K|degC]",\
+ "vehicle.brakes.brake_1.disc.thermalMass.T", 1, 1, 8, 4)
+DeclareAlias2("vehicle.brakes.brake_1.brake.heatPort.Q_flow", "Heat flow rate (positive if flowing from outside into the component) [W]",\
+ "vehicle.brakes.brake_1.brake.lossPower", -1, 5, 1779, 132)
 DeclareVariable("vehicle.brakes.brake_1.brake.lossPower", "Loss power leaving component via heatPort (> 0, if heat is flowing out of component) [W]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.brake_1.brake.flange_a.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_1.rim.mass.phi", 1, 1, 26, 4)
+ "vehicle.wheel_1.rim.mass.phi", 1, 1, 28, 4)
 DeclareAlias2("vehicle.brakes.brake_1.brake.flange_a.tau", "Cut torque in the flange [N.m]",\
  "vehicle.brakes.summary.brakeTorque1", 1, 5, 1738, 132)
 DeclareAlias2("vehicle.brakes.brake_1.brake.flange_b.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_1.rim.mass.phi", 1, 1, 26, 4)
+ "vehicle.wheel_1.rim.mass.phi", 1, 1, 28, 4)
 DeclareVariable("vehicle.brakes.brake_1.brake.flange_b.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.brake_1.brake.support.phi", "Absolute rotation angle of flange [rad|deg]",\
@@ -6969,7 +6973,7 @@ DeclareAlias2("vehicle.brakes.brake_1.brake.friction.tau", "Torque between flang
  "vehicle.brakes.summary.brakeTorque1", -1, 5, 1738, 0)
 DeclareAlias2("vehicle.brakes.brake_1.brake.friction.flange_a.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1,\
- 1, 26, 4)
+ 1, 28, 4)
 DeclareAlias2("vehicle.brakes.brake_1.brake.friction.flange_a.tau", \
 "Cut torque in the flange [N.m]", "vehicle.brakes.summary.brakeTorque1", 1, 5, 1738,\
  132)
@@ -7034,10 +7038,10 @@ DeclareVariable("vehicle.brakes.brake_1.disc.flange_a.includeBearingConnector", 
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_1.disc.flange_a.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1,\
- 1, 26, 4)
+ 1, 28, 4)
 DeclareAlias2("vehicle.brakes.brake_1.disc.flange_a.flange.der(phi)", \
 "der(Absolute rotation angle of flange) [rad/s]", "vehicle.wheel_1.rim.mass.w", 1,\
- 1, 27, 4)
+ 1, 29, 4)
 DeclareVariable("vehicle.brakes.brake_1.disc.flange_a.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.brakes.brake_1.disc.flange_b.includeBearingConnector", \
@@ -7045,13 +7049,13 @@ DeclareVariable("vehicle.brakes.brake_1.disc.flange_b.includeBearingConnector", 
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_1.disc.flange_b.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1,\
- 1, 26, 4)
+ 1, 28, 4)
 DeclareVariable("vehicle.brakes.brake_1.disc.flange_b.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_1.disc.includeBearingConnector", \
 "Include the bearing frame connector [:#(type=Boolean)]", true, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.brakes.brake_1.disc.useHeatPort", "Enable the heatPort when true [:#(type=Boolean)]",\
- false, 0.0,0.0,0.0,0,515)
+ true, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.brakes.brake_1.disc.T", "Fixed temperature if not useHeatPort [K|degC]",\
  288.15, 0.0,1E+100,300.0,0,513)
 DeclareVariable("vehicle.brakes.brake_1.disc.SpecificHeat", "Specific Heat Capacity of Material [J/(kg.K)]",\
@@ -7059,7 +7063,24 @@ DeclareVariable("vehicle.brakes.brake_1.disc.SpecificHeat", "Specific Heat Capac
 DeclareVariable("vehicle.brakes.brake_1.disc.m_Thermal", "Thermal Mass of shaft [kg]",\
  0.0, 0.0,1E+100,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_1.disc.Temp", "Temperature of heat Port [K|degC]",\
- "vehicle.brakes.brake_1.disc.T", 1, 5, 1811, 0)
+ "vehicle.brakes.brake_1.disc.thermalMass.T", 1, 1, 8, 0)
+DeclareAlias2("vehicle.brakes.brake_1.disc.heatPort.T", "Port temperature [K|degC]",\
+ "vehicle.brakes.brake_1.disc.thermalMass.T", 1, 1, 8, 4)
+DeclareVariable("vehicle.brakes.brake_1.disc.heatPort.Q_flow", "Heat flow rate (positive if flowing from outside into the component) [W]",\
+ 0.0, 0.0,0.0,0.0,0,776)
+DeclareVariable("vehicle.brakes.brake_1.disc.thermalMass.C", "Heat capacity of element (= cp*m) [J/K]",\
+ 0.0, 0.0,0.0,0.0,0,513)
+DeclareState("vehicle.brakes.brake_1.disc.thermalMass.T", "Temperature of element [K|degC]",\
+ 8, 0.0, 0.0,1E+100,300.0,0,544)
+DeclareDerivative("vehicle.brakes.brake_1.disc.thermalMass.der(T)", \
+"der(Temperature of element) [K/s]", 0, 0.0,0.0,0.0,0,512)
+DeclareAlias2("vehicle.brakes.brake_1.disc.thermalMass.der_T", "Time derivative of temperature (= der(T)) [K/s]",\
+ "vehicle.brakes.brake_1.disc.thermalMass.der(T)", 1, 6, 8, 0)
+DeclareAlias2("vehicle.brakes.brake_1.disc.thermalMass.port.T", "Port temperature [K|degC]",\
+ "vehicle.brakes.brake_1.disc.thermalMass.T", 1, 1, 8, 4)
+DeclareAlias2("vehicle.brakes.brake_1.disc.thermalMass.port.Q_flow", \
+"Heat flow rate (positive if flowing from outside into the component) [W]", \
+"vehicle.brakes.brake_1.disc.heatPort.Q_flow", 1, 5, 1814, 132)
 DeclareVariable("vehicle.brakes.brake_1.disc.include3D", "Include all 3D effects [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.brakes.brake_1.disc.length", "Length of shaft [m]", \
@@ -7084,41 +7105,41 @@ DeclareVariable("vehicle.brakes.brake_1.disc.rotationalStateSelect", \
 "Controls the selection of states for the rotational degree of freedom [:#(type=StateSelect)]",\
  3, 1.0,5.0,0.0,0,517)
 DeclareAlias2("vehicle.brakes.brake_1.disc.r_0[1]", "Absolute position of flange_a, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.r_0[2]", "Absolute position of flange_a, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.r_0[3]", "Absolute position of flange_a, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.v_0[1]", "Absolute velocity of flange_a, resolved in world frame [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 62405, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 65886, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.v_0[2]", "Absolute velocity of flange_a, resolved in world frame [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 62406, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 65887, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.v_0[3]", "Absolute velocity of flange_a, resolved in world frame [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 62407, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 65888, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.a_0[1]", "Absolute acceleration of flange_a resolved in world frame [m/s2]",\
- "vehicle.brakes.brake_1.disc.body.internal.a_0[1]", 1, 5, 2064, 0)
+ "vehicle.brakes.brake_1.disc.body.internal.a_0[1]", 1, 5, 2066, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.a_0[2]", "Absolute acceleration of flange_a resolved in world frame [m/s2]",\
- "vehicle.brakes.brake_1.disc.body.internal.a_0[2]", 1, 5, 2065, 0)
+ "vehicle.brakes.brake_1.disc.body.internal.a_0[2]", 1, 5, 2067, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.a_0[3]", "Absolute acceleration of flange_a resolved in world frame [m/s2]",\
- "vehicle.brakes.brake_1.disc.body.internal.a_0[3]", 1, 5, 2066, 0)
+ "vehicle.brakes.brake_1.disc.body.internal.a_0[3]", 1, 5, 2068, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.w_a[1]", "Absolute angular velocity of flange_a resolved in flange_a [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.w_a[2]", "Absolute angular velocity of flange_a resolved in flange_a [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.w_a[3]", "Absolute angular velocity of flange_a resolved in flange_a [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.z_a[1]", "Absolute angular acceleration of flange_a resolved in flange_a [rad/s2]",\
- "vehicle.brakes.brake_1.caliper.body.z_a[1]", 1, 5, 2432, 0)
+ "vehicle.brakes.brake_1.caliper.body.z_a[1]", 1, 5, 2434, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.z_a[2]", "Absolute angular acceleration of flange_a resolved in flange_a [rad/s2]",\
- "vehicle.brakes.brake_1.caliper.body.z_a[2]", 1, 5, 2433, 0)
+ "vehicle.brakes.brake_1.caliper.body.z_a[2]", 1, 5, 2435, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.z_a[3]", "Absolute angular acceleration of flange_a resolved in flange_a [rad/s2]",\
- "vehicle.brakes.brake_1.caliper.body.z_a[3]", 1, 5, 2434, 0)
+ "vehicle.brakes.brake_1.caliper.body.z_a[3]", 1, 5, 2436, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.phi", "Angle of rotation of body around axis of rotation [rad|deg]",\
- "vehicle.wheel_1.rim.mass.phi", 1, 1, 26, 0)
+ "vehicle.wheel_1.rim.mass.phi", 1, 1, 28, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.w", "Angular velocity of body around axis of rotation [rad/s]",\
- "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 0)
+ "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.z", "Angular acceleration of body around axis of rotation [rad/s2]",\
- "vehicle.wheel_1.rim.mass.der(w)", 1, 6, 27, 0)
+ "vehicle.wheel_1.rim.mass.der(w)", 1, 6, 29, 0)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.animation", \
 "Enable animation [:#(type=Boolean)]", true, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.colour[1]", \
@@ -7140,7 +7161,7 @@ DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.flange_a.includeBearing
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.flange_a.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1,\
- 1, 26, 4)
+ 1, 28, 4)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.flange_a.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.flange_b.includeBearingConnector",\
@@ -7148,7 +7169,7 @@ DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.flange_b.includeBearing
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.flange_b.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1,\
- 1, 26, 4)
+ 1, 28, 4)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.flange_b.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.includeBearingConnector",\
@@ -7191,34 +7212,34 @@ DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.extra", \
  0.6, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.summary.phi_a", \
 "Angle of rotation at flange_a [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1, 1,\
- 26, 0)
+ 28, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.summary.der(phi_a)", \
 "der(Angle of rotation at flange_a) [rad/s]", "vehicle.wheel_1.rim.mass.w", 1, 1,\
- 27, 0)
+ 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.summary.w_a", \
-"Angular velocity at flange_a [rad/s]", "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 0)
+"Angular velocity at flange_a [rad/s]", "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.summary.der(w_a)", \
 "der(Angular velocity at flange_a) [rad/s2]", "vehicle.wheel_1.rim.mass.der(w)", 1,\
- 6, 27, 0)
+ 6, 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.summary.z_a", \
 "Angular acceleration at flange_a [rad/s2]", "vehicle.wheel_1.rim.mass.der(w)", 1,\
- 6, 27, 0)
+ 6, 29, 0)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.summary.tau_a", \
 "Torque at flange_a [N.m]", 0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.summary.phi_b", \
 "Angle of rotation at flange_b [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1, 1,\
- 26, 0)
+ 28, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.summary.der(phi_b)", \
 "der(Angle of rotation at flange_b) [rad/s]", "vehicle.wheel_1.rim.mass.w", 1, 1,\
- 27, 0)
+ 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.summary.w_b", \
-"Angular velocity at flange_b [rad/s]", "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 0)
+"Angular velocity at flange_b [rad/s]", "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.summary.der(w_b)", \
 "der(Angular velocity at flange_b) [rad/s2]", "vehicle.wheel_1.rim.mass.der(w)", 1,\
- 6, 27, 0)
+ 6, 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.summary.z_b", \
 "Angular acceleration at flange_b [rad/s2]", "vehicle.wheel_1.rim.mass.der(w)", 1,\
- 6, 27, 0)
+ 6, 29, 0)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.summary.tau_b", \
 "Torque at flange_b [N.m]", 0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.summary.phi_rel", \
@@ -7233,49 +7254,49 @@ DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.summary.z_rel", \
 "Twisting angular acceleration along shaft [rad/s2]", 0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 1024)
+ 5, 64570, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 1024)
+ 5, 64571, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 1024)
+ 5, 64572, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 1024)
+ 5, 62981, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 1024)
+ 5, 62982, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 1024)
+ 5, 62983, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 1024)
+ 5, 62984, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 1024)
+ 5, 62985, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 1024)
+ 5, 62986, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 1024)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 1024)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 1024)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 1024)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.shape.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0, 0.0,0.0,0.0,0,2561)
@@ -7346,31 +7367,31 @@ DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.shape.Form", "", \
 9.871049999999999E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 1536)
+ 5, 64570, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 1536)
+ 5, 64571, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 1536)
+ 5, 64572, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 1536)
+ 5, 62981, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 1536)
+ 5, 62982, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 1536)
+ 5, 62983, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 1536)
+"vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.rvisobj[2]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 1536)
+"vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.shape.rvisobj[3]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 1536)
+"vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 1536)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.shape.size[1]", \
 "{length,width,height} of shape [m]", 0.012, 0.0,0.0,0.0,0,3585)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.shape.size[2]", \
@@ -7383,49 +7404,49 @@ DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.shape.Extra", "", 0.6, 
 0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 1024)
+ 5, 64570, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 1024)
+ 5, 64571, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 1024)
+ 5, 64572, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 1024)
+ 5, 62981, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 1024)
+ 5, 62982, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 1024)
+ 5, 62983, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 1024)
+ 5, 62984, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 1024)
+ 5, 62985, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 1024)
+ 5, 62986, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 1024)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 1024)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 1024)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 1024)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.marker.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -7496,22 +7517,22 @@ DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.marker.Form", "", \
 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 1536)
+ 5, 64570, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 1536)
+ 5, 64571, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 1536)
+ 5, 64572, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 1536)
+ 5, 62981, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 1536)
+ 5, 62982, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.marker.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 1536)
+ 5, 62983, 1536)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.marker.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
 0.0, 0.0,0.0,0.0,0,3584)
@@ -7533,13 +7554,13 @@ DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.marker.Extra", "", 0.0,
  0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 1028)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 1028)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 1028)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 1028)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 1028)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 1028)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_a.R.T[1, 2]",\
@@ -7590,40 +7611,40 @@ DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_
  0.0, 0.0,0.0,0.0,0,2568)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 1024)
+ 5, 64570, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 1024)
+ 5, 64571, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 1024)
+ 5, 64572, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 1024)
+ 5, 62981, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 1024)
+ 5, 62982, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 1024)
+ 5, 62983, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 1024)
+ 5, 62984, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 1024)
+ 5, 62985, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 1024)
+ 5, 62986, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_b.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_b.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_b.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 1024)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_b.f[1]",\
  "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("vehicle.brakes.brake_1.disc.shaftLength.fixedTranslation.frame_b.f[2]",\
@@ -7772,113 +7793,113 @@ DeclareVariable("vehicle.brakes.brake_1.disc.body.flange_a.includeBearingConnect
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1,\
- 1, 26, 4)
+ 1, 28, 4)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.flange.tau", \
 "Cut torque in the flange [N.m]", "vehicle.brakes.brake_1.disc.flange_a.flange.tau", 1,\
  5, 1806, 132)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 4)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 4)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 4)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_1.disc.body.internal.bearingFrame.f[1]", 1,\
- 5, 2088, 132)
+ 5, 2090, 132)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_1.disc.body.internal.bearingFrame.f[2]", 1,\
- 5, 2089, 132)
+ 5, 2091, 132)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_1.disc.body.internal.bearingFrame.f[3]", 1,\
- 5, 2090, 132)
+ 5, 2092, 132)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_1.disc.body.internal.bearingFrame.t[1]", 1,\
- 5, 2091, 132)
+ 5, 2093, 132)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_1.disc.body.internal.bearingFrame.t[2]", 1,\
- 5, 2092, 132)
+ 5, 2094, 132)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.flange_a.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_1.disc.body.internal.bearingFrame.t[3]", 1,\
- 5, 2093, 132)
+ 5, 2095, 132)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.phi", "Rotation angle of rotor with respect to frame_a (= flange_a.phi = flange_b.phi) [rad|deg]",\
- "vehicle.wheel_1.rim.mass.phi", 1, 1, 26, 0)
+ "vehicle.wheel_1.rim.mass.phi", 1, 1, 28, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.der(phi)", "der(Rotation angle of rotor with respect to frame_a (= flange_a.phi = flange_b.phi)) [rad/s]",\
- "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 0)
+ "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.w", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 0)
+ "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.der(w)", "der(Angular velocity of rotor with respect to frame_a) [rad/s2]",\
- "vehicle.wheel_1.rim.mass.der(w)", 1, 6, 27, 0)
+ "vehicle.wheel_1.rim.mass.der(w)", 1, 6, 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.z", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.wheel_1.rim.mass.der(w)", 1, 6, 27, 0)
+ "vehicle.wheel_1.rim.mass.der(w)", 1, 6, 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.der(r_0[1])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 62405, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 65886, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.der(r_0[2])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 62406, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 65887, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.der(r_0[3])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 62407, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 65888, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 62405, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 65886, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 62406, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 65887, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 62407, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 65888, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_1.caliper.body.a_0[1]", 1, 5, 2352, 0)
+ "vehicle.brakes.brake_1.caliper.body.a_0[1]", 1, 5, 2354, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_1.caliper.body.a_0[2]", 1, 5, 2353, 0)
+ "vehicle.brakes.brake_1.caliper.body.a_0[2]", 1, 5, 2355, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_1.caliper.body.a_0[3]", 1, 5, 2354, 0)
+ "vehicle.brakes.brake_1.caliper.body.a_0[3]", 1, 5, 2356, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_1.disc.body.internal.a_0[1]", 1, 5, 2064, 0)
+ "vehicle.brakes.brake_1.disc.body.internal.a_0[1]", 1, 5, 2066, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_1.disc.body.internal.a_0[2]", 1, 5, 2065, 0)
+ "vehicle.brakes.brake_1.disc.body.internal.a_0[2]", 1, 5, 2067, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.a_0[3]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_1.disc.body.internal.a_0[3]", 1, 5, 2066, 0)
+ "vehicle.brakes.brake_1.disc.body.internal.a_0[3]", 1, 5, 2068, 0)
 DeclareVariable("vehicle.brakes.brake_1.disc.body.phi_0[1]", "Three angles to rotate world frame into frame_a of body [rad|deg]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.brake_1.disc.body.phi_0[2]", "Three angles to rotate world frame into frame_a of body [rad|deg]",\
@@ -7895,37 +7916,37 @@ DeclareVariable("vehicle.brakes.brake_1.disc.body.der(phi_0[3])", \
 "der(Three angles to rotate world frame into frame_a of body) [rad/s]", 0.0, \
 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.w_a[1]", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.w_a[2]", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.w_a[3]", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.der(w_a[1])", "der(Angular velocity of rotor with respect to frame_a) [rad/s2]",\
- "vehicle.brakes.brake_1.caliper.body.z_a[1]", 1, 5, 2432, 0)
+ "vehicle.brakes.brake_1.caliper.body.z_a[1]", 1, 5, 2434, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.der(w_a[2])", "der(Angular velocity of rotor with respect to frame_a) [rad/s2]",\
- "vehicle.brakes.brake_1.caliper.body.z_a[2]", 1, 5, 2433, 0)
+ "vehicle.brakes.brake_1.caliper.body.z_a[2]", 1, 5, 2435, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.der(w_a[3])", "der(Angular velocity of rotor with respect to frame_a) [rad/s2]",\
- "vehicle.brakes.brake_1.caliper.body.z_a[3]", 1, 5, 2434, 0)
+ "vehicle.brakes.brake_1.caliper.body.z_a[3]", 1, 5, 2436, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.z_a[1]", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.brakes.brake_1.caliper.body.z_a[1]", 1, 5, 2432, 0)
+ "vehicle.brakes.brake_1.caliper.body.z_a[1]", 1, 5, 2434, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.z_a[2]", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.brakes.brake_1.caliper.body.z_a[2]", 1, 5, 2433, 0)
+ "vehicle.brakes.brake_1.caliper.body.z_a[2]", 1, 5, 2435, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.z_a[3]", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.brakes.brake_1.caliper.body.z_a[3]", 1, 5, 2434, 0)
+ "vehicle.brakes.brake_1.caliper.body.z_a[3]", 1, 5, 2436, 0)
 DeclareVariable("vehicle.brakes.brake_1.disc.body.summary.useHeatPort", \
 "if true, thermal calculations enabled [:#(type=Boolean)]", false, 0.0,0.0,0.0,0,515)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.summary.tau", "Rotating torque [N.m]",\
  "vehicle.brakes.brake_1.disc.flange_a.flange.tau", 1, 5, 1806, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.summary.phi", "Angle rotated [rad|deg]",\
- "vehicle.wheel_1.rim.mass.phi", 1, 1, 26, 0)
+ "vehicle.wheel_1.rim.mass.phi", 1, 1, 28, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.summary.der(phi)", \
-"der(Angle rotated) [rad/s]", "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 0)
+"der(Angle rotated) [rad/s]", "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.summary.w", "Angular velocity [rad/s]",\
- "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 0)
+ "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.summary.der(w)", \
-"der(Angular velocity) [rad/s2]", "vehicle.wheel_1.rim.mass.der(w)", 1, 6, 27, 0)
+"der(Angular velocity) [rad/s2]", "vehicle.wheel_1.rim.mass.der(w)", 1, 6, 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.summary.z", "Angular acceleration [rad/s2]",\
- "vehicle.wheel_1.rim.mass.der(w)", 1, 6, 27, 0)
+ "vehicle.wheel_1.rim.mass.der(w)", 1, 6, 29, 0)
 DeclareVariable("vehicle.brakes.brake_1.disc.body.phi_d[1]", "= der(phi) [rad/s]",\
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("vehicle.brakes.brake_1.disc.body.phi_d[2]", "= der(phi) [rad/s]",\
@@ -8035,29 +8056,29 @@ DeclareVariable("vehicle.brakes.brake_1.disc.body.internal.bodyStateSelect", \
 "Controls the selection of states for the body [:#(type=StateSelect)]", 3, 1.0,\
 5.0,0.0,0,2565)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.phi", "Rotation angle of rotor with respect to frame_a (= flange_a.phi = flange_b.phi) [rad|deg]",\
- "vehicle.wheel_1.rim.mass.phi", 1, 1, 26, 1024)
+ "vehicle.wheel_1.rim.mass.phi", 1, 1, 28, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.w", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 1024)
+ "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.z", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.wheel_1.rim.mass.der(w)", 1, 6, 27, 1024)
+ "vehicle.wheel_1.rim.mass.der(w)", 1, 6, 29, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.r_0[1]", \
 "Position vector from origin of world frame to origin of frame_a [m]", \
-"vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.r_0[2]", \
 "Position vector from origin of world frame to origin of frame_a [m]", \
-"vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.r_0[3]", \
 "Position vector from origin of world frame to origin of frame_a [m]", \
-"vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.v_0[1]", \
 "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]", \
-"vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 62405, 1024)
+"vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 65886, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.v_0[2]", \
 "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]", \
-"vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 62406, 1024)
+"vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 65887, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.v_0[3]", \
 "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]", \
-"vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 62407, 1024)
+"vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 65888, 1024)
 DeclareVariable("vehicle.brakes.brake_1.disc.body.internal.a_0[1]", \
 "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]", \
 0.0, 0.0,0.0,0.0,0,2560)
@@ -8078,22 +8099,22 @@ DeclareVariable("vehicle.brakes.brake_1.disc.body.internal.phi_0[3]", \
 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.w_a[1]", \
 "Angular velocity of rotor with respect to frame_a [rad/s]", "vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1,\
- 5, 60160, 1024)
+ 5, 62987, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.w_a[2]", \
 "Angular velocity of rotor with respect to frame_a [rad/s]", "vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1,\
- 5, 60161, 1024)
+ 5, 62988, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.w_a[3]", \
 "Angular velocity of rotor with respect to frame_a [rad/s]", "vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1,\
- 5, 60162, 1024)
+ 5, 62989, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.z_a[1]", \
 "Angular acceleration of rotor with respect to frame_a [rad/s2]", \
-"vehicle.brakes.brake_1.caliper.body.z_a[1]", 1, 5, 2432, 1024)
+"vehicle.brakes.brake_1.caliper.body.z_a[1]", 1, 5, 2434, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.z_a[2]", \
 "Angular acceleration of rotor with respect to frame_a [rad/s2]", \
-"vehicle.brakes.brake_1.caliper.body.z_a[2]", 1, 5, 2433, 1024)
+"vehicle.brakes.brake_1.caliper.body.z_a[2]", 1, 5, 2435, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.z_a[3]", \
 "Angular acceleration of rotor with respect to frame_a [rad/s2]", \
-"vehicle.brakes.brake_1.caliper.body.z_a[3]", 1, 5, 2434, 1024)
+"vehicle.brakes.brake_1.caliper.body.z_a[3]", 1, 5, 2436, 1024)
 DeclareVariable("vehicle.brakes.brake_1.disc.body.internal.phi_d[1]", \
 "= der(phi) [rad/s]", 0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("vehicle.brakes.brake_1.disc.body.internal.phi_d[2]", \
@@ -8108,13 +8129,13 @@ DeclareVariable("vehicle.brakes.brake_1.disc.body.internal.phi_dd[3]", \
 "= der(phi_d) [rad/s2]", 0.0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 1028)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 1028)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 1028)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 1028)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 1028)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 1028)
 DeclareVariable("vehicle.brakes.brake_1.disc.body.internal.bearingFrame.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
 DeclareVariable("vehicle.brakes.brake_1.disc.body.internal.bearingFrame.R.T[1, 2]",\
@@ -8156,7 +8177,7 @@ DeclareVariable("vehicle.brakes.brake_1.disc.body.internal.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2824)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1,\
- 1, 26, 1028)
+ 1, 28, 1028)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.internal.flange.tau", \
 "Cut torque in the flange [N.m]", "vehicle.brakes.brake_1.disc.flange_a.flange.tau", 1,\
  5, 1806, 1156)
@@ -8213,42 +8234,42 @@ DeclareVariable("vehicle.brakes.brake_1.disc.body.internal.g_0[3]", \
 "Gravity acceleration resolved in world frame [m/s2]", -9.80665, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.r_0[1]", \
 "Position of the component reference frame [m]", "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1,\
- 5, 60148, 1024)
+ 5, 62975, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.r_0[2]", \
 "Position of the component reference frame [m]", "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1,\
- 5, 60149, 1024)
+ 5, 62976, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.r_0[3]", \
 "Position of the component reference frame [m]", "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1,\
- 5, 60150, 1024)
+ 5, 62977, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.T[1, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 1024)
+ 5, 64570, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.T[1, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 1024)
+ 5, 64571, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.T[1, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 1024)
+ 5, 64572, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.T[2, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 1024)
+ 5, 62981, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.T[2, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 1024)
+ 5, 62982, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.T[2, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 1024)
+ 5, 62983, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.T[3, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 1024)
+ 5, 62984, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.T[3, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 1024)
+ 5, 62985, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.T[3, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 1024)
+ 5, 62986, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.m", "Mass [kg]", \
-"vehicle.brakes.brake_1.disc.body.m", 1, 5, 1987, 1024)
+"vehicle.brakes.brake_1.disc.body.m", 1, 5, 1989, 1024)
 DeclareVariable("vehicle.brakes.brake_1.disc.body.addToTotal.r_cm[1]", \
 "Centre of mass relative to r_0 resolved in orientation T [m]", 0.006, 0.0,0.0,\
 0.0,0,2561)
@@ -8260,31 +8281,31 @@ DeclareVariable("vehicle.brakes.brake_1.disc.body.addToTotal.r_cm[3]", \
 0,2561)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.I[1, 1]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.disc.body.internal.I[1, 1]", 1,\
- 5, 2094, 1024)
+ 5, 2096, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.I[1, 2]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.disc.body.internal.I[1, 2]", 1,\
- 5, 2095, 1024)
+ 5, 2097, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.I[1, 3]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.disc.body.internal.I[1, 3]", 1,\
- 5, 2096, 1024)
+ 5, 2098, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.I[2, 1]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.disc.body.internal.I[2, 1]", 1,\
- 5, 2097, 1024)
+ 5, 2099, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.I[2, 2]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.disc.body.internal.I[2, 2]", 1,\
- 5, 2098, 1024)
+ 5, 2100, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.I[2, 3]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.disc.body.internal.I[2, 3]", 1,\
- 5, 2099, 1024)
+ 5, 2101, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.I[3, 1]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.disc.body.internal.I[3, 1]", 1,\
- 5, 2100, 1024)
+ 5, 2102, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.I[3, 2]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.disc.body.internal.I[3, 2]", 1,\
- 5, 2101, 1024)
+ 5, 2103, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.disc.body.addToTotal.I[3, 3]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.disc.body.internal.I[3, 3]", 1,\
- 5, 2102, 1024)
+ 5, 2104, 1024)
 DeclareVariable("vehicle.brakes.brake_1.disc.body.addToTotal.itemID", \
 "Dummy parameter [:#(type=Integer)]", -1, 0.0,0.0,0.0,0,2565)
 DeclareVariable("vehicle.brakes.brake_1.disc.body.addToTotal.ID", \
@@ -8350,13 +8371,15 @@ DeclareVariable("vehicle.brakes.brake_1.disc.body.addToTotal.T_resolve[3, 3]", \
 "Transformation matrix from systemMass resolve frame to this component orientation",\
  0.0, 0.0,0.0,0.0,0,2560)
 DeclareVariable("vehicle.brakes.brake_1.disc.summary.useHeatPort", \
-"if true, thermal calculations enabled [:#(type=Boolean)]", false, 0.0,0.0,0.0,0,515)
+"if true, thermal calculations enabled [:#(type=Boolean)]", true, 0.0,0.0,0.0,0,515)
+DeclareAlias2("vehicle.brakes.brake_1.disc.summary.T", "Temperature [K|degC]", \
+"vehicle.brakes.brake_1.disc.thermalMass.T", 1, 1, 8, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.summary.w_a", "Shaft absolute angular speed [rad/s]",\
- "vehicle.wheel_1.rim.mass.w", 1, 1, 27, 0)
+ "vehicle.wheel_1.rim.mass.w", 1, 1, 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.summary.der(w_a)", "der(Shaft absolute angular speed) [rad/s2]",\
- "vehicle.wheel_1.rim.mass.der(w)", 1, 6, 27, 0)
+ "vehicle.wheel_1.rim.mass.der(w)", 1, 6, 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.summary.z_a", "Shaft absolute angular acceleration [rad/s2]",\
- "vehicle.wheel_1.rim.mass.der(w)", 1, 6, 27, 0)
+ "vehicle.wheel_1.rim.mass.der(w)", 1, 6, 29, 0)
 DeclareAlias2("vehicle.brakes.brake_1.disc.summary.tau_a", "Torque at flange_a [N.m]",\
  "vehicle.brakes.brake_1.disc.flange_a.flange.tau", 1, 5, 1806, 0)
 DeclareVariable("vehicle.brakes.brake_1.disc.summary.tau_b", "Torque at flange_b [N.m]",\
@@ -8372,44 +8395,44 @@ DeclareVariable("vehicle.brakes.brake_1.disc.summary.der(w_rel)", \
 DeclareVariable("vehicle.brakes.brake_1.disc.summary.z_rel", "Relative angular acceleration of the shaft [rad/s2]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_a.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 4)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_a.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 4)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 4)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_a.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_a.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_a.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareVariable("vehicle.brakes.brake_1.caliper.frame_a.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.brakes.brake_1.caliper.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -8430,37 +8453,37 @@ DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_b.r_0[3]", "Position vector 
  "vehicle.brakes.brake_1.torqueReaction.frame_a.r_0[3]", 1, 5, 1771, 4)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_b.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_b.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frame_b.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareVariable("vehicle.brakes.brake_1.caliper.frame_b.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_1.caliper.frame_b.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -8524,35 +8547,35 @@ DeclareVariable("vehicle.brakes.brake_1.caliper.n_y[2]", "Vector along y-axis of
 DeclareVariable("vehicle.brakes.brake_1.caliper.n_y[3]", "Vector along y-axis of mass orientation, resolved in frame_a [1]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.der(r_0[1])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 62405, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 65886, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.der(r_0[2])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 62406, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 65887, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.der(r_0[3])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 62407, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 65888, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 62405, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 65886, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 62406, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 65887, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 62407, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 65888, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_1.caliper.body.a_0[1]", 1, 5, 2352, 0)
+ "vehicle.brakes.brake_1.caliper.body.a_0[1]", 1, 5, 2354, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_1.caliper.body.a_0[2]", 1, 5, 2353, 0)
+ "vehicle.brakes.brake_1.caliper.body.a_0[2]", 1, 5, 2355, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_1.caliper.body.a_0[3]", 1, 5, 2354, 0)
+ "vehicle.brakes.brake_1.caliper.body.a_0[3]", 1, 5, 2356, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_1.caliper.body.a_0[1]", 1, 5, 2352, 0)
+ "vehicle.brakes.brake_1.caliper.body.a_0[1]", 1, 5, 2354, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_1.caliper.body.a_0[2]", 1, 5, 2353, 0)
+ "vehicle.brakes.brake_1.caliper.body.a_0[2]", 1, 5, 2355, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.a_0[3]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_1.caliper.body.a_0[3]", 1, 5, 2354, 0)
+ "vehicle.brakes.brake_1.caliper.body.a_0[3]", 1, 5, 2356, 0)
 DeclareVariable("vehicle.brakes.brake_1.caliper.angles_fixed", "= true, if angles_start are used as initial values, else as guess values [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.brakes.brake_1.caliper.angles_start[1]", \
@@ -8663,13 +8686,13 @@ DeclareVariable("vehicle.brakes.brake_1.caliper.sequence_angleStates[3]", \
  3, 1.0,3.0,0.0,0,517)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 4)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 4)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 4)
 DeclareVariable("vehicle.brakes.brake_1.caliper.frameTranslation.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_1.caliper.frameTranslation.frame_a.R.T[1, 2]",\
@@ -8721,40 +8744,40 @@ DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.frame_b.r_0[3]", 
  "vehicle.brakes.brake_1.torqueReaction.frame_a.r_0[3]", 1, 5, 1771, 4)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareVariable("vehicle.brakes.brake_1.caliper.frameTranslation.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_1.caliper.frameTranslation.frame_b.f[2]", \
@@ -8823,49 +8846,49 @@ DeclareVariable("vehicle.brakes.brake_1.caliper.frameTranslation.specularCoeffic
 1E+100,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 1024)
+ 5, 64570, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 1024)
+ 5, 64571, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 1024)
+ 5, 64572, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 1024)
+ 5, 62981, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 1024)
+ 5, 62982, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 1024)
+ 5, 62983, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 1024)
+ 5, 62984, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 1024)
+ 5, 62985, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 1024)
+ 5, 62986, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 1024)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 1024)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 1024)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 1024)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 1024)
 DeclareVariable("vehicle.brakes.brake_1.caliper.frameTranslation.shape.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.006600000000000001, 0.0,0.0,0.0,0,2561)
@@ -8936,22 +8959,22 @@ DeclareVariable("vehicle.brakes.brake_1.caliper.frameTranslation.shape.Form", ""
  9.87101E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", -1,\
- 5, 60154, 1536)
+ 5, 62981, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", -1,\
- 5, 60155, 1536)
+ 5, 62982, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", -1,\
- 5, 60156, 1536)
+ 5, 62983, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 1536)
+ 5, 64570, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 1536)
+ 5, 64571, 1536)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.frameTranslation.shape.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 1536)
+ 5, 64572, 1536)
 DeclareVariable("vehicle.brakes.brake_1.caliper.frameTranslation.shape.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,3584)
@@ -8982,13 +9005,13 @@ DeclareVariable("vehicle.brakes.brake_1.caliper.body.frame_a.r_0[3]", \
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.frame_a.der(r_0[1])", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 62405, 4)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 65886, 4)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.frame_a.der(r_0[2])", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 62406, 4)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 65887, 4)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.frame_a.der(r_0[3])", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 62407, 4)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 65888, 4)
 DeclareVariable("vehicle.brakes.brake_1.caliper.body.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_1.caliper.body.frame_a.R.T[1, 2]", \
@@ -9018,21 +9041,21 @@ DeclareVariable("vehicle.brakes.brake_1.caliper.body.frame_a.R.w[3]", \
  0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_1.caliper.frame_a.f[1]", 1,\
- 5, 2151, 132)
+ 5, 2153, 132)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_1.caliper.frame_a.f[2]", 1,\
- 5, 2152, 132)
+ 5, 2154, 132)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_1.caliper.frame_a.f[3]", 1,\
- 5, 2153, 132)
+ 5, 2155, 132)
 DeclareVariable("vehicle.brakes.brake_1.caliper.body.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_1.caliper.frame_a.t[2]", 1,\
- 5, 2155, 132)
+ 5, 2157, 132)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_1.caliper.frame_a.t[3]", 1,\
- 5, 2156, 132)
+ 5, 2158, 132)
 DeclareVariable("vehicle.brakes.brake_1.caliper.body.animation", \
 "= true, if animation shall be enabled (show cylinder and sphere) [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
@@ -9084,26 +9107,26 @@ DeclareVariable("vehicle.brakes.brake_1.caliper.body.n_y[2]", "Vector along y-ax
 DeclareVariable("vehicle.brakes.brake_1.caliper.body.n_y[3]", "Vector along y-axis of local orientation, resolved in flange_a [1]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 62405, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 65886, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 62406, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 65887, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 62407, 0)
+ "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 65888, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.der(v_0[1])", \
 "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_1.caliper.body.a_0[1]", 1, 5, 2352, 0)
+ "vehicle.brakes.brake_1.caliper.body.a_0[1]", 1, 5, 2354, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.der(v_0[2])", \
 "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_1.caliper.body.a_0[2]", 1, 5, 2353, 0)
+ "vehicle.brakes.brake_1.caliper.body.a_0[2]", 1, 5, 2355, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.der(v_0[3])", \
 "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_1.caliper.body.a_0[3]", 1, 5, 2354, 0)
+ "vehicle.brakes.brake_1.caliper.body.a_0[3]", 1, 5, 2356, 0)
 DeclareVariable("vehicle.brakes.brake_1.caliper.body.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_1.caliper.body.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
@@ -9299,13 +9322,13 @@ DeclareVariable("vehicle.brakes.brake_1.caliper.body.w_a[3]", "Absolute angular 
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.der(w_a[1])", \
 "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]", \
-"vehicle.brakes.brake_1.caliper.body.z_a[1]", 1, 5, 2432, 0)
+"vehicle.brakes.brake_1.caliper.body.z_a[1]", 1, 5, 2434, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.der(w_a[2])", \
 "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]", \
-"vehicle.brakes.brake_1.caliper.body.z_a[2]", 1, 5, 2433, 0)
+"vehicle.brakes.brake_1.caliper.body.z_a[2]", 1, 5, 2435, 0)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.der(w_a[3])", \
 "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]", \
-"vehicle.brakes.brake_1.caliper.body.z_a[3]", 1, 5, 2434, 0)
+"vehicle.brakes.brake_1.caliper.body.z_a[3]", 1, 5, 2436, 0)
 DeclareVariable("vehicle.brakes.brake_1.caliper.body.z_a[1]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_1.caliper.body.z_a[2]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
@@ -9364,77 +9387,77 @@ DeclareVariable("vehicle.brakes.brake_1.caliper.body.Q[4]", "Quaternion orientat
  1.0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.r_0[1]", \
 "Position of the component reference frame [m]", "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1,\
- 5, 60148, 1024)
+ 5, 62975, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.r_0[2]", \
 "Position of the component reference frame [m]", "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1,\
- 5, 60149, 1024)
+ 5, 62976, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.r_0[3]", \
 "Position of the component reference frame [m]", "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1,\
- 5, 60150, 1024)
+ 5, 62977, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.T[1, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 1024)
+ 5, 64570, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.T[1, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 1024)
+ 5, 64571, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.T[1, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 1024)
+ 5, 64572, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.T[2, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 1024)
+ 5, 62981, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.T[2, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 1024)
+ 5, 62982, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.T[2, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 1024)
+ 5, 62983, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.T[3, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 1024)
+ 5, 62984, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.T[3, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 1024)
+ 5, 62985, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.T[3, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 1024)
+ 5, 62986, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.m", "Mass [kg]", \
-"vehicle.brakes.brake_1.caliper.body.m", 1, 5, 2335, 1024)
+"vehicle.brakes.brake_1.caliper.body.m", 1, 5, 2337, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.r_cm[1]", \
 "Centre of mass relative to r_0 resolved in orientation T [m]", "vehicle.brakes.brake_1.caliper.body.r_CM_a[1]", 1,\
- 5, 2411, 1024)
+ 5, 2413, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.r_cm[2]", \
 "Centre of mass relative to r_0 resolved in orientation T [m]", "vehicle.brakes.brake_1.caliper.body.r_CM_a[2]", 1,\
- 5, 2412, 1024)
+ 5, 2414, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.r_cm[3]", \
 "Centre of mass relative to r_0 resolved in orientation T [m]", "vehicle.brakes.brake_1.caliper.body.r_CM_a[3]", 1,\
- 5, 2413, 1024)
+ 5, 2415, 1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.I[1, 1]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[1, 1]", 1, 5, 2402,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[1, 1]", 1, 5, 2404,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.I[1, 2]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[1, 2]", 1, 5, 2403,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[1, 2]", 1, 5, 2405,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.I[1, 3]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[1, 3]", 1, 5, 2404,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[1, 3]", 1, 5, 2406,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.I[2, 1]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[2, 1]", 1, 5, 2405,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[2, 1]", 1, 5, 2407,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.I[2, 2]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[2, 2]", 1, 5, 2406,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[2, 2]", 1, 5, 2408,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.I[2, 3]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[2, 3]", 1, 5, 2407,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[2, 3]", 1, 5, 2409,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.I[3, 1]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[3, 1]", 1, 5, 2408,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[3, 1]", 1, 5, 2410,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.I[3, 2]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[3, 2]", 1, 5, 2409,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[3, 2]", 1, 5, 2411,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_1.caliper.body.addToTotal.I[3, 3]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[3, 3]", 1, 5, 2410,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_1.caliper.body.I[3, 3]", 1, 5, 2412,\
  1024)
 DeclareVariable("vehicle.brakes.brake_1.caliper.body.addToTotal.itemID", \
 "Dummy parameter [:#(type=Integer)]", -1, 0.0,0.0,0.0,0,2565)
@@ -9602,6 +9625,9 @@ DeclareVariable("vehicle.brakes.brake_1.caliper.body.originFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
 DeclareVariable("vehicle.brakes.brake_1.caliper.body.originFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
+EndNonAlias(6)
+PreNonAliasNew(7)
+StartNonAlias(7)
 DeclareVariable("vehicle.brakes.brake_1.caliper.body.originFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", 0.0,\
  0.0,0.0,0.0,0,2560)
@@ -9627,9 +9653,6 @@ DeclareVariable("vehicle.brakes.brake_1.caliper.body.originFrame.colour_x[3]", \
 "Colour of x-arrow [:#(type=Integer)]", 0, 0.0,255.0,0.0,0,2565)
 DeclareVariable("vehicle.brakes.brake_1.caliper.body.originFrame.colour_y[1]", \
 "Colour of y-arrow [:#(type=Integer)]", 255, 0.0,255.0,0.0,0,2565)
-EndNonAlias(6)
-PreNonAliasNew(7)
-StartNonAlias(7)
 DeclareVariable("vehicle.brakes.brake_1.caliper.body.originFrame.colour_y[2]", \
 "Colour of y-arrow [:#(type=Integer)]", 255, 0.0,255.0,0.0,0,2565)
 DeclareVariable("vehicle.brakes.brake_1.caliper.body.originFrame.colour_y[3]", \
@@ -9659,6 +9682,771 @@ DeclareVariable("vehicle.brakes.brake_1.caliper.body.originFrame.scaledLabel", \
 "[m]", 0.0075000000000000015, 0.0,0.0,0.0,0,2561)
 DeclareVariable("vehicle.brakes.brake_1.caliper.body.originFrame.labelStart", \
 "[m]", 0.10500000000000001, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.useHeatPort", \
+"Enable the heatPort when true [:#(type=Boolean)]", true, 0.0,0.0,0.0,0,515)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.T", "Initial temperature or Fixed temperature if not useHeatPort [K|degC]",\
+ 293.15, 0.0,1E+100,300.0,0,513)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.lossPower", \
+"Power lost as heat [W]", 0.0, 0.0,0.0,0.0,0,512)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.Temp", "Temperature of heat Port [K|degC]",\
+ "vehicle.brakes.brake_1.disc.thermalMass.T", 1, 1, 8, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.heatPort.T", "Port temperature [K|degC]",\
+ "vehicle.brakes.brake_1.disc.thermalMass.T", 1, 1, 8, 4)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.heatPort.Q_flow", \
+"Heat flow rate (positive if flowing from outside into the component) [W]", \
+"vehicle.brakes.brake_1.thermalModel.lossPower", -1, 5, 2559, 132)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.wheelHub.includeBearingConnector",\
+ "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
+ true, 0.0,0.0,0.0,0,523)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.wheelHub.flange.phi", \
+"Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1,\
+ 1, 28, 4)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.wheelHub.flange.tau", \
+"Cut torque in the flange [N.m]", 0, 0.0,0.0,0.0,0,777)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.r_0[1]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 4)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.r_0[2]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 4)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.r_0[3]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 4)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.R.T[1, 1]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
+ 5, 64570, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.R.T[1, 2]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
+ 5, 64571, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.R.T[1, 3]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
+ 5, 64572, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.R.T[2, 1]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
+ 5, 62981, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.R.T[2, 2]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
+ 5, 62982, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.R.T[2, 3]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
+ 5, 62983, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.R.T[3, 1]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
+ 5, 62984, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.R.T[3, 2]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
+ 5, 62985, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.R.T[3, 3]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
+ 5, 62986, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.R.w[1]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.R.w[2]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.R.w[3]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.f[1]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.f[2]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.f[3]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.t[1]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.t[2]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.wheelHub.bearingFrame.t[3]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.Gr", "Net radiation conductance between Disc and hub [m2]",\
+ 1, 0.0,0.0,0.0,0,513)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.G", "Constant thermal conductance of disc material [W/K]",\
+ 11.5, 0.0,0.0,0.0,0,513)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.GcScaled", "Condictance Scale multiplier velocity*GcScaled=Gc",\
+ 0.15, 0.0,0.0,0.0,0,513)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.conduction.Q_flow", \
+"Heat flow rate from port_a -> port_b [W]", 0.0, 0.0,0.0,0.0,0,512)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.conduction.dT", \
+"port_a.T - port_b.T [K,]", 0.0, 0.0,0.0,0.0,0,512)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.conduction.port_a.T", \
+"Port temperature [K|degC]", "vehicle.brakes.brake_1.disc.thermalMass.T", 1, 1, 8,\
+ 4)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.conduction.port_a.Q_flow", \
+"Heat flow rate (positive if flowing from outside into the component) [W]", \
+"vehicle.brakes.brake_1.thermalModel.conduction.Q_flow", 1, 5, 2571, 132)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.conduction.port_b.T", \
+"Port temperature [K|degC]", 293.15, 0.0,1E+100,300.0,0,521)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.conduction.port_b.Q_flow", \
+"Heat flow rate (positive if flowing from outside into the component) [W]", \
+"vehicle.brakes.brake_1.thermalModel.conduction.Q_flow", -1, 5, 2571, 132)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.conduction.G", \
+"Constant thermal conductance of material [W/K]", 11.5, 0.0,0.0,0.0,0,513)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.convection.Q_flow", \
+"Heat flow rate from solid -> fluid [W]", 0.0, 0.0,0.0,0.0,0,512)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.convection.dT", \
+"= solid.T - fluid.T [K,]", 0.0, 0.0,0.0,0.0,0,512)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.convection.Gc", \
+"Signal representing the convective thermal conductance in [W/K] [W/K]", 0.0, \
+0.0,0.0,0.0,0,512)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.convection.solid.T", \
+"Port temperature [K|degC]", "vehicle.brakes.brake_1.disc.thermalMass.T", 1, 1, 8,\
+ 4)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.convection.solid.Q_flow", \
+"Heat flow rate (positive if flowing from outside into the component) [W]", \
+"vehicle.brakes.brake_1.thermalModel.convection.Q_flow", 1, 5, 2575, 132)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.convection.fluid.T", \
+"Port temperature [K|degC]", 293.15, 0.0,1E+100,300.0,0,521)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.convection.fluid.Q_flow", \
+"Heat flow rate (positive if flowing from outside into the component) [W]", \
+"vehicle.brakes.brake_1.thermalModel.convection.Q_flow", -1, 5, 2575, 132)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.radiation.Q_flow", \
+"Heat flow rate from port_a -> port_b [W]", 0.0, 0.0,0.0,0.0,0,512)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.radiation.dT", \
+"port_a.T - port_b.T [K,]", 0.0, 0.0,0.0,0.0,0,512)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.radiation.port_a.T", \
+"Port temperature [K|degC]", "vehicle.brakes.brake_1.disc.thermalMass.T", 1, 1, 8,\
+ 4)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.radiation.port_a.Q_flow", \
+"Heat flow rate (positive if flowing from outside into the component) [W]", \
+"vehicle.brakes.brake_1.thermalModel.radiation.Q_flow", 1, 5, 2579, 132)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.radiation.port_b.T", \
+"Port temperature [K|degC]", 293.15, 0.0,1E+100,300.0,0,521)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.radiation.port_b.Q_flow", \
+"Heat flow rate (positive if flowing from outside into the component) [W]", \
+"vehicle.brakes.brake_1.thermalModel.radiation.Q_flow", -1, 5, 2579, 132)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.radiation.Gr", \
+"Net radiation conductance between two surfaces (see docu) [m2]", 1.0, 0.0,0.0,\
+0.0,0,513)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.ambientTemp.T", \
+"Fixed temperature at port [K|degC]", 293.15, 0.0,1E+100,300.0,0,513)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.ambientTemp.port.T", \
+"Port temperature [K|degC]", 293.15, 0.0,1E+100,300.0,0,521)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.ambientTemp.port.Q_flow", \
+"Heat flow rate (positive if flowing from outside into the component) [W]", 0.0,\
+ 0.0,0.0,0.0,0,776)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.r_0[1]", \
+"Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 4)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.r_0[2]", \
+"Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 4)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.r_0[3]", \
+"Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 4)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.R.T[1, 1]", \
+"Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
+ 5, 64570, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.R.T[1, 2]", \
+"Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
+ 5, 64571, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.R.T[1, 3]", \
+"Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
+ 5, 64572, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.R.T[2, 1]", \
+"Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
+ 5, 62981, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.R.T[2, 2]", \
+"Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
+ 5, 62982, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.R.T[2, 3]", \
+"Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
+ 5, 62983, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.R.T[3, 1]", \
+"Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
+ 5, 62984, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.R.T[3, 2]", \
+"Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
+ 5, 62985, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.R.T[3, 3]", \
+"Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
+ 5, 62986, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.R.w[1]", \
+"Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.R.w[2]", \
+"Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.R.w[3]", \
+"Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.f[1]", \
+"Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.f[2]", \
+"Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.f[3]", \
+"Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.t[1]", \
+"Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.t[2]", \
+"Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.frame_a.t[3]", \
+"Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.v[1]", \
+"Absolute velocity vector resolved in frame defined by resolveInFrame [m/s]", \
+0.0, 0.0,0.0,0.0,0,512)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.v[2]", \
+"Absolute velocity vector resolved in frame defined by resolveInFrame [m/s]", \
+0.0, 0.0,0.0,0.0,0,512)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.v[3]", \
+"Absolute velocity vector resolved in frame defined by resolveInFrame [m/s]", \
+0.0, 0.0,0.0,0.0,0,512)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.resolveInFrame", \
+"Frame in which output vector v shall be resolved (world, frame_a, or frame_resolve) [:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]",\
+ 2, 1.0,3.0,0.0,0,517)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.r_0[1]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 1028)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.r_0[2]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 1028)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.r_0[3]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 1028)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.R.T[1, 1]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
+ 5, 64570, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.R.T[1, 2]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
+ 5, 64571, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.R.T[1, 3]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
+ 5, 64572, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.R.T[2, 1]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
+ 5, 62981, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.R.T[2, 2]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
+ 5, 62982, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.R.T[2, 3]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
+ 5, 62983, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.R.T[3, 1]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
+ 5, 62984, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.R.T[3, 2]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
+ 5, 62985, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.R.T[3, 3]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
+ 5, 62986, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.R.w[1]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.R.w[2]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.R.w[3]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 1024)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.f[1]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.f[2]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.f[3]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.t[1]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.t[2]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_a.t[3]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.r_0[1]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ 0.0, 0.0,0.0,0.0,0,2569)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.r_0[2]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ 0.0, 0.0,0.0,0.0,0,2569)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.r_0[3]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ 0.0, 0.0,0.0,0.0,0,2569)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.R.T[1, 1]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.R.T[1, 2]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.R.T[1, 3]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.R.T[2, 1]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.R.T[2, 2]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.R.T[2, 3]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.R.T[3, 1]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.R.T[3, 2]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.R.T[3, 3]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.R.w[1]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.R.w[2]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.R.w[3]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.f[1]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.f[2]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.f[3]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.t[1]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.t[2]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.frame_resolve.t[3]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.r[1]", \
+"Absolute position vector frame_a.r_0 resolved in frame defined by resolveInFrame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.r[2]", \
+"Absolute position vector frame_a.r_0 resolved in frame defined by resolveInFrame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.position.r[3]", \
+"Absolute position vector frame_a.r_0 resolved in frame defined by resolveInFrame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 1024)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.position.resolveInFrame",\
+ "Frame in which output vector r is resolved (world, frame_a, or frame_resolve) [:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]",\
+ 1, 1.0,3.0,0.0,0,2565)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.der1[1].u", \
+"Connector of Real input signal", "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1,\
+ 5, 62975, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.der1[1].der(u)", \
+"der(Connector of Real input signal)", "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[1]", 1,\
+ 5, 65886, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.der1[1].y", \
+"Connector of Real output signal", "vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.r_in[1]", 1,\
+ 5, 2673, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.der1[2].u", \
+"Connector of Real input signal", "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1,\
+ 5, 62976, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.der1[2].der(u)", \
+"der(Connector of Real input signal)", "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[2]", 1,\
+ 5, 65887, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.der1[2].y", \
+"Connector of Real output signal", "vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.r_in[2]", 1,\
+ 5, 2674, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.der1[3].u", \
+"Connector of Real input signal", "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1,\
+ 5, 62977, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.der1[3].der(u)", \
+"der(Connector of Real input signal)", "vehicle.wheel_1.aerodynamics.ideal3D.v_rel_0[3]", 1,\
+ 5, 65888, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.der1[3].y", \
+"Connector of Real output signal", "vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.r_in[3]", 1,\
+ 5, 2675, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.r_0[1]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 1028)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.r_0[2]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 1028)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.r_0[3]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 1028)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.R.T[1, 1]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
+ 5, 64570, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.R.T[1, 2]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
+ 5, 64571, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.R.T[1, 3]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
+ 5, 64572, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.R.T[2, 1]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
+ 5, 62981, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.R.T[2, 2]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
+ 5, 62982, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.R.T[2, 3]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
+ 5, 62983, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.R.T[3, 1]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
+ 5, 62984, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.R.T[3, 2]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
+ 5, 62985, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.R.T[3, 3]",\
+ "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
+ 5, 62986, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.R.w[1]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.R.w[2]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.R.w[3]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 1024)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.f[1]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.f[2]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.f[3]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.t[1]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.t[2]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_a.t[3]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.r_in[1]",\
+ "Input vector resolved in frame defined by frame_r_in", "vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.r_in[1]", 1,\
+ 5, 2673, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.r_in[2]",\
+ "Input vector resolved in frame defined by frame_r_in", "vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.r_in[2]", 1,\
+ 5, 2674, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.r_in[3]",\
+ "Input vector resolved in frame defined by frame_r_in", "vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.r_in[3]", 1,\
+ 5, 2675, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.r_out[1]",\
+ "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.brakes.brake_1.thermalModel.velocity.v[1]", 1,\
+ 5, 2592, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.r_out[2]",\
+ "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.brakes.brake_1.thermalModel.velocity.v[2]", 1,\
+ 5, 2593, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.r_out[3]",\
+ "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.brakes.brake_1.thermalModel.velocity.v[3]", 1,\
+ 5, 2594, 1024)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_r_in",\
+ "Frame in which vector r_in is resolved (world, frame_a, or frame_resolve) [:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]",\
+ 1, 1.0,3.0,0.0,0,2565)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.frame_r_out",\
+ "Frame in which vector r_in shall be resolved and provided as r_out (world, frame_a, or frame_resolve) [:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]",\
+ 2, 1.0,3.0,0.0,0,2565)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_r_in",\
+ "Frame in which vector r_in is resolved (world, frame_a, or frame_resolve) [:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]",\
+ 1, 1.0,3.0,0.0,0,2565)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_r_out",\
+ "Frame in which vector r_out (= r_in in other frame) is resolved (world, frame_a, or frame_resolve) [:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]",\
+ 2, 1.0,3.0,0.0,0,2565)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.r_0[1]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 1028)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.r_0[2]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 1028)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.r_0[3]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 1028)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[1, 1]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[1, 2]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[1, 3]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[2, 1]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[2, 2]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[2, 3]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[3, 1]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[3, 2]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[3, 3]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.w[1]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2560)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.w[2]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2560)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.w[3]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2560)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.f[1]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.f[2]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.f[3]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.t[1]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.t[2]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_a.t[3]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.r_0[1]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ 0.0, 0.0,0.0,0.0,0,2569)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.r_0[2]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ 0.0, 0.0,0.0,0.0,0,2569)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.r_0[3]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ 0.0, 0.0,0.0,0.0,0,2569)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.R.T[1, 1]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.R.T[1, 2]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.R.T[1, 3]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.R.T[2, 1]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.R.T[2, 2]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.R.T[2, 3]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.R.T[3, 1]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.R.T[3, 2]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.R.T[3, 3]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.R.w[1]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.R.w[2]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.R.w[3]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.f[1]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.f[2]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.f[3]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.t[1]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.t[2]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.frame_resolve.t[3]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.r_in[1]",\
+ "Input vector resolved in frame defined by frame_r_in", 0.0, 0.0,0.0,0.0,0,2560)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.r_in[2]",\
+ "Input vector resolved in frame defined by frame_r_in", 0.0, 0.0,0.0,0.0,0,2560)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.r_in[3]",\
+ "Input vector resolved in frame defined by frame_r_in", 0.0, 0.0,0.0,0.0,0,2560)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.r_out[1]",\
+ "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.brakes.brake_1.thermalModel.velocity.v[1]", 1,\
+ 5, 2592, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.r_out[2]",\
+ "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.brakes.brake_1.thermalModel.velocity.v[2]", 1,\
+ 5, 2593, 1024)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.r_out[3]",\
+ "Input vector r_in resolved in frame defined by frame_r_out", "vehicle.brakes.brake_1.thermalModel.velocity.v[3]", 1,\
+ 5, 2594, 1024)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.R1.T[1, 1]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.R1.T[1, 2]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.R1.T[1, 3]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.R1.T[2, 1]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.R1.T[2, 2]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.R1.T[2, 3]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.R1.T[3, 1]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.R1.T[3, 2]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.R1.T[3, 3]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.R1.w[1]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.R1.w[2]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.basicTransformVector.R1.w[3]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.r_0[1]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ 0.0, 0.0,0.0,0.0,0,2569)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.r_0[2]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ 0.0, 0.0,0.0,0.0,0,2569)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.r_0[3]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ 0.0, 0.0,0.0,0.0,0,2569)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.R.T[1, 1]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.R.T[1, 2]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.R.T[1, 3]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.R.T[2, 1]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.R.T[2, 2]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.R.T[2, 3]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.R.T[3, 1]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.R.T[3, 2]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.R.T[3, 3]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.R.w[1]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.R.w[2]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.R.w[3]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.f[1]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.f[2]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.f[3]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.t[1]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.t[2]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.tansformAbsoluteVector.zeroPosition.frame_resolve.t[3]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.r_0[1]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ 0.0, 0.0,0.0,0.0,0,2569)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.r_0[2]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ 0.0, 0.0,0.0,0.0,0,2569)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.r_0[3]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ 0.0, 0.0,0.0,0.0,0,2569)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.R.T[1, 1]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.R.T[1, 2]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.R.T[1, 3]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.R.T[2, 1]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.R.T[2, 2]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.R.T[2, 3]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.R.T[3, 1]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.R.T[3, 2]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.R.T[3, 3]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.R.w[1]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.R.w[2]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.R.w[3]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.f[1]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.f[2]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.f[3]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.t[1]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.t[2]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition.frame_resolve.t[3]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.r_0[1]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ 0.0, 0.0,0.0,0.0,0,2569)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.r_0[2]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ 0.0, 0.0,0.0,0.0,0,2569)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.r_0[3]",\
+ "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
+ 0.0, 0.0,0.0,0.0,0,2569)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.R.T[1, 1]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.R.T[1, 2]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.R.T[1, 3]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.R.T[2, 1]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.R.T[2, 2]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.R.T[2, 3]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.R.T[3, 1]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.R.T[3, 2]",\
+ "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.R.T[3, 3]",\
+ "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.R.w[1]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.R.w[2]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.R.w[3]",\
+ "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
+0.0, 0.0,0.0,0.0,0,2561)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.f[1]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.f[2]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.f[3]",\
+ "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.t[1]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.t[2]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.velocity.zeroPosition1.frame_resolve.t[3]",\
+ "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.product.u1", \
+"Connector of Real input signal 1", 0.15, 0.0,0.0,0.0,0,513)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.product.u2", \
+"Connector of Real input signal 2", 0.0, 0.0,0.0,0.0,0,512)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.product.y", \
+"Connector of Real output signal", 0.0, 0.0,0.0,0.0,0,512)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.freeConvection.y", \
+"Value of Real output", 12, 0.0,0.0,0.0,0,513)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.add.u1", "Connector of Real input signal 1",\
+ "vehicle.brakes.brake_1.thermalModel.product.y", 1, 5, 2753, 0)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.add.u2", "Connector of Real input signal 2",\
+ 12.0, 0.0,0.0,0.0,0,513)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.add.y", "Connector of Real output signal",\
+ "vehicle.brakes.brake_1.thermalModel.convection.Gc", 1, 5, 2577, 0)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.add.k1", "Gain of input signal 1",\
+ 1, 0.0,0.0,0.0,0,513)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.add.k2", "Gain of input signal 2",\
+ 1, 0.0,0.0,0.0,0,513)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.scaleGc.y", \
+"Value of Real output", 0.15, 0.0,0.0,0.0,0,513)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.totalVelocity.nin", \
+"Number of inputs [:#(type=Integer)]", 3, 0.0,0.0,0.0,0,517)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.totalVelocity.u[1]", \
+"Connector of Real input signals", "vehicle.brakes.brake_1.thermalModel.velocity.v[1]", 1,\
+ 5, 2592, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.totalVelocity.u[2]", \
+"Connector of Real input signals", "vehicle.brakes.brake_1.thermalModel.velocity.v[2]", 1,\
+ 5, 2593, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.totalVelocity.u[3]", \
+"Connector of Real input signals", "vehicle.brakes.brake_1.thermalModel.velocity.v[3]", 1,\
+ 5, 2594, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.totalVelocity.y", \
+"Connector of Real output signal", "vehicle.brakes.brake_1.thermalModel.product.u2", 1,\
+ 5, 2752, 0)
+DeclareAlias2("vehicle.brakes.brake_1.thermalModel.terminator.flange.phi", \
+"Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1,\
+ 1, 28, 4)
+DeclareVariable("vehicle.brakes.brake_1.thermalModel.terminator.flange.tau", \
+"Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_2.leftWheel", "Left wheel brake [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.brakes.brake_2.animation", "Enable animation [:#(type=Boolean)]",\
@@ -9671,54 +10459,54 @@ DeclareVariable("vehicle.brakes.brake_2.wheelHub.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_2.rim.mass.phi", 1, 1, 28, 4)
+ "vehicle.wheel_2.rim.mass.phi", 1, 1, 32, 4)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.flange.tau", "Cut torque in the flange [N.m]",\
  "vehicle.brakes.wheelHub_2.flange.tau", 1, 5, 1559, 132)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 4)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 4)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 4)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 0)
+ 5, 67853, 0)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 0)
+ 5, 67854, 0)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 0)
+ 5, 67855, 0)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 0)
+ 5, 66246, 0)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 0)
+ 5, 66247, 0)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 0)
+ 5, 66248, 0)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 0)
+ 5, 66249, 0)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 0)
+ 5, 66250, 0)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 0)
+ 5, 66251, 0)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 0)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 0)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 0)
 DeclareAlias2("vehicle.brakes.brake_2.wheelHub.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.wheelHub_2.bearingFrame.f[1]", 1,\
  5, 1560, 132)
@@ -9815,7 +10603,7 @@ DeclareVariable("vehicle.brakes.brake_2.torqueReaction.rotationalStateSelect", \
 "Controls the selection of states for flange_b.phi [:#(type=StateSelect)]", 3, \
 1.0,5.0,0.0,0,517)
 DeclareState("vehicle.brakes.brake_2.torqueReaction.flange_b.phi", \
-"Absolute rotation angle of flange [rad|deg]", 8, 0, 0.0,0.0,0.0,0,552)
+"Absolute rotation angle of flange [rad|deg]", 9, 0, 0.0,0.0,0.0,0,552)
 DeclareDerivative("vehicle.brakes.brake_2.torqueReaction.flange_b.der(phi)", \
 "der(Absolute rotation angle of flange) [rad/s]", 0.0, 0.0,0.0,0.0,0,520)
 DeclareVariable("vehicle.brakes.brake_2.torqueReaction.flange_b.der(phi, 2)", \
@@ -9834,40 +10622,40 @@ DeclareVariable("vehicle.brakes.brake_2.torqueReaction.frame_a.r_0[3]", \
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("vehicle.brakes.brake_2.torqueReaction.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 0)
+ 5, 67853, 0)
 DeclareAlias2("vehicle.brakes.brake_2.torqueReaction.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 0)
+ 5, 67854, 0)
 DeclareAlias2("vehicle.brakes.brake_2.torqueReaction.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 0)
+ 5, 67855, 0)
 DeclareAlias2("vehicle.brakes.brake_2.torqueReaction.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 0)
+ 5, 66246, 0)
 DeclareAlias2("vehicle.brakes.brake_2.torqueReaction.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 0)
+ 5, 66247, 0)
 DeclareAlias2("vehicle.brakes.brake_2.torqueReaction.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 0)
+ 5, 66248, 0)
 DeclareAlias2("vehicle.brakes.brake_2.torqueReaction.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 0)
+ 5, 66249, 0)
 DeclareAlias2("vehicle.brakes.brake_2.torqueReaction.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 0)
+ 5, 66250, 0)
 DeclareAlias2("vehicle.brakes.brake_2.torqueReaction.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 0)
+ 5, 66251, 0)
 DeclareAlias2("vehicle.brakes.brake_2.torqueReaction.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 0)
 DeclareAlias2("vehicle.brakes.brake_2.torqueReaction.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 0)
 DeclareAlias2("vehicle.brakes.brake_2.torqueReaction.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 0)
 DeclareVariable("vehicle.brakes.brake_2.torqueReaction.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_2.torqueReaction.frame_a.f[2]", \
@@ -9884,21 +10672,21 @@ DeclareVariable("vehicle.brakes.brake_2.torqueReaction.frame_a.t[3]", \
 DeclareVariable("vehicle.brakes.brake_2.torqueReaction.phi_frame", "[rad|deg]", \
 0.0, 0.0,0.0,0.0,0,2560)
 DeclareAlias2("vehicle.brakes.brake_2.torqueReaction.der(phi_frame)", "[rad/s]",\
- "vehicle.brakes.brake_2.torqueReaction.flange_b.der(phi)", 1, 6, 8, 1024)
+ "vehicle.brakes.brake_2.torqueReaction.flange_b.der(phi)", 1, 6, 9, 1024)
 DeclareVariable("vehicle.brakes.brake_2.brake.useHeatPort", "=true, if heatPort is enabled [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,1539)
 DeclareVariable("vehicle.brakes.brake_2.brake.lossPower", "Loss power leaving component via heatPort (> 0, if heat is flowing out of component) [W]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.brake_2.brake.flange_a.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_2.rim.mass.phi", 1, 1, 28, 4)
+ "vehicle.wheel_2.rim.mass.phi", 1, 1, 32, 4)
 DeclareAlias2("vehicle.brakes.brake_2.brake.flange_a.tau", "Cut torque in the flange [N.m]",\
  "vehicle.brakes.summary.brakeTorque2", 1, 5, 1739, 132)
 DeclareAlias2("vehicle.brakes.brake_2.brake.flange_b.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_2.rim.mass.phi", 1, 1, 28, 4)
+ "vehicle.wheel_2.rim.mass.phi", 1, 1, 32, 4)
 DeclareVariable("vehicle.brakes.brake_2.brake.flange_b.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.brake_2.brake.support.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.brakes.brake_2.torqueReaction.flange_b.phi", 1, 1, 8, 4)
+ "vehicle.brakes.brake_2.torqueReaction.flange_b.phi", 1, 1, 9, 4)
 DeclareAlias2("vehicle.brakes.brake_2.brake.support.tau", "Cut torque in the flange [N.m]",\
  "vehicle.brakes.summary.brakeTorque2", -1, 5, 1739, 132)
 DeclareParameter("vehicle.brakes.brake_2.brake.mue", "Friction coefficient", 55,\
@@ -9920,24 +10708,24 @@ DeclareVariable("vehicle.brakes.brake_2.brake.friction.phi_rel", \
 0.0001,0,512)
 DeclareAlias2("vehicle.brakes.brake_2.brake.friction.der(phi_rel)", \
 "der(Relative rotation angle (= flange_b.phi - flange_a.phi)) [rad/s]", \
-"vehicle.brakes.brake_2.brake.friction.w_rel", 1, 5, 2593, 0)
+"vehicle.brakes.brake_2.brake.friction.w_rel", 1, 5, 2799, 0)
 DeclareVariable("vehicle.brakes.brake_2.brake.friction.w_rel", "Relative angular velocity (= der(phi_rel)) [rad/s]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_2.brake.friction.der(w_rel)", \
 "der(Relative angular velocity (= der(phi_rel))) [rad/s2]", 0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.brake_2.brake.friction.a_rel", "Relative angular acceleration (= der(w_rel)) [rad/s2]",\
- "vehicle.brakes.brake_2.brake.friction.der(w_rel)", 1, 5, 2594, 0)
+ "vehicle.brakes.brake_2.brake.friction.der(w_rel)", 1, 5, 2800, 0)
 DeclareAlias2("vehicle.brakes.brake_2.brake.friction.tau", "Torque between flanges (= flange_b.tau) [N.m]",\
  "vehicle.brakes.summary.brakeTorque2", -1, 5, 1739, 0)
 DeclareAlias2("vehicle.brakes.brake_2.brake.friction.flange_a.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_2.rim.mass.phi", 1,\
- 1, 28, 4)
+ 1, 32, 4)
 DeclareAlias2("vehicle.brakes.brake_2.brake.friction.flange_a.tau", \
 "Cut torque in the flange [N.m]", "vehicle.brakes.summary.brakeTorque2", 1, 5, 1739,\
  132)
 DeclareAlias2("vehicle.brakes.brake_2.brake.friction.flange_b.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.brakes.brake_2.torqueReaction.flange_b.phi", 1,\
- 1, 8, 4)
+ 1, 9, 4)
 DeclareAlias2("vehicle.brakes.brake_2.brake.friction.flange_b.tau", \
 "Cut torque in the flange [N.m]", "vehicle.brakes.summary.brakeTorque2", -1, 5, 1739,\
  132)
@@ -9965,12 +10753,12 @@ DeclareVariable("vehicle.brakes.brake_2.brake.friction.tau_max", "[N.m]", 0.0, \
 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_2.brake.friction.unitTime", "[s]", 1, \
 0.0,0.0,0.0,0,2561)
-DeclareState("vehicle.brakes.brake_2.brake.friction.z", "", 9, 0.0, 0.0,0.0,0.0,\
+DeclareState("vehicle.brakes.brake_2.brake.friction.z", "", 10, 0.0, 0.0,0.0,0.0,\
 0,2592)
 DeclareDerivative("vehicle.brakes.brake_2.brake.friction.der(z)", "", 0.0, \
 0.0,0.0,0.0,0,2560)
 DeclareAlias2("vehicle.brakes.brake_2.brake.friction.z_d", "", "vehicle.brakes.brake_2.brake.friction.der(z)", 1,\
- 6, 9, 1024)
+ 6, 10, 1024)
 DeclareVariable("vehicle.brakes.brake_2.brake.friction.w", "", 0.0, 0.0,0.0,0.0,\
 0,2560)
 DeclareAlias2("vehicle.brakes.brake_2.brake.f_input", "Normalized force signal 0..1 (normal force = fn_max*f_normalized; brake is active if > 0)",\
@@ -9996,10 +10784,10 @@ DeclareVariable("vehicle.brakes.brake_2.disc.flange_a.includeBearingConnector", 
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_2.disc.flange_a.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_2.rim.mass.phi", 1,\
- 1, 28, 4)
+ 1, 32, 4)
 DeclareAlias2("vehicle.brakes.brake_2.disc.flange_a.flange.der(phi)", \
 "der(Absolute rotation angle of flange) [rad/s]", "vehicle.wheel_2.rim.mass.w", 1,\
- 1, 29, 4)
+ 1, 33, 4)
 DeclareVariable("vehicle.brakes.brake_2.disc.flange_a.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.brakes.brake_2.disc.flange_b.includeBearingConnector", \
@@ -10007,7 +10795,7 @@ DeclareVariable("vehicle.brakes.brake_2.disc.flange_b.includeBearingConnector", 
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_2.disc.flange_b.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_2.rim.mass.phi", 1,\
- 1, 28, 4)
+ 1, 32, 4)
 DeclareVariable("vehicle.brakes.brake_2.disc.flange_b.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_2.disc.includeBearingConnector", \
@@ -10021,7 +10809,7 @@ DeclareVariable("vehicle.brakes.brake_2.disc.SpecificHeat", "Specific Heat Capac
 DeclareVariable("vehicle.brakes.brake_2.disc.m_Thermal", "Thermal Mass of shaft [kg]",\
  0.0, 0.0,1E+100,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_2.disc.Temp", "Temperature of heat Port [K|degC]",\
- "vehicle.brakes.brake_2.disc.T", 1, 5, 2620, 0)
+ "vehicle.brakes.brake_2.disc.T", 1, 5, 2826, 0)
 DeclareVariable("vehicle.brakes.brake_2.disc.include3D", "Include all 3D effects [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.brakes.brake_2.disc.length", "Length of shaft [m]", \
@@ -10046,41 +10834,41 @@ DeclareVariable("vehicle.brakes.brake_2.disc.rotationalStateSelect", \
 "Controls the selection of states for the rotational degree of freedom [:#(type=StateSelect)]",\
  3, 1.0,5.0,0.0,0,517)
 DeclareAlias2("vehicle.brakes.brake_2.disc.r_0[1]", "Absolute position of flange_a, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.r_0[2]", "Absolute position of flange_a, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.r_0[3]", "Absolute position of flange_a, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.v_0[1]", "Absolute velocity of flange_a, resolved in world frame [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 65016, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 68497, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.v_0[2]", "Absolute velocity of flange_a, resolved in world frame [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 65017, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 68498, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.v_0[3]", "Absolute velocity of flange_a, resolved in world frame [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 65018, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 68499, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.a_0[1]", "Absolute acceleration of flange_a resolved in world frame [m/s2]",\
- "vehicle.brakes.brake_2.disc.body.internal.a_0[1]", 1, 5, 2873, 0)
+ "vehicle.brakes.brake_2.disc.body.internal.a_0[1]", 1, 5, 3079, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.a_0[2]", "Absolute acceleration of flange_a resolved in world frame [m/s2]",\
- "vehicle.brakes.brake_2.disc.body.internal.a_0[2]", 1, 5, 2874, 0)
+ "vehicle.brakes.brake_2.disc.body.internal.a_0[2]", 1, 5, 3080, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.a_0[3]", "Absolute acceleration of flange_a resolved in world frame [m/s2]",\
- "vehicle.brakes.brake_2.disc.body.internal.a_0[3]", 1, 5, 2875, 0)
+ "vehicle.brakes.brake_2.disc.body.internal.a_0[3]", 1, 5, 3081, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.w_a[1]", "Absolute angular velocity of flange_a resolved in flange_a [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.w_a[2]", "Absolute angular velocity of flange_a resolved in flange_a [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.w_a[3]", "Absolute angular velocity of flange_a resolved in flange_a [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.z_a[1]", "Absolute angular acceleration of flange_a resolved in flange_a [rad/s2]",\
- "vehicle.brakes.brake_2.caliper.body.z_a[1]", 1, 5, 3241, 0)
+ "vehicle.brakes.brake_2.caliper.body.z_a[1]", 1, 5, 3447, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.z_a[2]", "Absolute angular acceleration of flange_a resolved in flange_a [rad/s2]",\
- "vehicle.brakes.brake_2.caliper.body.z_a[2]", 1, 5, 3242, 0)
+ "vehicle.brakes.brake_2.caliper.body.z_a[2]", 1, 5, 3448, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.z_a[3]", "Absolute angular acceleration of flange_a resolved in flange_a [rad/s2]",\
- "vehicle.brakes.brake_2.caliper.body.z_a[3]", 1, 5, 3243, 0)
+ "vehicle.brakes.brake_2.caliper.body.z_a[3]", 1, 5, 3449, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.phi", "Angle of rotation of body around axis of rotation [rad|deg]",\
- "vehicle.wheel_2.rim.mass.phi", 1, 1, 28, 0)
+ "vehicle.wheel_2.rim.mass.phi", 1, 1, 32, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.w", "Angular velocity of body around axis of rotation [rad/s]",\
- "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 0)
+ "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.z", "Angular acceleration of body around axis of rotation [rad/s2]",\
- "vehicle.wheel_2.rim.mass.der(w)", 1, 6, 29, 0)
+ "vehicle.wheel_2.rim.mass.der(w)", 1, 6, 33, 0)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.animation", \
 "Enable animation [:#(type=Boolean)]", true, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.colour[1]", \
@@ -10102,7 +10890,7 @@ DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.flange_a.includeBearing
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.flange_a.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_2.rim.mass.phi", 1,\
- 1, 28, 4)
+ 1, 32, 4)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.flange_a.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.flange_b.includeBearingConnector",\
@@ -10110,7 +10898,7 @@ DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.flange_b.includeBearing
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.flange_b.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_2.rim.mass.phi", 1,\
- 1, 28, 4)
+ 1, 32, 4)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.flange_b.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.includeBearingConnector",\
@@ -10153,34 +10941,34 @@ DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.extra", \
  0.6, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.summary.phi_a", \
 "Angle of rotation at flange_a [rad|deg]", "vehicle.wheel_2.rim.mass.phi", 1, 1,\
- 28, 0)
+ 32, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.summary.der(phi_a)", \
 "der(Angle of rotation at flange_a) [rad/s]", "vehicle.wheel_2.rim.mass.w", 1, 1,\
- 29, 0)
+ 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.summary.w_a", \
-"Angular velocity at flange_a [rad/s]", "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 0)
+"Angular velocity at flange_a [rad/s]", "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.summary.der(w_a)", \
 "der(Angular velocity at flange_a) [rad/s2]", "vehicle.wheel_2.rim.mass.der(w)", 1,\
- 6, 29, 0)
+ 6, 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.summary.z_a", \
 "Angular acceleration at flange_a [rad/s2]", "vehicle.wheel_2.rim.mass.der(w)", 1,\
- 6, 29, 0)
+ 6, 33, 0)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.summary.tau_a", \
 "Torque at flange_a [N.m]", 0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.summary.phi_b", \
 "Angle of rotation at flange_b [rad|deg]", "vehicle.wheel_2.rim.mass.phi", 1, 1,\
- 28, 0)
+ 32, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.summary.der(phi_b)", \
 "der(Angle of rotation at flange_b) [rad/s]", "vehicle.wheel_2.rim.mass.w", 1, 1,\
- 29, 0)
+ 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.summary.w_b", \
-"Angular velocity at flange_b [rad/s]", "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 0)
+"Angular velocity at flange_b [rad/s]", "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.summary.der(w_b)", \
 "der(Angular velocity at flange_b) [rad/s2]", "vehicle.wheel_2.rim.mass.der(w)", 1,\
- 6, 29, 0)
+ 6, 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.summary.z_b", \
 "Angular acceleration at flange_b [rad/s2]", "vehicle.wheel_2.rim.mass.der(w)", 1,\
- 6, 29, 0)
+ 6, 33, 0)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.summary.tau_b", \
 "Torque at flange_b [N.m]", 0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.summary.phi_rel", \
@@ -10195,49 +10983,49 @@ DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.summary.z_rel", \
 "Twisting angular acceleration along shaft [rad/s2]", 0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 1024)
+ 5, 67853, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 1024)
+ 5, 67854, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 1024)
+ 5, 67855, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 1024)
+ 5, 66246, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 1024)
+ 5, 66247, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 1024)
+ 5, 66248, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 1024)
+ 5, 66249, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 1024)
+ 5, 66250, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 1024)
+ 5, 66251, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 1024)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 1024)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 1024)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 1024)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.shape.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0, 0.0,0.0,0.0,0,2561)
@@ -10308,31 +11096,31 @@ DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.shape.Form", "", \
 9.871049999999999E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 1536)
+ 5, 67853, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 1536)
+ 5, 67854, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 1536)
+ 5, 67855, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 1536)
+ 5, 66246, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 1536)
+ 5, 66247, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 1536)
+ 5, 66248, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 1536)
+"vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.rvisobj[2]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 1536)
+"vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.shape.rvisobj[3]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 1536)
+"vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 1536)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.shape.size[1]", \
 "{length,width,height} of shape [m]", -0.012, 0.0,0.0,0.0,0,3585)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.shape.size[2]", \
@@ -10345,49 +11133,49 @@ DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.shape.Extra", "", 0.6, 
 0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 1024)
+ 5, 67853, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 1024)
+ 5, 67854, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 1024)
+ 5, 67855, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 1024)
+ 5, 66246, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 1024)
+ 5, 66247, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 1024)
+ 5, 66248, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 1024)
+ 5, 66249, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 1024)
+ 5, 66250, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 1024)
+ 5, 66251, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 1024)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 1024)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 1024)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 1024)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.marker.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -10458,22 +11246,22 @@ DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.marker.Form", "", \
 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 1536)
+ 5, 67853, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 1536)
+ 5, 67854, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 1536)
+ 5, 67855, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 1536)
+ 5, 66246, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 1536)
+ 5, 66247, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.marker.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 1536)
+ 5, 66248, 1536)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.marker.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
 0.0, 0.0,0.0,0.0,0,3584)
@@ -10495,13 +11283,13 @@ DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.marker.Extra", "", 0.0,
  0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 1028)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 1028)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 1028)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 1028)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 1028)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 1028)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_a.R.T[1, 2]",\
@@ -10552,40 +11340,40 @@ DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_
  0.0, 0.0,0.0,0.0,0,2568)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 1024)
+ 5, 67853, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 1024)
+ 5, 67854, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 1024)
+ 5, 67855, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 1024)
+ 5, 66246, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 1024)
+ 5, 66247, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 1024)
+ 5, 66248, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 1024)
+ 5, 66249, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 1024)
+ 5, 66250, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 1024)
+ 5, 66251, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_b.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_b.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_b.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 1024)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_b.f[1]",\
  "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("vehicle.brakes.brake_2.disc.shaftLength.fixedTranslation.frame_b.f[2]",\
@@ -10734,113 +11522,113 @@ DeclareVariable("vehicle.brakes.brake_2.disc.body.flange_a.includeBearingConnect
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_2.rim.mass.phi", 1,\
- 1, 28, 4)
+ 1, 32, 4)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.flange.tau", \
 "Cut torque in the flange [N.m]", "vehicle.brakes.brake_2.disc.flange_a.flange.tau", 1,\
- 5, 2615, 132)
+ 5, 2821, 132)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 4)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 4)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 4)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 0)
+ 5, 67853, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 0)
+ 5, 67854, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 0)
+ 5, 67855, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 0)
+ 5, 66246, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 0)
+ 5, 66247, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 0)
+ 5, 66248, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 0)
+ 5, 66249, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 0)
+ 5, 66250, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 0)
+ 5, 66251, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_2.disc.body.internal.bearingFrame.f[1]", 1,\
- 5, 2897, 132)
+ 5, 3103, 132)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_2.disc.body.internal.bearingFrame.f[2]", 1,\
- 5, 2898, 132)
+ 5, 3104, 132)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_2.disc.body.internal.bearingFrame.f[3]", 1,\
- 5, 2899, 132)
+ 5, 3105, 132)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_2.disc.body.internal.bearingFrame.t[1]", 1,\
- 5, 2900, 132)
+ 5, 3106, 132)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_2.disc.body.internal.bearingFrame.t[2]", 1,\
- 5, 2901, 132)
+ 5, 3107, 132)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.flange_a.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_2.disc.body.internal.bearingFrame.t[3]", 1,\
- 5, 2902, 132)
+ 5, 3108, 132)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.phi", "Rotation angle of rotor with respect to frame_a (= flange_a.phi = flange_b.phi) [rad|deg]",\
- "vehicle.wheel_2.rim.mass.phi", 1, 1, 28, 0)
+ "vehicle.wheel_2.rim.mass.phi", 1, 1, 32, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.der(phi)", "der(Rotation angle of rotor with respect to frame_a (= flange_a.phi = flange_b.phi)) [rad/s]",\
- "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 0)
+ "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.w", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 0)
+ "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.der(w)", "der(Angular velocity of rotor with respect to frame_a) [rad/s2]",\
- "vehicle.wheel_2.rim.mass.der(w)", 1, 6, 29, 0)
+ "vehicle.wheel_2.rim.mass.der(w)", 1, 6, 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.z", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.wheel_2.rim.mass.der(w)", 1, 6, 29, 0)
+ "vehicle.wheel_2.rim.mass.der(w)", 1, 6, 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.der(r_0[1])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 65016, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 68497, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.der(r_0[2])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 65017, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 68498, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.der(r_0[3])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 65018, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 68499, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 65016, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 68497, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 65017, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 68498, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 65018, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 68499, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_2.caliper.body.a_0[1]", 1, 5, 3161, 0)
+ "vehicle.brakes.brake_2.caliper.body.a_0[1]", 1, 5, 3367, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_2.caliper.body.a_0[2]", 1, 5, 3162, 0)
+ "vehicle.brakes.brake_2.caliper.body.a_0[2]", 1, 5, 3368, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_2.caliper.body.a_0[3]", 1, 5, 3163, 0)
+ "vehicle.brakes.brake_2.caliper.body.a_0[3]", 1, 5, 3369, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_2.disc.body.internal.a_0[1]", 1, 5, 2873, 0)
+ "vehicle.brakes.brake_2.disc.body.internal.a_0[1]", 1, 5, 3079, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_2.disc.body.internal.a_0[2]", 1, 5, 2874, 0)
+ "vehicle.brakes.brake_2.disc.body.internal.a_0[2]", 1, 5, 3080, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.a_0[3]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_2.disc.body.internal.a_0[3]", 1, 5, 2875, 0)
+ "vehicle.brakes.brake_2.disc.body.internal.a_0[3]", 1, 5, 3081, 0)
 DeclareVariable("vehicle.brakes.brake_2.disc.body.phi_0[1]", "Three angles to rotate world frame into frame_a of body [rad|deg]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.brake_2.disc.body.phi_0[2]", "Three angles to rotate world frame into frame_a of body [rad|deg]",\
@@ -10857,37 +11645,37 @@ DeclareVariable("vehicle.brakes.brake_2.disc.body.der(phi_0[3])", \
 "der(Three angles to rotate world frame into frame_a of body) [rad/s]", 0.0, \
 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.w_a[1]", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.w_a[2]", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.w_a[3]", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.der(w_a[1])", "der(Angular velocity of rotor with respect to frame_a) [rad/s2]",\
- "vehicle.brakes.brake_2.caliper.body.z_a[1]", 1, 5, 3241, 0)
+ "vehicle.brakes.brake_2.caliper.body.z_a[1]", 1, 5, 3447, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.der(w_a[2])", "der(Angular velocity of rotor with respect to frame_a) [rad/s2]",\
- "vehicle.brakes.brake_2.caliper.body.z_a[2]", 1, 5, 3242, 0)
+ "vehicle.brakes.brake_2.caliper.body.z_a[2]", 1, 5, 3448, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.der(w_a[3])", "der(Angular velocity of rotor with respect to frame_a) [rad/s2]",\
- "vehicle.brakes.brake_2.caliper.body.z_a[3]", 1, 5, 3243, 0)
+ "vehicle.brakes.brake_2.caliper.body.z_a[3]", 1, 5, 3449, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.z_a[1]", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.brakes.brake_2.caliper.body.z_a[1]", 1, 5, 3241, 0)
+ "vehicle.brakes.brake_2.caliper.body.z_a[1]", 1, 5, 3447, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.z_a[2]", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.brakes.brake_2.caliper.body.z_a[2]", 1, 5, 3242, 0)
+ "vehicle.brakes.brake_2.caliper.body.z_a[2]", 1, 5, 3448, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.z_a[3]", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.brakes.brake_2.caliper.body.z_a[3]", 1, 5, 3243, 0)
+ "vehicle.brakes.brake_2.caliper.body.z_a[3]", 1, 5, 3449, 0)
 DeclareVariable("vehicle.brakes.brake_2.disc.body.summary.useHeatPort", \
 "if true, thermal calculations enabled [:#(type=Boolean)]", false, 0.0,0.0,0.0,0,515)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.summary.tau", "Rotating torque [N.m]",\
- "vehicle.brakes.brake_2.disc.flange_a.flange.tau", 1, 5, 2615, 0)
+ "vehicle.brakes.brake_2.disc.flange_a.flange.tau", 1, 5, 2821, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.summary.phi", "Angle rotated [rad|deg]",\
- "vehicle.wheel_2.rim.mass.phi", 1, 1, 28, 0)
+ "vehicle.wheel_2.rim.mass.phi", 1, 1, 32, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.summary.der(phi)", \
-"der(Angle rotated) [rad/s]", "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 0)
+"der(Angle rotated) [rad/s]", "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.summary.w", "Angular velocity [rad/s]",\
- "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 0)
+ "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.summary.der(w)", \
-"der(Angular velocity) [rad/s2]", "vehicle.wheel_2.rim.mass.der(w)", 1, 6, 29, 0)
+"der(Angular velocity) [rad/s2]", "vehicle.wheel_2.rim.mass.der(w)", 1, 6, 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.summary.z", "Angular acceleration [rad/s2]",\
- "vehicle.wheel_2.rim.mass.der(w)", 1, 6, 29, 0)
+ "vehicle.wheel_2.rim.mass.der(w)", 1, 6, 33, 0)
 DeclareVariable("vehicle.brakes.brake_2.disc.body.phi_d[1]", "= der(phi) [rad/s]",\
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("vehicle.brakes.brake_2.disc.body.phi_d[2]", "= der(phi) [rad/s]",\
@@ -10997,29 +11785,29 @@ DeclareVariable("vehicle.brakes.brake_2.disc.body.internal.bodyStateSelect", \
 "Controls the selection of states for the body [:#(type=StateSelect)]", 3, 1.0,\
 5.0,0.0,0,2565)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.phi", "Rotation angle of rotor with respect to frame_a (= flange_a.phi = flange_b.phi) [rad|deg]",\
- "vehicle.wheel_2.rim.mass.phi", 1, 1, 28, 1024)
+ "vehicle.wheel_2.rim.mass.phi", 1, 1, 32, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.w", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 1024)
+ "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.z", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.wheel_2.rim.mass.der(w)", 1, 6, 29, 1024)
+ "vehicle.wheel_2.rim.mass.der(w)", 1, 6, 33, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.r_0[1]", \
 "Position vector from origin of world frame to origin of frame_a [m]", \
-"vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.r_0[2]", \
 "Position vector from origin of world frame to origin of frame_a [m]", \
-"vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.r_0[3]", \
 "Position vector from origin of world frame to origin of frame_a [m]", \
-"vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.v_0[1]", \
 "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]", \
-"vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 65016, 1024)
+"vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 68497, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.v_0[2]", \
 "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]", \
-"vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 65017, 1024)
+"vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 68498, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.v_0[3]", \
 "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]", \
-"vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 65018, 1024)
+"vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 68499, 1024)
 DeclareVariable("vehicle.brakes.brake_2.disc.body.internal.a_0[1]", \
 "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]", \
 0.0, 0.0,0.0,0.0,0,2560)
@@ -11040,22 +11828,22 @@ DeclareVariable("vehicle.brakes.brake_2.disc.body.internal.phi_0[3]", \
 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.w_a[1]", \
 "Angular velocity of rotor with respect to frame_a [rad/s]", "vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1,\
- 5, 62771, 1024)
+ 5, 66252, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.w_a[2]", \
 "Angular velocity of rotor with respect to frame_a [rad/s]", "vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1,\
- 5, 62772, 1024)
+ 5, 66253, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.w_a[3]", \
 "Angular velocity of rotor with respect to frame_a [rad/s]", "vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1,\
- 5, 62773, 1024)
+ 5, 66254, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.z_a[1]", \
 "Angular acceleration of rotor with respect to frame_a [rad/s2]", \
-"vehicle.brakes.brake_2.caliper.body.z_a[1]", 1, 5, 3241, 1024)
+"vehicle.brakes.brake_2.caliper.body.z_a[1]", 1, 5, 3447, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.z_a[2]", \
 "Angular acceleration of rotor with respect to frame_a [rad/s2]", \
-"vehicle.brakes.brake_2.caliper.body.z_a[2]", 1, 5, 3242, 1024)
+"vehicle.brakes.brake_2.caliper.body.z_a[2]", 1, 5, 3448, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.z_a[3]", \
 "Angular acceleration of rotor with respect to frame_a [rad/s2]", \
-"vehicle.brakes.brake_2.caliper.body.z_a[3]", 1, 5, 3243, 1024)
+"vehicle.brakes.brake_2.caliper.body.z_a[3]", 1, 5, 3449, 1024)
 DeclareVariable("vehicle.brakes.brake_2.disc.body.internal.phi_d[1]", \
 "= der(phi) [rad/s]", 0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("vehicle.brakes.brake_2.disc.body.internal.phi_d[2]", \
@@ -11070,13 +11858,13 @@ DeclareVariable("vehicle.brakes.brake_2.disc.body.internal.phi_dd[3]", \
 "= der(phi_d) [rad/s2]", 0.0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 1028)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 1028)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 1028)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 1028)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 1028)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 1028)
 DeclareVariable("vehicle.brakes.brake_2.disc.body.internal.bearingFrame.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
 DeclareVariable("vehicle.brakes.brake_2.disc.body.internal.bearingFrame.R.T[1, 2]",\
@@ -11118,10 +11906,10 @@ DeclareVariable("vehicle.brakes.brake_2.disc.body.internal.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2824)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_2.rim.mass.phi", 1,\
- 1, 28, 1028)
+ 1, 32, 1028)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.internal.flange.tau", \
 "Cut torque in the flange [N.m]", "vehicle.brakes.brake_2.disc.flange_a.flange.tau", 1,\
- 5, 2615, 1156)
+ 5, 2821, 1156)
 DeclareVariable("vehicle.brakes.brake_2.disc.body.internal.I[1, 1]", \
 "inertia tensor [kg.m2]", 0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("vehicle.brakes.brake_2.disc.body.internal.I[1, 2]", \
@@ -11175,42 +11963,42 @@ DeclareVariable("vehicle.brakes.brake_2.disc.body.internal.g_0[3]", \
 "Gravity acceleration resolved in world frame [m/s2]", -9.80665, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.r_0[1]", \
 "Position of the component reference frame [m]", "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1,\
- 5, 62759, 1024)
+ 5, 66240, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.r_0[2]", \
 "Position of the component reference frame [m]", "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1,\
- 5, 62760, 1024)
+ 5, 66241, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.r_0[3]", \
 "Position of the component reference frame [m]", "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1,\
- 5, 62761, 1024)
+ 5, 66242, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.T[1, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 1024)
+ 5, 67853, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.T[1, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 1024)
+ 5, 67854, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.T[1, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 1024)
+ 5, 67855, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.T[2, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 1024)
+ 5, 66246, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.T[2, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 1024)
+ 5, 66247, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.T[2, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 1024)
+ 5, 66248, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.T[3, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 1024)
+ 5, 66249, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.T[3, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 1024)
+ 5, 66250, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.T[3, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 1024)
+ 5, 66251, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.m", "Mass [kg]", \
-"vehicle.brakes.brake_2.disc.body.m", 1, 5, 2796, 1024)
+"vehicle.brakes.brake_2.disc.body.m", 1, 5, 3002, 1024)
 DeclareVariable("vehicle.brakes.brake_2.disc.body.addToTotal.r_cm[1]", \
 "Centre of mass relative to r_0 resolved in orientation T [m]", -0.006, 0.0,0.0,\
 0.0,0,2561)
@@ -11222,31 +12010,31 @@ DeclareVariable("vehicle.brakes.brake_2.disc.body.addToTotal.r_cm[3]", \
 0,2561)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.I[1, 1]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.disc.body.internal.I[1, 1]", 1,\
- 5, 2903, 1024)
+ 5, 3109, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.I[1, 2]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.disc.body.internal.I[1, 2]", 1,\
- 5, 2904, 1024)
+ 5, 3110, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.I[1, 3]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.disc.body.internal.I[1, 3]", 1,\
- 5, 2905, 1024)
+ 5, 3111, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.I[2, 1]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.disc.body.internal.I[2, 1]", 1,\
- 5, 2906, 1024)
+ 5, 3112, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.I[2, 2]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.disc.body.internal.I[2, 2]", 1,\
- 5, 2907, 1024)
+ 5, 3113, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.I[2, 3]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.disc.body.internal.I[2, 3]", 1,\
- 5, 2908, 1024)
+ 5, 3114, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.I[3, 1]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.disc.body.internal.I[3, 1]", 1,\
- 5, 2909, 1024)
+ 5, 3115, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.I[3, 2]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.disc.body.internal.I[3, 2]", 1,\
- 5, 2910, 1024)
+ 5, 3116, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.disc.body.addToTotal.I[3, 3]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.disc.body.internal.I[3, 3]", 1,\
- 5, 2911, 1024)
+ 5, 3117, 1024)
 DeclareVariable("vehicle.brakes.brake_2.disc.body.addToTotal.itemID", \
 "Dummy parameter [:#(type=Integer)]", -1, 0.0,0.0,0.0,0,2565)
 DeclareVariable("vehicle.brakes.brake_2.disc.body.addToTotal.ID", \
@@ -11314,13 +12102,13 @@ DeclareVariable("vehicle.brakes.brake_2.disc.body.addToTotal.T_resolve[3, 3]", \
 DeclareVariable("vehicle.brakes.brake_2.disc.summary.useHeatPort", \
 "if true, thermal calculations enabled [:#(type=Boolean)]", false, 0.0,0.0,0.0,0,515)
 DeclareAlias2("vehicle.brakes.brake_2.disc.summary.w_a", "Shaft absolute angular speed [rad/s]",\
- "vehicle.wheel_2.rim.mass.w", 1, 1, 29, 0)
+ "vehicle.wheel_2.rim.mass.w", 1, 1, 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.summary.der(w_a)", "der(Shaft absolute angular speed) [rad/s2]",\
- "vehicle.wheel_2.rim.mass.der(w)", 1, 6, 29, 0)
+ "vehicle.wheel_2.rim.mass.der(w)", 1, 6, 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.summary.z_a", "Shaft absolute angular acceleration [rad/s2]",\
- "vehicle.wheel_2.rim.mass.der(w)", 1, 6, 29, 0)
+ "vehicle.wheel_2.rim.mass.der(w)", 1, 6, 33, 0)
 DeclareAlias2("vehicle.brakes.brake_2.disc.summary.tau_a", "Torque at flange_a [N.m]",\
- "vehicle.brakes.brake_2.disc.flange_a.flange.tau", 1, 5, 2615, 0)
+ "vehicle.brakes.brake_2.disc.flange_a.flange.tau", 1, 5, 2821, 0)
 DeclareVariable("vehicle.brakes.brake_2.disc.summary.tau_b", "Torque at flange_b [N.m]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.brake_2.disc.summary.phi_rel", "Twisted angle rotated by the shaft [rad|deg]",\
@@ -11334,44 +12122,44 @@ DeclareVariable("vehicle.brakes.brake_2.disc.summary.der(w_rel)", \
 DeclareVariable("vehicle.brakes.brake_2.disc.summary.z_rel", "Relative angular acceleration of the shaft [rad/s2]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_a.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 4)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_a.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 4)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 4)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 0)
+ 5, 67853, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 0)
+ 5, 67854, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 0)
+ 5, 67855, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 0)
+ 5, 66246, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 0)
+ 5, 66247, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 0)
+ 5, 66248, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 0)
+ 5, 66249, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 0)
+ 5, 66250, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 0)
+ 5, 66251, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_a.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_a.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_a.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 0)
 DeclareVariable("vehicle.brakes.brake_2.caliper.frame_a.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.brakes.brake_2.caliper.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -11385,44 +12173,44 @@ DeclareVariable("vehicle.brakes.brake_2.caliper.frame_a.t[2]", "Cut-torque resol
 DeclareVariable("vehicle.brakes.brake_2.caliper.frame_a.t[3]", "Cut-torque resolved in connector frame [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_b.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_2.torqueReaction.frame_a.r_0[1]", 1, 5, 2578, 4)
+ "vehicle.brakes.brake_2.torqueReaction.frame_a.r_0[1]", 1, 5, 2784, 4)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_b.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_2.torqueReaction.frame_a.r_0[2]", 1, 5, 2579, 4)
+ "vehicle.brakes.brake_2.torqueReaction.frame_a.r_0[2]", 1, 5, 2785, 4)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_b.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_2.torqueReaction.frame_a.r_0[3]", 1, 5, 2580, 4)
+ "vehicle.brakes.brake_2.torqueReaction.frame_a.r_0[3]", 1, 5, 2786, 4)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 0)
+ 5, 67853, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 0)
+ 5, 67854, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 0)
+ 5, 67855, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 0)
+ 5, 66246, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 0)
+ 5, 66247, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 0)
+ 5, 66248, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 0)
+ 5, 66249, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 0)
+ 5, 66250, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 0)
+ 5, 66251, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_b.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_b.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frame_b.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 0)
 DeclareVariable("vehicle.brakes.brake_2.caliper.frame_b.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_2.caliper.frame_b.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -11486,35 +12274,35 @@ DeclareVariable("vehicle.brakes.brake_2.caliper.n_y[2]", "Vector along y-axis of
 DeclareVariable("vehicle.brakes.brake_2.caliper.n_y[3]", "Vector along y-axis of mass orientation, resolved in frame_a [1]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.der(r_0[1])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 65016, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 68497, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.der(r_0[2])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 65017, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 68498, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.der(r_0[3])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 65018, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 68499, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 65016, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 68497, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 65017, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 68498, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 65018, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 68499, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_2.caliper.body.a_0[1]", 1, 5, 3161, 0)
+ "vehicle.brakes.brake_2.caliper.body.a_0[1]", 1, 5, 3367, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_2.caliper.body.a_0[2]", 1, 5, 3162, 0)
+ "vehicle.brakes.brake_2.caliper.body.a_0[2]", 1, 5, 3368, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_2.caliper.body.a_0[3]", 1, 5, 3163, 0)
+ "vehicle.brakes.brake_2.caliper.body.a_0[3]", 1, 5, 3369, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_2.caliper.body.a_0[1]", 1, 5, 3161, 0)
+ "vehicle.brakes.brake_2.caliper.body.a_0[1]", 1, 5, 3367, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_2.caliper.body.a_0[2]", 1, 5, 3162, 0)
+ "vehicle.brakes.brake_2.caliper.body.a_0[2]", 1, 5, 3368, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.a_0[3]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_2.caliper.body.a_0[3]", 1, 5, 3163, 0)
+ "vehicle.brakes.brake_2.caliper.body.a_0[3]", 1, 5, 3369, 0)
 DeclareVariable("vehicle.brakes.brake_2.caliper.angles_fixed", "= true, if angles_start are used as initial values, else as guess values [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.brakes.brake_2.caliper.angles_start[1]", \
@@ -11625,13 +12413,13 @@ DeclareVariable("vehicle.brakes.brake_2.caliper.sequence_angleStates[3]", \
  3, 1.0,3.0,0.0,0,517)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 4)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 4)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 4)
 DeclareVariable("vehicle.brakes.brake_2.caliper.frameTranslation.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_2.caliper.frameTranslation.frame_a.R.T[1, 2]",\
@@ -11674,49 +12462,49 @@ DeclareVariable("vehicle.brakes.brake_2.caliper.frameTranslation.frame_a.t[3]", 
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_2.torqueReaction.frame_a.r_0[1]", 1, 5, 2578, 4)
+ "vehicle.brakes.brake_2.torqueReaction.frame_a.r_0[1]", 1, 5, 2784, 4)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_2.torqueReaction.frame_a.r_0[2]", 1, 5, 2579, 4)
+ "vehicle.brakes.brake_2.torqueReaction.frame_a.r_0[2]", 1, 5, 2785, 4)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_2.torqueReaction.frame_a.r_0[3]", 1, 5, 2580, 4)
+ "vehicle.brakes.brake_2.torqueReaction.frame_a.r_0[3]", 1, 5, 2786, 4)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 0)
+ 5, 67853, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 0)
+ 5, 67854, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 0)
+ 5, 67855, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 0)
+ 5, 66246, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 0)
+ 5, 66247, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 0)
+ 5, 66248, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 0)
+ 5, 66249, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 0)
+ 5, 66250, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 0)
+ 5, 66251, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 0)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 0)
 DeclareVariable("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_2.caliper.frameTranslation.frame_b.f[2]", \
@@ -11785,49 +12573,49 @@ DeclareVariable("vehicle.brakes.brake_2.caliper.frameTranslation.specularCoeffic
 1E+100,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 1024)
+ 5, 67853, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 1024)
+ 5, 67854, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 1024)
+ 5, 67855, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 1024)
+ 5, 66246, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 1024)
+ 5, 66247, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 1024)
+ 5, 66248, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 1024)
+ 5, 66249, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 1024)
+ 5, 66250, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 1024)
+ 5, 66251, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 1024)
+"vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 1024)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 1024)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 1024)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 1024)
 DeclareVariable("vehicle.brakes.brake_2.caliper.frameTranslation.shape.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  -0.006600000000000001, 0.0,0.0,0.0,0,2561)
@@ -11898,22 +12686,22 @@ DeclareVariable("vehicle.brakes.brake_2.caliper.frameTranslation.shape.Form", ""
  9.87101E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", -1,\
- 5, 62765, 1536)
+ 5, 66246, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", -1,\
- 5, 62766, 1536)
+ 5, 66247, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", -1,\
- 5, 62767, 1536)
+ 5, 66248, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 1536)
+ 5, 67853, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 1536)
+ 5, 67854, 1536)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.frameTranslation.shape.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 1536)
+ 5, 67855, 1536)
 DeclareVariable("vehicle.brakes.brake_2.caliper.frameTranslation.shape.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,3584)
@@ -11944,13 +12732,13 @@ DeclareVariable("vehicle.brakes.brake_2.caliper.body.frame_a.r_0[3]", \
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.frame_a.der(r_0[1])", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 65016, 4)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 68497, 4)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.frame_a.der(r_0[2])", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 65017, 4)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 68498, 4)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.frame_a.der(r_0[3])", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 65018, 4)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 68499, 4)
 DeclareVariable("vehicle.brakes.brake_2.caliper.body.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_2.caliper.body.frame_a.R.T[1, 2]", \
@@ -11980,21 +12768,21 @@ DeclareVariable("vehicle.brakes.brake_2.caliper.body.frame_a.R.w[3]", \
  0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_2.caliper.frame_a.f[1]", 1,\
- 5, 2960, 132)
+ 5, 3166, 132)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_2.caliper.frame_a.f[2]", 1,\
- 5, 2961, 132)
+ 5, 3167, 132)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_2.caliper.frame_a.f[3]", 1,\
- 5, 2962, 132)
+ 5, 3168, 132)
 DeclareVariable("vehicle.brakes.brake_2.caliper.body.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_2.caliper.frame_a.t[2]", 1,\
- 5, 2964, 132)
+ 5, 3170, 132)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_2.caliper.frame_a.t[3]", 1,\
- 5, 2965, 132)
+ 5, 3171, 132)
 DeclareVariable("vehicle.brakes.brake_2.caliper.body.animation", \
 "= true, if animation shall be enabled (show cylinder and sphere) [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
@@ -12046,26 +12834,26 @@ DeclareVariable("vehicle.brakes.brake_2.caliper.body.n_y[2]", "Vector along y-ax
 DeclareVariable("vehicle.brakes.brake_2.caliper.body.n_y[3]", "Vector along y-axis of local orientation, resolved in flange_a [1]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 65016, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 68497, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 65017, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 68498, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 65018, 0)
+ "vehicle.wheel_2.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 68499, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.der(v_0[1])", \
 "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_2.caliper.body.a_0[1]", 1, 5, 3161, 0)
+ "vehicle.brakes.brake_2.caliper.body.a_0[1]", 1, 5, 3367, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.der(v_0[2])", \
 "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_2.caliper.body.a_0[2]", 1, 5, 3162, 0)
+ "vehicle.brakes.brake_2.caliper.body.a_0[2]", 1, 5, 3368, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.der(v_0[3])", \
 "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_2.caliper.body.a_0[3]", 1, 5, 3163, 0)
+ "vehicle.brakes.brake_2.caliper.body.a_0[3]", 1, 5, 3369, 0)
 DeclareVariable("vehicle.brakes.brake_2.caliper.body.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_2.caliper.body.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
@@ -12261,13 +13049,13 @@ DeclareVariable("vehicle.brakes.brake_2.caliper.body.w_a[3]", "Absolute angular 
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.der(w_a[1])", \
 "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]", \
-"vehicle.brakes.brake_2.caliper.body.z_a[1]", 1, 5, 3241, 0)
+"vehicle.brakes.brake_2.caliper.body.z_a[1]", 1, 5, 3447, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.der(w_a[2])", \
 "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]", \
-"vehicle.brakes.brake_2.caliper.body.z_a[2]", 1, 5, 3242, 0)
+"vehicle.brakes.brake_2.caliper.body.z_a[2]", 1, 5, 3448, 0)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.der(w_a[3])", \
 "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]", \
-"vehicle.brakes.brake_2.caliper.body.z_a[3]", 1, 5, 3243, 0)
+"vehicle.brakes.brake_2.caliper.body.z_a[3]", 1, 5, 3449, 0)
 DeclareVariable("vehicle.brakes.brake_2.caliper.body.z_a[1]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_2.caliper.body.z_a[2]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
@@ -12326,77 +13114,77 @@ DeclareVariable("vehicle.brakes.brake_2.caliper.body.Q[4]", "Quaternion orientat
  1.0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.r_0[1]", \
 "Position of the component reference frame [m]", "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1,\
- 5, 62759, 1024)
+ 5, 66240, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.r_0[2]", \
 "Position of the component reference frame [m]", "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1,\
- 5, 62760, 1024)
+ 5, 66241, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.r_0[3]", \
 "Position of the component reference frame [m]", "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1,\
- 5, 62761, 1024)
+ 5, 66242, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.T[1, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 1024)
+ 5, 67853, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.T[1, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 1024)
+ 5, 67854, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.T[1, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 1024)
+ 5, 67855, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.T[2, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 1024)
+ 5, 66246, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.T[2, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 1024)
+ 5, 66247, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.T[2, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 1024)
+ 5, 66248, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.T[3, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 1024)
+ 5, 66249, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.T[3, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 1024)
+ 5, 66250, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.T[3, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 1024)
+ 5, 66251, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.m", "Mass [kg]", \
-"vehicle.brakes.brake_2.caliper.body.m", 1, 5, 3144, 1024)
+"vehicle.brakes.brake_2.caliper.body.m", 1, 5, 3350, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.r_cm[1]", \
 "Centre of mass relative to r_0 resolved in orientation T [m]", "vehicle.brakes.brake_2.caliper.body.r_CM_a[1]", 1,\
- 5, 3220, 1024)
+ 5, 3426, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.r_cm[2]", \
 "Centre of mass relative to r_0 resolved in orientation T [m]", "vehicle.brakes.brake_2.caliper.body.r_CM_a[2]", 1,\
- 5, 3221, 1024)
+ 5, 3427, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.r_cm[3]", \
 "Centre of mass relative to r_0 resolved in orientation T [m]", "vehicle.brakes.brake_2.caliper.body.r_CM_a[3]", 1,\
- 5, 3222, 1024)
+ 5, 3428, 1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.I[1, 1]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[1, 1]", 1, 5, 3211,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[1, 1]", 1, 5, 3417,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.I[1, 2]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[1, 2]", 1, 5, 3212,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[1, 2]", 1, 5, 3418,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.I[1, 3]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[1, 3]", 1, 5, 3213,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[1, 3]", 1, 5, 3419,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.I[2, 1]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[2, 1]", 1, 5, 3214,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[2, 1]", 1, 5, 3420,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.I[2, 2]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[2, 2]", 1, 5, 3215,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[2, 2]", 1, 5, 3421,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.I[2, 3]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[2, 3]", 1, 5, 3216,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[2, 3]", 1, 5, 3422,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.I[3, 1]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[3, 1]", 1, 5, 3217,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[3, 1]", 1, 5, 3423,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.I[3, 2]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[3, 2]", 1, 5, 3218,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[3, 2]", 1, 5, 3424,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_2.caliper.body.addToTotal.I[3, 3]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[3, 3]", 1, 5, 3219,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_2.caliper.body.I[3, 3]", 1, 5, 3425,\
  1024)
 DeclareVariable("vehicle.brakes.brake_2.caliper.body.addToTotal.itemID", \
 "Dummy parameter [:#(type=Integer)]", -1, 0.0,0.0,0.0,0,2565)
@@ -12630,54 +13418,54 @@ DeclareVariable("vehicle.brakes.brake_3.wheelHub.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 4)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 4)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.flange.tau", "Cut torque in the flange [N.m]",\
  "vehicle.brakes.wheelHub_3.flange.tau", 1, 5, 1567, 132)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 4)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 4)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 4)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 0)
+ 5, 70465, 0)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 0)
+ 5, 70466, 0)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 0)
+ 5, 70467, 0)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 0)
+ 5, 68857, 0)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 0)
+ 5, 68858, 0)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 0)
+ 5, 68859, 0)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 0)
+ 5, 68860, 0)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 0)
+ 5, 68861, 0)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 0)
+ 5, 68862, 0)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 0)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 0)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 0)
 DeclareAlias2("vehicle.brakes.brake_3.wheelHub.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.wheelHub_3.bearingFrame.f[1]", 1,\
  5, 1568, 132)
@@ -12774,7 +13562,7 @@ DeclareVariable("vehicle.brakes.brake_3.torqueReaction.rotationalStateSelect", \
 "Controls the selection of states for flange_b.phi [:#(type=StateSelect)]", 3, \
 1.0,5.0,0.0,0,517)
 DeclareState("vehicle.brakes.brake_3.torqueReaction.flange_b.phi", \
-"Absolute rotation angle of flange [rad|deg]", 10, 0, 0.0,0.0,0.0,0,552)
+"Absolute rotation angle of flange [rad|deg]", 11, 0, 0.0,0.0,0.0,0,552)
 DeclareDerivative("vehicle.brakes.brake_3.torqueReaction.flange_b.der(phi)", \
 "der(Absolute rotation angle of flange) [rad/s]", 0.0, 0.0,0.0,0.0,0,520)
 DeclareVariable("vehicle.brakes.brake_3.torqueReaction.flange_b.der(phi, 2)", \
@@ -12793,40 +13581,40 @@ DeclareVariable("vehicle.brakes.brake_3.torqueReaction.frame_a.r_0[3]", \
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("vehicle.brakes.brake_3.torqueReaction.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 0)
+ 5, 70465, 0)
 DeclareAlias2("vehicle.brakes.brake_3.torqueReaction.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 0)
+ 5, 70466, 0)
 DeclareAlias2("vehicle.brakes.brake_3.torqueReaction.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 0)
+ 5, 70467, 0)
 DeclareAlias2("vehicle.brakes.brake_3.torqueReaction.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 0)
+ 5, 68857, 0)
 DeclareAlias2("vehicle.brakes.brake_3.torqueReaction.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 0)
+ 5, 68858, 0)
 DeclareAlias2("vehicle.brakes.brake_3.torqueReaction.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 0)
+ 5, 68859, 0)
 DeclareAlias2("vehicle.brakes.brake_3.torqueReaction.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 0)
+ 5, 68860, 0)
 DeclareAlias2("vehicle.brakes.brake_3.torqueReaction.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 0)
+ 5, 68861, 0)
 DeclareAlias2("vehicle.brakes.brake_3.torqueReaction.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 0)
+ 5, 68862, 0)
 DeclareAlias2("vehicle.brakes.brake_3.torqueReaction.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 0)
 DeclareAlias2("vehicle.brakes.brake_3.torqueReaction.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 0)
 DeclareAlias2("vehicle.brakes.brake_3.torqueReaction.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 0)
 DeclareVariable("vehicle.brakes.brake_3.torqueReaction.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_3.torqueReaction.frame_a.f[2]", \
@@ -12843,21 +13631,21 @@ DeclareVariable("vehicle.brakes.brake_3.torqueReaction.frame_a.t[3]", \
 DeclareVariable("vehicle.brakes.brake_3.torqueReaction.phi_frame", "[rad|deg]", \
 0.0, 0.0,0.0,0.0,0,2560)
 DeclareAlias2("vehicle.brakes.brake_3.torqueReaction.der(phi_frame)", "[rad/s]",\
- "vehicle.brakes.brake_3.torqueReaction.flange_b.der(phi)", 1, 6, 10, 1024)
+ "vehicle.brakes.brake_3.torqueReaction.flange_b.der(phi)", 1, 6, 11, 1024)
 DeclareVariable("vehicle.brakes.brake_3.brake.useHeatPort", "=true, if heatPort is enabled [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,1539)
 DeclareVariable("vehicle.brakes.brake_3.brake.lossPower", "Loss power leaving component via heatPort (> 0, if heat is flowing out of component) [W]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.brake_3.brake.flange_a.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 4)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 4)
 DeclareAlias2("vehicle.brakes.brake_3.brake.flange_a.tau", "Cut torque in the flange [N.m]",\
  "vehicle.brakes.summary.brakeTorque3", 1, 5, 1740, 132)
 DeclareAlias2("vehicle.brakes.brake_3.brake.flange_b.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 4)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 4)
 DeclareVariable("vehicle.brakes.brake_3.brake.flange_b.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.brake_3.brake.support.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.brakes.brake_3.torqueReaction.flange_b.phi", 1, 1, 10, 4)
+ "vehicle.brakes.brake_3.torqueReaction.flange_b.phi", 1, 1, 11, 4)
 DeclareAlias2("vehicle.brakes.brake_3.brake.support.tau", "Cut torque in the flange [N.m]",\
  "vehicle.brakes.summary.brakeTorque3", -1, 5, 1740, 132)
 DeclareParameter("vehicle.brakes.brake_3.brake.mue", "Friction coefficient", 86,\
@@ -12879,24 +13667,24 @@ DeclareVariable("vehicle.brakes.brake_3.brake.friction.phi_rel", \
 0.0001,0,512)
 DeclareAlias2("vehicle.brakes.brake_3.brake.friction.der(phi_rel)", \
 "der(Relative rotation angle (= flange_b.phi - flange_a.phi)) [rad/s]", \
-"vehicle.brakes.brake_3.brake.friction.w_rel", 1, 5, 3402, 0)
+"vehicle.brakes.brake_3.brake.friction.w_rel", 1, 5, 3608, 0)
 DeclareVariable("vehicle.brakes.brake_3.brake.friction.w_rel", "Relative angular velocity (= der(phi_rel)) [rad/s]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_3.brake.friction.der(w_rel)", \
 "der(Relative angular velocity (= der(phi_rel))) [rad/s2]", 0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.brake_3.brake.friction.a_rel", "Relative angular acceleration (= der(w_rel)) [rad/s2]",\
- "vehicle.brakes.brake_3.brake.friction.der(w_rel)", 1, 5, 3403, 0)
+ "vehicle.brakes.brake_3.brake.friction.der(w_rel)", 1, 5, 3609, 0)
 DeclareAlias2("vehicle.brakes.brake_3.brake.friction.tau", "Torque between flanges (= flange_b.tau) [N.m]",\
  "vehicle.brakes.summary.brakeTorque3", -1, 5, 1740, 0)
 DeclareAlias2("vehicle.brakes.brake_3.brake.friction.flange_a.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_3.rim.mass.phi", 1,\
- 1, 30, 4)
+ 1, 34, 4)
 DeclareAlias2("vehicle.brakes.brake_3.brake.friction.flange_a.tau", \
 "Cut torque in the flange [N.m]", "vehicle.brakes.summary.brakeTorque3", 1, 5, 1740,\
  132)
 DeclareAlias2("vehicle.brakes.brake_3.brake.friction.flange_b.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.brakes.brake_3.torqueReaction.flange_b.phi", 1,\
- 1, 10, 4)
+ 1, 11, 4)
 DeclareAlias2("vehicle.brakes.brake_3.brake.friction.flange_b.tau", \
 "Cut torque in the flange [N.m]", "vehicle.brakes.summary.brakeTorque3", -1, 5, 1740,\
  132)
@@ -12924,12 +13712,12 @@ DeclareVariable("vehicle.brakes.brake_3.brake.friction.tau_max", "[N.m]", 0.0, \
 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_3.brake.friction.unitTime", "[s]", 1, \
 0.0,0.0,0.0,0,2561)
-DeclareState("vehicle.brakes.brake_3.brake.friction.z", "", 11, 0.0, 0.0,0.0,0.0,\
+DeclareState("vehicle.brakes.brake_3.brake.friction.z", "", 12, 0.0, 0.0,0.0,0.0,\
 0,2592)
 DeclareDerivative("vehicle.brakes.brake_3.brake.friction.der(z)", "", 0.0, \
 0.0,0.0,0.0,0,2560)
 DeclareAlias2("vehicle.brakes.brake_3.brake.friction.z_d", "", "vehicle.brakes.brake_3.brake.friction.der(z)", 1,\
- 6, 11, 1024)
+ 6, 12, 1024)
 DeclareVariable("vehicle.brakes.brake_3.brake.friction.w", "", 0.0, 0.0,0.0,0.0,\
 0,2560)
 DeclareAlias2("vehicle.brakes.brake_3.brake.f_input", "Normalized force signal 0..1 (normal force = fn_max*f_normalized; brake is active if > 0)",\
@@ -12955,10 +13743,10 @@ DeclareVariable("vehicle.brakes.brake_3.disc.flange_a.includeBearingConnector", 
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_3.disc.flange_a.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_3.rim.mass.phi", 1,\
- 1, 30, 4)
+ 1, 34, 4)
 DeclareAlias2("vehicle.brakes.brake_3.disc.flange_a.flange.der(phi)", \
 "der(Absolute rotation angle of flange) [rad/s]", "vehicle.wheel_3.rim.mass.w", 1,\
- 1, 31, 4)
+ 1, 35, 4)
 DeclareVariable("vehicle.brakes.brake_3.disc.flange_a.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.brakes.brake_3.disc.flange_b.includeBearingConnector", \
@@ -12966,7 +13754,7 @@ DeclareVariable("vehicle.brakes.brake_3.disc.flange_b.includeBearingConnector", 
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_3.disc.flange_b.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_3.rim.mass.phi", 1,\
- 1, 30, 4)
+ 1, 34, 4)
 DeclareVariable("vehicle.brakes.brake_3.disc.flange_b.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_3.disc.includeBearingConnector", \
@@ -12980,7 +13768,7 @@ DeclareVariable("vehicle.brakes.brake_3.disc.SpecificHeat", "Specific Heat Capac
 DeclareVariable("vehicle.brakes.brake_3.disc.m_Thermal", "Thermal Mass of shaft [kg]",\
  0.0, 0.0,1E+100,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_3.disc.Temp", "Temperature of heat Port [K|degC]",\
- "vehicle.brakes.brake_3.disc.T", 1, 5, 3429, 0)
+ "vehicle.brakes.brake_3.disc.T", 1, 5, 3635, 0)
 DeclareVariable("vehicle.brakes.brake_3.disc.include3D", "Include all 3D effects [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.brakes.brake_3.disc.length", "Length of shaft [m]", \
@@ -13005,41 +13793,41 @@ DeclareVariable("vehicle.brakes.brake_3.disc.rotationalStateSelect", \
 "Controls the selection of states for the rotational degree of freedom [:#(type=StateSelect)]",\
  3, 1.0,5.0,0.0,0,517)
 DeclareAlias2("vehicle.brakes.brake_3.disc.r_0[1]", "Absolute position of flange_a, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.r_0[2]", "Absolute position of flange_a, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.r_0[3]", "Absolute position of flange_a, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.v_0[1]", "Absolute velocity of flange_a, resolved in world frame [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 67628, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 71109, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.v_0[2]", "Absolute velocity of flange_a, resolved in world frame [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 67629, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 71110, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.v_0[3]", "Absolute velocity of flange_a, resolved in world frame [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 67630, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 71111, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.a_0[1]", "Absolute acceleration of flange_a resolved in world frame [m/s2]",\
- "vehicle.brakes.brake_3.disc.body.internal.a_0[1]", 1, 5, 3682, 0)
+ "vehicle.brakes.brake_3.disc.body.internal.a_0[1]", 1, 5, 3888, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.a_0[2]", "Absolute acceleration of flange_a resolved in world frame [m/s2]",\
- "vehicle.brakes.brake_3.disc.body.internal.a_0[2]", 1, 5, 3683, 0)
+ "vehicle.brakes.brake_3.disc.body.internal.a_0[2]", 1, 5, 3889, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.a_0[3]", "Absolute acceleration of flange_a resolved in world frame [m/s2]",\
- "vehicle.brakes.brake_3.disc.body.internal.a_0[3]", 1, 5, 3684, 0)
+ "vehicle.brakes.brake_3.disc.body.internal.a_0[3]", 1, 5, 3890, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.w_a[1]", "Absolute angular velocity of flange_a resolved in flange_a [rad/s]",\
- "vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.w_a[2]", "Absolute angular velocity of flange_a resolved in flange_a [rad/s]",\
- "vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.w_a[3]", "Absolute angular velocity of flange_a resolved in flange_a [rad/s]",\
- "vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.z_a[1]", "Absolute angular acceleration of flange_a resolved in flange_a [rad/s2]",\
- "vehicle.brakes.brake_3.caliper.body.z_a[1]", 1, 5, 4050, 0)
+ "vehicle.brakes.brake_3.caliper.body.z_a[1]", 1, 5, 4256, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.z_a[2]", "Absolute angular acceleration of flange_a resolved in flange_a [rad/s2]",\
- "vehicle.brakes.brake_3.caliper.body.z_a[2]", 1, 5, 4051, 0)
+ "vehicle.brakes.brake_3.caliper.body.z_a[2]", 1, 5, 4257, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.z_a[3]", "Absolute angular acceleration of flange_a resolved in flange_a [rad/s2]",\
- "vehicle.brakes.brake_3.caliper.body.z_a[3]", 1, 5, 4052, 0)
+ "vehicle.brakes.brake_3.caliper.body.z_a[3]", 1, 5, 4258, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.phi", "Angle of rotation of body around axis of rotation [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 0)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.w", "Angular velocity of body around axis of rotation [rad/s]",\
- "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 0)
+ "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.z", "Angular acceleration of body around axis of rotation [rad/s2]",\
- "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 31, 0)
+ "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 35, 0)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.animation", \
 "Enable animation [:#(type=Boolean)]", true, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.colour[1]", \
@@ -13061,7 +13849,7 @@ DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.flange_a.includeBearing
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.flange_a.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_3.rim.mass.phi", 1,\
- 1, 30, 4)
+ 1, 34, 4)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.flange_a.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.flange_b.includeBearingConnector",\
@@ -13069,7 +13857,7 @@ DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.flange_b.includeBearing
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.flange_b.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_3.rim.mass.phi", 1,\
- 1, 30, 4)
+ 1, 34, 4)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.flange_b.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.includeBearingConnector",\
@@ -13112,34 +13900,34 @@ DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.extra", \
  0.6, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.summary.phi_a", \
 "Angle of rotation at flange_a [rad|deg]", "vehicle.wheel_3.rim.mass.phi", 1, 1,\
- 30, 0)
+ 34, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.summary.der(phi_a)", \
 "der(Angle of rotation at flange_a) [rad/s]", "vehicle.wheel_3.rim.mass.w", 1, 1,\
- 31, 0)
+ 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.summary.w_a", \
-"Angular velocity at flange_a [rad/s]", "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 0)
+"Angular velocity at flange_a [rad/s]", "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.summary.der(w_a)", \
 "der(Angular velocity at flange_a) [rad/s2]", "vehicle.wheel_3.rim.mass.der(w)", 1,\
- 6, 31, 0)
+ 6, 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.summary.z_a", \
 "Angular acceleration at flange_a [rad/s2]", "vehicle.wheel_3.rim.mass.der(w)", 1,\
- 6, 31, 0)
+ 6, 35, 0)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.summary.tau_a", \
 "Torque at flange_a [N.m]", 0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.summary.phi_b", \
 "Angle of rotation at flange_b [rad|deg]", "vehicle.wheel_3.rim.mass.phi", 1, 1,\
- 30, 0)
+ 34, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.summary.der(phi_b)", \
 "der(Angle of rotation at flange_b) [rad/s]", "vehicle.wheel_3.rim.mass.w", 1, 1,\
- 31, 0)
+ 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.summary.w_b", \
-"Angular velocity at flange_b [rad/s]", "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 0)
+"Angular velocity at flange_b [rad/s]", "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.summary.der(w_b)", \
 "der(Angular velocity at flange_b) [rad/s2]", "vehicle.wheel_3.rim.mass.der(w)", 1,\
- 6, 31, 0)
+ 6, 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.summary.z_b", \
 "Angular acceleration at flange_b [rad/s2]", "vehicle.wheel_3.rim.mass.der(w)", 1,\
- 6, 31, 0)
+ 6, 35, 0)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.summary.tau_b", \
 "Torque at flange_b [N.m]", 0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.summary.phi_rel", \
@@ -13154,49 +13942,49 @@ DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.summary.z_rel", \
 "Twisting angular acceleration along shaft [rad/s2]", 0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 1024)
+ 5, 70465, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 1024)
+ 5, 70466, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 1024)
+ 5, 70467, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 1024)
+ 5, 68857, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 1024)
+ 5, 68858, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 1024)
+ 5, 68859, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 1024)
+ 5, 68860, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 1024)
+ 5, 68861, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 1024)
+ 5, 68862, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 1024)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 1024)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 1024)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 1024)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.shape.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0, 0.0,0.0,0.0,0,2561)
@@ -13267,31 +14055,31 @@ DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.shape.Form", "", \
 9.871049999999999E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 1536)
+ 5, 70465, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 1536)
+ 5, 70466, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 1536)
+ 5, 70467, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 1536)
+ 5, 68857, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 1536)
+ 5, 68858, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 1536)
+ 5, 68859, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 1536)
+"vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.rvisobj[2]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 1536)
+"vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.shape.rvisobj[3]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 1536)
+"vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 1536)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.shape.size[1]", \
 "{length,width,height} of shape [m]", 0.012, 0.0,0.0,0.0,0,3585)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.shape.size[2]", \
@@ -13304,49 +14092,49 @@ DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.shape.Extra", "", 0.6, 
 0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 1024)
+ 5, 70465, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 1024)
+ 5, 70466, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 1024)
+ 5, 70467, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 1024)
+ 5, 68857, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 1024)
+ 5, 68858, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 1024)
+ 5, 68859, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 1024)
+ 5, 68860, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 1024)
+ 5, 68861, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 1024)
+ 5, 68862, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 1024)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 1024)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 1024)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 1024)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.marker.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -13417,22 +14205,22 @@ DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.marker.Form", "", \
 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 1536)
+ 5, 70465, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 1536)
+ 5, 70466, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 1536)
+ 5, 70467, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 1536)
+ 5, 68857, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 1536)
+ 5, 68858, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.marker.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 1536)
+ 5, 68859, 1536)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.marker.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
 0.0, 0.0,0.0,0.0,0,3584)
@@ -13454,13 +14242,13 @@ DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.marker.Extra", "", 0.0,
  0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 1028)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 1028)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 1028)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 1028)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 1028)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 1028)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_a.R.T[1, 2]",\
@@ -13511,40 +14299,40 @@ DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_
  0.0, 0.0,0.0,0.0,0,2568)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 1024)
+ 5, 70465, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 1024)
+ 5, 70466, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 1024)
+ 5, 70467, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 1024)
+ 5, 68857, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 1024)
+ 5, 68858, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 1024)
+ 5, 68859, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 1024)
+ 5, 68860, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 1024)
+ 5, 68861, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 1024)
+ 5, 68862, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_b.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_b.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_b.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 1024)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_b.f[1]",\
  "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("vehicle.brakes.brake_3.disc.shaftLength.fixedTranslation.frame_b.f[2]",\
@@ -13669,6 +14457,9 @@ DeclareVariable("vehicle.brakes.brake_3.disc.body.length", "Length of body (alon
  0.012, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.width", "Width of body (diameter if circular body) [m]",\
  0.004, 0.0,0.0,0.0,0,513)
+EndNonAlias(7)
+PreNonAliasNew(8)
+StartNonAlias(8)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.height", "Height of body [m]",\
  0.004, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.colour[1]", "Colour of body [:#(type=Integer)]",\
@@ -13693,113 +14484,113 @@ DeclareVariable("vehicle.brakes.brake_3.disc.body.flange_a.includeBearingConnect
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_3.rim.mass.phi", 1,\
- 1, 30, 4)
+ 1, 34, 4)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.flange.tau", \
 "Cut torque in the flange [N.m]", "vehicle.brakes.brake_3.disc.flange_a.flange.tau", 1,\
- 5, 3424, 132)
+ 5, 3630, 132)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 4)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 4)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 4)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 0)
+ 5, 70465, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 0)
+ 5, 70466, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 0)
+ 5, 70467, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 0)
+ 5, 68857, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 0)
+ 5, 68858, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 0)
+ 5, 68859, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 0)
+ 5, 68860, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 0)
+ 5, 68861, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 0)
+ 5, 68862, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_3.disc.body.internal.bearingFrame.f[1]", 1,\
- 5, 3706, 132)
+ 5, 3912, 132)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_3.disc.body.internal.bearingFrame.f[2]", 1,\
- 5, 3707, 132)
+ 5, 3913, 132)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_3.disc.body.internal.bearingFrame.f[3]", 1,\
- 5, 3708, 132)
+ 5, 3914, 132)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_3.disc.body.internal.bearingFrame.t[1]", 1,\
- 5, 3709, 132)
+ 5, 3915, 132)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_3.disc.body.internal.bearingFrame.t[2]", 1,\
- 5, 3710, 132)
+ 5, 3916, 132)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.flange_a.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_3.disc.body.internal.bearingFrame.t[3]", 1,\
- 5, 3711, 132)
+ 5, 3917, 132)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.phi", "Rotation angle of rotor with respect to frame_a (= flange_a.phi = flange_b.phi) [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 0)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.der(phi)", "der(Rotation angle of rotor with respect to frame_a (= flange_a.phi = flange_b.phi)) [rad/s]",\
- "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 0)
+ "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.w", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 0)
+ "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.der(w)", "der(Angular velocity of rotor with respect to frame_a) [rad/s2]",\
- "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 31, 0)
+ "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.z", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 31, 0)
+ "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.der(r_0[1])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 67628, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 71109, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.der(r_0[2])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 67629, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 71110, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.der(r_0[3])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 67630, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 71111, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 67628, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 71109, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 67629, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 71110, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 67630, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 71111, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_3.caliper.body.a_0[1]", 1, 5, 3970, 0)
+ "vehicle.brakes.brake_3.caliper.body.a_0[1]", 1, 5, 4176, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_3.caliper.body.a_0[2]", 1, 5, 3971, 0)
+ "vehicle.brakes.brake_3.caliper.body.a_0[2]", 1, 5, 4177, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_3.caliper.body.a_0[3]", 1, 5, 3972, 0)
+ "vehicle.brakes.brake_3.caliper.body.a_0[3]", 1, 5, 4178, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_3.disc.body.internal.a_0[1]", 1, 5, 3682, 0)
+ "vehicle.brakes.brake_3.disc.body.internal.a_0[1]", 1, 5, 3888, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_3.disc.body.internal.a_0[2]", 1, 5, 3683, 0)
+ "vehicle.brakes.brake_3.disc.body.internal.a_0[2]", 1, 5, 3889, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.a_0[3]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_3.disc.body.internal.a_0[3]", 1, 5, 3684, 0)
+ "vehicle.brakes.brake_3.disc.body.internal.a_0[3]", 1, 5, 3890, 0)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.phi_0[1]", "Three angles to rotate world frame into frame_a of body [rad|deg]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.phi_0[2]", "Three angles to rotate world frame into frame_a of body [rad|deg]",\
@@ -13816,37 +14607,37 @@ DeclareVariable("vehicle.brakes.brake_3.disc.body.der(phi_0[3])", \
 "der(Three angles to rotate world frame into frame_a of body) [rad/s]", 0.0, \
 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.w_a[1]", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.w_a[2]", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.w_a[3]", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.der(w_a[1])", "der(Angular velocity of rotor with respect to frame_a) [rad/s2]",\
- "vehicle.brakes.brake_3.caliper.body.z_a[1]", 1, 5, 4050, 0)
+ "vehicle.brakes.brake_3.caliper.body.z_a[1]", 1, 5, 4256, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.der(w_a[2])", "der(Angular velocity of rotor with respect to frame_a) [rad/s2]",\
- "vehicle.brakes.brake_3.caliper.body.z_a[2]", 1, 5, 4051, 0)
+ "vehicle.brakes.brake_3.caliper.body.z_a[2]", 1, 5, 4257, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.der(w_a[3])", "der(Angular velocity of rotor with respect to frame_a) [rad/s2]",\
- "vehicle.brakes.brake_3.caliper.body.z_a[3]", 1, 5, 4052, 0)
+ "vehicle.brakes.brake_3.caliper.body.z_a[3]", 1, 5, 4258, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.z_a[1]", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.brakes.brake_3.caliper.body.z_a[1]", 1, 5, 4050, 0)
+ "vehicle.brakes.brake_3.caliper.body.z_a[1]", 1, 5, 4256, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.z_a[2]", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.brakes.brake_3.caliper.body.z_a[2]", 1, 5, 4051, 0)
+ "vehicle.brakes.brake_3.caliper.body.z_a[2]", 1, 5, 4257, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.z_a[3]", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.brakes.brake_3.caliper.body.z_a[3]", 1, 5, 4052, 0)
+ "vehicle.brakes.brake_3.caliper.body.z_a[3]", 1, 5, 4258, 0)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.summary.useHeatPort", \
 "if true, thermal calculations enabled [:#(type=Boolean)]", false, 0.0,0.0,0.0,0,515)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.summary.tau", "Rotating torque [N.m]",\
- "vehicle.brakes.brake_3.disc.flange_a.flange.tau", 1, 5, 3424, 0)
+ "vehicle.brakes.brake_3.disc.flange_a.flange.tau", 1, 5, 3630, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.summary.phi", "Angle rotated [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 0)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.summary.der(phi)", \
-"der(Angle rotated) [rad/s]", "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 0)
+"der(Angle rotated) [rad/s]", "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.summary.w", "Angular velocity [rad/s]",\
- "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 0)
+ "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.summary.der(w)", \
-"der(Angular velocity) [rad/s2]", "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 31, 0)
+"der(Angular velocity) [rad/s2]", "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.summary.z", "Angular acceleration [rad/s2]",\
- "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 31, 0)
+ "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 35, 0)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.phi_d[1]", "= der(phi) [rad/s]",\
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.phi_d[2]", "= der(phi) [rad/s]",\
@@ -13956,29 +14747,29 @@ DeclareVariable("vehicle.brakes.brake_3.disc.body.internal.bodyStateSelect", \
 "Controls the selection of states for the body [:#(type=StateSelect)]", 3, 1.0,\
 5.0,0.0,0,2565)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.phi", "Rotation angle of rotor with respect to frame_a (= flange_a.phi = flange_b.phi) [rad|deg]",\
- "vehicle.wheel_3.rim.mass.phi", 1, 1, 30, 1024)
+ "vehicle.wheel_3.rim.mass.phi", 1, 1, 34, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.w", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 1024)
+ "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.z", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 31, 1024)
+ "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 35, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.r_0[1]", \
 "Position vector from origin of world frame to origin of frame_a [m]", \
-"vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.r_0[2]", \
 "Position vector from origin of world frame to origin of frame_a [m]", \
-"vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.r_0[3]", \
 "Position vector from origin of world frame to origin of frame_a [m]", \
-"vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.v_0[1]", \
 "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]", \
-"vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 67628, 1024)
+"vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 71109, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.v_0[2]", \
 "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]", \
-"vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 67629, 1024)
+"vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 71110, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.v_0[3]", \
 "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]", \
-"vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 67630, 1024)
+"vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 71111, 1024)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.internal.a_0[1]", \
 "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]", \
 0.0, 0.0,0.0,0.0,0,2560)
@@ -13999,22 +14790,22 @@ DeclareVariable("vehicle.brakes.brake_3.disc.body.internal.phi_0[3]", \
 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.w_a[1]", \
 "Angular velocity of rotor with respect to frame_a [rad/s]", "vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1,\
- 5, 65382, 1024)
+ 5, 68863, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.w_a[2]", \
 "Angular velocity of rotor with respect to frame_a [rad/s]", "vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1,\
- 5, 65383, 1024)
+ 5, 68864, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.w_a[3]", \
 "Angular velocity of rotor with respect to frame_a [rad/s]", "vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1,\
- 5, 65384, 1024)
+ 5, 68865, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.z_a[1]", \
 "Angular acceleration of rotor with respect to frame_a [rad/s2]", \
-"vehicle.brakes.brake_3.caliper.body.z_a[1]", 1, 5, 4050, 1024)
+"vehicle.brakes.brake_3.caliper.body.z_a[1]", 1, 5, 4256, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.z_a[2]", \
 "Angular acceleration of rotor with respect to frame_a [rad/s2]", \
-"vehicle.brakes.brake_3.caliper.body.z_a[2]", 1, 5, 4051, 1024)
+"vehicle.brakes.brake_3.caliper.body.z_a[2]", 1, 5, 4257, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.z_a[3]", \
 "Angular acceleration of rotor with respect to frame_a [rad/s2]", \
-"vehicle.brakes.brake_3.caliper.body.z_a[3]", 1, 5, 4052, 1024)
+"vehicle.brakes.brake_3.caliper.body.z_a[3]", 1, 5, 4258, 1024)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.internal.phi_d[1]", \
 "= der(phi) [rad/s]", 0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.internal.phi_d[2]", \
@@ -14029,13 +14820,13 @@ DeclareVariable("vehicle.brakes.brake_3.disc.body.internal.phi_dd[3]", \
 "= der(phi_d) [rad/s2]", 0.0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 1028)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 1028)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 1028)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 1028)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 1028)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 1028)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.internal.bearingFrame.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.internal.bearingFrame.R.T[1, 2]",\
@@ -14077,10 +14868,10 @@ DeclareVariable("vehicle.brakes.brake_3.disc.body.internal.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2824)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_3.rim.mass.phi", 1,\
- 1, 30, 1028)
+ 1, 34, 1028)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.internal.flange.tau", \
 "Cut torque in the flange [N.m]", "vehicle.brakes.brake_3.disc.flange_a.flange.tau", 1,\
- 5, 3424, 1156)
+ 5, 3630, 1156)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.internal.I[1, 1]", \
 "inertia tensor [kg.m2]", 0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.internal.I[1, 2]", \
@@ -14134,42 +14925,42 @@ DeclareVariable("vehicle.brakes.brake_3.disc.body.internal.g_0[3]", \
 "Gravity acceleration resolved in world frame [m/s2]", -9.80665, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.r_0[1]", \
 "Position of the component reference frame [m]", "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1,\
- 5, 65370, 1024)
+ 5, 68851, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.r_0[2]", \
 "Position of the component reference frame [m]", "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1,\
- 5, 65371, 1024)
+ 5, 68852, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.r_0[3]", \
 "Position of the component reference frame [m]", "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1,\
- 5, 65372, 1024)
+ 5, 68853, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.T[1, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 1024)
+ 5, 70465, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.T[1, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 1024)
+ 5, 70466, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.T[1, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 1024)
+ 5, 70467, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.T[2, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 1024)
+ 5, 68857, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.T[2, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 1024)
+ 5, 68858, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.T[2, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 1024)
+ 5, 68859, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.T[3, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 1024)
+ 5, 68860, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.T[3, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 1024)
+ 5, 68861, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.T[3, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 1024)
+ 5, 68862, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.m", "Mass [kg]", \
-"vehicle.brakes.brake_3.disc.body.m", 1, 5, 3605, 1024)
+"vehicle.brakes.brake_3.disc.body.m", 1, 5, 3811, 1024)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.addToTotal.r_cm[1]", \
 "Centre of mass relative to r_0 resolved in orientation T [m]", 0.006, 0.0,0.0,\
 0.0,0,2561)
@@ -14181,31 +14972,31 @@ DeclareVariable("vehicle.brakes.brake_3.disc.body.addToTotal.r_cm[3]", \
 0,2561)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.I[1, 1]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.disc.body.internal.I[1, 1]", 1,\
- 5, 3712, 1024)
+ 5, 3918, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.I[1, 2]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.disc.body.internal.I[1, 2]", 1,\
- 5, 3713, 1024)
+ 5, 3919, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.I[1, 3]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.disc.body.internal.I[1, 3]", 1,\
- 5, 3714, 1024)
+ 5, 3920, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.I[2, 1]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.disc.body.internal.I[2, 1]", 1,\
- 5, 3715, 1024)
+ 5, 3921, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.I[2, 2]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.disc.body.internal.I[2, 2]", 1,\
- 5, 3716, 1024)
+ 5, 3922, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.I[2, 3]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.disc.body.internal.I[2, 3]", 1,\
- 5, 3717, 1024)
+ 5, 3923, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.I[3, 1]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.disc.body.internal.I[3, 1]", 1,\
- 5, 3718, 1024)
+ 5, 3924, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.I[3, 2]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.disc.body.internal.I[3, 2]", 1,\
- 5, 3719, 1024)
+ 5, 3925, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.disc.body.addToTotal.I[3, 3]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.disc.body.internal.I[3, 3]", 1,\
- 5, 3720, 1024)
+ 5, 3926, 1024)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.addToTotal.itemID", \
 "Dummy parameter [:#(type=Integer)]", -1, 0.0,0.0,0.0,0,2565)
 DeclareVariable("vehicle.brakes.brake_3.disc.body.addToTotal.ID", \
@@ -14273,13 +15064,13 @@ DeclareVariable("vehicle.brakes.brake_3.disc.body.addToTotal.T_resolve[3, 3]", \
 DeclareVariable("vehicle.brakes.brake_3.disc.summary.useHeatPort", \
 "if true, thermal calculations enabled [:#(type=Boolean)]", false, 0.0,0.0,0.0,0,515)
 DeclareAlias2("vehicle.brakes.brake_3.disc.summary.w_a", "Shaft absolute angular speed [rad/s]",\
- "vehicle.wheel_3.rim.mass.w", 1, 1, 31, 0)
+ "vehicle.wheel_3.rim.mass.w", 1, 1, 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.summary.der(w_a)", "der(Shaft absolute angular speed) [rad/s2]",\
- "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 31, 0)
+ "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.summary.z_a", "Shaft absolute angular acceleration [rad/s2]",\
- "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 31, 0)
+ "vehicle.wheel_3.rim.mass.der(w)", 1, 6, 35, 0)
 DeclareAlias2("vehicle.brakes.brake_3.disc.summary.tau_a", "Torque at flange_a [N.m]",\
- "vehicle.brakes.brake_3.disc.flange_a.flange.tau", 1, 5, 3424, 0)
+ "vehicle.brakes.brake_3.disc.flange_a.flange.tau", 1, 5, 3630, 0)
 DeclareVariable("vehicle.brakes.brake_3.disc.summary.tau_b", "Torque at flange_b [N.m]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.brake_3.disc.summary.phi_rel", "Twisted angle rotated by the shaft [rad|deg]",\
@@ -14293,44 +15084,44 @@ DeclareVariable("vehicle.brakes.brake_3.disc.summary.der(w_rel)", \
 DeclareVariable("vehicle.brakes.brake_3.disc.summary.z_rel", "Relative angular acceleration of the shaft [rad/s2]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_a.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 4)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_a.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 4)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 4)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 0)
+ 5, 70465, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 0)
+ 5, 70466, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 0)
+ 5, 70467, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 0)
+ 5, 68857, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 0)
+ 5, 68858, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 0)
+ 5, 68859, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 0)
+ 5, 68860, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 0)
+ 5, 68861, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 0)
+ 5, 68862, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_a.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_a.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_a.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 0)
 DeclareVariable("vehicle.brakes.brake_3.caliper.frame_a.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.brakes.brake_3.caliper.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -14344,44 +15135,44 @@ DeclareVariable("vehicle.brakes.brake_3.caliper.frame_a.t[2]", "Cut-torque resol
 DeclareVariable("vehicle.brakes.brake_3.caliper.frame_a.t[3]", "Cut-torque resolved in connector frame [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_b.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_3.torqueReaction.frame_a.r_0[1]", 1, 5, 3387, 4)
+ "vehicle.brakes.brake_3.torqueReaction.frame_a.r_0[1]", 1, 5, 3593, 4)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_b.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_3.torqueReaction.frame_a.r_0[2]", 1, 5, 3388, 4)
+ "vehicle.brakes.brake_3.torqueReaction.frame_a.r_0[2]", 1, 5, 3594, 4)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_b.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_3.torqueReaction.frame_a.r_0[3]", 1, 5, 3389, 4)
+ "vehicle.brakes.brake_3.torqueReaction.frame_a.r_0[3]", 1, 5, 3595, 4)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 0)
+ 5, 70465, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 0)
+ 5, 70466, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 0)
+ 5, 70467, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 0)
+ 5, 68857, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 0)
+ 5, 68858, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 0)
+ 5, 68859, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 0)
+ 5, 68860, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 0)
+ 5, 68861, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 0)
+ 5, 68862, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_b.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_b.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frame_b.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 0)
 DeclareVariable("vehicle.brakes.brake_3.caliper.frame_b.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_3.caliper.frame_b.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -14444,39 +15235,36 @@ DeclareVariable("vehicle.brakes.brake_3.caliper.n_y[2]", "Vector along y-axis of
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.brake_3.caliper.n_y[3]", "Vector along y-axis of mass orientation, resolved in frame_a [1]",\
  0.0, 0.0,0.0,0.0,0,513)
-EndNonAlias(7)
-PreNonAliasNew(8)
-StartNonAlias(8)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.der(r_0[1])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 67628, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 71109, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.der(r_0[2])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 67629, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 71110, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.der(r_0[3])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 67630, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 71111, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 67628, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 71109, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 67629, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 71110, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 67630, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 71111, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_3.caliper.body.a_0[1]", 1, 5, 3970, 0)
+ "vehicle.brakes.brake_3.caliper.body.a_0[1]", 1, 5, 4176, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_3.caliper.body.a_0[2]", 1, 5, 3971, 0)
+ "vehicle.brakes.brake_3.caliper.body.a_0[2]", 1, 5, 4177, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_3.caliper.body.a_0[3]", 1, 5, 3972, 0)
+ "vehicle.brakes.brake_3.caliper.body.a_0[3]", 1, 5, 4178, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_3.caliper.body.a_0[1]", 1, 5, 3970, 0)
+ "vehicle.brakes.brake_3.caliper.body.a_0[1]", 1, 5, 4176, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_3.caliper.body.a_0[2]", 1, 5, 3971, 0)
+ "vehicle.brakes.brake_3.caliper.body.a_0[2]", 1, 5, 4177, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.a_0[3]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_3.caliper.body.a_0[3]", 1, 5, 3972, 0)
+ "vehicle.brakes.brake_3.caliper.body.a_0[3]", 1, 5, 4178, 0)
 DeclareVariable("vehicle.brakes.brake_3.caliper.angles_fixed", "= true, if angles_start are used as initial values, else as guess values [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.brakes.brake_3.caliper.angles_start[1]", \
@@ -14587,13 +15375,13 @@ DeclareVariable("vehicle.brakes.brake_3.caliper.sequence_angleStates[3]", \
  3, 1.0,3.0,0.0,0,517)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 4)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 4)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 4)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 4)
 DeclareVariable("vehicle.brakes.brake_3.caliper.frameTranslation.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_3.caliper.frameTranslation.frame_a.R.T[1, 2]",\
@@ -14636,49 +15424,49 @@ DeclareVariable("vehicle.brakes.brake_3.caliper.frameTranslation.frame_a.t[3]", 
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_3.torqueReaction.frame_a.r_0[1]", 1, 5, 3387, 4)
+ "vehicle.brakes.brake_3.torqueReaction.frame_a.r_0[1]", 1, 5, 3593, 4)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_3.torqueReaction.frame_a.r_0[2]", 1, 5, 3388, 4)
+ "vehicle.brakes.brake_3.torqueReaction.frame_a.r_0[2]", 1, 5, 3594, 4)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_3.torqueReaction.frame_a.r_0[3]", 1, 5, 3389, 4)
+ "vehicle.brakes.brake_3.torqueReaction.frame_a.r_0[3]", 1, 5, 3595, 4)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 0)
+ 5, 70465, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 0)
+ 5, 70466, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 0)
+ 5, 70467, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 0)
+ 5, 68857, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 0)
+ 5, 68858, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 0)
+ 5, 68859, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 0)
+ 5, 68860, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 0)
+ 5, 68861, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 0)
+ 5, 68862, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 0)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 0)
 DeclareVariable("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_3.caliper.frameTranslation.frame_b.f[2]", \
@@ -14747,49 +15535,49 @@ DeclareVariable("vehicle.brakes.brake_3.caliper.frameTranslation.specularCoeffic
 1E+100,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 1024)
+ 5, 70465, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 1024)
+ 5, 70466, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 1024)
+ 5, 70467, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 1024)
+ 5, 68857, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 1024)
+ 5, 68858, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 1024)
+ 5, 68859, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 1024)
+ 5, 68860, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 1024)
+ 5, 68861, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 1024)
+ 5, 68862, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 65382, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[1]", 1, 5, 68863, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 65383, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[2]", 1, 5, 68864, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 65384, 1024)
+"vehicle.wheel_3.systemMass.frame_resolve.R.w[3]", 1, 5, 68865, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 1024)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 1024)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 1024)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 1024)
 DeclareVariable("vehicle.brakes.brake_3.caliper.frameTranslation.shape.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.006600000000000001, 0.0,0.0,0.0,0,2561)
@@ -14860,22 +15648,22 @@ DeclareVariable("vehicle.brakes.brake_3.caliper.frameTranslation.shape.Form", ""
  9.87101E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", -1,\
- 5, 65376, 1536)
+ 5, 68857, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", -1,\
- 5, 65377, 1536)
+ 5, 68858, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", -1,\
- 5, 65378, 1536)
+ 5, 68859, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 1536)
+ 5, 70465, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 1536)
+ 5, 70466, 1536)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.frameTranslation.shape.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 1536)
+ 5, 70467, 1536)
 DeclareVariable("vehicle.brakes.brake_3.caliper.frameTranslation.shape.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,3584)
@@ -14906,13 +15694,13 @@ DeclareVariable("vehicle.brakes.brake_3.caliper.body.frame_a.r_0[3]", \
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.frame_a.der(r_0[1])", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 67628, 4)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 71109, 4)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.frame_a.der(r_0[2])", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 67629, 4)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 71110, 4)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.frame_a.der(r_0[3])", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 67630, 4)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 71111, 4)
 DeclareVariable("vehicle.brakes.brake_3.caliper.body.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_3.caliper.body.frame_a.R.T[1, 2]", \
@@ -14942,21 +15730,21 @@ DeclareVariable("vehicle.brakes.brake_3.caliper.body.frame_a.R.w[3]", \
  0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_3.caliper.frame_a.f[1]", 1,\
- 5, 3769, 132)
+ 5, 3975, 132)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_3.caliper.frame_a.f[2]", 1,\
- 5, 3770, 132)
+ 5, 3976, 132)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_3.caliper.frame_a.f[3]", 1,\
- 5, 3771, 132)
+ 5, 3977, 132)
 DeclareVariable("vehicle.brakes.brake_3.caliper.body.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_3.caliper.frame_a.t[2]", 1,\
- 5, 3773, 132)
+ 5, 3979, 132)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_3.caliper.frame_a.t[3]", 1,\
- 5, 3774, 132)
+ 5, 3980, 132)
 DeclareVariable("vehicle.brakes.brake_3.caliper.body.animation", \
 "= true, if animation shall be enabled (show cylinder and sphere) [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
@@ -15008,26 +15796,26 @@ DeclareVariable("vehicle.brakes.brake_3.caliper.body.n_y[2]", "Vector along y-ax
 DeclareVariable("vehicle.brakes.brake_3.caliper.body.n_y[3]", "Vector along y-axis of local orientation, resolved in flange_a [1]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 65370, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1, 5, 68851, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 65371, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1, 5, 68852, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 65372, 0)
+ "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1, 5, 68853, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 67628, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 71109, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 67629, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 71110, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 67630, 0)
+ "vehicle.wheel_3.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 71111, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.der(v_0[1])", \
 "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_3.caliper.body.a_0[1]", 1, 5, 3970, 0)
+ "vehicle.brakes.brake_3.caliper.body.a_0[1]", 1, 5, 4176, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.der(v_0[2])", \
 "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_3.caliper.body.a_0[2]", 1, 5, 3971, 0)
+ "vehicle.brakes.brake_3.caliper.body.a_0[2]", 1, 5, 4177, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.der(v_0[3])", \
 "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_3.caliper.body.a_0[3]", 1, 5, 3972, 0)
+ "vehicle.brakes.brake_3.caliper.body.a_0[3]", 1, 5, 4178, 0)
 DeclareVariable("vehicle.brakes.brake_3.caliper.body.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_3.caliper.body.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
@@ -15223,13 +16011,13 @@ DeclareVariable("vehicle.brakes.brake_3.caliper.body.w_a[3]", "Absolute angular 
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.der(w_a[1])", \
 "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]", \
-"vehicle.brakes.brake_3.caliper.body.z_a[1]", 1, 5, 4050, 0)
+"vehicle.brakes.brake_3.caliper.body.z_a[1]", 1, 5, 4256, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.der(w_a[2])", \
 "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]", \
-"vehicle.brakes.brake_3.caliper.body.z_a[2]", 1, 5, 4051, 0)
+"vehicle.brakes.brake_3.caliper.body.z_a[2]", 1, 5, 4257, 0)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.der(w_a[3])", \
 "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]", \
-"vehicle.brakes.brake_3.caliper.body.z_a[3]", 1, 5, 4052, 0)
+"vehicle.brakes.brake_3.caliper.body.z_a[3]", 1, 5, 4258, 0)
 DeclareVariable("vehicle.brakes.brake_3.caliper.body.z_a[1]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_3.caliper.body.z_a[2]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
@@ -15288,77 +16076,77 @@ DeclareVariable("vehicle.brakes.brake_3.caliper.body.Q[4]", "Quaternion orientat
  1.0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.r_0[1]", \
 "Position of the component reference frame [m]", "vehicle.wheel_3.systemMass.frame_resolve.r_0[1]", 1,\
- 5, 65370, 1024)
+ 5, 68851, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.r_0[2]", \
 "Position of the component reference frame [m]", "vehicle.wheel_3.systemMass.frame_resolve.r_0[2]", 1,\
- 5, 65371, 1024)
+ 5, 68852, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.r_0[3]", \
 "Position of the component reference frame [m]", "vehicle.wheel_3.systemMass.frame_resolve.r_0[3]", 1,\
- 5, 65372, 1024)
+ 5, 68853, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.T[1, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[1]", 1,\
- 5, 66984, 1024)
+ 5, 70465, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.T[1, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[2]", 1,\
- 5, 66985, 1024)
+ 5, 70466, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.T[1, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.contact.findContactPoint.n_spin[3]", 1,\
- 5, 66986, 1024)
+ 5, 70467, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.T[2, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 65376, 1024)
+ 5, 68857, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.T[2, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 65377, 1024)
+ 5, 68858, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.T[2, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 65378, 1024)
+ 5, 68859, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.T[3, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 65379, 1024)
+ 5, 68860, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.T[3, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 65380, 1024)
+ 5, 68861, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.T[3, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_3.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 65381, 1024)
+ 5, 68862, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.m", "Mass [kg]", \
-"vehicle.brakes.brake_3.caliper.body.m", 1, 5, 3953, 1024)
+"vehicle.brakes.brake_3.caliper.body.m", 1, 5, 4159, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.r_cm[1]", \
 "Centre of mass relative to r_0 resolved in orientation T [m]", "vehicle.brakes.brake_3.caliper.body.r_CM_a[1]", 1,\
- 5, 4029, 1024)
+ 5, 4235, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.r_cm[2]", \
 "Centre of mass relative to r_0 resolved in orientation T [m]", "vehicle.brakes.brake_3.caliper.body.r_CM_a[2]", 1,\
- 5, 4030, 1024)
+ 5, 4236, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.r_cm[3]", \
 "Centre of mass relative to r_0 resolved in orientation T [m]", "vehicle.brakes.brake_3.caliper.body.r_CM_a[3]", 1,\
- 5, 4031, 1024)
+ 5, 4237, 1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.I[1, 1]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[1, 1]", 1, 5, 4020,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[1, 1]", 1, 5, 4226,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.I[1, 2]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[1, 2]", 1, 5, 4021,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[1, 2]", 1, 5, 4227,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.I[1, 3]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[1, 3]", 1, 5, 4022,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[1, 3]", 1, 5, 4228,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.I[2, 1]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[2, 1]", 1, 5, 4023,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[2, 1]", 1, 5, 4229,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.I[2, 2]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[2, 2]", 1, 5, 4024,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[2, 2]", 1, 5, 4230,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.I[2, 3]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[2, 3]", 1, 5, 4025,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[2, 3]", 1, 5, 4231,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.I[3, 1]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[3, 1]", 1, 5, 4026,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[3, 1]", 1, 5, 4232,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.I[3, 2]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[3, 2]", 1, 5, 4027,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[3, 2]", 1, 5, 4233,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_3.caliper.body.addToTotal.I[3, 3]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[3, 3]", 1, 5, 4028,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_3.caliper.body.I[3, 3]", 1, 5, 4234,\
  1024)
 DeclareVariable("vehicle.brakes.brake_3.caliper.body.addToTotal.itemID", \
 "Dummy parameter [:#(type=Integer)]", -1, 0.0,0.0,0.0,0,2565)
@@ -15592,54 +16380,54 @@ DeclareVariable("vehicle.brakes.brake_4.wheelHub.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 4)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 4)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.flange.tau", "Cut torque in the flange [N.m]",\
  "vehicle.brakes.wheelHub_4.flange.tau", 1, 5, 1575, 132)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 4)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 4)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 4)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 0)
+ 5, 73077, 0)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 0)
+ 5, 73078, 0)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 0)
+ 5, 73079, 0)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 0)
+ 5, 71469, 0)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 0)
+ 5, 71470, 0)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 0)
+ 5, 71471, 0)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 0)
+ 5, 71472, 0)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 0)
+ 5, 71473, 0)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 0)
+ 5, 71474, 0)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 0)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 0)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 0)
 DeclareAlias2("vehicle.brakes.brake_4.wheelHub.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.wheelHub_4.bearingFrame.f[1]", 1,\
  5, 1576, 132)
@@ -15736,7 +16524,7 @@ DeclareVariable("vehicle.brakes.brake_4.torqueReaction.rotationalStateSelect", \
 "Controls the selection of states for flange_b.phi [:#(type=StateSelect)]", 3, \
 1.0,5.0,0.0,0,517)
 DeclareState("vehicle.brakes.brake_4.torqueReaction.flange_b.phi", \
-"Absolute rotation angle of flange [rad|deg]", 12, 0, 0.0,0.0,0.0,0,552)
+"Absolute rotation angle of flange [rad|deg]", 13, 0, 0.0,0.0,0.0,0,552)
 DeclareDerivative("vehicle.brakes.brake_4.torqueReaction.flange_b.der(phi)", \
 "der(Absolute rotation angle of flange) [rad/s]", 0.0, 0.0,0.0,0.0,0,520)
 DeclareVariable("vehicle.brakes.brake_4.torqueReaction.flange_b.der(phi, 2)", \
@@ -15755,40 +16543,40 @@ DeclareVariable("vehicle.brakes.brake_4.torqueReaction.frame_a.r_0[3]", \
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("vehicle.brakes.brake_4.torqueReaction.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 0)
+ 5, 73077, 0)
 DeclareAlias2("vehicle.brakes.brake_4.torqueReaction.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 0)
+ 5, 73078, 0)
 DeclareAlias2("vehicle.brakes.brake_4.torqueReaction.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 0)
+ 5, 73079, 0)
 DeclareAlias2("vehicle.brakes.brake_4.torqueReaction.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 0)
+ 5, 71469, 0)
 DeclareAlias2("vehicle.brakes.brake_4.torqueReaction.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 0)
+ 5, 71470, 0)
 DeclareAlias2("vehicle.brakes.brake_4.torqueReaction.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 0)
+ 5, 71471, 0)
 DeclareAlias2("vehicle.brakes.brake_4.torqueReaction.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 0)
+ 5, 71472, 0)
 DeclareAlias2("vehicle.brakes.brake_4.torqueReaction.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 0)
+ 5, 71473, 0)
 DeclareAlias2("vehicle.brakes.brake_4.torqueReaction.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 0)
+ 5, 71474, 0)
 DeclareAlias2("vehicle.brakes.brake_4.torqueReaction.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 0)
 DeclareAlias2("vehicle.brakes.brake_4.torqueReaction.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 0)
 DeclareAlias2("vehicle.brakes.brake_4.torqueReaction.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 0)
 DeclareVariable("vehicle.brakes.brake_4.torqueReaction.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_4.torqueReaction.frame_a.f[2]", \
@@ -15805,21 +16593,21 @@ DeclareVariable("vehicle.brakes.brake_4.torqueReaction.frame_a.t[3]", \
 DeclareVariable("vehicle.brakes.brake_4.torqueReaction.phi_frame", "[rad|deg]", \
 0.0, 0.0,0.0,0.0,0,2560)
 DeclareAlias2("vehicle.brakes.brake_4.torqueReaction.der(phi_frame)", "[rad/s]",\
- "vehicle.brakes.brake_4.torqueReaction.flange_b.der(phi)", 1, 6, 12, 1024)
+ "vehicle.brakes.brake_4.torqueReaction.flange_b.der(phi)", 1, 6, 13, 1024)
 DeclareVariable("vehicle.brakes.brake_4.brake.useHeatPort", "=true, if heatPort is enabled [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,1539)
 DeclareVariable("vehicle.brakes.brake_4.brake.lossPower", "Loss power leaving component via heatPort (> 0, if heat is flowing out of component) [W]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.brake_4.brake.flange_a.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 4)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 4)
 DeclareAlias2("vehicle.brakes.brake_4.brake.flange_a.tau", "Cut torque in the flange [N.m]",\
  "vehicle.brakes.summary.brakeTorque4", 1, 5, 1741, 132)
 DeclareAlias2("vehicle.brakes.brake_4.brake.flange_b.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 4)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 4)
 DeclareVariable("vehicle.brakes.brake_4.brake.flange_b.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.brake_4.brake.support.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.brakes.brake_4.torqueReaction.flange_b.phi", 1, 1, 12, 4)
+ "vehicle.brakes.brake_4.torqueReaction.flange_b.phi", 1, 1, 13, 4)
 DeclareAlias2("vehicle.brakes.brake_4.brake.support.tau", "Cut torque in the flange [N.m]",\
  "vehicle.brakes.summary.brakeTorque4", -1, 5, 1741, 132)
 DeclareParameter("vehicle.brakes.brake_4.brake.mue", "Friction coefficient", 117,\
@@ -15841,24 +16629,24 @@ DeclareVariable("vehicle.brakes.brake_4.brake.friction.phi_rel", \
 0.0001,0,512)
 DeclareAlias2("vehicle.brakes.brake_4.brake.friction.der(phi_rel)", \
 "der(Relative rotation angle (= flange_b.phi - flange_a.phi)) [rad/s]", \
-"vehicle.brakes.brake_4.brake.friction.w_rel", 1, 5, 4211, 0)
+"vehicle.brakes.brake_4.brake.friction.w_rel", 1, 5, 4417, 0)
 DeclareVariable("vehicle.brakes.brake_4.brake.friction.w_rel", "Relative angular velocity (= der(phi_rel)) [rad/s]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_4.brake.friction.der(w_rel)", \
 "der(Relative angular velocity (= der(phi_rel))) [rad/s2]", 0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.brake_4.brake.friction.a_rel", "Relative angular acceleration (= der(w_rel)) [rad/s2]",\
- "vehicle.brakes.brake_4.brake.friction.der(w_rel)", 1, 5, 4212, 0)
+ "vehicle.brakes.brake_4.brake.friction.der(w_rel)", 1, 5, 4418, 0)
 DeclareAlias2("vehicle.brakes.brake_4.brake.friction.tau", "Torque between flanges (= flange_b.tau) [N.m]",\
  "vehicle.brakes.summary.brakeTorque4", -1, 5, 1741, 0)
 DeclareAlias2("vehicle.brakes.brake_4.brake.friction.flange_a.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_4.rim.mass.phi", 1,\
- 1, 32, 4)
+ 1, 36, 4)
 DeclareAlias2("vehicle.brakes.brake_4.brake.friction.flange_a.tau", \
 "Cut torque in the flange [N.m]", "vehicle.brakes.summary.brakeTorque4", 1, 5, 1741,\
  132)
 DeclareAlias2("vehicle.brakes.brake_4.brake.friction.flange_b.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.brakes.brake_4.torqueReaction.flange_b.phi", 1,\
- 1, 12, 4)
+ 1, 13, 4)
 DeclareAlias2("vehicle.brakes.brake_4.brake.friction.flange_b.tau", \
 "Cut torque in the flange [N.m]", "vehicle.brakes.summary.brakeTorque4", -1, 5, 1741,\
  132)
@@ -15886,12 +16674,12 @@ DeclareVariable("vehicle.brakes.brake_4.brake.friction.tau_max", "[N.m]", 0.0, \
 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_4.brake.friction.unitTime", "[s]", 1, \
 0.0,0.0,0.0,0,2561)
-DeclareState("vehicle.brakes.brake_4.brake.friction.z", "", 13, 0.0, 0.0,0.0,0.0,\
+DeclareState("vehicle.brakes.brake_4.brake.friction.z", "", 14, 0.0, 0.0,0.0,0.0,\
 0,2592)
 DeclareDerivative("vehicle.brakes.brake_4.brake.friction.der(z)", "", 0.0, \
 0.0,0.0,0.0,0,2560)
 DeclareAlias2("vehicle.brakes.brake_4.brake.friction.z_d", "", "vehicle.brakes.brake_4.brake.friction.der(z)", 1,\
- 6, 13, 1024)
+ 6, 14, 1024)
 DeclareVariable("vehicle.brakes.brake_4.brake.friction.w", "", 0.0, 0.0,0.0,0.0,\
 0,2560)
 DeclareAlias2("vehicle.brakes.brake_4.brake.f_input", "Normalized force signal 0..1 (normal force = fn_max*f_normalized; brake is active if > 0)",\
@@ -15917,10 +16705,10 @@ DeclareVariable("vehicle.brakes.brake_4.disc.flange_a.includeBearingConnector", 
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_4.disc.flange_a.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_4.rim.mass.phi", 1,\
- 1, 32, 4)
+ 1, 36, 4)
 DeclareAlias2("vehicle.brakes.brake_4.disc.flange_a.flange.der(phi)", \
 "der(Absolute rotation angle of flange) [rad/s]", "vehicle.wheel_4.rim.mass.w", 1,\
- 1, 33, 4)
+ 1, 37, 4)
 DeclareVariable("vehicle.brakes.brake_4.disc.flange_a.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.brakes.brake_4.disc.flange_b.includeBearingConnector", \
@@ -15928,7 +16716,7 @@ DeclareVariable("vehicle.brakes.brake_4.disc.flange_b.includeBearingConnector", 
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_4.disc.flange_b.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_4.rim.mass.phi", 1,\
- 1, 32, 4)
+ 1, 36, 4)
 DeclareVariable("vehicle.brakes.brake_4.disc.flange_b.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_4.disc.includeBearingConnector", \
@@ -15942,7 +16730,7 @@ DeclareVariable("vehicle.brakes.brake_4.disc.SpecificHeat", "Specific Heat Capac
 DeclareVariable("vehicle.brakes.brake_4.disc.m_Thermal", "Thermal Mass of shaft [kg]",\
  0.0, 0.0,1E+100,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_4.disc.Temp", "Temperature of heat Port [K|degC]",\
- "vehicle.brakes.brake_4.disc.T", 1, 5, 4238, 0)
+ "vehicle.brakes.brake_4.disc.T", 1, 5, 4444, 0)
 DeclareVariable("vehicle.brakes.brake_4.disc.include3D", "Include all 3D effects [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.brakes.brake_4.disc.length", "Length of shaft [m]", \
@@ -15967,41 +16755,41 @@ DeclareVariable("vehicle.brakes.brake_4.disc.rotationalStateSelect", \
 "Controls the selection of states for the rotational degree of freedom [:#(type=StateSelect)]",\
  3, 1.0,5.0,0.0,0,517)
 DeclareAlias2("vehicle.brakes.brake_4.disc.r_0[1]", "Absolute position of flange_a, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.r_0[2]", "Absolute position of flange_a, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.r_0[3]", "Absolute position of flange_a, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.v_0[1]", "Absolute velocity of flange_a, resolved in world frame [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 70240, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 73721, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.v_0[2]", "Absolute velocity of flange_a, resolved in world frame [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 70241, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 73722, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.v_0[3]", "Absolute velocity of flange_a, resolved in world frame [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 70242, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 73723, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.a_0[1]", "Absolute acceleration of flange_a resolved in world frame [m/s2]",\
- "vehicle.brakes.brake_4.disc.body.internal.a_0[1]", 1, 5, 4491, 0)
+ "vehicle.brakes.brake_4.disc.body.internal.a_0[1]", 1, 5, 4697, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.a_0[2]", "Absolute acceleration of flange_a resolved in world frame [m/s2]",\
- "vehicle.brakes.brake_4.disc.body.internal.a_0[2]", 1, 5, 4492, 0)
+ "vehicle.brakes.brake_4.disc.body.internal.a_0[2]", 1, 5, 4698, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.a_0[3]", "Absolute acceleration of flange_a resolved in world frame [m/s2]",\
- "vehicle.brakes.brake_4.disc.body.internal.a_0[3]", 1, 5, 4493, 0)
+ "vehicle.brakes.brake_4.disc.body.internal.a_0[3]", 1, 5, 4699, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.w_a[1]", "Absolute angular velocity of flange_a resolved in flange_a [rad/s]",\
- "vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.w_a[2]", "Absolute angular velocity of flange_a resolved in flange_a [rad/s]",\
- "vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.w_a[3]", "Absolute angular velocity of flange_a resolved in flange_a [rad/s]",\
- "vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.z_a[1]", "Absolute angular acceleration of flange_a resolved in flange_a [rad/s2]",\
- "vehicle.brakes.brake_4.caliper.body.z_a[1]", 1, 5, 4859, 0)
+ "vehicle.brakes.brake_4.caliper.body.z_a[1]", 1, 5, 5065, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.z_a[2]", "Absolute angular acceleration of flange_a resolved in flange_a [rad/s2]",\
- "vehicle.brakes.brake_4.caliper.body.z_a[2]", 1, 5, 4860, 0)
+ "vehicle.brakes.brake_4.caliper.body.z_a[2]", 1, 5, 5066, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.z_a[3]", "Absolute angular acceleration of flange_a resolved in flange_a [rad/s2]",\
- "vehicle.brakes.brake_4.caliper.body.z_a[3]", 1, 5, 4861, 0)
+ "vehicle.brakes.brake_4.caliper.body.z_a[3]", 1, 5, 5067, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.phi", "Angle of rotation of body around axis of rotation [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 0)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.w", "Angular velocity of body around axis of rotation [rad/s]",\
- "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 0)
+ "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.z", "Angular acceleration of body around axis of rotation [rad/s2]",\
- "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 33, 0)
+ "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 37, 0)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.animation", \
 "Enable animation [:#(type=Boolean)]", true, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.colour[1]", \
@@ -16023,7 +16811,7 @@ DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.flange_a.includeBearing
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.flange_a.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_4.rim.mass.phi", 1,\
- 1, 32, 4)
+ 1, 36, 4)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.flange_a.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.flange_b.includeBearingConnector",\
@@ -16031,7 +16819,7 @@ DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.flange_b.includeBearing
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.flange_b.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_4.rim.mass.phi", 1,\
- 1, 32, 4)
+ 1, 36, 4)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.flange_b.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.includeBearingConnector",\
@@ -16074,34 +16862,34 @@ DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.extra", \
  0.6, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.summary.phi_a", \
 "Angle of rotation at flange_a [rad|deg]", "vehicle.wheel_4.rim.mass.phi", 1, 1,\
- 32, 0)
+ 36, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.summary.der(phi_a)", \
 "der(Angle of rotation at flange_a) [rad/s]", "vehicle.wheel_4.rim.mass.w", 1, 1,\
- 33, 0)
+ 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.summary.w_a", \
-"Angular velocity at flange_a [rad/s]", "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 0)
+"Angular velocity at flange_a [rad/s]", "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.summary.der(w_a)", \
 "der(Angular velocity at flange_a) [rad/s2]", "vehicle.wheel_4.rim.mass.der(w)", 1,\
- 6, 33, 0)
+ 6, 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.summary.z_a", \
 "Angular acceleration at flange_a [rad/s2]", "vehicle.wheel_4.rim.mass.der(w)", 1,\
- 6, 33, 0)
+ 6, 37, 0)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.summary.tau_a", \
 "Torque at flange_a [N.m]", 0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.summary.phi_b", \
 "Angle of rotation at flange_b [rad|deg]", "vehicle.wheel_4.rim.mass.phi", 1, 1,\
- 32, 0)
+ 36, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.summary.der(phi_b)", \
 "der(Angle of rotation at flange_b) [rad/s]", "vehicle.wheel_4.rim.mass.w", 1, 1,\
- 33, 0)
+ 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.summary.w_b", \
-"Angular velocity at flange_b [rad/s]", "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 0)
+"Angular velocity at flange_b [rad/s]", "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.summary.der(w_b)", \
 "der(Angular velocity at flange_b) [rad/s2]", "vehicle.wheel_4.rim.mass.der(w)", 1,\
- 6, 33, 0)
+ 6, 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.summary.z_b", \
 "Angular acceleration at flange_b [rad/s2]", "vehicle.wheel_4.rim.mass.der(w)", 1,\
- 6, 33, 0)
+ 6, 37, 0)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.summary.tau_b", \
 "Torque at flange_b [N.m]", 0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.summary.phi_rel", \
@@ -16116,49 +16904,49 @@ DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.summary.z_rel", \
 "Twisting angular acceleration along shaft [rad/s2]", 0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 1024)
+ 5, 73077, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 1024)
+ 5, 73078, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 1024)
+ 5, 73079, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 1024)
+ 5, 71469, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 1024)
+ 5, 71470, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 1024)
+ 5, 71471, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 1024)
+ 5, 71472, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 1024)
+ 5, 71473, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 1024)
+ 5, 71474, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 1024)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 1024)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 1024)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 1024)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.shape.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0, 0.0,0.0,0.0,0,2561)
@@ -16229,31 +17017,31 @@ DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.shape.Form", "", \
 9.871049999999999E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 1536)
+ 5, 73077, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 1536)
+ 5, 73078, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 1536)
+ 5, 73079, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 1536)
+ 5, 71469, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 1536)
+ 5, 71470, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 1536)
+ 5, 71471, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 1536)
+"vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.rvisobj[2]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 1536)
+"vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.shape.rvisobj[3]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 1536)
+"vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 1536)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.shape.size[1]", \
 "{length,width,height} of shape [m]", -0.012, 0.0,0.0,0.0,0,3585)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.shape.size[2]", \
@@ -16266,49 +17054,49 @@ DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.shape.Extra", "", 0.6, 
 0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 1024)
+ 5, 73077, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 1024)
+ 5, 73078, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 1024)
+ 5, 73079, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 1024)
+ 5, 71469, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 1024)
+ 5, 71470, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 1024)
+ 5, 71471, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 1024)
+ 5, 71472, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 1024)
+ 5, 71473, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 1024)
+ 5, 71474, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 1024)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 1024)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 1024)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 1024)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.marker.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -16379,22 +17167,22 @@ DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.marker.Form", "", \
 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 1536)
+ 5, 73077, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 1536)
+ 5, 73078, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 1536)
+ 5, 73079, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 1536)
+ 5, 71469, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 1536)
+ 5, 71470, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.marker.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 1536)
+ 5, 71471, 1536)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.marker.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
 0.0, 0.0,0.0,0.0,0,3584)
@@ -16416,13 +17204,13 @@ DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.marker.Extra", "", 0.0,
  0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 1028)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 1028)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 1028)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 1028)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 1028)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 1028)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_a.R.T[1, 2]",\
@@ -16473,40 +17261,40 @@ DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_
  0.0, 0.0,0.0,0.0,0,2568)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 1024)
+ 5, 73077, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 1024)
+ 5, 73078, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 1024)
+ 5, 73079, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 1024)
+ 5, 71469, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 1024)
+ 5, 71470, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 1024)
+ 5, 71471, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 1024)
+ 5, 71472, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 1024)
+ 5, 71473, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 1024)
+ 5, 71474, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_b.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_b.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_b.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 1024)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_b.f[1]",\
  "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("vehicle.brakes.brake_4.disc.shaftLength.fixedTranslation.frame_b.f[2]",\
@@ -16655,113 +17443,113 @@ DeclareVariable("vehicle.brakes.brake_4.disc.body.flange_a.includeBearingConnect
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_4.rim.mass.phi", 1,\
- 1, 32, 4)
+ 1, 36, 4)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.flange.tau", \
 "Cut torque in the flange [N.m]", "vehicle.brakes.brake_4.disc.flange_a.flange.tau", 1,\
- 5, 4233, 132)
+ 5, 4439, 132)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 4)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 4)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 4)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 0)
+ 5, 73077, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 0)
+ 5, 73078, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 0)
+ 5, 73079, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 0)
+ 5, 71469, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 0)
+ 5, 71470, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 0)
+ 5, 71471, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 0)
+ 5, 71472, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 0)
+ 5, 71473, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 0)
+ 5, 71474, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_4.disc.body.internal.bearingFrame.f[1]", 1,\
- 5, 4515, 132)
+ 5, 4721, 132)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_4.disc.body.internal.bearingFrame.f[2]", 1,\
- 5, 4516, 132)
+ 5, 4722, 132)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_4.disc.body.internal.bearingFrame.f[3]", 1,\
- 5, 4517, 132)
+ 5, 4723, 132)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_4.disc.body.internal.bearingFrame.t[1]", 1,\
- 5, 4518, 132)
+ 5, 4724, 132)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_4.disc.body.internal.bearingFrame.t[2]", 1,\
- 5, 4519, 132)
+ 5, 4725, 132)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.flange_a.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_4.disc.body.internal.bearingFrame.t[3]", 1,\
- 5, 4520, 132)
+ 5, 4726, 132)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.phi", "Rotation angle of rotor with respect to frame_a (= flange_a.phi = flange_b.phi) [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 0)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.der(phi)", "der(Rotation angle of rotor with respect to frame_a (= flange_a.phi = flange_b.phi)) [rad/s]",\
- "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 0)
+ "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.w", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 0)
+ "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.der(w)", "der(Angular velocity of rotor with respect to frame_a) [rad/s2]",\
- "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 33, 0)
+ "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.z", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 33, 0)
+ "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.der(r_0[1])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 70240, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 73721, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.der(r_0[2])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 70241, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 73722, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.der(r_0[3])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 70242, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 73723, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 70240, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 73721, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 70241, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 73722, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 70242, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 73723, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_4.caliper.body.a_0[1]", 1, 5, 4779, 0)
+ "vehicle.brakes.brake_4.caliper.body.a_0[1]", 1, 5, 4985, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_4.caliper.body.a_0[2]", 1, 5, 4780, 0)
+ "vehicle.brakes.brake_4.caliper.body.a_0[2]", 1, 5, 4986, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_4.caliper.body.a_0[3]", 1, 5, 4781, 0)
+ "vehicle.brakes.brake_4.caliper.body.a_0[3]", 1, 5, 4987, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_4.disc.body.internal.a_0[1]", 1, 5, 4491, 0)
+ "vehicle.brakes.brake_4.disc.body.internal.a_0[1]", 1, 5, 4697, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_4.disc.body.internal.a_0[2]", 1, 5, 4492, 0)
+ "vehicle.brakes.brake_4.disc.body.internal.a_0[2]", 1, 5, 4698, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.a_0[3]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_4.disc.body.internal.a_0[3]", 1, 5, 4493, 0)
+ "vehicle.brakes.brake_4.disc.body.internal.a_0[3]", 1, 5, 4699, 0)
 DeclareVariable("vehicle.brakes.brake_4.disc.body.phi_0[1]", "Three angles to rotate world frame into frame_a of body [rad|deg]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.brake_4.disc.body.phi_0[2]", "Three angles to rotate world frame into frame_a of body [rad|deg]",\
@@ -16778,37 +17566,37 @@ DeclareVariable("vehicle.brakes.brake_4.disc.body.der(phi_0[3])", \
 "der(Three angles to rotate world frame into frame_a of body) [rad/s]", 0.0, \
 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.w_a[1]", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.w_a[2]", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.w_a[3]", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.der(w_a[1])", "der(Angular velocity of rotor with respect to frame_a) [rad/s2]",\
- "vehicle.brakes.brake_4.caliper.body.z_a[1]", 1, 5, 4859, 0)
+ "vehicle.brakes.brake_4.caliper.body.z_a[1]", 1, 5, 5065, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.der(w_a[2])", "der(Angular velocity of rotor with respect to frame_a) [rad/s2]",\
- "vehicle.brakes.brake_4.caliper.body.z_a[2]", 1, 5, 4860, 0)
+ "vehicle.brakes.brake_4.caliper.body.z_a[2]", 1, 5, 5066, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.der(w_a[3])", "der(Angular velocity of rotor with respect to frame_a) [rad/s2]",\
- "vehicle.brakes.brake_4.caliper.body.z_a[3]", 1, 5, 4861, 0)
+ "vehicle.brakes.brake_4.caliper.body.z_a[3]", 1, 5, 5067, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.z_a[1]", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.brakes.brake_4.caliper.body.z_a[1]", 1, 5, 4859, 0)
+ "vehicle.brakes.brake_4.caliper.body.z_a[1]", 1, 5, 5065, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.z_a[2]", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.brakes.brake_4.caliper.body.z_a[2]", 1, 5, 4860, 0)
+ "vehicle.brakes.brake_4.caliper.body.z_a[2]", 1, 5, 5066, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.z_a[3]", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.brakes.brake_4.caliper.body.z_a[3]", 1, 5, 4861, 0)
+ "vehicle.brakes.brake_4.caliper.body.z_a[3]", 1, 5, 5067, 0)
 DeclareVariable("vehicle.brakes.brake_4.disc.body.summary.useHeatPort", \
 "if true, thermal calculations enabled [:#(type=Boolean)]", false, 0.0,0.0,0.0,0,515)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.summary.tau", "Rotating torque [N.m]",\
- "vehicle.brakes.brake_4.disc.flange_a.flange.tau", 1, 5, 4233, 0)
+ "vehicle.brakes.brake_4.disc.flange_a.flange.tau", 1, 5, 4439, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.summary.phi", "Angle rotated [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 0)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.summary.der(phi)", \
-"der(Angle rotated) [rad/s]", "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 0)
+"der(Angle rotated) [rad/s]", "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.summary.w", "Angular velocity [rad/s]",\
- "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 0)
+ "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.summary.der(w)", \
-"der(Angular velocity) [rad/s2]", "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 33, 0)
+"der(Angular velocity) [rad/s2]", "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.summary.z", "Angular acceleration [rad/s2]",\
- "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 33, 0)
+ "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 37, 0)
 DeclareVariable("vehicle.brakes.brake_4.disc.body.phi_d[1]", "= der(phi) [rad/s]",\
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("vehicle.brakes.brake_4.disc.body.phi_d[2]", "= der(phi) [rad/s]",\
@@ -16918,29 +17706,29 @@ DeclareVariable("vehicle.brakes.brake_4.disc.body.internal.bodyStateSelect", \
 "Controls the selection of states for the body [:#(type=StateSelect)]", 3, 1.0,\
 5.0,0.0,0,2565)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.phi", "Rotation angle of rotor with respect to frame_a (= flange_a.phi = flange_b.phi) [rad|deg]",\
- "vehicle.wheel_4.rim.mass.phi", 1, 1, 32, 1024)
+ "vehicle.wheel_4.rim.mass.phi", 1, 1, 36, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.w", "Angular velocity of rotor with respect to frame_a [rad/s]",\
- "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 1024)
+ "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.z", "Angular acceleration of rotor with respect to frame_a [rad/s2]",\
- "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 33, 1024)
+ "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 37, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.r_0[1]", \
 "Position vector from origin of world frame to origin of frame_a [m]", \
-"vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.r_0[2]", \
 "Position vector from origin of world frame to origin of frame_a [m]", \
-"vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.r_0[3]", \
 "Position vector from origin of world frame to origin of frame_a [m]", \
-"vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.v_0[1]", \
 "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]", \
-"vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 70240, 1024)
+"vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 73721, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.v_0[2]", \
 "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]", \
-"vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 70241, 1024)
+"vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 73722, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.v_0[3]", \
 "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]", \
-"vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 70242, 1024)
+"vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 73723, 1024)
 DeclareVariable("vehicle.brakes.brake_4.disc.body.internal.a_0[1]", \
 "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]", \
 0.0, 0.0,0.0,0.0,0,2560)
@@ -16961,22 +17749,22 @@ DeclareVariable("vehicle.brakes.brake_4.disc.body.internal.phi_0[3]", \
 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.w_a[1]", \
 "Angular velocity of rotor with respect to frame_a [rad/s]", "vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1,\
- 5, 67994, 1024)
+ 5, 71475, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.w_a[2]", \
 "Angular velocity of rotor with respect to frame_a [rad/s]", "vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1,\
- 5, 67995, 1024)
+ 5, 71476, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.w_a[3]", \
 "Angular velocity of rotor with respect to frame_a [rad/s]", "vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1,\
- 5, 67996, 1024)
+ 5, 71477, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.z_a[1]", \
 "Angular acceleration of rotor with respect to frame_a [rad/s2]", \
-"vehicle.brakes.brake_4.caliper.body.z_a[1]", 1, 5, 4859, 1024)
+"vehicle.brakes.brake_4.caliper.body.z_a[1]", 1, 5, 5065, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.z_a[2]", \
 "Angular acceleration of rotor with respect to frame_a [rad/s2]", \
-"vehicle.brakes.brake_4.caliper.body.z_a[2]", 1, 5, 4860, 1024)
+"vehicle.brakes.brake_4.caliper.body.z_a[2]", 1, 5, 5066, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.z_a[3]", \
 "Angular acceleration of rotor with respect to frame_a [rad/s2]", \
-"vehicle.brakes.brake_4.caliper.body.z_a[3]", 1, 5, 4861, 1024)
+"vehicle.brakes.brake_4.caliper.body.z_a[3]", 1, 5, 5067, 1024)
 DeclareVariable("vehicle.brakes.brake_4.disc.body.internal.phi_d[1]", \
 "= der(phi) [rad/s]", 0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("vehicle.brakes.brake_4.disc.body.internal.phi_d[2]", \
@@ -16991,13 +17779,13 @@ DeclareVariable("vehicle.brakes.brake_4.disc.body.internal.phi_dd[3]", \
 "= der(phi_d) [rad/s2]", 0.0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.bearingFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 1028)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 1028)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.bearingFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 1028)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 1028)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.bearingFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 1028)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 1028)
 DeclareVariable("vehicle.brakes.brake_4.disc.body.internal.bearingFrame.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2560)
 DeclareVariable("vehicle.brakes.brake_4.disc.body.internal.bearingFrame.R.T[1, 2]",\
@@ -17039,10 +17827,10 @@ DeclareVariable("vehicle.brakes.brake_4.disc.body.internal.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2824)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_4.rim.mass.phi", 1,\
- 1, 32, 1028)
+ 1, 36, 1028)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.internal.flange.tau", \
 "Cut torque in the flange [N.m]", "vehicle.brakes.brake_4.disc.flange_a.flange.tau", 1,\
- 5, 4233, 1156)
+ 5, 4439, 1156)
 DeclareVariable("vehicle.brakes.brake_4.disc.body.internal.I[1, 1]", \
 "inertia tensor [kg.m2]", 0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("vehicle.brakes.brake_4.disc.body.internal.I[1, 2]", \
@@ -17096,42 +17884,42 @@ DeclareVariable("vehicle.brakes.brake_4.disc.body.internal.g_0[3]", \
 "Gravity acceleration resolved in world frame [m/s2]", -9.80665, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.r_0[1]", \
 "Position of the component reference frame [m]", "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1,\
- 5, 67982, 1024)
+ 5, 71463, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.r_0[2]", \
 "Position of the component reference frame [m]", "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1,\
- 5, 67983, 1024)
+ 5, 71464, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.r_0[3]", \
 "Position of the component reference frame [m]", "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1,\
- 5, 67984, 1024)
+ 5, 71465, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.T[1, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 1024)
+ 5, 73077, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.T[1, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 1024)
+ 5, 73078, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.T[1, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 1024)
+ 5, 73079, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.T[2, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 1024)
+ 5, 71469, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.T[2, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 1024)
+ 5, 71470, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.T[2, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 1024)
+ 5, 71471, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.T[3, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 1024)
+ 5, 71472, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.T[3, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 1024)
+ 5, 71473, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.T[3, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 1024)
+ 5, 71474, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.m", "Mass [kg]", \
-"vehicle.brakes.brake_4.disc.body.m", 1, 5, 4414, 1024)
+"vehicle.brakes.brake_4.disc.body.m", 1, 5, 4620, 1024)
 DeclareVariable("vehicle.brakes.brake_4.disc.body.addToTotal.r_cm[1]", \
 "Centre of mass relative to r_0 resolved in orientation T [m]", -0.006, 0.0,0.0,\
 0.0,0,2561)
@@ -17143,31 +17931,31 @@ DeclareVariable("vehicle.brakes.brake_4.disc.body.addToTotal.r_cm[3]", \
 0,2561)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.I[1, 1]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.disc.body.internal.I[1, 1]", 1,\
- 5, 4521, 1024)
+ 5, 4727, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.I[1, 2]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.disc.body.internal.I[1, 2]", 1,\
- 5, 4522, 1024)
+ 5, 4728, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.I[1, 3]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.disc.body.internal.I[1, 3]", 1,\
- 5, 4523, 1024)
+ 5, 4729, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.I[2, 1]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.disc.body.internal.I[2, 1]", 1,\
- 5, 4524, 1024)
+ 5, 4730, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.I[2, 2]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.disc.body.internal.I[2, 2]", 1,\
- 5, 4525, 1024)
+ 5, 4731, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.I[2, 3]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.disc.body.internal.I[2, 3]", 1,\
- 5, 4526, 1024)
+ 5, 4732, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.I[3, 1]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.disc.body.internal.I[3, 1]", 1,\
- 5, 4527, 1024)
+ 5, 4733, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.I[3, 2]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.disc.body.internal.I[3, 2]", 1,\
- 5, 4528, 1024)
+ 5, 4734, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.disc.body.addToTotal.I[3, 3]", \
 "Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.disc.body.internal.I[3, 3]", 1,\
- 5, 4529, 1024)
+ 5, 4735, 1024)
 DeclareVariable("vehicle.brakes.brake_4.disc.body.addToTotal.itemID", \
 "Dummy parameter [:#(type=Integer)]", -1, 0.0,0.0,0.0,0,2565)
 DeclareVariable("vehicle.brakes.brake_4.disc.body.addToTotal.ID", \
@@ -17235,13 +18023,13 @@ DeclareVariable("vehicle.brakes.brake_4.disc.body.addToTotal.T_resolve[3, 3]", \
 DeclareVariable("vehicle.brakes.brake_4.disc.summary.useHeatPort", \
 "if true, thermal calculations enabled [:#(type=Boolean)]", false, 0.0,0.0,0.0,0,515)
 DeclareAlias2("vehicle.brakes.brake_4.disc.summary.w_a", "Shaft absolute angular speed [rad/s]",\
- "vehicle.wheel_4.rim.mass.w", 1, 1, 33, 0)
+ "vehicle.wheel_4.rim.mass.w", 1, 1, 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.summary.der(w_a)", "der(Shaft absolute angular speed) [rad/s2]",\
- "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 33, 0)
+ "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.summary.z_a", "Shaft absolute angular acceleration [rad/s2]",\
- "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 33, 0)
+ "vehicle.wheel_4.rim.mass.der(w)", 1, 6, 37, 0)
 DeclareAlias2("vehicle.brakes.brake_4.disc.summary.tau_a", "Torque at flange_a [N.m]",\
- "vehicle.brakes.brake_4.disc.flange_a.flange.tau", 1, 5, 4233, 0)
+ "vehicle.brakes.brake_4.disc.flange_a.flange.tau", 1, 5, 4439, 0)
 DeclareVariable("vehicle.brakes.brake_4.disc.summary.tau_b", "Torque at flange_b [N.m]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.brakes.brake_4.disc.summary.phi_rel", "Twisted angle rotated by the shaft [rad|deg]",\
@@ -17255,44 +18043,44 @@ DeclareVariable("vehicle.brakes.brake_4.disc.summary.der(w_rel)", \
 DeclareVariable("vehicle.brakes.brake_4.disc.summary.z_rel", "Relative angular acceleration of the shaft [rad/s2]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_a.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 4)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_a.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 4)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 4)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 0)
+ 5, 73077, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 0)
+ 5, 73078, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 0)
+ 5, 73079, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 0)
+ 5, 71469, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 0)
+ 5, 71470, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 0)
+ 5, 71471, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 0)
+ 5, 71472, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 0)
+ 5, 71473, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 0)
+ 5, 71474, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_a.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_a.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_a.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 0)
 DeclareVariable("vehicle.brakes.brake_4.caliper.frame_a.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.brakes.brake_4.caliper.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -17306,44 +18094,44 @@ DeclareVariable("vehicle.brakes.brake_4.caliper.frame_a.t[2]", "Cut-torque resol
 DeclareVariable("vehicle.brakes.brake_4.caliper.frame_a.t[3]", "Cut-torque resolved in connector frame [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_b.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_4.torqueReaction.frame_a.r_0[1]", 1, 5, 4196, 4)
+ "vehicle.brakes.brake_4.torqueReaction.frame_a.r_0[1]", 1, 5, 4402, 4)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_b.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_4.torqueReaction.frame_a.r_0[2]", 1, 5, 4197, 4)
+ "vehicle.brakes.brake_4.torqueReaction.frame_a.r_0[2]", 1, 5, 4403, 4)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_b.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_4.torqueReaction.frame_a.r_0[3]", 1, 5, 4198, 4)
+ "vehicle.brakes.brake_4.torqueReaction.frame_a.r_0[3]", 1, 5, 4404, 4)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 0)
+ 5, 73077, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 0)
+ 5, 73078, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 0)
+ 5, 73079, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 0)
+ 5, 71469, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 0)
+ 5, 71470, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 0)
+ 5, 71471, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 0)
+ 5, 71472, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 0)
+ 5, 71473, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 0)
+ 5, 71474, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_b.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_b.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frame_b.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 0)
 DeclareVariable("vehicle.brakes.brake_4.caliper.frame_b.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_4.caliper.frame_b.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -17407,35 +18195,35 @@ DeclareVariable("vehicle.brakes.brake_4.caliper.n_y[2]", "Vector along y-axis of
 DeclareVariable("vehicle.brakes.brake_4.caliper.n_y[3]", "Vector along y-axis of mass orientation, resolved in frame_a [1]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.der(r_0[1])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 70240, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 73721, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.der(r_0[2])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 70241, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 73722, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.der(r_0[3])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 70242, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 73723, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 70240, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 73721, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 70241, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 73722, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 70242, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 73723, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_4.caliper.body.a_0[1]", 1, 5, 4779, 0)
+ "vehicle.brakes.brake_4.caliper.body.a_0[1]", 1, 5, 4985, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_4.caliper.body.a_0[2]", 1, 5, 4780, 0)
+ "vehicle.brakes.brake_4.caliper.body.a_0[2]", 1, 5, 4986, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_4.caliper.body.a_0[3]", 1, 5, 4781, 0)
+ "vehicle.brakes.brake_4.caliper.body.a_0[3]", 1, 5, 4987, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_4.caliper.body.a_0[1]", 1, 5, 4779, 0)
+ "vehicle.brakes.brake_4.caliper.body.a_0[1]", 1, 5, 4985, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_4.caliper.body.a_0[2]", 1, 5, 4780, 0)
+ "vehicle.brakes.brake_4.caliper.body.a_0[2]", 1, 5, 4986, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.a_0[3]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "vehicle.brakes.brake_4.caliper.body.a_0[3]", 1, 5, 4781, 0)
+ "vehicle.brakes.brake_4.caliper.body.a_0[3]", 1, 5, 4987, 0)
 DeclareVariable("vehicle.brakes.brake_4.caliper.angles_fixed", "= true, if angles_start are used as initial values, else as guess values [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.brakes.brake_4.caliper.angles_start[1]", \
@@ -17546,13 +18334,13 @@ DeclareVariable("vehicle.brakes.brake_4.caliper.sequence_angleStates[3]", \
  3, 1.0,3.0,0.0,0,517)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 4)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 4)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 4)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 4)
 DeclareVariable("vehicle.brakes.brake_4.caliper.frameTranslation.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_4.caliper.frameTranslation.frame_a.R.T[1, 2]",\
@@ -17595,49 +18383,49 @@ DeclareVariable("vehicle.brakes.brake_4.caliper.frameTranslation.frame_a.t[3]", 
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_4.torqueReaction.frame_a.r_0[1]", 1, 5, 4196, 4)
+ "vehicle.brakes.brake_4.torqueReaction.frame_a.r_0[1]", 1, 5, 4402, 4)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_4.torqueReaction.frame_a.r_0[2]", 1, 5, 4197, 4)
+ "vehicle.brakes.brake_4.torqueReaction.frame_a.r_0[2]", 1, 5, 4403, 4)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.brakes.brake_4.torqueReaction.frame_a.r_0[3]", 1, 5, 4198, 4)
+ "vehicle.brakes.brake_4.torqueReaction.frame_a.r_0[3]", 1, 5, 4404, 4)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 0)
+ 5, 73077, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 0)
+ 5, 73078, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 0)
+ 5, 73079, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 0)
+ 5, 71469, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 0)
+ 5, 71470, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 0)
+ 5, 71471, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 0)
+ 5, 71472, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 0)
+ 5, 71473, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 0)
+ 5, 71474, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 0)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 0)
 DeclareVariable("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.brakes.brake_4.caliper.frameTranslation.frame_b.f[2]", \
@@ -17706,49 +18494,49 @@ DeclareVariable("vehicle.brakes.brake_4.caliper.frameTranslation.specularCoeffic
 1E+100,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 1024)
+ 5, 73077, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 1024)
+ 5, 73078, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 1024)
+ 5, 73079, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 1024)
+ 5, 71469, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 1024)
+ 5, 71470, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 1024)
+ 5, 71471, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 1024)
+ 5, 71472, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 1024)
+ 5, 71473, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 1024)
+ 5, 71474, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 67994, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[1]", 1, 5, 71475, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 67995, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[2]", 1, 5, 71476, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 67996, 1024)
+"vehicle.wheel_4.systemMass.frame_resolve.R.w[3]", 1, 5, 71477, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 1024)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 1024)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 1024)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 1024)
 DeclareVariable("vehicle.brakes.brake_4.caliper.frameTranslation.shape.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  -0.006600000000000001, 0.0,0.0,0.0,0,2561)
@@ -17819,22 +18607,22 @@ DeclareVariable("vehicle.brakes.brake_4.caliper.frameTranslation.shape.Form", ""
  9.87101E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", -1,\
- 5, 67988, 1536)
+ 5, 71469, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", -1,\
- 5, 67989, 1536)
+ 5, 71470, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", -1,\
- 5, 67990, 1536)
+ 5, 71471, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 1536)
+ 5, 73077, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 1536)
+ 5, 73078, 1536)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.frameTranslation.shape.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 1536)
+ 5, 73079, 1536)
 DeclareVariable("vehicle.brakes.brake_4.caliper.frameTranslation.shape.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,3584)
@@ -17865,13 +18653,13 @@ DeclareVariable("vehicle.brakes.brake_4.caliper.body.frame_a.r_0[3]", \
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.frame_a.der(r_0[1])", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 70240, 4)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 73721, 4)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.frame_a.der(r_0[2])", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 70241, 4)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 73722, 4)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.frame_a.der(r_0[3])", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 70242, 4)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 73723, 4)
 DeclareVariable("vehicle.brakes.brake_4.caliper.body.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_4.caliper.body.frame_a.R.T[1, 2]", \
@@ -17901,21 +18689,21 @@ DeclareVariable("vehicle.brakes.brake_4.caliper.body.frame_a.R.w[3]", \
  0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_4.caliper.frame_a.f[1]", 1,\
- 5, 4578, 132)
+ 5, 4784, 132)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_4.caliper.frame_a.f[2]", 1,\
- 5, 4579, 132)
+ 5, 4785, 132)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.brakes.brake_4.caliper.frame_a.f[3]", 1,\
- 5, 4580, 132)
+ 5, 4786, 132)
 DeclareVariable("vehicle.brakes.brake_4.caliper.body.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_4.caliper.frame_a.t[2]", 1,\
- 5, 4582, 132)
+ 5, 4788, 132)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.brakes.brake_4.caliper.frame_a.t[3]", 1,\
- 5, 4583, 132)
+ 5, 4789, 132)
 DeclareVariable("vehicle.brakes.brake_4.caliper.body.animation", \
 "= true, if animation shall be enabled (show cylinder and sphere) [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
@@ -17967,26 +18755,26 @@ DeclareVariable("vehicle.brakes.brake_4.caliper.body.n_y[2]", "Vector along y-ax
 DeclareVariable("vehicle.brakes.brake_4.caliper.body.n_y[3]", "Vector along y-axis of local orientation, resolved in flange_a [1]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 67982, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1, 5, 71463, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 67983, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1, 5, 71464, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 67984, 0)
+ "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1, 5, 71465, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 70240, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[1]", 1, 5, 73721, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 70241, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[2]", 1, 5, 73722, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 70242, 0)
+ "vehicle.wheel_4.aerodynamics.ideal3D.v_rel_0[3]", 1, 5, 73723, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.der(v_0[1])", \
 "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_4.caliper.body.a_0[1]", 1, 5, 4779, 0)
+ "vehicle.brakes.brake_4.caliper.body.a_0[1]", 1, 5, 4985, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.der(v_0[2])", \
 "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_4.caliper.body.a_0[2]", 1, 5, 4780, 0)
+ "vehicle.brakes.brake_4.caliper.body.a_0[2]", 1, 5, 4986, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.der(v_0[3])", \
 "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "vehicle.brakes.brake_4.caliper.body.a_0[3]", 1, 5, 4781, 0)
+ "vehicle.brakes.brake_4.caliper.body.a_0[3]", 1, 5, 4987, 0)
 DeclareVariable("vehicle.brakes.brake_4.caliper.body.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_4.caliper.body.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
@@ -18182,13 +18970,13 @@ DeclareVariable("vehicle.brakes.brake_4.caliper.body.w_a[3]", "Absolute angular 
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.der(w_a[1])", \
 "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]", \
-"vehicle.brakes.brake_4.caliper.body.z_a[1]", 1, 5, 4859, 0)
+"vehicle.brakes.brake_4.caliper.body.z_a[1]", 1, 5, 5065, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.der(w_a[2])", \
 "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]", \
-"vehicle.brakes.brake_4.caliper.body.z_a[2]", 1, 5, 4860, 0)
+"vehicle.brakes.brake_4.caliper.body.z_a[2]", 1, 5, 5066, 0)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.der(w_a[3])", \
 "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]", \
-"vehicle.brakes.brake_4.caliper.body.z_a[3]", 1, 5, 4861, 0)
+"vehicle.brakes.brake_4.caliper.body.z_a[3]", 1, 5, 5067, 0)
 DeclareVariable("vehicle.brakes.brake_4.caliper.body.z_a[1]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brake_4.caliper.body.z_a[2]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
@@ -18247,77 +19035,77 @@ DeclareVariable("vehicle.brakes.brake_4.caliper.body.Q[4]", "Quaternion orientat
  1.0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.r_0[1]", \
 "Position of the component reference frame [m]", "vehicle.wheel_4.systemMass.frame_resolve.r_0[1]", 1,\
- 5, 67982, 1024)
+ 5, 71463, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.r_0[2]", \
 "Position of the component reference frame [m]", "vehicle.wheel_4.systemMass.frame_resolve.r_0[2]", 1,\
- 5, 67983, 1024)
+ 5, 71464, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.r_0[3]", \
 "Position of the component reference frame [m]", "vehicle.wheel_4.systemMass.frame_resolve.r_0[3]", 1,\
- 5, 67984, 1024)
+ 5, 71465, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.T[1, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[1]", 1,\
- 5, 69596, 1024)
+ 5, 73077, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.T[1, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[2]", 1,\
- 5, 69597, 1024)
+ 5, 73078, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.T[1, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.contact.findContactPoint.n_spin[3]", 1,\
- 5, 69598, 1024)
+ 5, 73079, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.T[2, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 67988, 1024)
+ 5, 71469, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.T[2, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 67989, 1024)
+ 5, 71470, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.T[2, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 67990, 1024)
+ 5, 71471, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.T[3, 1]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 67991, 1024)
+ 5, 71472, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.T[3, 2]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 67992, 1024)
+ 5, 71473, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.T[3, 3]", \
 "Orientation of the component reference frame", "vehicle.wheel_4.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 67993, 1024)
+ 5, 71474, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.m", "Mass [kg]", \
-"vehicle.brakes.brake_4.caliper.body.m", 1, 5, 4762, 1024)
+"vehicle.brakes.brake_4.caliper.body.m", 1, 5, 4968, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.r_cm[1]", \
 "Centre of mass relative to r_0 resolved in orientation T [m]", "vehicle.brakes.brake_4.caliper.body.r_CM_a[1]", 1,\
- 5, 4838, 1024)
+ 5, 5044, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.r_cm[2]", \
 "Centre of mass relative to r_0 resolved in orientation T [m]", "vehicle.brakes.brake_4.caliper.body.r_CM_a[2]", 1,\
- 5, 4839, 1024)
+ 5, 5045, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.r_cm[3]", \
 "Centre of mass relative to r_0 resolved in orientation T [m]", "vehicle.brakes.brake_4.caliper.body.r_CM_a[3]", 1,\
- 5, 4840, 1024)
+ 5, 5046, 1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.I[1, 1]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[1, 1]", 1, 5, 4829,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[1, 1]", 1, 5, 5035,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.I[1, 2]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[1, 2]", 1, 5, 4830,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[1, 2]", 1, 5, 5036,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.I[1, 3]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[1, 3]", 1, 5, 4831,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[1, 3]", 1, 5, 5037,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.I[2, 1]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[2, 1]", 1, 5, 4832,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[2, 1]", 1, 5, 5038,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.I[2, 2]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[2, 2]", 1, 5, 4833,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[2, 2]", 1, 5, 5039,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.I[2, 3]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[2, 3]", 1, 5, 4834,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[2, 3]", 1, 5, 5040,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.I[3, 1]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[3, 1]", 1, 5, 4835,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[3, 1]", 1, 5, 5041,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.I[3, 2]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[3, 2]", 1, 5, 4836,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[3, 2]", 1, 5, 5042,\
  1024)
 DeclareAlias2("vehicle.brakes.brake_4.caliper.body.addToTotal.I[3, 3]", \
-"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[3, 3]", 1, 5, 4837,\
+"Inertia matrix [kg.m2]", "vehicle.brakes.brake_4.caliper.body.I[3, 3]", 1, 5, 5043,\
  1024)
 DeclareVariable("vehicle.brakes.brake_4.caliper.body.addToTotal.itemID", \
 "Dummy parameter [:#(type=Integer)]", -1, 0.0,0.0,0.0,0,2565)
@@ -18508,6 +19296,9 @@ DeclareVariable("vehicle.brakes.brake_4.caliper.body.originFrame.colour_x[2]", \
 "Colour of x-arrow [:#(type=Integer)]", 255, 0.0,255.0,0.0,0,2565)
 DeclareVariable("vehicle.brakes.brake_4.caliper.body.originFrame.colour_x[3]", \
 "Colour of x-arrow [:#(type=Integer)]", 0, 0.0,255.0,0.0,0,2565)
+EndNonAlias(8)
+PreNonAliasNew(9)
+StartNonAlias(9)
 DeclareVariable("vehicle.brakes.brake_4.caliper.body.originFrame.colour_y[1]", \
 "Colour of y-arrow [:#(type=Integer)]", 255, 0.0,255.0,0.0,0,2565)
 DeclareVariable("vehicle.brakes.brake_4.caliper.body.originFrame.colour_y[2]", \
@@ -18546,9 +19337,9 @@ DeclareVariable("vehicle.brakes.brakeLine.maxRear", "Maximum normalised rear bra
 DeclareVariable("vehicle.brakes.brakeLine.f[1]", "", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brakeLine.f[2]", "", 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.brakes.brakeLine.wheel_1", "", "vehicle.brakes.brakeLine.f[1]", 1,\
- 5, 4984, 0)
+ 5, 5190, 0)
 DeclareAlias2("vehicle.brakes.brakeLine.wheel_2", "", "vehicle.brakes.brakeLine.f[1]", 1,\
- 5, 4984, 0)
+ 5, 5190, 0)
 DeclareVariable("vehicle.brakes.brakeLine.wheel_3", "", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.brakeLine.wheel_4", "", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.brakes.gain_Bias[1].k", "Gain value multiplied with input signal [1]",\
@@ -18556,35 +19347,35 @@ DeclareVariable("vehicle.brakes.gain_Bias[1].k", "Gain value multiplied with inp
 DeclareAlias2("vehicle.brakes.gain_Bias[1].u", "Input signal connector", \
 "vehicle.driverEnvironment.brakePedalConverter.position.s", 1, 1, 0, 0)
 DeclareAlias2("vehicle.brakes.gain_Bias[1].y", "Output signal connector", \
-"vehicle.brakes.brakeLine.f[1]", 1, 5, 4984, 0)
+"vehicle.brakes.brakeLine.f[1]", 1, 5, 5190, 0)
 DeclareVariable("vehicle.brakes.gain_Bias[2].k", "Gain value multiplied with input signal [1]",\
  10, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.gain_Bias[2].u", "Input signal connector", \
 "vehicle.driverEnvironment.brakePedalConverter.position.s", 1, 1, 0, 0)
 DeclareAlias2("vehicle.brakes.gain_Bias[2].y", "Output signal connector", \
-"vehicle.brakes.brakeLine.f[2]", 1, 5, 4985, 0)
+"vehicle.brakes.brakeLine.f[2]", 1, 5, 5191, 0)
 DeclareVariable("vehicle.brakes.forceToBrake2.k", "Gain value multiplied with input signal [1]",\
  1000.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.forceToBrake2.u", "Input signal connector", \
-"vehicle.brakes.brakeLine.f[1]", 1, 5, 4984, 0)
+"vehicle.brakes.brakeLine.f[1]", 1, 5, 5190, 0)
 DeclareAlias2("vehicle.brakes.forceToBrake2.y", "Output signal connector", \
 "vehicle.brakes.summary.brakeForce2", 1, 5, 1735, 0)
 DeclareVariable("vehicle.brakes.forceToBrake1.k", "Gain value multiplied with input signal [1]",\
  1000, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.forceToBrake1.u", "Input signal connector", \
-"vehicle.brakes.brakeLine.f[1]", 1, 5, 4984, 0)
+"vehicle.brakes.brakeLine.f[1]", 1, 5, 5190, 0)
 DeclareAlias2("vehicle.brakes.forceToBrake1.y", "Output signal connector", \
 "vehicle.brakes.summary.brakeForce1", 1, 5, 1734, 0)
 DeclareVariable("vehicle.brakes.forceToBrake4.k", "Gain value multiplied with input signal [1]",\
  500.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.forceToBrake4.u", "Input signal connector", \
-"vehicle.brakes.brakeLine.wheel_4", 1, 5, 4987, 0)
+"vehicle.brakes.brakeLine.wheel_4", 1, 5, 5193, 0)
 DeclareAlias2("vehicle.brakes.forceToBrake4.y", "Output signal connector", \
 "vehicle.brakes.summary.brakeForce4", 1, 5, 1737, 0)
 DeclareVariable("vehicle.brakes.forceToBrake3.k", "Gain value multiplied with input signal [1]",\
  500, 0.0,0.0,0.0,0,513)
 DeclareAlias2("vehicle.brakes.forceToBrake3.u", "Input signal connector", \
-"vehicle.brakes.brakeLine.wheel_3", 1, 5, 4986, 0)
+"vehicle.brakes.brakeLine.wheel_3", 1, 5, 5192, 0)
 DeclareAlias2("vehicle.brakes.forceToBrake3.y", "Output signal connector", \
 "vehicle.brakes.summary.brakeForce3", 1, 5, 1736, 0)
 DeclareAlias2("vehicle.brakes.scaling_Input.u", "Connector of Real input signal",\
@@ -18795,11 +19586,11 @@ DeclareAlias2("vehicle.frontAxle.chassisFrame[1].R.T[3, 2]", "Transformation mat
 DeclareAlias2("vehicle.frontAxle.chassisFrame[1].R.T[3, 3]", "Transformation matrix from world frame to local frame",\
  "totalMass.T[3, 3]", 1, 5, 269, 0)
 DeclareAlias2("vehicle.frontAxle.chassisFrame[1].R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 0)
+ "vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 0)
 DeclareAlias2("vehicle.frontAxle.chassisFrame[1].R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 0)
+ "vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 0)
 DeclareAlias2("vehicle.frontAxle.chassisFrame[1].R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 0)
+ "vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 0)
 DeclareVariable("vehicle.frontAxle.chassisFrame[1].f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.frontAxle.chassisFrame[1].f[2]", "Cut-force resolved in connector frame [N]",\
@@ -18816,130 +19607,130 @@ DeclareVariable("vehicle.frontAxle.leftHub.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.frontAxle.leftHub.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_1.rim.mass.phi", 1, 1, 26, 4)
+ "vehicle.wheel_1.rim.mass.phi", 1, 1, 28, 4)
 DeclareVariable("vehicle.frontAxle.leftHub.flange.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 4)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 4)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 4)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+ "vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.f[1]", "Cut-force resolved in connector frame [N]",\
  "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.f[1]", 1,\
- 5, 6662, 132)
+ 5, 6868, 132)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.f[2]", "Cut-force resolved in connector frame [N]",\
  "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.f[2]", 1,\
- 5, 6663, 132)
+ 5, 6869, 132)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.f[3]", "Cut-force resolved in connector frame [N]",\
  "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.f[3]", 1,\
- 5, 6664, 132)
+ 5, 6870, 132)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.t[1]", "Cut-torque resolved in connector frame [N.m]",\
  "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.t[1]", 1,\
- 5, 6665, 132)
+ 5, 6871, 132)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.t[2]", "Cut-torque resolved in connector frame [N.m]",\
  "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.t[2]", 1,\
- 5, 6666, 132)
+ 5, 6872, 132)
 DeclareAlias2("vehicle.frontAxle.leftHub.bearingFrame.t[3]", "Cut-torque resolved in connector frame [N.m]",\
  "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.t[3]", 1,\
- 5, 6667, 132)
+ 5, 6873, 132)
 DeclareVariable("vehicle.frontAxle.rightHub.includeBearingConnector", \
 "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.frontAxle.rightHub.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "vehicle.wheel_2.rim.mass.phi", 1, 1, 28, 4)
+ "vehicle.wheel_2.rim.mass.phi", 1, 1, 32, 4)
 DeclareVariable("vehicle.frontAxle.rightHub.flange.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 62759, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[1]", 1, 5, 66240, 4)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 62760, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[2]", 1, 5, 66241, 4)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 62761, 4)
+ "vehicle.wheel_2.systemMass.frame_resolve.r_0[3]", 1, 5, 66242, 4)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[1]", 1,\
- 5, 64372, 0)
+ 5, 67853, 0)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[2]", 1,\
- 5, 64373, 0)
+ 5, 67854, 0)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.contact.findContactPoint.n_spin[3]", 1,\
- 5, 64374, 0)
+ 5, 67855, 0)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 62765, 0)
+ 5, 66246, 0)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 62766, 0)
+ 5, 66247, 0)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 62767, 0)
+ 5, 66248, 0)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 62768, 0)
+ 5, 66249, 0)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 62769, 0)
+ 5, 66250, 0)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_2.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 62770, 0)
+ 5, 66251, 0)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 62771, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[1]", 1, 5, 66252, 0)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 62772, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[2]", 1, 5, 66253, 0)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 62773, 0)
+ "vehicle.wheel_2.systemMass.frame_resolve.R.w[3]", 1, 5, 66254, 0)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.f[1]", "Cut-force resolved in connector frame [N]",\
  "vehicle.frontAxle.rightLinkage.upright.upright.hubBearing_2.position.frame_b.f[1]", 1,\
- 5, 16721, 132)
+ 5, 16927, 132)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.f[2]", "Cut-force resolved in connector frame [N]",\
  "vehicle.frontAxle.rightLinkage.upright.upright.hubBearing_2.position.frame_b.f[2]", 1,\
- 5, 16722, 132)
+ 5, 16928, 132)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.f[3]", "Cut-force resolved in connector frame [N]",\
  "vehicle.frontAxle.rightLinkage.upright.upright.hubBearing_2.position.frame_b.f[3]", 1,\
- 5, 16723, 132)
+ 5, 16929, 132)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.t[1]", "Cut-torque resolved in connector frame [N.m]",\
  "vehicle.frontAxle.rightLinkage.upright.upright.hubBearing_2.position.frame_b.t[1]", 1,\
- 5, 16724, 132)
+ 5, 16930, 132)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.t[2]", "Cut-torque resolved in connector frame [N.m]",\
  "vehicle.frontAxle.rightLinkage.upright.upright.hubBearing_2.position.frame_b.t[2]", 1,\
- 5, 16725, 132)
+ 5, 16931, 132)
 DeclareAlias2("vehicle.frontAxle.rightHub.bearingFrame.t[3]", "Cut-torque resolved in connector frame [N.m]",\
  "vehicle.frontAxle.rightLinkage.upright.upright.hubBearing_2.position.frame_b.t[3]", 1,\
- 5, 16726, 132)
+ 5, 16932, 132)
 DeclareVariable("vehicle.frontAxle.controlBus.transmissionControlBus.currentGear",\
  "Currently selected gear [:#(type=Integer)]", 0, 0.0,0.0,0.0,0,525)
 DeclareAlias2("vehicle.frontAxle.subFrame[1].r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
@@ -18967,11 +19758,11 @@ DeclareAlias2("vehicle.frontAxle.subFrame[1].R.T[3, 2]", "Transformation matrix 
 DeclareAlias2("vehicle.frontAxle.subFrame[1].R.T[3, 3]", "Transformation matrix from world frame to local frame",\
  "totalMass.T[3, 3]", 1, 5, 269, 0)
 DeclareAlias2("vehicle.frontAxle.subFrame[1].R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 0)
+ "vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 0)
 DeclareAlias2("vehicle.frontAxle.subFrame[1].R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 0)
+ "vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 0)
 DeclareAlias2("vehicle.frontAxle.subFrame[1].R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 0)
+ "vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 0)
 DeclareVariable("vehicle.frontAxle.subFrame[1].f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.frontAxle.subFrame[1].f[2]", "Cut-force resolved in connector frame [N]",\
@@ -19022,22 +19813,22 @@ DeclareVariable("vehicle.frontAxle.offset_Chassis[1].frame_a.R.w[3]", \
  0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.chassisFrame[1].f[1]", 1,\
- 5, 5066, 132)
+ 5, 5272, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.chassisFrame[1].f[2]", 1,\
- 5, 5067, 132)
+ 5, 5273, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.chassisFrame[1].f[3]", 1,\
- 5, 5068, 132)
+ 5, 5274, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.chassisFrame[1].t[1]", 1,\
- 5, 5069, 132)
+ 5, 5275, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.chassisFrame[1].t[2]", 1,\
- 5, 5070, 132)
+ 5, 5276, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.chassisFrame[1].t[3]", 1,\
- 5, 5071, 132)
+ 5, 5277, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "totalMass.r_0[1]", 1, 5, 258, 4)
@@ -19076,31 +19867,31 @@ DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_b.R.T[3, 3]", \
  5, 269, 0)
 DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 0)
+"vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 0)
 DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 0)
+"vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 0)
 DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 0)
+"vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 0)
 DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.chassisFrame[1].f[1]", -1,\
- 5, 5066, 132)
+ 5, 5272, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.chassisFrame[1].f[2]", -1,\
- 5, 5067, 132)
+ 5, 5273, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.chassisFrame[1].f[3]", -1,\
- 5, 5068, 132)
+ 5, 5274, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.chassisFrame[1].t[1]", -1,\
- 5, 5069, 132)
+ 5, 5275, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_b.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.chassisFrame[1].t[2]", -1,\
- 5, 5070, 132)
+ 5, 5276, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Chassis[1].frame_b.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.chassisFrame[1].t[3]", -1,\
- 5, 5071, 132)
+ 5, 5277, 132)
 DeclareVariable("vehicle.frontAxle.offset_Chassis[1].animation", \
 "= true, if animation shall be enabled [:#(type=Boolean)]", false, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.frontAxle.offset_Chassis[1].r[1]", "Vector from frame_a to frame_b resolved in frame_a [m]",\
@@ -19185,22 +19976,22 @@ DeclareVariable("vehicle.frontAxle.offset_Subframe[1].frame_a.R.w[3]", \
  0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.subFrame[1].f[1]", 1,\
- 5, 5077, 132)
+ 5, 5283, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.subFrame[1].f[2]", 1,\
- 5, 5078, 132)
+ 5, 5284, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.subFrame[1].f[3]", 1,\
- 5, 5079, 132)
+ 5, 5285, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.subFrame[1].t[1]", 1,\
- 5, 5080, 132)
+ 5, 5286, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.subFrame[1].t[2]", 1,\
- 5, 5081, 132)
+ 5, 5287, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.subFrame[1].t[3]", 1,\
- 5, 5082, 132)
+ 5, 5288, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "totalMass.r_0[1]", 1, 5, 258, 4)
@@ -19239,34 +20030,31 @@ DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_b.R.T[3, 3]", \
  5, 269, 0)
 DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 0)
+"vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 0)
 DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 0)
+"vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 0)
 DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 0)
-EndNonAlias(8)
-PreNonAliasNew(9)
-StartNonAlias(9)
+"vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 0)
 DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.subFrame[1].f[1]", -1,\
- 5, 5077, 132)
+ 5, 5283, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.subFrame[1].f[2]", -1,\
- 5, 5078, 132)
+ 5, 5284, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.subFrame[1].f[3]", -1,\
- 5, 5079, 132)
+ 5, 5285, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.subFrame[1].t[1]", -1,\
- 5, 5080, 132)
+ 5, 5286, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_b.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.subFrame[1].t[2]", -1,\
- 5, 5081, 132)
+ 5, 5287, 132)
 DeclareAlias2("vehicle.frontAxle.offset_Subframe[1].frame_b.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.subFrame[1].t[3]", -1,\
- 5, 5082, 132)
+ 5, 5288, 132)
 DeclareVariable("vehicle.frontAxle.offset_Subframe[1].animation", \
 "= true, if animation shall be enabled [:#(type=Boolean)]", false, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.frontAxle.offset_Subframe[1].r[1]", "Vector from frame_a to frame_b resolved in frame_a [m]",\
@@ -19318,35 +20106,35 @@ DeclareAlias2("vehicle.frontAxle.summary.steerAngle", "Steering wheel angle [rad
 DeclareAlias2("vehicle.frontAxle.summary.steerTorque", "Steering wheel torque [N.m]",\
  "controlBus.driverBus.steeringWheelTorque", 1, 3, 130, 0)
 DeclareAlias2("vehicle.frontAxle.summary.rRack", "Steering rack position [m]", \
-"vehicle.frontAxle.steering.steeringLinkage.prismatic.s", 1, 5, 25469, 0)
+"vehicle.frontAxle.steering.steeringLinkage.prismatic.s", 1, 5, 25675, 0)
 DeclareVariable("vehicle.frontAxle.summary.fRack", "Steering rack force [N]", \
 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.frontAxle.summary.m", "Half car system mass [kg]", \
-"vehicle.frontAxle.systemMass.m", 1, 5, 5002, 0)
+"vehicle.frontAxle.systemMass.m", 1, 5, 5208, 0)
 DeclareAlias2("vehicle.frontAxle.summary.rCM[1]", "Half car system centre of mass position, resolved in and relative to chassisFrame [m]",\
- "vehicle.frontAxle.systemMass.r_cm[1]", 1, 5, 5003, 0)
+ "vehicle.frontAxle.systemMass.r_cm[1]", 1, 5, 5209, 0)
 DeclareAlias2("vehicle.frontAxle.summary.rCM[2]", "Half car system centre of mass position, resolved in and relative to chassisFrame [m]",\
- "vehicle.frontAxle.systemMass.r_cm[2]", 1, 5, 5004, 0)
+ "vehicle.frontAxle.systemMass.r_cm[2]", 1, 5, 5210, 0)
 DeclareAlias2("vehicle.frontAxle.summary.rCM[3]", "Half car system centre of mass position, resolved in and relative to chassisFrame [m]",\
- "vehicle.frontAxle.systemMass.r_cm[3]", 1, 5, 5005, 0)
+ "vehicle.frontAxle.systemMass.r_cm[3]", 1, 5, 5211, 0)
 DeclareAlias2("vehicle.frontAxle.summary.I[1, 1]", "Half car system inertia tensor, resolved in and relative to chassisFrame [kg.m2]",\
- "vehicle.frontAxle.systemMass.I[1, 1]", 1, 5, 5006, 0)
+ "vehicle.frontAxle.systemMass.I[1, 1]", 1, 5, 5212, 0)
 DeclareAlias2("vehicle.frontAxle.summary.I[1, 2]", "Half car system inertia tensor, resolved in and relative to chassisFrame [kg.m2]",\
- "vehicle.frontAxle.systemMass.I[1, 2]", 1, 5, 5007, 0)
+ "vehicle.frontAxle.systemMass.I[1, 2]", 1, 5, 5213, 0)
 DeclareAlias2("vehicle.frontAxle.summary.I[1, 3]", "Half car system inertia tensor, resolved in and relative to chassisFrame [kg.m2]",\
- "vehicle.frontAxle.systemMass.I[1, 3]", 1, 5, 5008, 0)
+ "vehicle.frontAxle.systemMass.I[1, 3]", 1, 5, 5214, 0)
 DeclareAlias2("vehicle.frontAxle.summary.I[2, 1]", "Half car system inertia tensor, resolved in and relative to chassisFrame [kg.m2]",\
- "vehicle.frontAxle.systemMass.I[2, 1]", 1, 5, 5009, 0)
+ "vehicle.frontAxle.systemMass.I[2, 1]", 1, 5, 5215, 0)
 DeclareAlias2("vehicle.frontAxle.summary.I[2, 2]", "Half car system inertia tensor, resolved in and relative to chassisFrame [kg.m2]",\
- "vehicle.frontAxle.systemMass.I[2, 2]", 1, 5, 5010, 0)
+ "vehicle.frontAxle.systemMass.I[2, 2]", 1, 5, 5216, 0)
 DeclareAlias2("vehicle.frontAxle.summary.I[2, 3]", "Half car system inertia tensor, resolved in and relative to chassisFrame [kg.m2]",\
- "vehicle.frontAxle.systemMass.I[2, 3]", 1, 5, 5011, 0)
+ "vehicle.frontAxle.systemMass.I[2, 3]", 1, 5, 5217, 0)
 DeclareAlias2("vehicle.frontAxle.summary.I[3, 1]", "Half car system inertia tensor, resolved in and relative to chassisFrame [kg.m2]",\
- "vehicle.frontAxle.systemMass.I[3, 1]", 1, 5, 5012, 0)
+ "vehicle.frontAxle.systemMass.I[3, 1]", 1, 5, 5218, 0)
 DeclareAlias2("vehicle.frontAxle.summary.I[3, 2]", "Half car system inertia tensor, resolved in and relative to chassisFrame [kg.m2]",\
- "vehicle.frontAxle.systemMass.I[3, 2]", 1, 5, 5013, 0)
+ "vehicle.frontAxle.systemMass.I[3, 2]", 1, 5, 5219, 0)
 DeclareAlias2("vehicle.frontAxle.summary.I[3, 3]", "Half car system inertia tensor, resolved in and relative to chassisFrame [kg.m2]",\
- "vehicle.frontAxle.systemMass.I[3, 3]", 1, 5, 5014, 0)
+ "vehicle.frontAxle.systemMass.I[3, 3]", 1, 5, 5220, 0)
 DeclareVariable("vehicle.frontAxle.summary.leftDamperForce", "Left damper force [N]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.frontAxle.summary.leftSpringForce", "Left spring force [N]",\
@@ -19587,11 +20375,11 @@ DeclareVariable("vehicle.frontAxle.steeringMount", "Select where the steering is
 DeclareParameter("vehicle.frontAxle.leftLinkage.mirrorKinematics", \
 "=true mirrors the kinematics in the y plane [:#(type=Boolean)]", 173, false, \
 0.0,0.0,0.0,0,562)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0WC[1]", "Wheel centre position relative to chassisFrame [m]",\
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0WC[1]", "Wheel centre position relative to chassisFrame [m|mm]",\
  174, 0.0, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0WC[2]", "Wheel centre position relative to chassisFrame [m]",\
- 175, 0.617064, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0WC[3]", "Wheel centre position relative to chassisFrame [m]",\
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0WC[2]", "Wheel centre position relative to chassisFrame [m|mm]",\
+ 175, 0.6096, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0WC[3]", "Wheel centre position relative to chassisFrame [m|mm]",\
  176, 0.0, 0.0,0.0,0.0,0,560)
 DeclareVariable("vehicle.frontAxle.leftLinkage.r0ARB[1]", "rollControlFrame position relative to chassisFrame [m]",\
  0.0, 0.0,0.0,0.0,0,513)
@@ -19627,7 +20415,7 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.leftSide", "If upright is used on
 DeclareParameter("vehicle.frontAxle.leftLinkage.toe", "Toe angle in design condition (positive forwards-inwards) [rad|deg]",\
  177, 0, 0.0,0.0,0.0,0,560)
 DeclareParameter("vehicle.frontAxle.leftLinkage.camber", "Camber angle in design condition (positive outwards-upwards) [rad|deg]",\
- 178, 0, 0.0,0.0,0.0,0,560)
+ 178, -0.034906585039887, 0.0,0.0,0.0,0,560)
 DeclareVariable("vehicle.frontAxle.leftLinkage.mirrorVector[1]", \
 "Vector to multiply coordinates to gain mirror values", 1.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.frontAxle.leftLinkage.mirrorVector[2]", \
@@ -19687,7 +20475,7 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.hubFlange.includeBearingConnector
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1,\
- 1, 26, 4)
+ 1, 28, 4)
 DeclareVariable("vehicle.frontAxle.leftLinkage.hubFlange.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.r_0[1]", \
@@ -19701,69 +20489,69 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.r_0[3]", \
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.f[1]", 1,\
- 5, 6662, 132)
+ 5, 6868, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.f[2]", 1,\
- 5, 6663, 132)
+ 5, 6869, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.f[3]", 1,\
- 5, 6664, 132)
+ 5, 6870, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.t[1]", 1,\
- 5, 6665, 132)
+ 5, 6871, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.t[2]", 1,\
- 5, 6666, 132)
+ 5, 6872, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFlange.bearingFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.t[3]", 1,\
- 5, 6667, 132)
+ 5, 6873, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.rollControlFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1, 5, 80366,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1, 5, 83846,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.rollControlFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1, 5, 80367,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1, 5, 83847,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.rollControlFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1, 5, 80368,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1, 5, 83848,\
  4)
 DeclareVariable("vehicle.frontAxle.leftLinkage.rollControlFrame.der(r_0[1], 2)",\
  "der(Position vector from world frame to the connector frame origin, resolved in world frame2) [m/s2]",\
@@ -19776,31 +20564,31 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.rollControlFrame.der(r_0[3], 2)",
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.rollControlFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[1, 1]", 1,\
- 5, 12938, 0)
+ 5, 13144, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.rollControlFrame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[1, 2]", 1,\
- 5, 12939, 0)
+ 5, 13145, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.rollControlFrame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[1, 3]", 1,\
- 5, 12940, 0)
+ 5, 13146, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.rollControlFrame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[2, 1]", 1,\
- 5, 12941, 0)
+ 5, 13147, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.rollControlFrame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[2, 2]", 1,\
- 5, 12942, 0)
+ 5, 13148, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.rollControlFrame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[2, 3]", 1,\
- 5, 12943, 0)
+ 5, 13149, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.rollControlFrame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[3, 1]", 1,\
- 5, 12944, 0)
+ 5, 13150, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.rollControlFrame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[3, 2]", 1,\
- 5, 12945, 0)
+ 5, 13151, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.rollControlFrame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[3, 3]", 1,\
- 5, 12946, 0)
+ 5, 13152, 0)
 DeclareVariable("vehicle.frontAxle.leftLinkage.rollControlFrame.R.der(T[1, 1])",\
  "der(Transformation matrix from world frame to local frame)", 0.0, 0.0,0.0,0.0,\
 0,512)
@@ -19848,13 +20636,13 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.rollControlFrame.R.der(T[3, 3], 2
 0,512)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.rollControlFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[1]", 1, 5, 7016, 0)
+"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[1]", 1, 5, 7222, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.rollControlFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[2]", 1, 5, 7017, 0)
+"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[2]", 1, 5, 7223, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.rollControlFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[3]", 1, 5, 7018, 0)
+"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[3]", 1, 5, 7224, 0)
 DeclareVariable("vehicle.frontAxle.leftLinkage.rollControlFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.frontAxle.leftLinkage.rollControlFrame.f[2]", \
@@ -19905,13 +20693,13 @@ DeclareAlias2("vehicle.frontAxle.leftLinkage.subFrame[1].R.T[3, 3]", \
  5, 269, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.subFrame[1].R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 0)
+"vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.subFrame[1].R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 0)
+"vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.subFrame[1].R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 0)
+"vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 0)
 DeclareVariable("vehicle.frontAxle.leftLinkage.subFrame[1].f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.frontAxle.leftLinkage.subFrame[1].f[2]", \
@@ -19926,10 +20714,10 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.subFrame[1].t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.summary.phiLCA", "Lower control arm angle [rad|deg]",\
  "vehicle.frontAxle.leftLinkage.lowerControlArmMounts.joint_1.motion.phi", 1, 1,\
- 15, 0)
+ 16, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.summary.phiUCA", "Upper control arm angle [rad|deg]",\
  "vehicle.frontAxle.leftLinkage.upperControlArmMounts.upperControlArmMount.phi", 1,\
- 5, 9159, 0)
+ 5, 9365, 0)
 DeclareVariable("vehicle.frontAxle.leftLinkage.summary.rhub[1]", \
 "Position of hub relative to chassisFrame [m]", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("vehicle.frontAxle.leftLinkage.summary.rhub[2]", \
@@ -19944,61 +20732,61 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.summary.phihub[3]", \
 "Angles of hub relative to chassisFrame [rad|deg]", 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.summary.rockerAngle", \
 "Rocker angle [rad|deg]", "controlBus.frontSuspensionBus.quarterCarBus_L.rockerAngle", 1,\
- 3, 142, 0)
+ 3, 143, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.summary.steeringPivot", \
 "Steering Pivot angle [rad|deg]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.phi", 1,\
- 5, 6319, 0)
+ 5, 6525, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.frameOutput.r_0[1]", \
 "Position resolved in world frame [m]", "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1,\
- 5, 60148, 4)
+ 5, 62975, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.frameOutput.r_0[2]", \
 "Position resolved in world frame [m]", "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1,\
- 5, 60149, 4)
+ 5, 62976, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.frameOutput.r_0[3]", \
 "Position resolved in world frame [m]", "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1,\
- 5, 60150, 4)
+ 5, 62977, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.frameOutput.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.frameOutput.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.frameOutput.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.frameOutput.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.frameOutput.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.frameOutput.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.frameOutput.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.frameOutput.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.frameOutput.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.frameOutput.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.frameOutput.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.frameOutput.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareVariable("vehicle.frontAxle.leftLinkage.hubFrame.flange_a.includeBearingConnector",\
  "= true, if bearing frame connector is present, otherwise not present [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.flange_a.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1,\
- 1, 26, 4)
+ 1, 28, 4)
 DeclareVariable("vehicle.frontAxle.leftLinkage.hubFrame.flange_a.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.frontAxle.leftLinkage.hubFrame.includeBearingConnector",\
@@ -20006,94 +20794,94 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.hubFrame.includeBearingConnector"
  true, 0.0,0.0,0.0,0,515)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frameOutput.r_0[1]",\
  "Position resolved in world frame [m]", "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1,\
- 5, 60148, 4)
+ 5, 62975, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frameOutput.r_0[2]",\
  "Position resolved in world frame [m]", "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1,\
- 5, 60149, 4)
+ 5, 62976, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frameOutput.r_0[3]",\
  "Position resolved in world frame [m]", "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1,\
- 5, 60150, 4)
+ 5, 62977, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frameOutput.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frameOutput.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frameOutput.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frameOutput.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frameOutput.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frameOutput.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frameOutput.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frameOutput.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frameOutput.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frameOutput.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frameOutput.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frameOutput.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareVariable("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.f[1]",\
  "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.frontAxle.leftLinkage.hubFrame.positionAndOrientationFrame.frame_a.f[2]",\
@@ -20114,54 +20902,54 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.i
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1,\
- 1, 26, 4)
+ 1, 28, 4)
 DeclareVariable("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.flange.tau",\
  "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareVariable("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.f[1]",\
  "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.bearingFrame.f[2]",\
@@ -20176,54 +20964,54 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flangeAndFrame.b
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1,\
- 1, 26, 4)
+ 1, 28, 4)
 DeclareVariable("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareVariable("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.frontAxle.leftLinkage.hubFrame.adaptor.frame.f[2]", \
@@ -20242,23 +21030,23 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.axisVector[2]", "", 2.0, 0.0,0.0,
 0.0,0,2561)
 DeclareVariable("vehicle.frontAxle.leftLinkage.axisVector[3]", "", 0.0, 0.0,0.0,\
 0.0,0,2561)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0TIJ[1]", "Track rod inner joint position relative to chassisFrame [m]",\
- 179, -0.11997, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0TIJ[2]", "Track rod inner joint position relative to chassisFrame [m]",\
- 180, 0.109888, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0TIJ[3]", "Track rod inner joint position relative to chassisFrame [m]",\
- 181, -0.152404, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0TIJ[1]", "Track rod inner joint position relative to chassisFrame [m|mm]",\
+ 179, 0.033782, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0TIJ[2]", "Track rod inner joint position relative to chassisFrame [m|mm]",\
+ 180, 0.18669, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0TIJ[3]", "Track rod inner joint position relative to chassisFrame [m|mm]",\
+ 181, -0.066548, 0.0,0.0,0.0,0,560)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.steeringFrame.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.frontAxle.steering.steeringLinkage.rack.body.frame_a.r_0[1]", 1, 5, 25620,\
+ "vehicle.frontAxle.steering.steeringLinkage.rack.body.frame_a.r_0[1]", 1, 5, 25826,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.steeringFrame.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.frontAxle.steering.steeringLinkage.rack.body.frame_a.r_0[2]", 1, 5, 25621,\
+ "vehicle.frontAxle.steering.steeringLinkage.rack.body.frame_a.r_0[2]", 1, 5, 25827,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.steeringFrame.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.frontAxle.steering.steeringLinkage.rack.body.frame_a.r_0[3]", 1, 5, 25622,\
+ "vehicle.frontAxle.steering.steeringLinkage.rack.body.frame_a.r_0[3]", 1, 5, 25828,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.steeringFrame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "totalMass.T[1, 1]", 1,\
@@ -20289,70 +21077,70 @@ DeclareAlias2("vehicle.frontAxle.leftLinkage.steeringFrame.R.T[3, 3]", \
  5, 269, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.steeringFrame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[1]", 1, 5, 57253, 0)
+"vehicle.body.mass.body.body.w_a[1]", 1, 5, 60080, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.steeringFrame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[2]", 1, 5, 57254, 0)
+"vehicle.body.mass.body.body.w_a[2]", 1, 5, 60081, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.steeringFrame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.body.mass.body.body.w_a[3]", 1, 5, 57255, 0)
+"vehicle.body.mass.body.body.w_a[3]", 1, 5, 60082, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.steeringFrame.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.trackrod.trackrod.frame_a.f[1]", 1,\
- 5, 13033, 132)
+ 5, 13239, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.steeringFrame.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.trackrod.trackrod.frame_a.f[2]", 1,\
- 5, 13034, 132)
+ 5, 13240, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.steeringFrame.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.trackrod.trackrod.frame_a.f[3]", 1,\
- 5, 13035, 132)
+ 5, 13241, 132)
 DeclareVariable("vehicle.frontAxle.leftLinkage.steeringFrame.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.frontAxle.leftLinkage.steeringFrame.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.frontAxle.leftLinkage.steeringFrame.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCAFJ[1]", "Position of lower control arm front joint mount to chassis, resolved in chassisFrame [m]",\
- 182, 0.186023, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCAFJ[2]", "Position of lower control arm front joint mount to chassis, resolved in chassisFrame [m]",\
- 183, 0.186322, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCAFJ[3]", "Position of lower control arm front joint mount to chassis, resolved in chassisFrame [m]",\
- 184, -0.129705, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCARJ[1]", "Position of lower control arm rear joint mount to chassis, resolved in chassisFrame [m]",\
- 185, -0.249799, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCARJ[2]", "Position of lower control arm rear joint mount to chassis, resolved in chassisFrame [m]",\
- 186, 0.229143, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCARJ[3]", "Position of lower control arm rear joint mount to chassis, resolved in chassisFrame [m]",\
- 187, -0.129705, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCAOJ[1]", "Position of lower spindle, resolved in chassisFrame [m]",\
- 188, 0.0, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCAOJ[2]", "Position of lower spindle, resolved in chassisFrame [m]",\
- 189, 0.516686, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCAOJ[3]", "Position of lower spindle, resolved in chassisFrame [m]",\
- 190, -0.129705, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCAFJ[1]", "Position of upper control arm front joint mount to chassis, resolved in chassisFrame [m]",\
- 191, 0.180768, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCAFJ[2]", "Position of upper control arm front joint mount to chassis, resolved in chassisFrame [m]",\
- 192, 0.224608, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCAFJ[3]", "Position of upper control arm front joint mount to chassis, resolved in chassisFrame [m]",\
- 193, 0.073876, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCARJ[1]", "Position of upper control arm rear joint mount to chassis, resolved in chassisFrame [m]",\
- 194, -0.276312, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCARJ[2]", "Position of upper control arm rear joint mount to chassis, resolved in chassisFrame [m]",\
- 195, 0.257616, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCARJ[3]", "Position of upper control arm rear joint mount to chassis, resolved in chassisFrame [m]",\
- 196, 0.073435, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCAOJ[1]", "Position of upper spindle, resolved in chassisFrame [m]",\
- 197, 0.0, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCAOJ[2]", "Position of upper spindle, resolved in chassisFrame [m]",\
- 198, 0.508676, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCAOJ[3]", "Position of upper spindle, resolved in chassisFrame [m]",\
- 199, 0.084384, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0TOJ[1]", "Position of track rod outer ball joint mount, resolved in chassisFrame [m]",\
- 200, -0.072094, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0TOJ[2]", "Position of track rod outer ball joint mount, resolved in chassisFrame [m]",\
- 201, 0.516685, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0TOJ[3]", "Position of track rod outer ball joint mount, resolved in chassisFrame [m]",\
- 202, -0.069702, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCAFJ[1]", "Position of lower control arm front joint mount to chassis, resolved in chassisFrame [m|mm]",\
+ 182, 0.12954, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCAFJ[2]", "Position of lower control arm front joint mount to chassis, resolved in chassisFrame [m|mm]",\
+ 183, 0.18669, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCAFJ[3]", "Position of lower control arm front joint mount to chassis, resolved in chassisFrame [m|mm]",\
+ 184, -0.09398, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCARJ[1]", "Position of lower control arm rear joint mount to chassis, resolved in chassisFrame [m|mm]",\
+ 185, -0.1143, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCARJ[2]", "Position of lower control arm rear joint mount to chassis, resolved in chassisFrame [m|mm]",\
+ 186, 0.18669, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCARJ[3]", "Position of lower control arm rear joint mount to chassis, resolved in chassisFrame [m|mm]",\
+ 187, -0.08382, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCAOJ[1]", "Position of lower spindle, resolved in chassisFrame [m|mm]",\
+ 188, -0.004064, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCAOJ[2]", "Position of lower spindle, resolved in chassisFrame [m|mm]",\
+ 189, 0.597916, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0LCAOJ[3]", "Position of lower spindle, resolved in chassisFrame [m|mm]",\
+ 190, -0.07874, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCAFJ[1]", "Position of upper control arm front joint mount to chassis, resolved in chassisFrame [m|mm]",\
+ 191, 0.13335, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCAFJ[2]", "Position of upper control arm front joint mount to chassis, resolved in chassisFrame [m|mm]",\
+ 192, 0.30226, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCAFJ[3]", "Position of upper control arm front joint mount to chassis, resolved in chassisFrame [m|mm]",\
+ 193, 0.05842, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCARJ[1]", "Position of upper control arm rear joint mount to chassis, resolved in chassisFrame [m|mm]",\
+ 194, -0.05715, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCARJ[2]", "Position of upper control arm rear joint mount to chassis, resolved in chassisFrame [m|mm]",\
+ 195, 0.30226, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCARJ[3]", "Position of upper control arm rear joint mount to chassis, resolved in chassisFrame [m|mm]",\
+ 196, 0.04826, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCAOJ[1]", "Position of upper spindle, resolved in chassisFrame [m|mm]",\
+ 197, -0.02159, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCAOJ[2]", "Position of upper spindle, resolved in chassisFrame [m|mm]",\
+ 198, 0.59182, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0UCAOJ[3]", "Position of upper spindle, resolved in chassisFrame [m|mm]",\
+ 199, 0.09525, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0TOJ[1]", "Position of track rod outer ball joint mount, resolved in chassisFrame [m|mm]",\
+ 200, 0.04699, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0TOJ[2]", "Position of track rod outer ball joint mount, resolved in chassisFrame [m|mm]",\
+ 201, 0.5969, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0TOJ[3]", "Position of track rod outer ball joint mount, resolved in chassisFrame [m|mm]",\
+ 202, -0.047752, 0.0,0.0,0.0,0,560)
 DeclareParameter("vehicle.frontAxle.leftLinkage.lcaMass.m", "Mass [kg]", 203, \
 1.0, 0.0,1E+100,0.0,0,560)
 DeclareParameter("vehicle.frontAxle.leftLinkage.lcaMass.useLocalCoordinates", \
@@ -20667,29 +21455,29 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.nAdjust_20[2]", "Axis of rotation
  0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.frontAxle.leftLinkage.nAdjust_20[3]", "Axis of rotation of rotational adjustment between the upper wishbone and chassis mount [1]",\
  1, 0.0,0.0,0.0,0,513)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0RP[1]", "Rocker pivot point relative to chassisFrame [m]",\
- 250, 0.002994, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0RP[2]", "Rocker pivot point relative to chassisFrame [m]",\
- 251, 0.24, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0RP[3]", "Rocker pivot point relative to chassisFrame [m]",\
- 252, -0.11696, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0PIJ[1]", "Pushrod inner joint relative to chassisFrame [m]",\
- 253, -0.0001, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0PIJ[2]", "Pushrod inner joint relative to chassisFrame [m]",\
- 254, 0.338786, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0PIJ[3]", "Pushrod inner joint relative to chassisFrame [m]",\
- 255, -0.160285, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0POJ[1]", "Pushrod outer joint relative to chassisFrame [m]",\
- 256, -0.03349, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0POJ[2]", "Pushrod outer joint relative to chassisFrame [m]",\
- 257, 0.45202, 0.0,0.0,0.0,0,560)
-DeclareParameter("vehicle.frontAxle.leftLinkage.r0POJ[3]", "Pushrod outer joint relative to chassisFrame [m]",\
- 258, 0.046624, 0.0,0.0,0.0,0,560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.nRocker[1]", "Rocker axis of rotation resolved in chassisFrame [1]",\
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0RP[1]", "Rocker pivot point relative to chassisFrame [m|mm]",\
+ 250, -0.00381, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0RP[2]", "Rocker pivot point relative to chassisFrame [m|mm]",\
+ 251, 0.234696, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0RP[3]", "Rocker pivot point relative to chassisFrame [m|mm]",\
+ 252, 0.3556, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0PIJ[1]", "Pushrod inner joint relative to chassisFrame [m|mm]",\
+ 253, -0.00381, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0PIJ[2]", "Pushrod inner joint relative to chassisFrame [m|mm]",\
+ 254, 0.289052, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0PIJ[3]", "Pushrod inner joint relative to chassisFrame [m|mm]",\
+ 255, 0.388366, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0POJ[1]", "Pushrod outer joint relative to chassisFrame [m|mm]",\
+ 256, -0.00381, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0POJ[2]", "Pushrod outer joint relative to chassisFrame [m|mm]",\
+ 257, 0.545846, 0.0,0.0,0.0,0,560)
+DeclareParameter("vehicle.frontAxle.leftLinkage.r0POJ[3]", "Pushrod outer joint relative to chassisFrame [m|mm]",\
+ 258, -0.059182, 0.0,0.0,0.0,0,560)
+DeclareVariable("vehicle.frontAxle.leftLinkage.nRocker[1]", "Rocker axis of rotation resolved in chassisFrame [1|1]",\
  0.0, 0.0,0.0,0.0,0,513)
-DeclareVariable("vehicle.frontAxle.leftLinkage.nRocker[2]", "Rocker axis of rotation resolved in chassisFrame [1]",\
+DeclareVariable("vehicle.frontAxle.leftLinkage.nRocker[2]", "Rocker axis of rotation resolved in chassisFrame [1|1]",\
  0.0, 0.0,0.0,0.0,0,513)
-DeclareVariable("vehicle.frontAxle.leftLinkage.nRocker[3]", "Rocker axis of rotation resolved in chassisFrame [1]",\
+DeclareVariable("vehicle.frontAxle.leftLinkage.nRocker[3]", "Rocker axis of rotation resolved in chassisFrame [1|1]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareParameter("vehicle.frontAxle.leftLinkage.pushrodMass.m", "Mass [kg]", 259,\
  0.0, 0.0,1E+100,0.0,0,560)
@@ -21176,43 +21964,43 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.upright.jointColour[3]", \
 "Joint colour [:#(type=Integer)]", 255, 0.0,255.0,0.0,0,517)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1, 5, 80366,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1, 5, 83846,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1, 5, 80367,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1, 5, 83847,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1, 5, 80368,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1, 5, 83848,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[1, 1]", 1,\
- 5, 11371, 0)
+ 5, 11577, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[1, 2]", 1,\
- 5, 11372, 0)
+ 5, 11578, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[1, 3]", 1,\
- 5, 11373, 0)
+ 5, 11579, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[2, 1]", 1,\
- 5, 11374, 0)
+ 5, 11580, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[2, 2]", 1,\
- 5, 11375, 0)
+ 5, 11581, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[2, 3]", 1,\
- 5, 11376, 0)
+ 5, 11582, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[3, 1]", 1,\
- 5, 11377, 0)
+ 5, 11583, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[3, 2]", 1,\
- 5, 11378, 0)
+ 5, 11584, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[3, 3]", 1,\
- 5, 11379, 0)
+ 5, 11585, 0)
 DeclareVariable("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.R.der(T[1, 1])",\
  "der(Transformation matrix from world frame to local frame)", 0.0, 0.0,0.0,0.0,\
 0,512)
@@ -21260,88 +22048,88 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.R.der(T[3
 0,512)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[1]", 1, 5, 11176, 0)
+"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[1]", 1, 5, 11382, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[2]", 1, 5, 11177, 0)
+"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[2]", 1, 5, 11383, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[3]", 1, 5, 11178, 0)
+"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[3]", 1, 5, 11384, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.f[1]", 1,\
- 5, 5869, 132)
+ 5, 6075, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.f[2]", 1,\
- 5, 5870, 132)
+ 5, 6076, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.f[3]", 1,\
- 5, 5871, 132)
+ 5, 6077, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.t[1]", 1,\
- 5, 5872, 132)
+ 5, 6078, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.t[2]", 1,\
- 5, 5873, 132)
+ 5, 6079, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.lowerControlArm.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.t[3]", 1,\
- 5, 5874, 132)
+ 5, 6080, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0UCAOJ[1]", 1, 5, 80369,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0UCAOJ[1]", 1, 5, 83849,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0UCAOJ[2]", 1, 5, 80370,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0UCAOJ[2]", 1, 5, 83850,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0UCAOJ[3]", 1, 5, 80371,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0UCAOJ[3]", 1, 5, 83851,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[1, 1]", 1,\
- 5, 10413, 0)
+ 5, 10619, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[1, 2]", 1,\
- 5, 10414, 0)
+ 5, 10620, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[1, 3]", 1,\
- 5, 10415, 0)
+ 5, 10621, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[2, 1]", 1,\
- 5, 10416, 0)
+ 5, 10622, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[2, 2]", 1,\
- 5, 10417, 0)
+ 5, 10623, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[2, 3]", 1,\
- 5, 10418, 0)
+ 5, 10624, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[3, 1]", 1,\
- 5, 10419, 0)
+ 5, 10625, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[3, 2]", 1,\
- 5, 10420, 0)
+ 5, 10626, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[3, 3]", 1,\
- 5, 10421, 0)
+ 5, 10627, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upperControlArm.body.body.w_a[1]", 1, 5, 10218, 0)
+"vehicle.frontAxle.leftLinkage.upperControlArm.body.body.w_a[1]", 1, 5, 10424, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upperControlArm.body.body.w_a[2]", 1, 5, 10219, 0)
+"vehicle.frontAxle.leftLinkage.upperControlArm.body.body.w_a[2]", 1, 5, 10425, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upperControlArm.body.body.w_a[3]", 1, 5, 10220, 0)
+"vehicle.frontAxle.leftLinkage.upperControlArm.body.body.w_a[3]", 1, 5, 10426, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.f[1]", 1,\
- 5, 6388, 132)
+ 5, 6594, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.f[2]", 1,\
- 5, 6389, 132)
+ 5, 6595, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.upperControlArm.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.f[3]", 1,\
- 5, 6390, 132)
+ 5, 6596, 132)
 DeclareVariable("vehicle.frontAxle.leftLinkage.upright.upperControlArm.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("vehicle.frontAxle.leftLinkage.upright.upperControlArm.t[2]", \
@@ -21368,49 +22156,49 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.upright.trackRod.der(r_0[3])", \
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.trackRod.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[1, 1]", 1,\
- 5, 12938, 0)
+ 5, 13144, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.trackRod.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[1, 2]", 1,\
- 5, 12939, 0)
+ 5, 13145, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.trackRod.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[1, 3]", 1,\
- 5, 12940, 0)
+ 5, 13146, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.trackRod.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[2, 1]", 1,\
- 5, 12941, 0)
+ 5, 13147, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.trackRod.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[2, 2]", 1,\
- 5, 12942, 0)
+ 5, 13148, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.trackRod.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[2, 3]", 1,\
- 5, 12943, 0)
+ 5, 13149, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.trackRod.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[3, 1]", 1,\
- 5, 12944, 0)
+ 5, 13150, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.trackRod.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[3, 2]", 1,\
- 5, 12945, 0)
+ 5, 13151, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.trackRod.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[3, 3]", 1,\
- 5, 12946, 0)
+ 5, 13152, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.trackRod.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[1]", 1, 5, 7016, 0)
+"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[1]", 1, 5, 7222, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.trackRod.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[2]", 1, 5, 7017, 0)
+"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[2]", 1, 5, 7223, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.trackRod.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[3]", 1, 5, 7018, 0)
+"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[3]", 1, 5, 7224, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.trackRod.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.trackrod.trackrod.frame_b.f[1]", -1,\
- 5, 13054, 132)
+ 5, 13260, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.trackRod.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.trackrod.trackrod.frame_b.f[2]", -1,\
- 5, 13055, 132)
+ 5, 13261, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.trackRod.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.trackrod.trackrod.frame_b.f[3]", -1,\
- 5, 13056, 132)
+ 5, 13262, 132)
 DeclareVariable("vehicle.frontAxle.leftLinkage.upright.trackRod.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("vehicle.frontAxle.leftLinkage.upright.trackRod.t[2]", \
@@ -21422,204 +22210,204 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.upright.wheelhub.includeBearingCo
  true, 0.0,0.0,0.0,0,523)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.flange.phi", \
 "Absolute rotation angle of flange [rad|deg]", "vehicle.wheel_1.rim.mass.phi", 1,\
- 1, 26, 4)
+ 1, 28, 4)
 DeclareVariable("vehicle.frontAxle.leftLinkage.upright.wheelhub.flange.tau", \
 "Cut torque in the flange [N.m]", 0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 60148, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[1]", 1, 5, 62975, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 60149, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[2]", 1, 5, 62976, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 60150, 4)
+ "vehicle.wheel_1.systemMass.frame_resolve.r_0[3]", 1, 5, 62977, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[1]", 1,\
- 5, 61761, 0)
+ 5, 64570, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[2]", 1,\
- 5, 61762, 0)
+ 5, 64571, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.contact.findContactPoint.n_spin[3]", 1,\
- 5, 61763, 0)
+ 5, 64572, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 1]", 1,\
- 5, 60154, 0)
+ 5, 62981, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 2]", 1,\
- 5, 60155, 0)
+ 5, 62982, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[2, 3]", 1,\
- 5, 60156, 0)
+ 5, 62983, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 1]", 1,\
- 5, 60157, 0)
+ 5, 62984, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 2]", 1,\
- 5, 60158, 0)
+ 5, 62985, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.wheel_1.systemMass.frame_resolve.R.T[3, 3]", 1,\
- 5, 60159, 0)
+ 5, 62986, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 60160, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[1]", 1, 5, 62987, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 60161, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[2]", 1, 5, 62988, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 60162, 0)
+"vehicle.wheel_1.systemMass.frame_resolve.R.w[3]", 1, 5, 62989, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.f[1]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.f[1]", 1,\
- 5, 6662, 132)
+ 5, 6868, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.f[2]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.f[2]", 1,\
- 5, 6663, 132)
+ 5, 6869, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.f[3]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.f[3]", 1,\
- 5, 6664, 132)
+ 5, 6870, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.t[1]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.t[1]", 1,\
- 5, 6665, 132)
+ 5, 6871, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.t[2]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.t[2]", 1,\
- 5, 6666, 132)
+ 5, 6872, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.wheelhub.bearingFrame.t[3]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.upright.hubBearing_2.position.frame_b.t[3]", 1,\
- 5, 6667, 132)
+ 5, 6873, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1, 5, 80366,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1, 5, 83846,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1, 5, 80367,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1, 5, 83847,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1, 5, 80368,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1, 5, 83848,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[1, 1]", 1,\
- 5, 11371, 0)
+ 5, 11577, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[1, 2]", 1,\
- 5, 11372, 0)
+ 5, 11578, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[1, 3]", 1,\
- 5, 11373, 0)
+ 5, 11579, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[2, 1]", 1,\
- 5, 11374, 0)
+ 5, 11580, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[2, 2]", 1,\
- 5, 11375, 0)
+ 5, 11581, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[2, 3]", 1,\
- 5, 11376, 0)
+ 5, 11582, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[3, 1]", 1,\
- 5, 11377, 0)
+ 5, 11583, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[3, 2]", 1,\
- 5, 11378, 0)
+ 5, 11584, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[3, 3]", 1,\
- 5, 11379, 0)
+ 5, 11585, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[1]", 1, 5, 11176, 0)
+"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[1]", 1, 5, 11382, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[2]", 1, 5, 11177, 0)
+"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[2]", 1, 5, 11383, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[3]", 1, 5, 11178, 0)
+"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[3]", 1, 5, 11384, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.f[1]", 1,\
- 5, 5869, 132)
+ 5, 6075, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.f[2]", 1,\
- 5, 5870, 132)
+ 5, 6076, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.f[3]", 1,\
- 5, 5871, 132)
+ 5, 6077, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.t[1]", 1,\
- 5, 5872, 132)
+ 5, 6078, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.t[2]", 1,\
- 5, 5873, 132)
+ 5, 6079, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.t[3]", 1,\
- 5, 5874, 132)
+ 5, 6080, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1, 5, 80366,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1, 5, 83846,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1, 5, 80367,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1, 5, 83847,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1, 5, 80368,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1, 5, 83848,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[1, 1]", 1,\
- 5, 12938, 0)
+ 5, 13144, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[1, 2]", 1,\
- 5, 12939, 0)
+ 5, 13145, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[1, 3]", 1,\
- 5, 12940, 0)
+ 5, 13146, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[2, 1]", 1,\
- 5, 12941, 0)
+ 5, 13147, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[2, 2]", 1,\
- 5, 12942, 0)
+ 5, 13148, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[2, 3]", 1,\
- 5, 12943, 0)
+ 5, 13149, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[3, 1]", 1,\
- 5, 12944, 0)
+ 5, 13150, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[3, 2]", 1,\
- 5, 12945, 0)
+ 5, 13151, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[3, 3]", 1,\
- 5, 12946, 0)
+ 5, 13152, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[1]", 1, 5, 7016, 0)
+"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[1]", 1, 5, 7222, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[2]", 1, 5, 7017, 0)
+"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[2]", 1, 5, 7223, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[3]", 1, 5, 7018, 0)
+"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[3]", 1, 5, 7224, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.f[1]", 1,\
- 5, 6287, 132)
+ 5, 6493, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.f[2]", 1,\
- 5, 6288, 132)
+ 5, 6494, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.f[3]", 1,\
- 5, 6289, 132)
+ 5, 6495, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.t[1]", 1,\
- 5, 6290, 132)
+ 5, 6496, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.t[2]", 1,\
- 5, 6291, 132)
+ 5, 6497, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.frame_b.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.t[3]", 1,\
- 5, 6292, 132)
+ 5, 6498, 132)
 DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.rJ_a[1]", \
 "Vector from frame_a to the joint resolved in frame_a [m]", 0, 0.0,0.0,0.0,0,513)
 DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.rJ_a[2]", \
@@ -21699,15 +22487,15 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.measureAngles
  "Measure the absolute rotation angles [:#(type=Boolean)]", false, 0.0,0.0,0.0,0,515)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1, 5, 80366,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1, 5, 83846,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1, 5, 80367,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1, 5, 83847,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1, 5, 80368,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1, 5, 83848,\
  4)
 DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
@@ -21738,88 +22526,88 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.fra
 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_a.f[1]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.f[1]", 1,\
- 5, 5869, 132)
+ 5, 6075, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_a.f[2]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.f[2]", 1,\
- 5, 5870, 132)
+ 5, 6076, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_a.f[3]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.f[3]", 1,\
- 5, 5871, 132)
+ 5, 6077, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_a.t[1]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.t[1]", 1,\
- 5, 5872, 132)
+ 5, 6078, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_a.t[2]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.t[2]", 1,\
- 5, 5873, 132)
+ 5, 6079, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_a.t[3]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.t[3]", 1,\
- 5, 5874, 132)
+ 5, 6080, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[1]", 1,\
- 5, 6499, 4)
+ 5, 6705, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[2]", 1,\
- 5, 6500, 4)
+ 5, 6706, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[3]", 1,\
- 5, 6501, 4)
+ 5, 6707, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[1, 1]", 1,\
- 5, 11371, 0)
+ 5, 11577, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[1, 2]", 1,\
- 5, 11372, 0)
+ 5, 11578, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[1, 3]", 1,\
- 5, 11373, 0)
+ 5, 11579, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[2, 1]", 1,\
- 5, 11374, 0)
+ 5, 11580, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[2, 2]", 1,\
- 5, 11375, 0)
+ 5, 11581, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[2, 3]", 1,\
- 5, 11376, 0)
+ 5, 11582, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[3, 1]", 1,\
- 5, 11377, 0)
+ 5, 11583, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[3, 2]", 1,\
- 5, 11378, 0)
+ 5, 11584, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[3, 3]", 1,\
- 5, 11379, 0)
+ 5, 11585, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[1]", 1, 5, 11176, 0)
+"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[1]", 1, 5, 11382, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[2]", 1, 5, 11177, 0)
+"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[2]", 1, 5, 11383, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[3]", 1, 5, 11178, 0)
+"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[3]", 1, 5, 11384, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.f[1]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.f[1]", -1,\
- 5, 5869, 132)
+ 5, 6075, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.f[2]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.f[2]", -1,\
- 5, 5870, 132)
+ 5, 6076, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.f[3]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.f[3]", -1,\
- 5, 5871, 132)
+ 5, 6077, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.t[1]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.t[1]", -1,\
- 5, 5872, 132)
+ 5, 6078, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.t[2]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.t[2]", -1,\
- 5, 5873, 132)
+ 5, 6079, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.frame_b.t[3]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_a.t[3]", -1,\
- 5, 5874, 132)
+ 5, 6080, 132)
 DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.animation",\
  "Enable animation [:#(type=Boolean)]", false, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.r[1]",\
@@ -21983,15 +22771,15 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_a.R_r
 0.0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1, 5, 80366,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1, 5, 83846,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1, 5, 80367,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1, 5, 83847,\
  4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1, 5, 80368,\
+ "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1, 5, 83848,\
  4)
 DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
@@ -22022,88 +22810,88 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.fra
 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_a.f[1]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.f[1]", 1,\
- 5, 6287, 132)
+ 5, 6493, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_a.f[2]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.f[2]", 1,\
- 5, 6288, 132)
+ 5, 6494, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_a.f[3]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.f[3]", 1,\
- 5, 6289, 132)
+ 5, 6495, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_a.t[1]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.t[1]", 1,\
- 5, 6290, 132)
+ 5, 6496, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_a.t[2]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.t[2]", 1,\
- 5, 6291, 132)
+ 5, 6497, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_a.t[3]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.t[3]", 1,\
- 5, 6292, 132)
+ 5, 6498, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[1]", 1,\
- 5, 6499, 4)
+ 5, 6705, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[2]", 1,\
- 5, 6500, 4)
+ 5, 6706, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[3]", 1,\
- 5, 6501, 4)
+ 5, 6707, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[1, 1]", 1,\
- 5, 12938, 0)
+ 5, 13144, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[1, 2]", 1,\
- 5, 12939, 0)
+ 5, 13145, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[1, 3]", 1,\
- 5, 12940, 0)
+ 5, 13146, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[2, 1]", 1,\
- 5, 12941, 0)
+ 5, 13147, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[2, 2]", 1,\
- 5, 12942, 0)
+ 5, 13148, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[2, 3]", 1,\
- 5, 12943, 0)
+ 5, 13149, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[3, 1]", 1,\
- 5, 12944, 0)
+ 5, 13150, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[3, 2]", 1,\
- 5, 12945, 0)
+ 5, 13151, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[3, 3]", 1,\
- 5, 12946, 0)
+ 5, 13152, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[1]", 1, 5, 7016, 0)
+"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[1]", 1, 5, 7222, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[2]", 1, 5, 7017, 0)
+"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[2]", 1, 5, 7223, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[3]", 1, 5, 7018, 0)
+"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[3]", 1, 5, 7224, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.f[1]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.f[1]", -1,\
- 5, 6287, 132)
+ 5, 6493, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.f[2]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.f[2]", -1,\
- 5, 6288, 132)
+ 5, 6494, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.f[3]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.f[3]", -1,\
- 5, 6289, 132)
+ 5, 6495, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.t[1]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.t[1]", -1,\
- 5, 6290, 132)
+ 5, 6496, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.t[2]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.t[2]", -1,\
- 5, 6291, 132)
+ 5, 6497, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.frame_b.t[3]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.t[3]", -1,\
- 5, 6292, 132)
+ 5, 6498, 132)
 DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.animation",\
  "Enable animation [:#(type=Boolean)]", false, 0.0,0.0,0.0,0,515)
 DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.toJoint_b.r[1]",\
@@ -23377,42 +24165,42 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.f_ia[
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[1]", 1,\
- 5, 6499, 4)
+ 5, 6705, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[2]", 1,\
- 5, 6500, 4)
+ 5, 6706, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[3]", 1,\
- 5, 6501, 4)
+ 5, 6707, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[1, 1]", 1,\
- 5, 5899, 0)
+ 5, 6105, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[1, 2]", 1,\
- 5, 5900, 0)
+ 5, 6106, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[1, 3]", 1,\
- 5, 5901, 0)
+ 5, 6107, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[2, 1]", 1,\
- 5, 5902, 0)
+ 5, 6108, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[2, 2]", 1,\
- 5, 5903, 0)
+ 5, 6109, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[2, 3]", 1,\
- 5, 5904, 0)
+ 5, 6110, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[3, 1]", 1,\
- 5, 5905, 0)
+ 5, 6111, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[3, 2]", 1,\
- 5, 5906, 0)
+ 5, 6112, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[3, 3]", 1,\
- 5, 5907, 0)
+ 5, 6113, 0)
 DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.R.der(T[1, 1])",\
  "der(Transformation matrix from world frame to local frame)", 0.0, 0.0,0.0,0.0,\
 0,512)
@@ -23461,15 +24249,15 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
 "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.w[1]", 1, 5,\
- 5908, 0)
+ 6114, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
 "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.w[2]", 1, 5,\
- 5909, 0)
+ 6115, 0)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
 "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.w[3]", 1, 5,\
- 5910, 0)
+ 6116, 0)
 DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.R.der(w[1])",\
  "der(Absolute angular velocity of local frame, resolved in local frame) [rad/s2]",\
  0.0, 0.0,0.0,0.0,0,512)
@@ -23481,921 +24269,29 @@ DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.f[1]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.f[1]", -1,\
- 5, 5911, 132)
+ 5, 6117, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.f[2]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.f[2]", -1,\
- 5, 5912, 132)
+ 5, 6118, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.f[3]",\
  "Cut-force resolved in connector frame [N]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.f[3]", -1,\
- 5, 5913, 132)
+ 5, 6119, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.t[1]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.t[1]", -1,\
- 5, 5914, 132)
+ 5, 6120, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.t[2]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.t[2]", -1,\
- 5, 5915, 132)
+ 5, 6121, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_a.t[3]",\
  "Cut-torque resolved in connector frame [N.m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.t[3]", -1,\
- 5, 5916, 132)
+ 5, 6122, 132)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[1]", 1,\
- 5, 6499, 4)
+ 5, 6705, 4)
 DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[2]", 1,\
- 5, 6500, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.r_0[3]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[3]", 1,\
- 5, 6501, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.R.T[1, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[1, 1]", 1,\
- 5, 12938, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.R.T[1, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[1, 2]", 1,\
- 5, 12939, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.R.T[1, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[1, 3]", 1,\
- 5, 12940, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.R.T[2, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[2, 1]", 1,\
- 5, 12941, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.R.T[2, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[2, 2]", 1,\
- 5, 12942, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.R.T[2, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[2, 3]", 1,\
- 5, 12943, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.R.T[3, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[3, 1]", 1,\
- 5, 12944, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.R.T[3, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[3, 2]", 1,\
- 5, 12945, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.R.T[3, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.trackrod.fixedTranslation_b.frame_a.R.T[3, 3]", 1,\
- 5, 12946, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.R.w[1]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[1]", 1, 5, 7016, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.R.w[2]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[2]", 1, 5, 7017, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.R.w[3]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.upright.bodyFrame.w_a[3]", 1, 5, 7018, 0)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.f[1]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.f[2]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.f[3]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.t[1]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.t[2]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.frame_b.t[3]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.axis.phi",\
- "Absolute rotation angle of flange [rad|deg]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.phi", 1,\
- 5, 6319, 4)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.axis.tau",\
- "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.bearing.phi",\
- "Absolute rotation angle of flange [rad|deg]", 0, 0.0,0.0,0.0,0,521)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.bearing.tau",\
- "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.position_a[1]",\
- "Position vector from frame_a to frame_a side of length constraint, resolved in frame_a of revolute joint",\
- 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.position_a[2]",\
- "Position vector from frame_a to frame_a side of length constraint, resolved in frame_a of revolute joint",\
- 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.position_a[3]",\
- "Position vector from frame_a to frame_a side of length constraint, resolved in frame_a of revolute joint",\
- 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(position_a[1])",\
- "der(Position vector from frame_a to frame_a side of length constraint, resolved in frame_a of revolute joint)",\
- 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(position_a[2])",\
- "der(Position vector from frame_a to frame_a side of length constraint, resolved in frame_a of revolute joint)",\
- 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(position_a[3])",\
- "der(Position vector from frame_a to frame_a side of length constraint, resolved in frame_a of revolute joint)",\
- 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(position_a[1], 2)",\
- "der(Position vector from frame_a to frame_a side of length constraint, resolved in frame_a of revolute joint2)",\
- 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(position_a[2], 2)",\
- "der(Position vector from frame_a to frame_a side of length constraint, resolved in frame_a of revolute joint2)",\
- 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(position_a[3], 2)",\
- "der(Position vector from frame_a to frame_a side of length constraint, resolved in frame_a of revolute joint2)",\
- 0.0, 0.0,0.0,0.0,0,512)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.position_b[1]",\
- "Position vector from frame_b to frame_b side of length constraint, resolved in frame_b of revolute joint",\
- "vehicle.frontAxle.leftLinkage.trackrod.jointAggregation.r0LCAOJ2TOJ[1]", 1, 5,\
- 13378, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.position_b[2]",\
- "Position vector from frame_b to frame_b side of length constraint, resolved in frame_b of revolute joint",\
- "vehicle.frontAxle.leftLinkage.trackrod.jointAggregation.r0LCAOJ2TOJ[2]", 1, 5,\
- 13379, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.position_b[3]",\
- "Position vector from frame_b to frame_b side of length constraint, resolved in frame_b of revolute joint",\
- "vehicle.frontAxle.leftLinkage.trackrod.jointAggregation.r0LCAOJ2TOJ[3]", 1, 5,\
- 13380, 0)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.animation",\
- "= true, if animation shall be enabled [:#(type=Boolean)]", false, 0.0,0.0,0.0,\
-0,515)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.lengthConstraint",\
- "Fixed length of length constraint [m]", "vehicle.frontAxle.leftLinkage.trackrod.trackrod.rodLength", 1,\
- 5, 13104, 0)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.n[1]",\
- "Axis of rotation resolved in frame_a (= same as in frame_b) [1]", 0.0, \
-0.0,0.0,0.0,0,513)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.n[2]",\
- "Axis of rotation resolved in frame_a (= same as in frame_b) [1]", 0.0, \
-0.0,0.0,0.0,0,513)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.n[3]",\
- "Axis of rotation resolved in frame_a (= same as in frame_b) [1]", 0.0, \
-0.0,0.0,0.0,0,513)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.phi_guess",\
- "Select the configuration such that at initial time |phi - from_deg(phi_guess)|is minimal [rad|deg]",\
- 0, 0.0,0.0,0.0,0,513)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.cylinderLength",\
- "Length of cylinder representing the joint axis [m|mm]", 0.04, 0.0,1E+100,0.0,0,513)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.cylinderDiameter",\
- "Diameter of cylinder representing the joint axis [m]", 0.05, 0.0,1E+100,0.0,0,513)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.cylinderColour[1]",\
- "Colour of cylinder representing the joint axis [:#(type=Integer)]", 255, 0.0,\
-255.0,0.0,0,517)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.cylinderColour[2]",\
- "Colour of cylinder representing the joint axis [:#(type=Integer)]", 0, 0.0,\
-255.0,0.0,0,517)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.cylinderColour[3]",\
- "Colour of cylinder representing the joint axis [:#(type=Integer)]", 0, 0.0,\
-255.0,0.0,0,517)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.specularCoefficient",\
- "Reflection of ambient light (= 0: light is completely absorbed)", 0.7, 0.0,\
-1E+100,0.0,0,513)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.axisTorqueBalance",\
- "= true, if torque balance of flange axis with the frame_b connector (axis.tau = -e*frame_b.t) shall be defined. Otherwise this equation has to be provided outside of this joint [:#(type=Boolean)]",\
- false, 0.0,0.0,0.0,0,515)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.manualOverride",\
- "Manually override the selection of one of the two solutions of the non-linear constraint equation [:#(type=Boolean)]",\
- true, 0.0,0.0,0.0,0,515)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.manualBranchSelection",\
- "Select either the positive or negative range for the solution [:#(type=Boolean)]",\
- false, 0.0,0.0,0.0,0,515)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.phi",\
- "Rotation angle of revolute joint [rad|deg]", 0, 0.0,0.0,0.0,0,512)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(phi)",\
- "der(Rotation angle of revolute joint) [rad/s]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.w", 1,\
- 5, 6320, 0)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.w",\
- "[rad/s]", 0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(w)",\
- "[rad/s2]", 0, 0.0,0.0,0.0,0,512)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.z",\
- "[rad/s2]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(w)", 1,\
- 5, 6321, 0)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.T[1, 1]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.T[1, 2]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.T[1, 3]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.T[2, 1]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.T[2, 2]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.T[2, 3]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.T[3, 1]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.T[3, 2]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.T[3, 3]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[1, 1])",\
- "der(Transformation matrix from world frame to local frame)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[1, 2])",\
- "der(Transformation matrix from world frame to local frame)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[1, 3])",\
- "der(Transformation matrix from world frame to local frame)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[2, 1])",\
- "der(Transformation matrix from world frame to local frame)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[2, 2])",\
- "der(Transformation matrix from world frame to local frame)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[2, 3])",\
- "der(Transformation matrix from world frame to local frame)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[3, 1])",\
- "der(Transformation matrix from world frame to local frame)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[3, 2])",\
- "der(Transformation matrix from world frame to local frame)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[3, 3])",\
- "der(Transformation matrix from world frame to local frame)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[1, 1], 2)",\
- "der(Transformation matrix from world frame to local frame2)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[1, 2], 2)",\
- "der(Transformation matrix from world frame to local frame2)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[1, 3], 2)",\
- "der(Transformation matrix from world frame to local frame2)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[2, 1], 2)",\
- "der(Transformation matrix from world frame to local frame2)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[2, 2], 2)",\
- "der(Transformation matrix from world frame to local frame2)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[2, 3], 2)",\
- "der(Transformation matrix from world frame to local frame2)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[3, 1], 2)",\
- "der(Transformation matrix from world frame to local frame2)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[3, 2], 2)",\
- "der(Transformation matrix from world frame to local frame2)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(T[3, 3], 2)",\
- "der(Transformation matrix from world frame to local frame2)", 0.0, 0.0,0.0,0.0,\
-0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.w[1]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.w[2]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.w[3]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(w[1])",\
- "der(Absolute angular velocity of local frame, resolved in local frame) [rad/s2]",\
- 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(w[2])",\
- "der(Absolute angular velocity of local frame, resolved in local frame) [rad/s2]",\
- 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.R_rel.der(w[3])",\
- "der(Absolute angular velocity of local frame, resolved in local frame) [rad/s2]",\
- 0.0, 0.0,0.0,0.0,0,512)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.tau",\
- "= axis.tau (driving torque in the axis) [N.m]", 0.0, 0.0,0.0,0.0,0,513)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.positiveBranch",\
- "Based on phi_guess, selection of one of the two solutions of the non-linear constraint equation [:#(type=Boolean)]",\
- false, 0.0,0.0,0.0,0,515)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.e[1]",\
- "Unit vector in direction of rotation axis, resolved in frame_a [1]", 0.0, \
-0.0,0.0,0.0,0,513)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.e[2]",\
- "Unit vector in direction of rotation axis, resolved in frame_a [1]", 0.0, \
-0.0,0.0,0.0,0,513)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.e[3]",\
- "Unit vector in direction of rotation axis, resolved in frame_a [1]", 0.0, \
-0.0,0.0,0.0,0,513)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.r_a[1]",\
- "Position vector from frame_a to frame_a side of length constraint, resolved in frame_a of revolute joint [m]",\
- "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.position_a[1]", 1,\
- 5, 6296, 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.r_a[2]",\
- "Position vector from frame_a to frame_a side of length constraint, resolved in frame_a of revolute joint [m]",\
- "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.position_a[2]", 1,\
- 5, 6297, 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.r_a[3]",\
- "Position vector from frame_a to frame_a side of length constraint, resolved in frame_a of revolute joint [m]",\
- "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.position_a[3]", 1,\
- 5, 6298, 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.r_b[1]",\
- "Position vector from frame_b to frame_b side of length constraint, resolved in frame_b of revolute joint [m]",\
- "vehicle.frontAxle.leftLinkage.trackrod.jointAggregation.r0LCAOJ2TOJ[1]", 1, 5,\
- 13378, 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.r_b[2]",\
- "Position vector from frame_b to frame_b side of length constraint, resolved in frame_b of revolute joint [m]",\
- "vehicle.frontAxle.leftLinkage.trackrod.jointAggregation.r0LCAOJ2TOJ[2]", 1, 5,\
- 13379, 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.r_b[3]",\
- "Position vector from frame_b to frame_b side of length constraint, resolved in frame_b of revolute joint [m]",\
- "vehicle.frontAxle.leftLinkage.trackrod.jointAggregation.r0LCAOJ2TOJ[3]", 1, 5,\
- 13380, 1024)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.e_r_a",\
- "Projection of r_a on e", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(e_r_a)",\
- "der(Projection of r_a on e)", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(e_r_a, 2)",\
- "der(Projection of r_a on e2)", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.e_r_b",\
- "Projection of r_b on e", 0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.A",\
- "Coefficient A of equation: A*cos(phi) + B*sin(phi) + C = 0", 0.0, 0.0,0.0,0.0,\
-0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(A)",\
- "der(Coefficient A of equation: A*cos(phi) + B*sin(phi) + C = 0)", 0.0, \
-0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(A, 2)",\
- "der(Coefficient A of equation: A*cos(phi) + B*sin(phi) + C = 02)", 0.0, \
-0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.B",\
- "Coefficient B of equation: A*cos(phi) + B*sin(phi) + C = 0", 0.0, 0.0,0.0,0.0,\
-0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(B)",\
- "der(Coefficient B of equation: A*cos(phi) + B*sin(phi) + C = 0)", 0.0, \
-0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(B, 2)",\
- "der(Coefficient B of equation: A*cos(phi) + B*sin(phi) + C = 02)", 0.0, \
-0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.C",\
- "Coefficient C of equation: A*cos(phi) + B*sin(phi) + C = 0", 0.0, 0.0,0.0,0.0,\
-0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(C)",\
- "der(Coefficient C of equation: A*cos(phi) + B*sin(phi) + C = 0)", 0.0, \
-0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(C, 2)",\
- "der(Coefficient C of equation: A*cos(phi) + B*sin(phi) + C = 02)", 0.0, \
-0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.k1",\
- "Constant of quadratic equation", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(k1)",\
- "der(Constant of quadratic equation)", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(k1, 2)",\
- "der(Constant of quadratic equation2)", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.k2",\
- "Constant of quadratic equation", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(k2)",\
- "der(Constant of quadratic equation)", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(k2, 2)",\
- "der(Constant of quadratic equation2)", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.k1a",\
- "", 1, 0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(k1a)",\
- "", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(k1a, 2)",\
- "", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.k1b",\
- "", "vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.k1a", 1, 5,\
- 6379, 1024)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.kcos_angle",\
- "= k1*cos(angle)", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(kcos_angle)",\
- "der(= k1*cos(angle))", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(kcos_angle, 2)",\
- "der(= k1*cos(angle)2)", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.ksin_angle",\
- "= k1*sin(angle)", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(ksin_angle)",\
- "der(= k1*sin(angle))", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.steeringPivot.der(ksin_angle, 2)",\
- "der(= k1*sin(angle)2)", 0.0, 0.0,0.0,0.0,0,2560)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.r_0[1]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0UCAOJ[1]", 1, 5, 80369,\
- 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.r_0[2]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0UCAOJ[2]", 1, 5, 80370,\
- 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.r_0[3]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0UCAOJ[3]", 1, 5, 80371,\
- 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.R.T[1, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[1, 1]", 1,\
- 5, 10413, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.R.T[1, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[1, 2]", 1,\
- 5, 10414, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.R.T[1, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[1, 3]", 1,\
- 5, 10415, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.R.T[2, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[2, 1]", 1,\
- 5, 10416, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.R.T[2, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[2, 2]", 1,\
- 5, 10417, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.R.T[2, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[2, 3]", 1,\
- 5, 10418, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.R.T[3, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[3, 1]", 1,\
- 5, 10419, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.R.T[3, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[3, 2]", 1,\
- 5, 10420, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.R.T[3, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upperControlArm.link_1.frame_a.R.T[3, 3]", 1,\
- 5, 10421, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.R.w[1]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upperControlArm.body.body.w_a[1]", 1, 5, 10218, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.R.w[2]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upperControlArm.body.body.w_a[2]", 1, 5, 10219, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.R.w[3]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upperControlArm.body.body.w_a[3]", 1, 5, 10220, 0)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.f[1]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.f[2]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.f[3]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.t[1]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.t[2]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.upperControlArm.t[3]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.tauUpperFlexure",\
- "upperFlexure.tau [N.m]", 0.0, 0.0,0.0,0.0,0,521)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.tauUpperWishbone[1]",\
- "controlArm.upperWishbone.frame_a.t [N.m]", 0.0, 0.0,0.0,0.0,0,520)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.tauUpperWishbone[2]",\
- "controlArm.upperWishbone.frame_a.t [N.m]", 0.0, 0.0,0.0,0.0,0,520)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.tauUpperWishbone[3]",\
- "controlArm.upperWishbone.frame_a.t [N.m]", 0.0, 0.0,0.0,0.0,0,520)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.trackRodLength",\
- "Trackrod length [m]", "vehicle.frontAxle.leftLinkage.trackrod.trackrod.rodLength", 1,\
- 5, 13104, 4)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.tauSteeringPivot",\
- "steeringPivot.tau [N.m]", 0.0, 0.0,0.0,0.0,0,521)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.fuprightFrame[1]",\
- "uprightFrame.f [N]", "vehicle.frontAxle.leftLinkage.upright.jointAggregation1.fuprightFrame[1]", 1,\
- 5, 8975, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.fuprightFrame[2]",\
- "uprightFrame.f [N]", "vehicle.frontAxle.leftLinkage.upright.jointAggregation1.fuprightFrame[2]", 1,\
- 5, 8976, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.fuprightFrame[3]",\
- "uprightFrame.f [N]", "vehicle.frontAxle.leftLinkage.upright.jointAggregation1.fuprightFrame[3]", 1,\
- 5, 8977, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.tauUprightFrame[1]",\
- "uprightFrame.t [N.m]", "vehicle.frontAxle.leftLinkage.trackrod.jointAggregation.tauUprightFrame[1]", 1,\
- 5, 13375, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.tauUprightFrame[2]",\
- "uprightFrame.t [N.m]", "vehicle.frontAxle.leftLinkage.trackrod.jointAggregation.tauUprightFrame[2]", 1,\
- 5, 13376, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.tauUprightFrame[3]",\
- "uprightFrame.t [N.m]", "vehicle.frontAxle.leftLinkage.trackrod.jointAggregation.tauUprightFrame[3]", 1,\
- 5, 13377, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.r0LCAOJ[1]",\
- "Lower control arm outer ball joint [m]", "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1,\
- 5, 80366, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.r0LCAOJ[2]",\
- "Lower control arm outer ball joint [m]", "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1,\
- 5, 80367, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.r0LCAOJ[3]",\
- "Lower control arm outer ball joint [m]", "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1,\
- 5, 80368, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.r0TIJ[1]",\
- "Track rod inner joint [m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_1[1]", 1,\
- 5, 6490, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.r0TIJ[2]",\
- "Track rod inner joint [m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_1[2]", 1,\
- 5, 6491, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.r0TIJ[3]",\
- "Track rod inner joint [m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_1[3]", 1,\
- 5, 6492, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.uprightLength",\
- "Length between upper and lower ball joints [m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.rodLength", 1,\
- 5, 5940, 4)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.r0UpperControlArm[1]",\
- "Vector from joint 1 to outer ball joint in upper control arm [m]", 0.0, \
-0.0,0.0,0.0,0,521)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.r0UpperControlArm[2]",\
- "Vector from joint 1 to outer ball joint in upper control arm [m]", 0.0, \
-0.0,0.0,0.0,0,521)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.r0UpperControlArm[3]",\
- "Vector from joint 1 to outer ball joint in upper control arm [m]", 0.0, \
-0.0,0.0,0.0,0,521)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.flexureAxis[1]",\
- "Upper flexure axis of rotation", "vehicle.frontAxle.leftLinkage.upright.jointAggregation1.flexureAxis[1]", 1,\
- 5, 8978, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.flexureAxis[2]",\
- "Upper flexure axis of rotation", "vehicle.frontAxle.leftLinkage.upright.jointAggregation1.flexureAxis[2]", 1,\
- 5, 8979, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.flexureAxis[3]",\
- "Upper flexure axis of rotation", "vehicle.frontAxle.leftLinkage.upright.jointAggregation1.flexureAxis[3]", 1,\
- 5, 8980, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.r0LCAOJ2TOJ[1]",\
- "Vector from the lower control arm outer joint to the track rod outer joint [m]",\
- "vehicle.frontAxle.leftLinkage.trackrod.jointAggregation.r0LCAOJ2TOJ[1]", 1, 5,\
- 13378, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.r0LCAOJ2TOJ[2]",\
- "Vector from the lower control arm outer joint to the track rod outer joint [m]",\
- "vehicle.frontAxle.leftLinkage.trackrod.jointAggregation.r0LCAOJ2TOJ[2]", 1, 5,\
- 13379, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.r0LCAOJ2TOJ[3]",\
- "Vector from the lower control arm outer joint to the track rod outer joint [m]",\
- "vehicle.frontAxle.leftLinkage.trackrod.jointAggregation.r0LCAOJ2TOJ[3]", 1, 5,\
- 13380, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.adjustment_1",\
- "Adjustment 1 [m]", "vehicle.frontAxle.leftLinkage.upright.upright.adjuster_1.const.k", 1,\
- 5, 83290, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.adjustment_14",\
- "Adjustment 14 [m]", "vehicle.frontAxle.leftLinkage.upright.upright.adjuster_14.const.k", 1,\
- 5, 83294, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.adjustment_16",\
- "Adjustment 16 [m]", "vehicle.frontAxle.leftLinkage.upright.upright.adjuster_16.const.k", 1,\
- 5, 8523, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.steeringAxis[1]",\
- "Steering pivot axis", "vehicle.frontAxle.leftLinkage.trackrod.jointAggregation.steeringAxis[1]", 1,\
- 5, 13381, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.steeringAxis[2]",\
- "Steering pivot axis", "vehicle.frontAxle.leftLinkage.trackrod.jointAggregation.steeringAxis[2]", 1,\
- 5, 13382, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointAggregation.steeringAxis[3]",\
- "Steering pivot axis", "vehicle.frontAxle.leftLinkage.trackrod.jointAggregation.steeringAxis[3]", 1,\
- 5, 13383, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.r_0[1]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1, 5, 80366,\
- 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.r_0[2]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1, 5, 80367,\
- 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.r_0[3]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1, 5, 80368,\
- 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.R.T[1, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[1, 1]", 1,\
- 5, 11371, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.R.T[1, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[1, 2]", 1,\
- 5, 11372, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.R.T[1, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[1, 3]", 1,\
- 5, 11373, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.R.T[2, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[2, 1]", 1,\
- 5, 11374, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.R.T[2, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[2, 2]", 1,\
- 5, 11375, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.R.T[2, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[2, 3]", 1,\
- 5, 11376, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.R.T[3, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[3, 1]", 1,\
- 5, 11377, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.R.T[3, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[3, 2]", 1,\
- 5, 11378, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.R.T[3, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[3, 3]", 1,\
- 5, 11379, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.R.w[1]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[1]", 1, 5, 11176, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.R.w[2]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[2]", 1, 5, 11177, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.R.w[3]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[3]", 1, 5, 11178, 0)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.f[1]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.f[2]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.f[3]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.t[1]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.t[2]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.frame_a.t[3]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.r[1]",\
- "Absolute position vector resolved in frame defined by resolveInFrame [m]", \
-"frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1, 5, 80366,\
- 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.r[2]",\
- "Absolute position vector resolved in frame defined by resolveInFrame [m]", \
-"frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1, 5, 80367,\
- 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.r[3]",\
- "Absolute position vector resolved in frame defined by resolveInFrame [m]", \
-"frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1, 5, 80368,\
- 0)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.resolveInFrame",\
- "Frame in which output vector r shall be resolved (world, frame_a, or frame_resolve) [:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]",\
- 1, 1.0,3.0,0.0,0,517)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.r_0[1]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1, 5, 80366,\
- 1028)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.r_0[2]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1, 5, 80367,\
- 1028)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.r_0[3]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1, 5, 80368,\
- 1028)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.R.T[1, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[1, 1]", 1,\
- 5, 11371, 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.R.T[1, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[1, 2]", 1,\
- 5, 11372, 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.R.T[1, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[1, 3]", 1,\
- 5, 11373, 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.R.T[2, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[2, 1]", 1,\
- 5, 11374, 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.R.T[2, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[2, 2]", 1,\
- 5, 11375, 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.R.T[2, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[2, 3]", 1,\
- 5, 11376, 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.R.T[3, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[3, 1]", 1,\
- 5, 11377, 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.R.T[3, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[3, 2]", 1,\
- 5, 11378, 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.R.T[3, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.lowerControlArm.link_1.frame_a.R.T[3, 3]", 1,\
- 5, 11379, 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.R.w[1]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[1]", 1, 5, 11176, 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.R.w[2]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[2]", 1, 5, 11177, 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.R.w[3]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.lowerControlArm.body.body.w_a[3]", 1, 5, 11178, 1024)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.f[1]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.f[2]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.f[3]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.t[1]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.t[2]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_a.t[3]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.r_0[1]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- 0.0, 0.0,0.0,0.0,0,2569)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.r_0[2]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- 0.0, 0.0,0.0,0.0,0,2569)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.r_0[3]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- 0.0, 0.0,0.0,0.0,0,2569)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.R.T[1, 1]",\
- "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.R.T[1, 2]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.R.T[1, 3]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.R.T[2, 1]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.R.T[2, 2]",\
- "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.R.T[2, 3]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.R.T[3, 1]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.R.T[3, 2]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.R.T[3, 3]",\
- "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.R.w[1]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.R.w[2]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.R.w[3]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.f[1]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.f[2]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.f[3]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.t[1]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.t[2]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.frame_resolve.t[3]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.r[1]",\
- "Absolute position vector frame_a.r_0 resolved in frame defined by resolveInFrame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[1]", 1, 5, 80366,\
- 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.r[2]",\
- "Absolute position vector frame_a.r_0 resolved in frame defined by resolveInFrame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[2]", 1, 5, 80367,\
- 1024)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.r[3]",\
- "Absolute position vector frame_a.r_0 resolved in frame defined by resolveInFrame [m]",\
- "frontSensors.sensorPack_L.mechanicalTrailAndScrubRadius.r0LCAOJ[3]", 1, 5, 80368,\
- 1024)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.position.resolveInFrame",\
- "Frame in which output vector r is resolved (world, frame_a, or frame_resolve) [:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]",\
- 1, 1.0,3.0,0.0,0,2565)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.r_0[1]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- 0.0, 0.0,0.0,0.0,0,2569)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.r_0[2]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- 0.0, 0.0,0.0,0.0,0,2569)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.r_0[3]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- 0.0, 0.0,0.0,0.0,0,2569)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.R.T[1, 1]",\
- "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.R.T[1, 2]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.R.T[1, 3]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.R.T[2, 1]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.R.T[2, 2]",\
- "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.R.T[2, 3]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.R.T[3, 1]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.R.T[3, 2]",\
- "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.R.T[3, 3]",\
- "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.R.w[1]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.R.w[2]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.R.w[3]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-0.0, 0.0,0.0,0.0,0,2561)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.f[1]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.f[2]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.f[3]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.t[1]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.t[2]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.positionAndOrientationFrame.zeroPosition.frame_resolve.t[3]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frameOutput.r_0[1]",\
- "Position resolved in world frame [m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[1]", 1,\
- 5, 6499, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frameOutput.r_0[2]",\
- "Position resolved in world frame [m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[2]", 1,\
- 5, 6500, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frameOutput.r_0[3]",\
- "Position resolved in world frame [m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[3]", 1,\
- 5, 6501, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frameOutput.R.T[1, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[1, 1]", 1,\
- 5, 5899, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frameOutput.R.T[1, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[1, 2]", 1,\
- 5, 5900, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frameOutput.R.T[1, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[1, 3]", 1,\
- 5, 5901, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frameOutput.R.T[2, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[2, 1]", 1,\
- 5, 5902, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frameOutput.R.T[2, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[2, 2]", 1,\
- 5, 5903, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frameOutput.R.T[2, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[2, 3]", 1,\
- 5, 5904, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frameOutput.R.T[3, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[3, 1]", 1,\
- 5, 5905, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frameOutput.R.T[3, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[3, 2]", 1,\
- 5, 5906, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frameOutput.R.T[3, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[3, 3]", 1,\
- 5, 5907, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frameOutput.R.w[1]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.w[1]", 1, 5,\
- 5908, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frameOutput.R.w[2]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.w[2]", 1, 5,\
- 5909, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frameOutput.R.w[3]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.w[3]", 1, 5,\
- 5910, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.r_0[1]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[1]", 1,\
- 5, 6499, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.r_0[2]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[2]", 1,\
- 5, 6500, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.r_0[3]",\
- "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[3]", 1,\
- 5, 6501, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.R.T[1, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[1, 1]", 1,\
- 5, 5899, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.R.T[1, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[1, 2]", 1,\
- 5, 5900, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.R.T[1, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[1, 3]", 1,\
- 5, 5901, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.R.T[2, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[2, 1]", 1,\
- 5, 5902, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.R.T[2, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[2, 2]", 1,\
- 5, 5903, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.R.T[2, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[2, 3]", 1,\
- 5, 5904, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.R.T[3, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[3, 1]", 1,\
- 5, 5905, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.R.T[3, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[3, 2]", 1,\
- 5, 5906, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.R.T[3, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[3, 3]", 1,\
- 5, 5907, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.R.w[1]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.w[1]", 1, 5,\
- 5908, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.R.w[2]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.w[2]", 1, 5,\
- 5909, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.R.w[3]",\
- "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.w[3]", 1, 5,\
- 5910, 0)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.f[1]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.f[2]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.f[3]",\
- "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.t[1]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.t[2]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareVariable("vehicle.frontAxle.leftLinkage.upright.outerJoints.jointPosition.frame_a.t[3]",\
- "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.extractPosition.frameInput.r_0[1]",\
- "Position resolved in world frame [m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[1]", 1,\
- 5, 6499, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.extractPosition.frameInput.r_0[2]",\
- "Position resolved in world frame [m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[2]", 1,\
- 5, 6500, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.extractPosition.frameInput.r_0[3]",\
- "Position resolved in world frame [m]", "vehicle.frontAxle.leftLinkage.upright.outerJoints.relativePosition.r_2[3]", 1,\
- 5, 6501, 4)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.extractPosition.frameInput.R.T[1, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[1, 1]", 1,\
- 5, 5899, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.extractPosition.frameInput.R.T[1, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[1, 2]", 1,\
- 5, 5900, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.extractPosition.frameInput.R.T[1, 3]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[1, 3]", 1,\
- 5, 5901, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.extractPosition.frameInput.R.T[2, 1]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[2, 1]", 1,\
- 5, 5902, 0)
-DeclareAlias2("vehicle.frontAxle.leftLinkage.upright.outerJoints.extractPosition.frameInput.R.T[2, 2]",\
- "Transformation matrix from world frame to local frame", "vehicle.frontAxle.leftLinkage.upright.outerJoints.upright.frame_ia.R.T[2, 2]", 1,\
- 5, 5903, 0)
+ 5, 6706, 4)
 EndNonAlias(9)
 PreNonAliasNew(10)

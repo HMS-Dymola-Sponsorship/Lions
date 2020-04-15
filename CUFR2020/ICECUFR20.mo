@@ -6,7 +6,15 @@ model ICECUFR20 "Model for Columbia University Formula Racing's ICE Car"
         Ad=1.205,
         r0CP={-0.7666,0,0},
         sphereColour={0,230,0},
-        Cl=1.97)),
+        Cl=1.97), redeclare replaceable Suspensions.Bodies.Mass.MultipleIdeal
+        mass(
+        I_11=10,
+        I_22=35,
+        I_33=30,
+        mDriver=68,
+        m=276.5,
+        r_CM(displayUnit="mm") = {-0.75,0,-0.05},
+        rCMDriver(displayUnit="m") = {-0.7,0,0.2})),
     frontAxle(
       redeclare replaceable Motorsports.QuarterCar.Front.DWPSU leftLinkage(
         mirrorKinematics=false,
@@ -134,8 +142,59 @@ model ICECUFR20 "Model for Columbia University Formula Racing's ICE Car"
                 7000),
         redeclare replaceable model arbStiffness =
             Claytex.Mechanics.Rotational.SpringsAndDampers.GenericSpring (c=100))),
-    brakes(brake_1(useThermalModel=true, redeclare replaceable
-          Claytex.Mechanics.Rotational.Parts.ElasticBrake brake(
+    brakes(brake_1(
+        outerDiameter=0.0198,
+        innerDiameter=0.0144,
+        thickness=0.004,
+        mDisc=0.43809,
+        mCaliper=0.46,
+        useThermalModel=true,
+        DiscSpecificHeat=475,
+        T_start=293.15,
+        redeclare replaceable Claytex.Mechanics.Rotational.Parts.ElasticBrake
+          brake(
+          tau_max=brakes.forceToBrake1.k,
+          c=1e5,
+          d=1e4)),
+          brake_2(
+        outerDiameter=0.0198,
+        innerDiameter=0.0144,
+        thickness=0.004,
+        mDisc=0.43809,
+        mCaliper=0.46,
+        useThermalModel=true,
+        DiscSpecificHeat=475,
+        T_start=293.15,
+        redeclare replaceable Claytex.Mechanics.Rotational.Parts.ElasticBrake
+          brake(
+          tau_max=brakes.forceToBrake1.k,
+          c=1e5,
+          d=1e4)),
+        brake_3(
+        outerDiameter=0.0198,
+        innerDiameter=0.0144,
+        thickness=0.004,
+        mDisc=0.43809,
+        mCaliper=0.46,
+        useThermalModel=true,
+        DiscSpecificHeat=475,
+        T_start=293.15,
+        redeclare replaceable Claytex.Mechanics.Rotational.Parts.ElasticBrake
+          brake(
+          tau_max=brakes.forceToBrake1.k,
+          c=1e5,
+          d=1e4)),
+         brake_4(
+        outerDiameter=0.0198,
+        innerDiameter=0.0144,
+        thickness=0.004,
+        mDisc=0.43809,
+        mCaliper=0.46,
+        useThermalModel=true,
+        DiscSpecificHeat=475,
+        T_start=293.15,
+        redeclare replaceable Claytex.Mechanics.Rotational.Parts.ElasticBrake
+          brake(
           tau_max=brakes.forceToBrake1.k,
           c=1e5,
           d=1e4))),
