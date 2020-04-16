@@ -12,7 +12,7 @@ model ICECUFR20 "Model for Columbia University Formula Racing's ICE Car"
         I_22=35,
         I_33=30,
         mDriver=68,
-        m=114.381,
+        m=92.181,
         r_CM(displayUnit="mm") = {-0.75,0,0},
         rCMDriver(displayUnit="m") = {-0.7,0,0.2})),
     frontAxle(
@@ -203,6 +203,7 @@ model ICECUFR20 "Model for Columbia University Formula Racing's ICE Car"
     wheel_1(tyreSize={203,52.6,10}, redeclare replaceable
         Suspensions.WheelsAndTyres.TyreForces.Pacejka.MF62.TyreForces
         tyreForces(final rRim=wheel_1.rRim, final width=wheel_1.width)),
-    wheel_2(tyreSize={203,52.6,10}));
+    wheel_2(tyreSize={203,52.6,10}),
+    engine(offsetVehicle={-1.296,0,0}, engineBlock(m=52.2)));
 
 end ICECUFR20;
