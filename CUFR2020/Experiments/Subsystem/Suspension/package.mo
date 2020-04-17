@@ -65,6 +65,7 @@ package Suspension
       redeclare
         Suspensions.HalfCar.Experiments.Controllers.VerticalAndSteeringSweep
         controller(
+      applyForces=true,
         redeclare Claytex.Blocks.Sources.SineSingle leftVerticalTravel(
           freqHz=1/5,
           startTime=1,

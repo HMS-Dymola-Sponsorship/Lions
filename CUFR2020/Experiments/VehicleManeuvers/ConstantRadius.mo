@@ -5,7 +5,7 @@ model ConstantRadius "constant radius test"
     redeclare replaceable CUFR2020.ICECUFR20 vehicle(initialGear=1,
         v_start=2),
     road(
-      radius=8.25,
+      radius=9.125,
       banking=0,
       v_start=10));
   annotation (experiment(StopTime=10));
